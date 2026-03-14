@@ -5,14 +5,12 @@
 [![GitHub Stars](https://img.shields.io/github/stars/xdelin/OpenClaw-Education-Skills?style=for-the-badge&logo=github&color=gold)](https://github.com/xdelin/OpenClaw-Education-Skills)
 [![GitHub Forks](https://img.shields.io/github/forks/xdelin/OpenClaw-Education-Skills?style=for-the-badge&logo=github&color=blue)](https://github.com/xdelin/OpenClaw-Education-Skills)
 [![GitHub Issues](https://img.shields.io/github/issues/xdelin/OpenClaw-Education-Skills?style=for-the-badge&logo=github)](https://github.com/xdelin/OpenClaw-Education-Skills)
-[![Skills Count](https://img.shields.io/badge/Skills%20Count-1033-brightgreen?style=for-the-badge)](https://github.com/xdelin/OpenClaw-Education-Skills/tree/main/skills)
+[![Skills Count](https://img.shields.io/badge/Skills%20Count-392-brightgreen?style=for-the-badge)](https://github.com/xdelin/OpenClaw-Education-Skills/tree/main/skills)
 [![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-OpenClaw%20%7C%20NanoClaw-orange?style=for-the-badge)](https://github.com/openclaw)
 
 **The largest open-source Education AI skills library, designed specifically for the OpenClaw framework.**
-
-*1033 Curated Skills · Intelligent Tutoring · Math & Science · Humanities · Academic Research · Efficiency Tools*
-
+*392 Curated Skills · Intelligent Tutoring · Math & Science · Humanities · Academic Research · Efficiency Tools*
 [English](README.md) | [中文](README_zh.md)
 
 </div>
@@ -21,8 +19,7 @@
 
 ## Project Introduction
 
-**Awesome OpenClaw Education Skills** is a curated collection of **1033 AI Agent skills**, covering the entire spectrum of education and academic research. These skills are designed specifically for OpenClaw / NanoClaw — Claude-based personal AI assistant frameworks — transforming a general-purpose AI agent into a powerful teaching and academic research partner.
-
+**Awesome OpenClaw Education Skills** is a curated collection of **392 AI Agent skills**, covering the entire spectrum of education and academic research. These skills are designed specifically for OpenClaw / NanoClaw —— Claude-based personal AI assistant frameworks —— transforming a general-purpose AI agent into a powerful teaching and academic research partner. 
 Each skill is an independent module (`SKILL.md` file) that:
 - Injects domain-specific professional knowledge and teaching workflows into the Agent.
 - Connects to real academic databases, APIs, and computational tools.
@@ -97,17 +94,17 @@ This mounts the entire skill collection without copying files.
 
 | Category | Skills Count | Representative Skills |
 |---|---|---|
-| Intelligent Tutoring | 92 | `afrexai-executive-coaching`, `web-learner-1-0-0`, `reviewer-rebuttal-coach`... |
-| Math & Science | 58 | `maths-rage-bate`, `quant`, `optical-quantum-skill`... |
-| Biology & Medicine | 171 | `quantinuumclaw`, `quantum`, `afrexai-medical-billing`... |
-| Chemistry & Materials | 15 | `materials-science-figure-skill`, `pharmaclaw-chemistry-query`, `aeo-schema-validate`... |
-| Arts, Humanities & Social Sciences | 101 | `afrexai-startup-fundraising`, `afrexai-startup-metrics-engine`, `music-manager`... |
-| Computer Science & Engineering | 157 | `workspace-backup`, `matic-mquant-assistant`, `workspace-git-backup`... |
-| Data & Analysis | 141 | `strava-cycling-coach`, `healthsync`, `chart-generator`... |
-| Visual & Presentation | 18 | `smart-illustrator`, `mermaid-architect`, `slide-sniper`... |
-| Academic & Writing | 99 | `wechat-article-forge`, `wechat-publisher`, `rednote-publisher`... |
-| Notes & Knowledge Base | 74 | `smart-summarizer`, `seek-and-analyze-video`, `ad-creative-analysis`... |
-| Productivity & Study Tools | 107 | `social-media-scheduler`, `c-suite-founder-coach`, `cs-founder-coach`... |
+| Intelligent Tutoring | 5 | `training-course-designer`, `guided-learning-cn`, `quiz-generator`... |
+| Math & Science | 9 | `book-math-tutor`, `maths-rage-bate`, `mathproofs-claw`... |
+| Biology & Medicine | 31 | `krumpphysio`, `ocd-erp-therapist`, `bmi-calculator`... |
+| Chemistry & Materials | 6 | `pharmaclaw-catalyst-design`, `pharmaclaw-cheminformatics`, `materials-science-figure-skill`... |
+| Arts, Humanities & Social Sciences | 17 | `teacher-prep`, `language-learning`, `japanese-tutor`... |
+| Computer Science & Engineering | 85 | `redux-saga-skill`, `active-learner`, `acg-rust-teacher`... |
+| Data & Analysis | 41 | `botlearn-assessment`, `deepread-ocr`, `music-analysis`... |
+| Visual & Presentation | 34 | `ppt-compress`, `md-ppt-generator`, `excalidraw-diagram`... |
+| Academic & Writing | 58 | `reviewer-rebuttal-coach`, `add-educational-comments`, `certificate-generation`... |
+| Notes & Knowledge Base | 51 | `flashcard`, `keep-learning-agent`, `learning-system-skill`... |
+| Productivity & Study Tools | 55 | `hinihao-chinese-tutor`, `flashcards-podcasts-master`, `recipe-create-classroom-course`... |
 
 ---
 
@@ -115,2089 +112,807 @@ This mounts the entire skill collection without copying files.
 
 ### Intelligent Tutoring
 
-- **[afrexai-executive-coaching](skills/afrexai-executive-coaching)**
-  - **Description**: Complete executive coaching system — leadership assessment, 360° feedback, coaching engagements, leadership development plans, team effectiveness, executive presence, and succession planning. Use for leadership coaching, executive development programs, team building, performance breakthroughs, and career transitions.
-- **[web-learner-1-0-0](skills/web-learner-1-0-0)**
-  - **Description**: Autonomous online learning skills - enable AI to actively search, browse and acquire knowledge from the Internet. This skill is triggered when users ask for the latest information, learn new knowledge, inquire about news, obtain detailed information on a topic, or need to obtain data from the network.
-- **[reviewer-rebuttal-coach](skills/reviewer-rebuttal-coach)**
-  - **Description**: Read review comments, instructor comments or review feedback from the clipboard, and generate item-by-item responses, modification plans and priority suggestions.
-- **[teacher-prep](skills/teacher-prep)**
-  - **Description**: Teacher's lesson preparation assistant, used for primary school Chinese teaching lesson preparation. Supports various texts such as ancient poetry, modern literature, fables, fairy tales, etc. When the user puts forward lesson preparation requirements, it is automatically executed: (1) Search text-related materials (original text, author, background, new words, paragraph analysis, etc.) and generate markdown lesson preparation materials; (2) Generate lesson plan PPT; (3) Generate after-class exercises and reference answers in Word format. It is suitable for Chinese lesson preparation scenarios for all grades of primary schools.
-- **[self-learning](skills/self-learning)**
-  - **Description**: Intelligent module for self-learning.
-- **[openclaw-continuous-learning](skills/openclaw-continuous-learning)**
-  - **Description**: Intelligent module for openclaw-continuous-learning.
-- **[hinihao-chinese-tutor](skills/hinihao-chinese-tutor)**
-  - **Description**: Intelligent module for hinihao-chinese-tutor.
-- **[coaching](skills/coaching)**
-  - **Description**: Coaching practice support with session preparation, question generation, client progress tracking, and goal setting. Use when user mentions coaching sessions, coaching questions, client progress, or coaching goals. Prepares sessions, generates powerful questions, tracks client commitments, supports goal setting with clarity framework, and maintains momentum between sessions. STRICT client confidentiality.
-- **[bmad-brainstorming-coach](skills/bmad-brainstorming-coach)**
-  - **Description**: Activate the "Brainstorming Coach" agent (Carson) of the BMad system to facilitate innovation workshops, brainstorming sessions and idea generation. Suitable for scenarios that require breaking conventional thinking, generating a large number of ideas, or conducting systematic innovation exploration.
-- **[founder-coach-ai](skills/founder-coach-ai)**
-  - **Description**: AI founder coaching system — daily decision journal, accountability tracking, weekly strategy reviews, and AI-era specific questions on moat, commoditization risk, and outcome-based pricing. Not generic startup advice. Use for founder productivity, decision tracking, and strategic reflection.
-- **[saas-metrics-coach](skills/saas-metrics-coach)**
-  - **Description**: SaaS financial health advisor. Use when a user shares revenue or customer numbers, or mentions ARR, MRR, churn, LTV, CAC, NRR, or asks how their SaaS business is doing.
-- **[ai-self-learning](skills/ai-self-learning)**
-  - **Description**: AI self-improvement and memory system - Let AI learn from mistakes and become smarter the more you use it
-- **[redux-saga-skill](skills/redux-saga-skill)**
-  - **Description**: Intelligent module for redux-saga-skill.
-- **[openclaw-learning-coach](skills/openclaw-learning-coach)**
-  - **Description**: For new OpenClaw users, provide a staged learning path based on official docs, moving from usage to configuration to core concepts, with everyday analogies.
-- **[ai-running-coach](skills/ai-running-coach)**
-  - **Description**: Intelligent module for ai-running-coach.
-- **[clawcoach-core](skills/clawcoach-core)**
-  - **Description**: AI health coach with dual personality modes (Supportive Mentor or Savage Roaster). Tracks nutrition from food photos, provides data-driven coaching, and holds you accountable.
-- **[clawcoach-food](skills/clawcoach-food)**
-  - **Description**: Food photo analysis and meal logging for ClawCoach. Send a photo of your meal and get instant macro breakdown via Claude Vision.
-- **[clawcoach-setup](skills/clawcoach-setup)**
-  - **Description**: One-time setup for ClawCoach AI health coaching. Configures your profile, goals, macro targets, dietary preferences, and coach personality.
-- **[active-learner](skills/active-learner)**
-  - **Description**: **Version:** 1.0.0
-- **[calendar-scheduling](skills/calendar-scheduling)**
-  - **Description**: Intelligent module for calendar-scheduling.
-- **[temporal-cortex-scheduling](skills/temporal-cortex-scheduling)**
-  - **Description**: Intelligent module for temporal-cortex-scheduling.
-- **[add-educational-comments](skills/add-educational-comments)**
-  - **Description**: Add educational comments to the file specified, or prompt asking for file to comment if one is not provided.
 - **[training-course-designer](skills/training-course-designer)**
-  - **Description**: Professional training course design for corporate L&D with ONE-CLICK generation of complete training packages including course materials, marketing copy, and assessments. Use when designing training courses, workshops, or learning programs.
+  - **Description**: Effortlessly design professional training courses for corporate L&D with one-click generation of complete packages, including materials, marketing copy, and assessments.
 - **[guided-learning-cn](skills/guided-learning-cn)**
-  - **Description**: Chinese guided learning assistant. Learning assistant, knowledge learning, learning plan, learning route, concept explanation, review preparation, exam review, Feynman learning method, step-by-step learning, subject tutoring, self-study, tutorials, course learning, textbook learning, knowledge point summary, memory cards, flash cards, Anki, learning methods, one-on-one tutoring, self-test papers, multiple choice questions, short answer questions. Chinese guided learning assistant with step-by-step concept teaching, quizzes, tests, Feynman technique, and reviews. Use when: (1) learning any topic/skill/subject in Chinese, (2) creating a study plan or learning roadmap, (3) explaining concepts step by step, (4) preparing for exams or reviews, (5) using Feynman technique or
+  - **Description**: A guided learning assistant for mastering any topic or skill in Chinese, offering step-by-step concept teaching, personalized study plans, exam preparation, and the Feynman technique.
 - **[quiz-generator](skills/quiz-generator)**
-  - **Description**: Exam question generator. Multiple-choice/fill-in-the-blank/short-answer question generation, mock exams, answer analysis, difficulty grading, formatted output, and question bank management. Quiz generator with multiple choice, fill-in-blank, short answer, mock exams, explanations, difficulty levels. Use when you need quiz generator capabilities. Triggers on: quiz generator.
+  - **Description**: A versatile quiz generator that creates multiple choice, fill-in-blank, and short answer questions. It supports mock exams, detailed explanations, difficulty levels, and includes features for managing a question bank.
 - **[teacher-toolkit](skills/teacher-toolkit)**
-  - **Description**: Teacher Toolbox. Lesson plan design, scoring rubrics (Rubric), classroom activities, assessment design, student feedback, and parent communication. Teacher toolkit with lesson planning, rubrics, activities, assessments, student feedback, parent communication. Use when you need teacher toolkit capabilities. Triggers on: teacher toolkit, lesson plans include automatic time allocation, test papers include question type score allocation, rating scales include 5 dimensions, course syllabus includes weekly progress, and 10 classic classroom activities.
-- **[flashcard](skills/flashcard)**
-  - **Description**: Flashcard generation and spaced review system. Create flashcards, intelligent review, test mode, export (Markdown/Anki), spaced review algorithm, and learning statistical analysis. Flashcard creator with spaced repetition, quiz mode, export (Markdown/Anki), learning statistics. Use when you need flashcard capabilities. Triggers on: flashcard.
-- **[acuity-scheduling](skills/acuity-scheduling)**
-  - **Description**: Intelligent module for acuity-scheduling.
-- **[reducto](skills/reducto)**
-  - **Description**: Intelligent module for reducto.
-- **[botlearn-assessment](skills/botlearn-assessment)**
-  - **Description**: botlearn-assessment — BotLearn 5-dimension capability self-assessment (reasoning, retrieval, creation, execution, orchestration); triggers on botlearn assessment, capability test, self-evaluation, or scheduled periodic review.
-- **[botlearn-certify](skills/botlearn-certify)**
-  - **Description**: botlearn-certify — BotLearn certification generator that compares assessment history and produces capability certificates (HTML + MD); triggers after assessment completion, on user request for certificate/certification, or periodic progress review.
-- **[botlearn-doctor](skills/botlearn-doctor)**
-  - **Description**: Intelligent module for botlearn-doctor.
-- **[botlearn-examiner](skills/botlearn-examiner)**
-  - **Description**: You are the OpenClaw Capability Examiner. When activated, you conduct standardized examinations to assess an OpenClaw Agent's multi-dimensional capabilities, generate performance reports with radar charts, and provide actionable improvement recommendations.
-- **[botlearn-graduate](skills/botlearn-graduate)**
-  - **Description**: You are the Day 7 Graduation Coach & Growth Architect for the OpenClaw 7-Day Learning Journey. When activated, you guide users through their graduation ceremony by analyzing their 7-day transformation, celebrating their achievements, identifying their unique agent archetype, and designing a personalized path for continued growth.
-- **[botlearn-healthcheck](skills/botlearn-healthcheck)**
-  - **Description**: botlearn-healthcheck — BotLearn autonomous health inspector for OpenClaw instances across 5 domains (hardware, config, security, skills, autonomy); triggers on system check, health report, diagnostics, or scheduled heartbeat inspection.
-- **[botlearn-reminder](skills/botlearn-reminder)**
-  - **Description**: botlearn-reminder — BotLearn 7-step onboarding guide that delivers quickstart tutorials every 24 hours; triggers on first BotLearn registration or when user asks about botlearn tutorial/learning progress.
-- **[botlearn-selfoptimize](skills/botlearn-selfoptimize)**
-  - **Description**: botlearn Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Claude ('No, that's wrong...', 'Actually...'), (3) User requests a capability that doesn't exist, (4) An external API or tool fails, (5) Claude realizes its knowledge is outdated or incorrect, (6) A better approach is discovered for a recurring task. Also review learnings before major ta
-- **[botlearn](skills/botlearn)**
-  - **Description**: botlearn — BotLearn social community SDK for AI agents to post, comment, vote, follow, DM, and join events; triggers when user mentions botlearn, community, social, other bots, post, discuss, PK, or peer interaction.
-- **[botlearnb-autodidact](skills/botlearnb-autodidact)**
-  - **Description**: You are an Autonomous Self-Improvement Specialist for OpenClaw Agent. When activated, you continuously learn and improve by identifying unsolved tasks from session memory, searching for solutions in the BotLearn ecosystem, installing new skills, and engaging with the community to find better approaches.
-- **[adaptive-learning-playbook](skills/adaptive-learning-playbook)**
-  - **Description**: Intelligent module for adaptive-learning-playbook.
-- **[language-learning](skills/language-learning)**
-  - **Description**: AI language tutor for learning ANY language through conversation, vocab drills, grammar lessons, flashcards, and immersive practice. Use when the user wants to: learn a new language, practice vocabulary, study grammar, do flashcard drills, translate phrases, practice conversation, prepare for travel, learn slang/idioms, or improve pronunciation. Supports ALL languages including Spanish, French, German, Japanese, Chinese (Mandarin/Cantonese), Kore
-- **[japanese-tutor](skills/japanese-tutor)**
-  - **Description**: Interactive Japanese learning assistant. Supports vocabulary, grammar, quizzes, roleplay, PDF/DOCX material parsing for study/homework help, and OCR translation.
-- **[keep-learning-agent](skills/keep-learning-agent)**
-  - **Description**: Continuous learning Agent - knowledge precipitation and experience solidification framework. Supports learning records, fast indexing, self-repair, and experience → model conversion. Contains complete templates, indexing system, and SOP process. Let the AI ​​Agent continue to evolve and make progress a little bit every day.
-- **[pronunciation-coach](skills/pronunciation-coach)**
-  - **Description**: Pronunciation coaching with real voice analysis using Azure Speech Services. Analyzes audio files for phoneme-level accuracy, fluency, prosody, and intonation scores.
-- **[flashcards-podcasts-master](skills/flashcards-podcasts-master)**
-  - **Description**: Integrates with the EchoDecks External API for flashcard management, AI generation, and audio study sessions.
-- **[learning-system-skill](skills/learning-system-skill)**
-  - **Description**: System learning system in the AI ​​field. Manage knowledge graphs, deep learning notes, practical review and related networks. Trigger scenarios: learning plan, knowledge map update, in-depth study of an AI topic, summary of actual combat review, accumulated knowledge after research, and weekly learning review. Used when the user says 'what I learned', 'summarize', 'precipitated knowledge', 'review', 'update map', 'in-depth study', 'write notes', 'review what I learned', 'update knowledge map', 'deep dive', 'recap', 'what did I learn'. Use it when you need to refine and summarize after modifying the code/reading the paper/conducting research.
-- **[book-art-lessons](skills/book-art-lessons)**
-  - **Description**: Book art-lessons services through Lokuli MCP. Use when user needs to find and book art-lessons. Triggers on requests like "book a art-lessons", "find art-lessons near me", or any art-lessons service request.
-- **[book-dance-lessons](skills/book-dance-lessons)**
-  - **Description**: Book dance-lessons services through Lokuli MCP. Use when user needs to find and book dance-lessons. Triggers on requests like "book a dance-lessons", "find dance-lessons near me", or any dance-lessons service request.
-- **[book-driving-lessons](skills/book-driving-lessons)**
-  - **Description**: Book driving-lessons services through Lokuli MCP. Use when user needs to find and book driving-lessons. Triggers on requests like "book a driving-lessons", "find driving-lessons near me", or any driving-lessons service request.
-- **[book-guitar-lessons](skills/book-guitar-lessons)**
-  - **Description**: Book guitar-lessons services through Lokuli MCP. Use when user needs to find and book guitar-lessons. Triggers on requests like "book a guitar-lessons", "find guitar-lessons near me", or any guitar-lessons service request.
-- **[book-language-tutor](skills/book-language-tutor)**
-  - **Description**: Book language-tutor services through Lokuli MCP. Use when user needs to find and book language-tutor. Triggers on requests like "book a language-tutor", "find language-tutor near me", or any language-tutor service request.
-- **[book-math-tutor](skills/book-math-tutor)**
-  - **Description**: Book math-tutor services through Lokuli MCP. Use when user needs to find and book math-tutor. Triggers on requests like "book a math-tutor", "find math-tutor near me", or any math-tutor service request.
-- **[book-music-lessons](skills/book-music-lessons)**
-  - **Description**: Book music-lessons services through Lokuli MCP. Use when user needs to find and book music-lessons. Triggers on requests like "book a music-lessons", "find music-lessons near me", or any music-lessons service request.
-- **[book-piano-lessons](skills/book-piano-lessons)**
-  - **Description**: Book piano-lessons services through Lokuli MCP. Use when user needs to find and book piano-lessons. Triggers on requests like "book a piano-lessons", "find piano-lessons near me", or any piano-lessons service request.
+  - **Description**: The Teacher Toolkit is a comprehensive resource for educators, offering lesson planning, rubrics, classroom activities, assessments, student feedback, and parent communication tools.
 - **[book-tutor](skills/book-tutor)**
-  - **Description**: Book tutor services through Lokuli MCP. Use when user needs to find and book tutor. Triggers on requests like "book a tutor", "find tutor near me", or any tutor service request.
-- **[acg-rust-teacher](skills/acg-rust-teacher)**
-  - **Description**: The Rust ownership system teaching tool from the ACG perspective explains the core concepts of Rust through animation analogies (ReZero, Fate, etc.) and lowers the learning threshold.
-- **[yan-learning-engine](skills/yan-learning-engine)**
-  - **Description**: **技能名称**: yan-learning-engine
-- **[personal-fitness-coach](skills/personal-fitness-coach)**
-  - **Description**: Professional fitness and nutrition coaching system with specialized personas. Features a certified dietitian for meal planning and macro management, and a university-educated professional trainer for workout programming. Both provide evidence-based guidance from peer-reviewed research. Use when user wants science-backed fitness coaching, meal planning with proper nutrition science, progressive overload tracking, macro calculations, or evidence-ba
-- **[english-tutor](skills/english-tutor)**
-  - **Description**: This is a personalized American English tutor for helping users improve their English skills.
-- **[founder-coach](skills/founder-coach)**
-  - **Description**: Intelligent module for founder-coach.
-- **[recipe-create-classroom-course](skills/recipe-create-classroom-course)**
-  - **Description**: Create a Google Classroom course and invite students.
-- **[acuity-scheduling-integration](skills/acuity-scheduling-integration)**
-  - **Description**: Intelligent module for acuity-scheduling-integration.
-- **[valuation-calculator](skills/valuation-calculator)**
-  - **Description**: Fast stock valuation calculator - compute PEG, EV/EBITDA, Rule of 40, DCF and more with simple commands. Inspired by YouTube tutorial and Day1Global Tech Earnings Deepdive Skill.
-- **[krumpphysio](skills/krumpphysio)**
-  - **Description**: Teaches OpenClaw agents to act as a Krump-inspired physiotherapy coach. Use when building or assisting physio/fitness agents, therapeutic movement scoring (joint angles, ROM), rehab coaching with gamified Krump vocabulary and Laban notation, optional Canton ledger logging, or SDG 3 health-and-wellbeing flows. Grounds advice in authentic krump adapted for physiotherapy.
-- **[loan-calculator](skills/loan-calculator)**
-  - **Description**: Loan Calculator. Calculation of equal principal and interest/equal principal, plan comparison, early repayment analysis, loan capacity assessment, repayment schedule, and refinancing analysis. Loan calculator with equal installment/principal, comparison, prepayment analysis, affordability, schedule, refinance.
-- **[calcurse](skills/calcurse)**
-  - **Description**: A text-based calendar and scheduling application. Use strictly for CLI-based calendar management.
-- **[afrexai-sop-generator](skills/afrexai-sop-generator)**
-  - **Description**: Generate Standard Operating Procedures from plain-language process descriptions.
-- **[social-content-generator](skills/social-content-generator)**
-  - **Description**: When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' or 'viral content.' This skill covers content creation, repurposing, and platform-specific strategies.
-- **[certificate-generation](skills/certificate-generation)**
-  - **Description**: Generate professional certificates, diplomas, and awards using each::sense AI. Create course completion certificates, achievement awards, professional certifications, academic diplomas, and custom branded certificates.
-- **[kindergarten-assistant](skills/kindergarten-assistant)**
-  - **Description**: Early childhood educator specializing in British EYFS framework and Reggio Emilia pedagogy for ages 45 days to 2 years. Designs child-led activities, tracks developmental milestones, sets up nurturing environments, and supports classroom management. Use when planning lessons, creating activities, setting up Reggio-inspired spaces, tracking child observations, or implementing EYFS-aligned curriculum.
-- **[historical-data-manager](skills/historical-data-manager)**
-  - **Description**: Extract, clean, and organize legacy construction data from archives. Migrate historical project data, cost records, and schedules into modern formats."
-- **[iterative-code-evolution](skills/iterative-code-evolution)**
-  - **Description**: Systematically improve code through structured analysis-mutation-evaluation loops. Adapted from ALMA (Automated meta-Learning of Memory designs for Agentic systems). Use when iterating on code quality, optimizing implementations, debugging persistent issues, or evolving a design through multiple improvement cycles. Replaces ad-hoc "try and fix" with disciplined reflection, variant tracking, and principled selection of what to change next.
-- **[ocd-erp-therapist](skills/ocd-erp-therapist)**
-  - **Description**: An OpenClaw skill for conducting structured OCD Exposure and Response Prevention (ERP) therapy sessions with an inhibitory learning framework, automated check-in reminders, progress tracking, and safety protocols.
-- **[miro-api](skills/miro-api)**
-  - **Description**: Complete Miro REST API reference for building integrations, automating workflows, and programmatically managing boards, cards, shapes, users, and team resources. Language-agnostic documentation with examples, authentication patterns, rate limiting, webhooks, and error handling.
-- **[competitor-analysis](skills/competitor-analysis)**
-  - **Description**: This skill should be used when the user asks to "analyze competitors", "competitor SEO", "who ranks for", "competitive analysis", "what are my competitors doing", "what are they doing differently", "why do they rank higher", or "spy on competitor SEO". Analyzes competitor SEO and GEO strategies including their ranking keywords, content approaches, backlink profiles, and AI citation patterns. Reveals opportunities to outperform competition. For co
-- **[serp-analysis](skills/serp-analysis)**
-  - **Description**: This skill should be used when the user asks to "analyze search results", "SERP analysis", "what ranks for", "SERP features", "why does this page rank", "what is on page one for this query", "who ranks for this keyword", or "what does Google show for". Analyzes search engine results pages (SERPs) to understand ranking factors, SERP features, user intent patterns, and AI overview triggers. Essential for understanding what it takes to rank. For tra
-- **[data-transfer-optimizer](skills/data-transfer-optimizer)**
-  - **Description**: Identify and reduce AWS data transfer costs — inter-region, cross-AZ, and NAT Gateway charges
-- **[ppt-compress](skills/ppt-compress)**
-  - **Description**: Compress PPT/PPTX file size. Decompress PPT, compress large images, repackage and convert to PDF to significantly reduce file size. Suitable for scenarios where large PPT files need to be shared or uploaded.
-- **[auto-publisher](skills/auto-publisher)**
-  - **Description**: Multi-platform video auto-publisher. Automatically upload videos to Douyin, WeChat Channels, Xiaohongshu, Bilibili, YouTube and more. Supports batch publishing, scheduled posting, auto-caption generation, and hashtag optimization.
-- **[diataxis-writing](skills/diataxis-writing)**
-  - **Description**: Diataxis documentation framework practice guide. Provides diagnosis, classification, templates, and quality assessment for four documentation types (Tutorial/How-to/Reference/Explanation).
-- **[agentledger-research-assistant](skills/agentledger-research-assistant)**
-  - **Description**: Structured web research framework for AI agents. Teaches your agent to conduct multi-source research, synthesize findings into actionable briefs, maintain a research library, and track evolving topics over time. Use when you need market research, competitor analysis, topic deep-dives, or ongoing monitoring of trends and news. Works with any agent that has web search capabilities.
-- **[afrexai-knowledge-management](skills/afrexai-knowledge-management)**
-  - **Description**: Step-by-step procedures and guides
-- **[knowledge-management](skills/knowledge-management)**
-  - **Description**: Organize and classify OpenClaw knowledge entries into local folders by content type (Research, Decision, Insight, Lesson, Pattern, Project, Reference, Tutorial).
-- **[brain-v3-skill](skills/brain-v3-skill)**
-  - **Description**: Claw Brain - Personal AI Memory System for OpenClaw/ClawDBot. Provides memory, personality, bonding, and learning capabilities with encrypted secrets support. Auto-refreshes on service restart.
-- **[clawbrain](skills/clawbrain)**
-  - **Description**: Claw Brain - Personal AI Memory System for OpenClaw/ClawDBot. Provides memory, personality, bonding, and learning capabilities with encrypted secrets support. Auto-refreshes on service restart.
-- **[readme-env-table-sync](skills/readme-env-table-sync)**
-  - **Description**: Generate and sync a README environment-variable table from .env.example using marker blocks, with drift detection for CI.
-- **[deepread-ocr](skills/deepread-ocr)**
-  - **Description**: AI-native OCR platform that turns documents into high-accuracy data in minutes. Using multi-model consensus, DeepRead achieves 97%+ accuracy and flags only uncertain fields for Human-in-the-Loop (HIL) review—reducing manual work from 100% to 5-10%. Zero prompt engineering required.
-- **[notebooklm-skill](skills/notebooklm-skill)**
-  - **Description**: Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers from Gemini. Browser automation, library management, persistent auth. Drastically reduced hallucinations through document-only responses.
-- **[training-plan](skills/training-plan)**
-  - **Description**: Training program design tool. Training program design, curriculum system, effectiveness evaluation, training materials, schedule, certificate template. Training plan designer with curriculum, evaluation, materials, scheduling, certificates. Training, curriculum design, corporate training, employee development. Use when designing training programs. Triggers on: training plan.
-- **[truetime](skills/truetime)**
-  - **Description**: Ensure real-time accurate scheduling and planning across UTC, server time, NTP-sourced time, user local time, and arbitrary time zones. Use for timers, reminders, cron planning, in X minutes or months or years calculations, absolute timestamp conversion, Chinese lunar date awareness, and cross-timezone coordination. Enforce exact duration fidelity so user values are never replaced by example values, compute target times in UTC first, and verify d
-- **[habitchat](skills/habitchat)**
-  - **Description**: Personal habit coach that tracks daily habits, streaks, and provides AI-powered coaching. Say things like "track a new habit", "log my habits", "show my streaks", or "coach me".
-- **[metaskill](skills/metaskill)**
-  - **Description**: Teaches AI agents how to learn better by enforcing deep correction, transfer learning, and proactive pattern recognition. Use when an error occurs and needs deep analysis (not surface patch), before starting a complex task to check past analogies, or after success to capture winning patterns. NOT for routine file reads or simple one-off commands.
+  - **Description**: Book a tutor through Lokuli MCP for personalized tutoring services. Use this when you need to find and book a tutor near you.
 ### Math & Science
 
+- **[book-math-tutor](skills/book-math-tutor)**
+  - **Description**: Book math-tutor services through Lokuli MCP for personalized tutoring needs. Use this when looking to find and book a math tutor.
 - **[maths-rage-bate](skills/maths-rage-bate)**
-  - **Description**: Generate satirical "math slop" ragebait formulas that connect famous constants (φ, π, e, i) in trivially true but profound-looking equations. Outputs LaTeX. Use for math memes or when someone asks for "math slop.
-- **[quant](skills/quant)**
-  - **Description**: 🤖 Built by Jarvis. Designed specifically for A-shares & global markets. Supports factor mining, backtesting, risk control, and real-time signals.
-- **[optical-quantum-skill](skills/optical-quantum-skill)**
-  - **Description**: Simulates a quantum kernel using optical fiber storage and linear optics.
-- **[space-autonomy-skill](skills/space-autonomy-skill)**
-  - **Description**: Autonomous space navigation agent using optical quantum kernels for terrain classification.
-- **[openclaw-workspace-governance-installer](skills/openclaw-workspace-governance-installer)**
-  - **Description**: Install OpenClaw WORKSPACE_GOVERNANCE in minutes. Get guided setup, upgrade checks, migration, and audit for long-running workspaces.
-- **[jquants-mcp](skills/jquants-mcp)**
-  - **Description**: Access JPX stock market data via J-Quants API — search stocks, get daily OHLCV prices, financial summaries (revenue, profit, EPS, ROE), and earnings calendar for Tokyo Stock Exchange (TSE) listed companies. Japan stock price data.
-- **[pengbo-space](skills/pengbo-space)**
-  - **Description**: Query services, filter service IDs, submit orders, query order status, initiate refill orders and check balances through pengbo.space's SMM API. Suitable for automated tasks that require safe calls to pengbo.space/api/v1. The default requirement for write operations is explicit confirmation.
-- **[trust-velocity-calculator](skills/trust-velocity-calculator)**
-  - **Description**: Intelligent module for trust-velocity-calculator.
+  - **Description**: This AI skill plugin generates satirical and trivially true equations, known as 'math slop,' using famous constants (φ, π, e, i). The output is in LaTeX format, perfect for creating math memes or responding to requests for 'math slop.'
 - **[mathproofs-claw](skills/mathproofs-claw)**
-  - **Description**: Skill for interacting with the Lean-Claw Arena to prove math theorems using Lean 4.
-- **[localclaws](skills/localclaws)**
-  - **Description**: Comprehensive LocalClaws operator skill for attendee and host agents.
-- **[quantum-lab](skills/quantum-lab)**
-  - **Description**: Run the /home/bram/work/quantum_lab Python scripts and demos inside the existing venv ~/.venvs/qiskit. Use when asked (e.g., via Telegram/OpenClaw) to run quant_math_lab.py, qcqi_pure_math_playground.py, quantum_app.py subcommands, quantumapp.server, or notebooks under the repo.
-- **[quantumlab](skills/quantumlab)**
-  - **Description**: Run the /home/bram/work/quantum_lab Python scripts and demos inside the existing venv ~/.venvs/qiskit. Use when asked (e.g., via Telegram/OpenClaw) to run quant_math_lab.py, qcqi_pure_math_playground.py, quantum_app.py subcommands, quantumapp.server, or notebooks under the repo.
-- **[workspace-cleaner](skills/workspace-cleaner)**
-  - **Description**: Safe, automated cleanup for OpenClaw workspaces. Finds temp files, duplicates, and cruft while protecting important data.
-- **[session-memory-workspace](skills/session-memory-workspace)**
-  - **Description**: Write session summaries to daily memory files and search session history so OpenClaw can recall and cite past conversations.
-- **[bmi-calculator](skills/bmi-calculator)**
-  - **Description**: Intelligent module for bmi-calculator.
-- **[compensation-calc](skills/compensation-calc)**
-  - **Description**: Salary Calculator. Salary calculation, bonus plan, equity incentive, market benchmarking, salary negotiation, general contracting calculation. Compensation calculator with salary, bonus, equity, benchmarking, negotiation, total comp. Use when calculating or designing compensation.
-- **[google-workspace-admin](skills/google-workspace-admin)**
-  - **Description**: Intelligent module for google-workspace-admin.
-- **[squarespace](skills/squarespace)**
-  - **Description**: Intelligent module for squarespace.
+  - **Description**: This skill enables interaction with the Lean-Claw Arena to prove mathematical theorems using Lean 4.
 - **[calculator-2](skills/calculator-2)**
-  - **Description**: This skill should be used when the user asks to "calculate", "compute", "do math", mentions arithmetic operations like "add", "subtract", "multiply", "divide", or asks questions like "what is 1+1". Provides basic arithmetic calculation capabilities.
-- **[file-transfer-thru-local-workspace](skills/file-transfer-thru-local-workspace)**
-  - **Description**: OpenClaw file transfer skills - upload/download files to **local workspace** through web pages, support skill package browsing and downloading
-- **[file-upload-to-local-workspace](skills/file-upload-to-local-workspace)**
-  - **Description**: OpenClaw file upload skill - upload files to **local workspace** through web pages for AI analysis
-- **[alicloud-ai-pai-aiworkspace](skills/alicloud-ai-pai-aiworkspace)**
-  - **Description**: Manage Alibaba Cloud PAI AIWorkspace (AIWorkSpace) via OpenAPI/SDK. Use whenever the user is operating AIWorkspace resources such as workspace/project inventory, create/update actions, status queries, permission or configuration troubleshooting, or automation around PAI workspace lifecycle.
+  - **Description**: This skill performs basic arithmetic calculations when the user asks to calculate, compute, or mentions operations like add, subtract, multiply, and divide.
 - **[precision-calc](skills/precision-calc)**
-  - **Description**: MUST USE for any calculation or math question — never compute numbers yourself. Use this skill for all arithmetic, finance, science, unit conversions, and everyday math to guarantee exact results.
-- **[mortgage-calculator](skills/mortgage-calculator)**
-  - **Description**: Intelligent module for mortgage-calculator.
-- **[clawspaces](skills/clawspaces)**
-  - **Description**: X Spaces, but for AI Agents. Live voice rooms where AI agents host conversations.
-- **[quantum-messenger](skills/quantum-messenger)**
-  - **Description**: Help China Telecom colleagues and customers to call OpenClaw robots through quantum secret messaging. Supports text, pictures, attachments and status bar feedback.
-- **[joinquant-strategy](skills/joinquant-strategy)**
-  - **Description**: Intelligent module for joinquant-strategy.
+  - **Description**: Use this skill for all types of calculations, including arithmetic, finance, science, unit conversions, and everyday math to ensure accuracy.
 - **[lifecycle-carbon-calculator](skills/lifecycle-carbon-calculator)**
-  - **Description**: Calculate embodied carbon and lifecycle emissions for construction materials and projects. Support sustainable design decisions with carbon data."
-- **[aifs-space](skills/aifs-space)**
-  - **Description**: Store and retrieve files via AIFS.space cloud storage API. Use when persisting notes, documents, or data to the cloud; syncing files across sessions; or when the user mentions AIFS, aifs.space, or cloud file storage. Not to be used for any sensitive content.
-- **[coder-workspaces](skills/coder-workspaces)**
-  - **Description**: Manage Coder workspaces and AI coding agent tasks via CLI. List, create, start, stop, and delete workspaces. SSH into workspaces to run commands. Create and monitor AI coding tasks with Claude Code, Aider, or other agents.
-- **[workspace-organization](skills/workspace-organization)**
-  - **Description**: Automated workspace health checks and entropy prevention for OpenClaw. Detects broken symlinks, empty dirs, large files, malformed names. Maintenance audit script with cron support. Keeps deployments clean and structured.
-- **[google-workspace-mcp](skills/google-workspace-mcp)**
-  - **Description**: Gmail, Calendar, Drive, Docs, Sheets — NO Google Cloud Console required. Just OAuth sign-in. Zero setup complexity vs traditional Google API integrations.
-- **[workspace-files](skills/workspace-files)**
-  - **Description**: Work safely with files inside the OpenClaw workspace sandbox. Use for listing directories, reading text files, writing text files, and searching files by name inside ~/.openclaw/workspace only.
-- **[book-physical-therapy](skills/book-physical-therapy)**
-  - **Description**: Book physical-therapy services through Lokuli MCP. Use when user needs to find and book physical-therapy. Triggers on requests like "book a physical-therapy", "find physical-therapy near me", or any physical-therapy service request.
-- **[openclaw-workspace-pro](skills/openclaw-workspace-pro)**
-  - **Description**: Production-ready workspace setup for OpenClaw agents. Implements artifact workflows, secrets management, memory compaction, and long-running agent patterns based on OpenAI's Shell + Skills best practices. One-command installation transforms your workspace into a production-ready environment.
-- **[workspace-manager](skills/workspace-manager)**
-  - **Description**: Intelligent module for workspace-manager.
-- **[gcalcli](skills/gcalcli)**
-  - **Description**: Interact with Google Calendar via gcalcli
+  - **Description**: Calculate the embodied carbon and lifecycle emissions for construction materials and projects to support sustainable design decisions.
 - **[math-formula-calculator](skills/math-formula-calculator)**
-  - **Description**: Mathematical formula calculation expert - Excel formula analysis, step-by-step calculation, and boundary verification. Specially used for bidding price calculation and solving complex formulas.
-- **[recipe-create-meet-space](skills/recipe-create-meet-space)**
-  - **Description**: Create a Google Meet meeting space and share the join link.
-- **[google-workspace-integration](skills/google-workspace-integration)**
-  - **Description**: Intelligent module for google-workspace-integration.
-- **[squarespace-integration](skills/squarespace-integration)**
-  - **Description**: Intelligent module for squarespace-integration.
-- **[pdf-generation](skills/pdf-generation)**
-  - **Description**: **Purpose:** Generate professional PDFs from HTML/CSS without whitespace gaps or layout issues.
-- **[auto-estimate-generator](skills/auto-estimate-generator)**
-  - **Description**: Automatically generate estimates from QTO data. Apply pricing rules to BIM quantities for cost estimates."
-- **[floor-plan-generation](skills/floor-plan-generation)**
-  - **Description**: Generate floor plans and architectural layouts using each::sense AI. Create apartment designs, house layouts, office spaces, retail stores, restaurants, and 3D visualizations with furniture arrangements and measurements.
-- **[invoice-generation](skills/invoice-generation)**
-  - **Description**: Generate professional invoices, receipts, quotes, and financial documents using each::sense AI. Create branded business documents with automatic calculations, multi-currency support, and customizable layouts.
-- **[marketing-psychology](skills/marketing-psychology)**
-  - **Description**: When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' or 'consumer behavior.' This skill provides 70+ mental models organized for marketing application.
-- **[trust-my-agent-ai](skills/trust-my-agent-ai)**
-  - **Description**: 🛡️ TrustMyAgent - Security posture monitoring for AI agents. Runs 41 stateless checks across 14 domains and calculates a trust score (0-100). Supports local-only mode (no network calls) and dry-run mode (preview before sending).
-- **[claude-code-cli](skills/claude-code-cli)**
-  - **Description**: Delegate coding tasks to Claude Code CLI via background process. Use when: building features, reviewing PRs, refactoring codebases, or iterative coding that needs file exploration. Supports interactive PTY mode for confirmations/permissions and headless pipe mode for automation. NOT for: simple one-liner fixes (just edit), reading code (use read tool), or any work in ~/.openclaw/ workspace.
-- **[afrexai-real-estate-engine](skills/afrexai-real-estate-engine)**
-  - **Description**: Complete real estate system — from deal sourcing through portfolio management. Covers buying, selling, investing, landlording, and development with actionable frameworks, calculators, and templates.
-- **[campaign-analytics](skills/campaign-analytics)**
-  - **Description**: Analyzes campaign performance with multi-touch attribution, funnel conversion analysis, and ROI calculation for marketing optimization. Use when analyzing marketing campaigns, ad performance, attribution models, conversion rates, or calculating marketing ROI, ROAS, CPA, and campaign metrics across channels.
-- **[social-media-analyzer](skills/social-media-analyzer)**
-  - **Description**: Social media campaign analysis and performance tracking. Calculates engagement rates, ROI, and benchmarks across platforms. Use for analyzing social media performance, calculating engagement rate, measuring campaign ROI, comparing platform metrics, or benchmarking against industry standards.
-- **[xtdata](skills/xtdata)**
-  - **Description**: XtQuant market data module — real-time quotes, K-lines, tick, Level2, financials for QMT/miniQMT.
-- **[openclaw-state-backup](skills/openclaw-state-backup)**
-  - **Description**: Create, inspect, and restore versioned OpenClaw state backups with rollback safety. Use when backing up or migrating OpenClaw memory, workspace state, gateway config, cron/session state, or when restoring a previously captured snapshot after breakage, config mistakes, host migration, or context-loss concerns.
-- **[interior-design-visualization](skills/interior-design-visualization)**
-  - **Description**: Visualize interior design transformations using each::sense AI. Redesign rooms, change styles, update color schemes, and preview renovations from photos of your existing spaces.
-- **[options-spread-conviction-engine](skills/options-spread-conviction-engine)**
-  - **Description**: Multi-regime options spread analysis engine with quantitative rigor. Features regime detection (VIX-based), GARCH volatility forecasting, drawdown-constrained Kelly position sizing, and walk-forward backtesting. Scores vertical spreads (bull put, bear call, bull call, bear put) and multi-leg strategies (iron condors, butterflies, calendar spreads) using Ichimoku, RSI, MACD, Bollinger Bands, and IV term structure analysis.
-- **[obsidian-sync](skills/obsidian-sync)**
-  - **Description**: Sync files between Clawdbot workspace and Obsidian. Run the sync server to enable two-way file synchronization with the OpenClaw Obsidian plugin.
-- **[voice-note-to-midi](skills/voice-note-to-midi)**
-  - **Description**: Convert voice notes, humming, and melodic audio recordings to quantized MIDI files using ML-based pitch detection and intelligent post-processing
-- **[retirement-planner](skills/retirement-planner)**
-  - **Description**: Retirement planning tools. Pension calculation, investment strategy, social security pension, investment portfolio, withdrawal strategy, gap analysis. Retirement planner with pension calculation, investment strategy, social security, portfolio, withdrawal strategy, gap analysis. Use when you need retirement planner capabilities. Triggers on: retirement planner.
+  - **Description**: Math formula calculator - excels in parsing, step-by-step computation, and boundary validation. Ideal for bid pricing and solving complex formulas.
+- **[earthquake-monitor](skills/earthquake-monitor)**
+  - **Description**: Real-time earthquake monitoring for China, Taiwan, and Japan with proactive alerts, using CENC, CWA, and JMA WebSocket data.
+- **[survival-analysis-km](skills/survival-analysis-km)**
+  - **Description**: Generates Kaplan-Meier survival curves and calculates survival statistics.
 ### Biology & Medicine
 
+- **[krumpphysio](skills/krumpphysio)**
+  - **Description**: This AI skill plugin trains OpenClaw agents to serve as Krump-inspired physiotherapy coaches, offering therapeutic movement scoring, rehab coaching with gamified Krump vocabulary and Laban notation, and optional Canton ledger logging. It supports health and wellbeing initiatives by adapting authentic Krump for physiotherapy.
+- **[ocd-erp-therapist](skills/ocd-erp-therapist)**
+  - **Description**: An OpenClaw skill for conducting OCD Exposure and Response Prevention (ERP) therapy sessions, featuring an inhibitory learning framework, automated check-ins, progress tracking, and safety protocols.
+- **[bmi-calculator](skills/bmi-calculator)**
+  - **Description**: A BMI calculator that provides ideal weight, health plans, and tracks weight. It also calculates and interprets BMI for children.
 - **[quantinuumclaw](skills/quantinuumclaw)**
-  - **Description**: Enables building and deploying quantum computing applications with Quantinuum, Guppy, Selene, and Fly.io. Use for the OpenClaw Clinical Hackathon, clinical or healthcare projects (drug discovery, treatment optimization, patient stratification, trial randomization), quantum-powered web apps, deploying quantum algorithms to the cloud, or integrating quantum results into user-facing interfaces.
+  - **Description**: The quantinuumclaw plugin facilitates the development and deployment of quantum computing applications using Quantinuum, Guppy, Selene, and Fly.io. It is ideal for healthcare projects, including drug discovery and treatment optimization, as well as for creating quantum-powered web apps and integrating results into user interfaces.
 - **[quantum](skills/quantum)**
-  - **Description**: Enables building and deploying quantum computing applications with Quantinuum, Guppy, Selene, and Fly.io. Use for the OpenClaw Clinical Hackathon, clinical or healthcare projects (drug discovery, treatment optimization, patient stratification, trial randomization), quantum-powered web apps, deploying quantum algorithms to the cloud, or integrating quantum results into user-facing interfaces.
+  - **Description**: This plugin facilitates the creation and deployment of quantum computing applications using platforms like Quantinuum, Guppy, Selene, and Fly.io. It is ideal for healthcare projects, including drug discovery and treatment optimization, as well as for building and deploying quantum-powered web applications.
 - **[afrexai-medical-billing](skills/afrexai-medical-billing)**
-  - **Description**: Analyze medical billing workflows, identify revenue leaks, optimize claim submissions, and reduce denial rates. Built for healthcare practices, billing companies, and revenue cycle teams.
+  - **Description**: Optimizes medical billing workflows, reduces claim denials, and identifies revenue leaks for healthcare practices, billing companies, and revenue cycle teams.
 - **[afrexai-pharmacy-compliance](skills/afrexai-pharmacy-compliance)**
-  - **Description**: You are a pharmacy regulatory compliance specialist. Help pharmacists, pharmacy managers, and compliance officers navigate DEA, Board of Pharmacy, USP, DSCSA, and PBM requirements.
-- **[ai-invoice-generator](skills/ai-invoice-generator)**
-  - **Description**: Creates professional invoices in markdown and HTML
-- **[image-prompt-generator](skills/image-prompt-generator)**
-  - **Description**: AI picture prompt word generator based on five-layer disassembly method. Transform vague creative ideas into rigorously structured and executable image generation specifications, supporting multiple style presets and target tool adaptation.
-- **[social-post-generator](skills/social-post-generator)**
-  - **Description**: Generate engaging social media content for multiple platforms. Use when users need to create posts for Twitter/X, LinkedIn, Instagram, Facebook, or other social platforms. Supports tone customization, hashtag generation, content repurposing, and platform-specific formatting.
-- **[video-generator-auto-post](skills/video-generator-auto-post)**
-  - **Description**: Generate videos using local AI models (ComfyUI/Stable Video Diffusion) and auto-publish to social media platforms. Supports text-to-video, image-to-video, batch processing, and automated posting to Twitter, LinkedIn, Instagram, TikTok.
-- **[schema-markup-generator](skills/schema-markup-generator)**
-  - **Description**: This skill should be used when the user asks to "add schema markup", "generate structured data", "JSON-LD", "rich snippets", "FAQ schema", "HowTo schema", "Product schema", "Article schema", "LocalBusiness schema", "Organization schema", "BreadcrumbList", "I want star ratings in Google", "rich results", "voice search optimization", "event markup", or "structured data validation errors". Generates Schema.org JSON-LD for FAQPage, HowTo, Article/Blo
+  - **Description**: Assist pharmacists, pharmacy managers, and compliance officers in navigating DEA, Board of Pharmacy, USP, DSCSA, and PBM requirements.
 - **[clinical-data-extractor](skills/clinical-data-extractor)**
-  - **Description**: Extract clinical trial data from pharmaceutical conference websites or PDF documents. Use when user provides a URL or PDF file containing innovative drug clinical trial data and needs structured extraction of: drug name, manufacturer, indication, clinical phase, trial name, conference, efficacy and safety data (presented as tables), and markdown output to "药品名称@适应症.md" file.
-- **[report-generator-adarsh](skills/report-generator-adarsh)**
-  - **Description**: ## Purpose
+  - **Description**: Extract and structure clinical trial data from pharmaceutical conference websites or PDFs, including drug name, manufacturer, indication, clinical phase, trial name, conference, and efficacy and safety data, outputting to a markdown file.
 - **[medical](skills/medical)**
-  - **Description**: Personal health record management with strict privacy boundaries. Use when user mentions tracking symptoms, managing medications, preparing for doctor appointments, logging vital signs, storing medical history, or creating emergency health summaries. Tracks medications, symptoms, lab results, and vital signs for individuals and families. NEVER use for diagnosis, treatment advice, or interpreting symptoms as medical conditions.
-- **[tearsheet-generator](skills/tearsheet-generator)**
-  - **Description**: Intelligent module for tearsheet-generator.
-- **[aiml-music-generator](skills/aiml-music-generator)**
-  - **Description**: Generate high-quality music/songs via AIMLAPI. Supports Suno, Udio, Minimax, and ElevenLabs music models. Use when the user asks for music, songs, or soundtracks with specific lyrics or styles.
+  - **Description**: Manage personal health records with strict privacy, including tracking symptoms, medications, and vital signs, and preparing for doctor visits. Do not use for diagnosis or treatment advice.
 - **[healthie](skills/healthie)**
-  - **Description**: Healthie — manage patients, appointments, goals, and documents via GraphQL API
-- **[ctf-writeup-generator](skills/ctf-writeup-generator)**
-  - **Description**: Automatically generate professional CTF writeups from solving sessions with flag detection, challenge categorization, and proper markdown formatting
-- **[changelog-generator](skills/changelog-generator)**
-  - **Description**: Changelog Generator
-- **[cs-landing-page-generator](skills/cs-landing-page-generator)**
-  - **Description**: Generates high-converting landing pages as complete Next.js/React (TSX) components with Tailwind CSS. Creates hero sections, feature grids, pricing tables, FAQ accordions, testimonial blocks, and CTA sections using proven copy frameworks (PAS, AIDA, BAB). Outputs SEO meta tags, structured data, and performance-optimised code targeting Core Web Vitals (LCP < 1s, CLS < 0.1). Use when the user asks to create a landing page, marketing page, homepage,
-- **[org-health-diagnostic](skills/org-health-diagnostic)**
-  - **Description**: Cross-functional organizational health check combining signals from all C-suite roles. Scores 8 dimensions on a traffic-light scale with drill-down recommendations. Use when assessing overall company health, preparing for board reviews, identifying at-risk functions, or when user mentions org health, health check, or health dashboard.
-- **[runbook-generator](skills/runbook-generator)**
-  - **Description**: Runbook Generator
-- **[chinese-huangdi-health-timer](skills/chinese-huangdi-health-timer)**
-  - **Description**: 12 two-hour energy cycles, 3 unique tips daily.
-- **[chatgpt-image-generation](skills/chatgpt-image-generation)**
-  - **Description**: Generate images from ChatGPT using Playwright browser automation. Opens ChatGPT, sends prompts, waits for generation, and saves the resulting images.
-- **[generate-qr-code-amzulin](skills/generate-qr-code-amzulin)**
-  - **Description**: Generate QR code/barcode, support text, URL, WiFi configuration and other content, you can customize the size, color and specify the save path
-- **[bluebubbles-healthcheck](skills/bluebubbles-healthcheck)**
-  - **Description**: Diagnoses and auto-heals BlueBubbles ↔ OpenClaw iMessage connectivity. Use when: iMessages stop arriving after a gateway restart, webhook connection is broken, or user reports messages not coming through. Runs a 4-step diagnostic and auto-fixes webhook backoff, stale registrations, and gateway issues.
-- **[md-ppt-generator](skills/md-ppt-generator)**
-  - **Description**: Creative director of technology product launch conference. Convert structured Markdown into visually striking "big-character poster" style HTML slides. Focus on cinematic dark gradients, Morandi-colored text, and "breathing" animations to ensure that each slide conveys core, minimalist information.
+  - **Description**: Healthie is a tool for managing patients, appointments, goals, and documents through a GraphQL API.
 - **[medical-record-structurer](skills/medical-record-structurer)**
-  - **Description**: Medical record structuring and standardization tool. Converts doctor's oral or handwritten medical records into standardized electronic medical records (EMR). Supports voice/text input, automatic field recognition, and structured output. Use when processing medical records, clinical notes, patient histories, or converting unstructured medical data into standardized formats. Includes skillpay.me payment integration for pay-per-use monetization.
-- **[qr-code-generator](skills/qr-code-generator)**
-  - **Description**: Use this skill when users need to create QR codes for any purpose. Triggers include: requests to \"generate QR code\", \"create QR\", \"make a QR code for\", or mentions of encoding data into scannable codes. Supports URLs, text, WiFi credentials, vCards (contact information), email addresses, phone numbers, SMS, location coordinates, calendar events, and custom data. Can customize colors, add logos, generate bulk QR codes, and export in multiple
-- **[healthcheck-ready](skills/healthcheck-ready)**
-  - **Description**: Performs a quick risk posture check on the host and reports basic security/posture status.
-- **[blessing-generator](skills/blessing-generator)**
-  - **Description**: Intelligent module for blessing-generator.
+  - **Description**: A tool that converts oral or handwritten medical records into standardized electronic medical records, supporting voice and text input with automatic field recognition and structured output. It includes pay-per-use monetization via skillpay.me.
 - **[biorxiv-openclaw-skill](skills/biorxiv-openclaw-skill)**
-  - **Description**: Access bioRxiv preprint repository for biology preprints. Use for: (1) Fetching recent preprints from specific categories like bioinformatics, genomics, molecular-biology, etc., (2) Getting papers by date range, (3) Listing available subject collections, (4) Retrieving paper metadata including titles, authors, DOIs, dates, and categories. No authentication required.
-- **[session-health-monitor](skills/session-health-monitor)**
-  - **Description**: Context window health monitoring for OpenClaw agents — threshold warnings via Telegram, pre-compaction snapshots, and memory rotation.
-- **[qr-generator](skills/qr-generator)**
-  - **Description**: Generate QR codes from text or URL for mobile scanning.
-- **[quote-generator](skills/quote-generator)**
-  - **Description**: **Version:** 1.0.0
-- **[skill-doctorbot-healthcheck-free](skills/skill-doctorbot-healthcheck-free)**
-  - **Description**: 🩺 Free Security & Health Audit. Your OpenClaw deserves a check-up. This skill performs a non-invasive scan to detect security risks, outdated software, and misconfigurations.
-- **[social-media-copywriter-generator](skills/social-media-copywriter-generator)**
-  - **Description**: Generate popular copywriting for multiple platforms with one click - Xiaohongshu/Douyin/Official Account/Zhihu
-- **[react-nextjs-generator](skills/react-nextjs-generator)**
-  - **Description**: ## 描述
-- **[openrouter-image-generation](skills/openrouter-image-generation)**
-  - **Description**: Generate or edit images through OpenRouter's multimodal image generation endpoint (`/api/v1/chat/completions`) using OpenRouter-compatible image models. Use for text-to-image or image-to-image requests when the user wants OpenRouter, `OPENROUTER_API_KEY`, model overrides, or provider-specific `image_config` options.
-- **[claw-video-generator](skills/claw-video-generator)**
-  - **Description**: Generate Pinterest-optimized vertical videos using JSON2Video API. Supports AI-generated or URL-based images, AI-generated or provided voiceovers, optional subtitles, and zoom effects. Use when creating video content for Pinterest affiliate marketing, creating vertical social media videos, automating video production with JSON2Video API, or generating videos with voiceovers and subtitles.
+  - **Description**: Access the bioRxiv preprint repository to fetch recent biology preprints, search by date range or category, and retrieve paper metadata such as titles, authors, DOIs, and more.
 - **[medical-entity-extractor](skills/medical-entity-extractor)**
-  - **Description**: Extract medical entities (symptoms, medications, lab values, diagnoses) from patient messages.
+  - **Description**: Extracts medical entities such as symptoms, medications, lab values, and diagnoses from patient messages.
 - **[medical-triage](skills/medical-triage)**
-  - **Description**: Classify medical messages (emails, iMessages) as critical, urgent, or routine based on medical urgency indicators.
-- **[ocms-ai-prompt-generator](skills/ocms-ai-prompt-generator)**
-  - **Description**: ## Description
-- **[musicful-music-generator](skills/musicful-music-generator)**
-  - **Description**: Intelligent module for musicful-music-generator.
-- **[codedna](skills/codedna)**
-  - **Description**: Intelligent module for codedna.
-- **[brw-content-idea-generator](skills/brw-content-idea-generator)**
-  - **Description**: Generate content ideas rooted in positioning. Use when someone needs "content ideas," "what should I post," "blog topics," "LinkedIn ideas," or is stuck on what to create.
-- **[clawdna](skills/clawdna)**
-  - **Description**: Generate a public, privacy-safe persona/card/wiki lead from historical behavior when the user explicitly asks to run ClawDNA.
-- **[prompt-generator](skills/prompt-generator)**
-  - **Description**: AI prompt generator for image and text. AI painting prompt words, AI drawing, Midjourney prompt words, MJ prompt words, Stable Diffusion prompt words, SD prompt words, DALL-E prompt words, AI drawing, AI drawing, AI drawing, Vincent drawing prompt words, text-to-image prompt, writing prompt words, ChatGPT prompt words, Claude prompt words, prompt engineering, prompt word engineering, prompt word optimization, negative prompt word, negative prompt, style prompt words, style prompt words, style thesaurus, workflow, and prompt word upgrades. Generate image prompts for Midjourney/SD/DALL-E and writing prompts for ChatGPT/Claude. Use when: (1) generating AI image/art prompts, (2) creating Midjourney/Stable Diffusion/DALL-E prompts,
-- **[nda-generator](skills/nda-generator)**
-  - **Description**: Intelligent module for nda-generator.
-- **[email-capture-generator](skills/email-capture-generator)**
-  - **Description**: Build high-converting lead magnets, squeeze pages, and email capture funnels using proven 5-section conversion frameworks. Includes opt-in forms, thank you pages, and delivery automation hooks.
-- **[agent-dna](skills/agent-dna)**
-  - **Description**: Portable agent identity encoding. Compress SOUL.md/MEMORY.md into transferable DNA fingerprints, detect identity drift between snapshots, and port personality across platforms (OpenClaw, Claude, GPT, CrewAI). Pure Python, zero dependencies. Use when migrating agents between platforms, detecting personality drift, or backing up agent identity.
+  - **Description**: Classify medical messages as critical, urgent, or routine based on their level of medical urgency.
 - **[lobster-bio-dev](skills/lobster-bio-dev)**
-  - **Description**: Intelligent module for lobster-bio-dev.
+  - **Description**: Contribute to Lobster AI, a multi-agent bioinformatics engine, by developing agents, creating services, understanding its architecture, fixing bugs, or adding features. Ideal for those working on the Lobster codebase or participating in the open-source project.
 - **[lobster-bio-use](skills/lobster-bio-use)**
-  - **Description**: Intelligent module for lobster-bio-use.
-- **[lobsterbio-dev](skills/lobsterbio-dev)**
-  - **Description**: Intelligent module for lobsterbio-dev.
+  - **Description**: Lobster AI skill analyzes biological data, including single-cell and bulk RNA-seq, literature mining, and dataset discovery, with features for quality control, clustering, marker identification, differential expression, and visualization.
 - **[lobsterbio-use](skills/lobsterbio-use)**
-  - **Description**: Intelligent module for lobsterbio-use.
-- **[health-guardian](skills/health-guardian)**
-  - **Description**: Proactive health monitoring for AI agents. Apple Health integration, pattern detection, anomaly alerts. Built for agents caring for humans with chronic conditions.
+  - **Description**: The 'lobsterbio-use' AI skill plugin performs comprehensive bioinformatics analysis, including single-cell and bulk RNA-seq, genomics, proteomics, metabolomics, machine learning, drug discovery, literature and dataset search, and visualization. It supports various data formats and accessions from major biological databases.
 - **[pharma-pharmacology-agent](skills/pharma-pharmacology-agent)**
-  - **Description**: Pharmacology agent for ADME/PK profiling of drug candidates from SMILES. Computes drug-likeness (Lipinski Ro5, Veber rules), QED, SA Score, ADME predictions (BBB permeability, aqueous solubility, GI absorption, CYP3A4 inhibition, P-gp substrate, plasma protein binding), and PAINS alerts. Chains from chemistry-query for SMILES input. Triggers on pharmacology, ADME, PK/PD, drug likeness, Lipinski, absorption, distribution, metabolism, excretion, BB
+  - **Description**: This pharmacology agent evaluates drug candidates from SMILES, providing ADME/PK profiling, drug-likeness scores, and PAINS alerts. It predicts properties like BBB permeability, solubility, and CYP3A4 inhibition.
 - **[pharmaclaw-alphafold-agent](skills/pharmaclaw-alphafold-agent)**
-  - **Description**: Compliant AlphaFold Agent for protein structure retrieval, ESMFold prediction, binding site detection, and RDKit ligand docking. Fetches public PDB/AlphaFold DB structures, predicts folds via ESMFold (HuggingFace), identifies binding pockets, and performs basic molecular docking. Chains from Chemistry Query (receives SMILES for docking) and feeds into IP Expansion and Catalyst Design. Triggers on alphafold, fold, PDB, docking, structure, protein,
-- **[pharmaclaw-catalyst-design](skills/pharmaclaw-catalyst-design)**
-  - **Description**: Organometallic catalyst recommendation and novel ligand design for drug synthesis reactions. Recommends catalysts (Pd, Ru, Rh, Ir, Ni, Cu, Zr, Fe) for reaction types (Suzuki, Heck, Buchwald-Hartwig, metathesis, hydrogenation, click, etc.) from curated database with scoring. Designs novel ligand variants via RDKit (steric, electronic, bioisosteric modifications). Chains from chemistry-query/retrosynthesis (receives reaction type + substrate) and f
-- **[pharmaclaw-cheminformatics](skills/pharmaclaw-cheminformatics)**
-  - **Description**: Advanced cheminformatics agent for 3D molecular analysis, pharmacophore mapping, format conversion, RECAP fragmentation, and stereoisomer enumeration. The "senior cheminformatician" upgrade to Chemistry Query. Use for 3D conformer generation/ensembles (ETKDG + MMFF/UFF), pharmacophore feature extraction and fingerprints, molecular format conversion (SMILES/SDF/MOL/InChI/PDB/XYZ), RECAP retrosynthetic fragmentation for library design, stereoisomer
-- **[pharmaclaw-ip-expansion-agent](skills/pharmaclaw-ip-expansion-agent)**
-  - **Description**: Intelligent module for pharmaclaw-ip-expansion-agent.
+  - **Description**: This AI skill plugin retrieves protein structures from public PDB/AlphaFold databases, predicts folds using ESMFold, detects binding sites, and performs basic molecular docking with RDKit. It integrates with Chemistry Query for SMILES-based docking and supports IP expansion and catalyst design.
 - **[pharmaclaw-literature-agent](skills/pharmaclaw-literature-agent)**
-  - **Description**: Literature mining agent v2.0.0 for novel drug discovery: PubMed/Semantic Scholar + ClinicalTrials Phase II/III + bioRxiv preprints. Novelty scoring, phase/FDA query boosts. Best for latest breakthroughs. Searches PubMed (NCBI E-utilities) and Semantic Scholar for papers related to compounds, targets, diseases, mechanisms, reactions, and catalysts. Returns structured results with titles, authors, abstracts, DOIs, MeSH terms, citation counts, TLDR
-- **[pharmaclaw-market-intel-agent](skills/pharmaclaw-market-intel-agent)**
-  - **Description**: Intelligent module for pharmaclaw-market-intel-agent.
+  - **Description**: The pharmaclaw-literature-agent v2.0.0 aids in novel drug discovery by mining literature from PubMed, Semantic Scholar, and bioRxiv, with a focus on Clinical Trials Phase II/III. It provides structured results including novelty scores, titles, authors, abstracts, DOIs, MeSH terms, and citation counts.
 - **[pharmaclaw-pharmacology-agent](skills/pharmaclaw-pharmacology-agent)**
-  - **Description**: Pharmacology agent for ADME/PK profiling of drug candidates from SMILES. Computes drug-likeness (Lipinski Ro5, Veber rules), QED, SA Score, ADME predictions (BBB permeability, aqueous solubility, GI absorption, CYP3A4 inhibition, P-gp substrate, plasma protein binding), and PAINS alerts. Chains from chemistry-query for SMILES input. Triggers on pharmacology, ADME, PK/PD, drug likeness, Lipinski, absorption, distribution, metabolism, excretion, BB
+  - **Description**: This pharmacology agent evaluates drug candidates from SMILES, providing ADME/PK profiling, drug-likeness scores, and PAINS alerts.
 - **[pharmaclaw-tox-agent](skills/pharmaclaw-tox-agent)**
-  - **Description**: Toxicology Agent for pharma drug safety profiling from SMILES. Computes RDKit ADMET descriptors (logP, TPSA, MW, HBD, HBA, rotatable bonds), Lipinski Rule of Five violations, Veber rule checks, QED drug-likeness score, and PAINS substructure alerts. Outputs risk classification (Low/Medium/High) with full property report. Chains from Chemistry Query (receives SMILES) and feeds into IP Expansion for safer derivative suggestions. Triggers on tox, to
-- **[legal-site-generator](skills/legal-site-generator)**
-  - **Description**: Generate an App Store compliant legal website suitable for Cloudflare Pages.
-- **[volcengine-ai-image-generation](skills/volcengine-ai-image-generation)**
-  - **Description**: Image generation workflow on Volcengine AI services. Use when users need text-to-image, style variants, prompt refinement, or deterministic image generation parameters and troubleshooting.
-- **[volcengine-ai-video-generation](skills/volcengine-ai-video-generation)**
-  - **Description**: AI video generation workflow on Volcengine. Use when users need text-to-video, image-to-video, generation parameter tuning, or async task troubleshooting for video jobs.
-- **[name-generator](skills/name-generator)**
-  - **Description**: Naming Assistant. Baby names, English names, pen names, brand names. Contains meaning analysis. . Use when you need name generator capabilities. Triggers on: name generator.
-- **[sql-generator](skills/sql-generator)**
-  - **Description**: Intelligent module for sql-generator.
+  - **Description**: This AI skill plugin, named 'pharmaclaw-tox-agent', evaluates the safety of pharmaceutical drugs from their SMILES notation by calculating key ADMET descriptors, checking for chemical rule violations, and assessing drug-likeness. It outputs a risk classification along with a detailed property report, and suggests safer derivatives.
 - **[clarity-clinical](skills/clarity-clinical)**
-  - **Description**: Intelligent module for clarity-clinical.
-- **[shelly-brand-name-generator](skills/shelly-brand-name-generator)**
-  - **Description**: Generate 20 creative brand name suggestions for any industry, with .com domain availability hints.
-- **[shelly-invoice-generator](skills/shelly-invoice-generator)**
-  - **Description**: Generate professional invoices in Markdown or HTML from simple inputs.
-- **[website-generator](skills/website-generator)**
-  - **Description**: This skill allows you to create a professional, engaging, and user-friendly website in seconds using AI. To create a website, you need to provide a name for your project/business, along with a description of the project/business (goals, structure, etc.).
-- **[seedream-image-generation](skills/seedream-image-generation)**
-  - **Description**: Image generation via Volcengine Seedream API. Use this when you need to perform Text-to-Image (T2I), Image-to-Image (I2I),使用豆包生图 or general visual creative tasks based on textual or visual inputs.
-- **[chinese-daily-report-generator](skills/chinese-daily-report-generator)**
-  - **Description**: Daily/weekly report generator for working people - automatically generates structured daily and weekly reports based on work records, including problem review sections, daily report tools, weekly report templates, work summaries, workplace reports, automatic writing of daily reports, how to write daily reports, how to write weekly reports
-- **[ct-health-guardian](skills/ct-health-guardian)**
-  - **Description**: Proactive health monitoring for AI agents. Apple Health integration, pattern detection, anomaly alerts. Built for agents caring for humans with chronic conditions.
-- **[egvert-health-guardian](skills/egvert-health-guardian)**
-  - **Description**: Proactive health monitoring for AI agents. Apple Health integration, pattern detection, anomaly alerts. Built for agents caring for humans with chronic conditions.
-- **[proactive-health](skills/proactive-health)**
-  - **Description**: Proactive health monitoring for AI agents. Apple Health integration, pattern detection, anomaly alerts. Built for agents caring for humans with chronic conditions.
-- **[hash-generate](skills/hash-generate)**
-  - **Description**: Hash, HMAC, encode/decode, UUID generation, and hash identification.
-- **[zenmux-image-generation](skills/zenmux-image-generation)**
-  - **Description**: Generate images via ZenMux API (Pro/Elite). Supports Text-to-Image, Image-to-Image, and Multi-Image reference fusion.
-- **[brand-dna](skills/brand-dna)**
-  - **Description**: Build a complete Brand Bible for any business — tone of voice, positioning, target audiences, messaging pillars, and visual identity guidelines. The foundation skill that all other content skills depend on.
-- **[nori-health](skills/nori-health)**
-  - **Description**: Query your personal health data and get coaching from Nori, your AI health coach. Use when the user asks about sleep, workouts, nutrition, weight, heart rate, HRV, or wants health insights. NOT for: medical diagnosis, prescriptions, or emergency health situations.
-- **[ad-account-health-checker](skills/ad-account-health-checker)**
-  - **Description**: Assess ad account readiness and risk status across Meta (Facebook/Instagram), Google Ads, TikTok Ads, YouTube Ads, Amazon Ads, and DSP/programmatic.
-- **[creative-asset-generator](skills/creative-asset-generator)**
-  - **Description**: Generate production-ready ad asset specs for Meta (Facebook/Instagram), TikTok Ads, YouTube Ads, Google Ads, Amazon Ads, and Shopify Ads placements.
-- **[daily-weekly-report-generator](skills/daily-weekly-report-generator)**
-  - **Description**: Produce daily and weekly performance reports for Meta (Facebook/Instagram), Google Ads, TikTok Ads, YouTube Ads, Amazon Ads, and DSP/programmatic campaigns.
+  - **Description**: Query clinical variant data from ClinVar and gnomAD using the Clarity Protocol. This skill provides detailed variant annotations, including clinical significance, pathogenicity, and population genetics.
 - **[bioskills](skills/bioskills)**
-  - **Description**: Installs 425 bioinformatics skills covering sequence analysis, RNA-seq, single-cell, variant calling, metagenomics, structural biology, and 56 more categories. Use when setting up bioinformatics capabilities or when a bioinformatics task requires specialized skills not yet installed.
-- **[social-copy-generator](skills/social-copy-generator)**
-  - **Description**: Intelligent module for social-copy-generator.
-- **[clinico-geral](skills/clinico-geral)**
-  - **Description**: Intelligent module for clinico-geral.
-- **[3d-model-generation](skills/3d-model-generation)**
-  - **Description**: Generate 3D models using each::sense AI. Create 3D assets from text or images for games, products, architecture, characters, vehicles, and more with PBR textures.
-- **[ai-avatar-generation](skills/ai-avatar-generation)**
-  - **Description**: Generate AI avatars from photos or text descriptions using each::sense. Create professional headshots, cartoon avatars, 3D characters, fantasy personas, gaming avatars, and consistent character designs for various platforms.
-- **[ai-headshot-generation](skills/ai-headshot-generation)**
-  - **Description**: Generate professional AI headshots from casual photos using each::sense AI. Create corporate portraits, LinkedIn photos, executive headshots, team photos, and more with consistent, professional quality.
-- **[ai-influencer-generation](skills/ai-influencer-generation)**
-  - **Description**: Generate consistent AI influencer personas and social media content using each::sense API
-- **[anime-avatar-generation](skills/anime-avatar-generation)**
-  - **Description**: Generate anime-style avatars and characters using each::sense AI. Transform photos into anime, create Ghibli-style portraits, manga characters, chibi avatars, and full character sheets with multiple angles.
-- **[app-store-screenshot-generation](skills/app-store-screenshot-generation)**
-  - **Description**: Generate App Store and Google Play screenshot assets using each::sense AI. Create device-framed screenshots, feature highlights, localized versions, and promotional visuals optimized for iOS App Store and Google Play Store requirements.
-- **[book-cover-generation](skills/book-cover-generation)**
-  - **Description**: Generate professional book covers and ebook covers using each::sense API with AI-powered design
-- **[business-card-generation](skills/business-card-generation)**
-  - **Description**: Generate professional business cards using each::sense AI. Create corporate, creative, minimalist, luxury, and specialty business cards optimized for print at standard 3.5 x 2 inch size.
-- **[comic-panel-generation](skills/comic-panel-generation)**
-  - **Description**: Generate comic and manga panels, strips, and pages using each::sense AI. Create superhero comics, manga pages, webtoons, action sequences, and convert photos to comic art with consistent characters.
-- **[depth-map-generation](skills/depth-map-generation)**
-  - **Description**: Generate depth maps from images using each::sense AI. Create depth estimation for 3D effects, parallax animations, VR/AR applications, focus effects, and stereo image generation.
-- **[digital-twin-generation](skills/digital-twin-generation)**
-  - **Description**: Generate photorealistic digital twins and avatar clones using each::sense AI. Create AI-powered digital representations for video calls, corporate communications, customer service, and multilingual content.
-- **[discord-graphics-generation](skills/discord-graphics-generation)**
-  - **Description**: Generate Discord server graphics using each::sense AI. Create server icons, banners, role icons, welcome graphics, event banners, bot avatars, emojis, and more optimized for Discord's format requirements.
-- **[eachlabs-image-generation](skills/eachlabs-image-generation)**
-  - **Description**: Generate new images from text prompts using EachLabs AI models. Supports text-to-image with multiple model families including Flux, GPT Image, Gemini, Imagen, Seedream, and more. Use when the user wants to create new images from text. For editing existing images, see eachlabs-image-edit.
-- **[eachlabs-video-generation](skills/eachlabs-video-generation)**
-  - **Description**: Generate new videos from text prompts, images, or reference inputs using EachLabs AI models. Supports text-to-video, image-to-video, transitions, motion control, talking head, and avatar generation. Use when the user wants to create new video content. For editing existing videos, see eachlabs-video-edit.
-- **[email-banner-generation](skills/email-banner-generation)**
-  - **Description**: Generate email marketing banners and headers using each::sense AI. Create newsletter headers, promotional banners, welcome emails, and seasonal campaigns optimized for email-safe dimensions and best practices.
-- **[emoji-sticker-generation](skills/emoji-sticker-generation)**
-  - **Description**: Generate custom emoji and sticker packs using each::sense AI. Create personalized emoji from photos, expression packs, animated stickers, and platform-specific emoji sets for Slack, Discord, WhatsApp, and more.
-- **[flyer-design-generation](skills/flyer-design-generation)**
-  - **Description**: Generate professional flyers and leaflets using each::sense AI. Create event flyers, promotional materials, real estate listings, restaurant menus, and more with eye-catching designs optimized for print and digital distribution.
-- **[food-photography-generation](skills/food-photography-generation)**
-  - **Description**: Generate professional food photography using each::sense API for restaurant menus, food delivery apps, recipe blogs, and social media content
-- **[game-asset-generation](skills/game-asset-generation)**
-  - **Description**: Generate game art assets using each::sense AI. Create 2D sprites, character sprite sheets, seamless textures, UI elements, icons, tilesets, loading screens, logos, and concept art for games.
-- **[google-ad-creative-generation](skills/google-ad-creative-generation)**
-  - **Description**: Generate Google Ads creatives using each::sense AI. Create display ads, YouTube thumbnails, Discovery ads, Performance Max assets, and responsive display ads optimized for Google's ad formats and best practices.
-- **[hologram-content-generation](skills/hologram-content-generation)**
-  - **Description**: Generate hologram and 3D display content using each::sense AI. Create holographic product displays, presenters, 3D logos, interactive menus, event content, museum exhibits, retail displays, and trade show holograms.
-- **[instagram-content-generation](skills/instagram-content-generation)**
-  - **Description**: Generate Instagram content using each::sense AI. Create feed posts, stories, reels covers, carousels, quote graphics, and brand visuals optimized for Instagram's formats and engagement best practices.
-- **[linkedin-content-generation](skills/linkedin-content-generation)**
-  - **Description**: Generate LinkedIn content graphics using each::sense AI. Create professional post images, article headers, company banners, event promotions, thought leadership visuals, and personal brand content optimized for LinkedIn's professional audience.
-- **[logo-generation](skills/logo-generation)**
-  - **Description**: Generate professional logos using each::sense AI. Create wordmarks, icon logos, combination marks, monograms, mascots, emblems, and abstract logos for brands, startups, and businesses.
-- **[meme-generation](skills/meme-generation)**
-  - **Description**: Generate memes using each::sense AI. Create classic meme templates, custom memes, brand memes, reaction memes, comparison memes, trending formats, and more for social media, marketing, and entertainment.
-- **[meta-ad-creative-generation](skills/meta-ad-creative-generation)**
-  - **Description**: Generate Meta (Facebook & Instagram) ad creatives using each::sense AI. Create feed ads, stories, reels, carousel images, and video ads optimized for Meta's ad formats and best practices.
-- **[music-video-generation](skills/music-video-generation)**
-  - **Description**: Generate music videos using each::sense AI. Create visualizers, lyric videos, animated music videos, concert visuals, and genre-specific aesthetics synchronized to audio.
-- **[cs-schema-markup](skills/cs-schema-markup)**
-  - **Description**: When the user wants to implement, audit, or validate structured data (schema markup) on their website. Use when the user mentions 'structured data,' 'schema.org,' 'JSON-LD,' 'rich results,' 'rich snippets,' 'schema markup,' 'FAQ schema,' 'Product schema,' 'HowTo schema,' or 'structured data errors in Search Console.' Also use when someone asks why their content isn't showing rich results or wants to improve AI search visibility. NOT for general S
-- **[geo-schema-gen](skills/geo-schema-gen)**
-  - **Description**: Generate complete, validated Schema.org JSON-LD markup for any content type to boost AI citation rates. Creates structured data for Organization, FAQPage, Article, BlogPosting, Product, HowTo, BreadcrumbList, WebSite, VideoObject, and ImageObject schemas. Use whenever the user mentions adding schema markup, generating structured data, creating JSON-LD, implementing Schema.org, optimizing for rich snippets, or wants to improve how AI understands a
-- **[afrexai-channel-partner](skills/afrexai-channel-partner)**
-  - **Description**: Build, manage, and scale a channel partner program that generates indirect revenue without adding headcount.
-- **[afrexai-partnership-agreement](skills/afrexai-partnership-agreement)**
-  - **Description**: Generate comprehensive partnership agreements, joint venture frameworks, and strategic alliance documents for B2B relationships.
-- **[play-heartclaws](skills/play-heartclaws)**
-  - **Description**: Play HeartClaws — a headless AI strategy game. Connect via REST API, reason about strategy, and submit actions. Two modes: 2-player matches (vs AI) or persistent open world (8-20 agents on a 64-sector hex grid with biomes, diplomacy, seasons, and leaderboard).
-- **[claw-art](skills/claw-art)**
-  - **Description**: Use when generating AI art or need to craft high-quality image prompts. Elite AI artist specializing in hyper-detailed, stunning visuals across any style.
-- **[mm-music-expert](skills/mm-music-expert)**
-  - **Description**: Create music with MiniMax music models (music-2.5+, music-2.5). Use when generating songs, instrumental tracks, or chanting from lyrics and style prompts via MiniMax Music Generation API. Guides music novices through an interactive workflow to produce professional-quality music.
-- **[mm-music-maker](skills/mm-music-maker)**
-  - **Description**: Create music with MiniMax music models (e.g., music-2.5). Use when generating songs or instrumental tracks from lyrics and style prompts, or when integrating MiniMax Music Generation API into scripts.
-- **[openclaw-kindergarten](skills/openclaw-kindergarten)**
-  - **Description**: Night School skill for OpenClaw lobsters (龙虾夜校). Activate when user wants their lobster to attend night school, run a night session, or submit a morning report. Handles the full flow: enroll → pull payload → research + post to feed → wait → pull feed + generate report → owner review → submit report.
-- **[pdf-translate](skills/pdf-translate)**
-  - **Description**: Translates PDF documents to Chinese with professional typography. Extracts text, translates section-by-section into well-structured Markdown, then generates PDF via weasyprint with full CJK support. Use when user asks to translate a PDF, says "翻译PDF", "translate this document", or "pdf translate".
-- **[elevenlabs-music](skills/elevenlabs-music)**
-  - **Description**: Generate music from text prompts using ElevenLabs Eleven Music API. Use when creating songs, soundtracks, jingles, lullabies, or any audio music from descriptions. Supports vocals with AI-generated lyrics, instrumental tracks, and multiple genres/styles. Requires paid ElevenLabs plan.
-- **[eachlabs-music](skills/eachlabs-music)**
-  - **Description**: Generate songs, instrumentals, lyrics, and podcasts using EachLabs Mureka AI models. Also supports song extension, stem separation, and song recognition. Use when the user wants to create music, lyrics, or audio content.
-- **[ai-article-detector](skills/ai-article-detector)**
-  - **Description**: AI Article Detector - Analyze article links and score AI writing probability (0-100). 100 means 100% likely AI-generated.
-- **[evolink-music](skills/evolink-music)**
-  - **Description**: AI music generation with Suno v4, v4.5, v5. Text-to-music, custom lyrics, instrumental, vocal control. 5 models, one API key.
-- **[ace-music](skills/ace-music)**
-  - **Description**: Generate AI music using ACE-Step 1.5 via ACE Music's free API. Use when the user asks to create, generate, or compose music, songs, beats, instrumentals, or audio tracks. Supports lyrics, style prompts, covers, and repainting. Free API, no cost.
-- **[afrexai-api-architect](skills/afrexai-api-architect)**
-  - **Description**: Design, build, test, document, and secure production-grade APIs. Covers the full lifecycle from schema design through deployment, monitoring, and versioning. Use when designing new APIs, reviewing existing ones, generating OpenAPI specs, building test suites, or debugging production issues.
-- **[afrexai-api-docs](skills/afrexai-api-docs)**
-  - **Description**: Generate production-ready API documentation from endpoint descriptions. Outputs OpenAPI 3.0, markdown reference docs, and SDK quickstart guides.
-- **[openapi2cli](skills/openapi2cli)**
-  - **Description**: Generate CLI tools from OpenAPI specs. Built for AI agents who hate writing curl commands.
-- **[meta-ads-analyser](skills/meta-ads-analyser)**
-  - **Description**: Analyze extracted Meta ad creatives and generate a professional strategy report. Use after /meta_ads_extractor to produce a clean, organized analysis document with inline videos/images grouped by funnel/landing page.
-- **[commit-analyzer](skills/commit-analyzer)**
-  - **Description**: Analyzes git commit patterns to monitor autonomous operation health. Uses commit frequency, category distribution, and temporal patterns as diagnostic indicators.
-- **[aws-price-csv](skills/aws-price-csv)**
-  - **Description**: Generate AWS cost CSVs from a user-provided service list. Use when someone supplies an item list + AWS region and needs per-item pricing plus totals via AWS Price List API or bulk pricing JSON.
-- **[visual-prompt-engine](skills/visual-prompt-engine)**
-  - **Description**: Generate diverse, non-repetitive image prompts powered by real visual references from Dribbble and design platforms. USE WHEN: user wants an image prompt, needs creative visual inspiration, asks for design-informed prompts, wants to avoid repetitive AI image generation, or says 'generate a prompt for an image', 'give me a creative image idea', 'make me a unique visual prompt'. DON'T USE WHEN: user wants to generate the image itself (use an image
-- **[excalidraw-diagram](skills/excalidraw-diagram)**
-  - **Description**: Generate Excalidraw diagrams from text content. Supports three output modes - Obsidian (.md), Standard (.excalidraw), and Animated (.excalidraw with animation order).
-- **[slide-maker](skills/slide-maker)**
-  - **Description**: Presentation and slide deck generator. Create outlines, full slide decks, speaker notes, pitch decks, training slides, report presentations, and design recommendations. Outputs Markdown with
-- **[audio-visualization](skills/audio-visualization)**
-  - **Description**: Generate audio visualization videos using each::sense AI. Create waveforms, spectrum analyzers, particle effects, 3D visualizations, and beat-synced animations from audio files.
-- **[human-writing-azzar](skills/human-writing-azzar)**
-  - **Description**: Guidelines and standards for professional, human-like writing and documentation. Use this skill when generating READMEs, technical documentation, code comments, or any formal written output to avoid common AI 'tells', buzzwords, and stylistic tropes. Ensure content follows the 'Professional Human in the Field' standard: high precision, zero fluff, and no emojis in technical contexts.
-- **[afrexai-policy-writer](skills/afrexai-policy-writer)**
-  - **Description**: Generate professional internal policies for any business function — HR, IT, finance, compliance, data privacy, acceptable use, and more.
+  - **Description**: This plugin installs 425 bioinformatics skills across various categories including sequence analysis, RNA-seq, single-cell, variant calling, metagenomics, and structural biology. Ideal for setting up bioinformatics capabilities or handling specialized tasks.
 - **[tnbc-research-swarm](skills/tnbc-research-swarm)**
-  - **Description**: Contribute scientific research findings to the Research Swarm TNBC (Triple-Negative Breast Cancer) mission. Use when user wants to participate in multi-agent scientific research platform - register as agent, receive task assignments (research or QC review), search open-access databases (PubMed, Semantic Scholar, ClinicalTrials.gov), submit cited findings. Tasks cover TNBC topics: demographics, drug resistance, subtypes, genetics, biomarkers, diag
-- **[wordpress-publishing-skill-for-claude](skills/wordpress-publishing-skill-for-claude)**
-  - **Description**: Publish content directly to WordPress sites via REST API with full Gutenberg block support. Create and publish posts/pages, auto-load and select categories from website, generate SEO-optimized tags, preview articles before publishing, and generate Gutenberg blocks for tables, images, lists, and rich formatting. Use when user wants to publish to WordPress, post to blog, create WordPress article, update WordPress post, or convert markdown to Gutenb
-- **[pdf](skills/pdf)**
-  - **Description**: Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.
+  - **Description**: Contribute to the TNBC Research Swarm by registering as an agent, receiving and completing research or QC review tasks, and submitting findings from open-access databases on topics like demographics, drug resistance, subtypes, genetics, biomarkers, and diagnostics.
 - **[research-automation](skills/research-automation)**
-  - **Description**: Automated web research for peptides, biohacking protocols, longevity science, and trending health topics. Use when you need to discover new information, track emerging trends, monitor scientific updates, or generate content ideas based on current research. Runs periodically via heartbeat or on-demand.
-- **[email-writer](skills/email-writer)**
-  - **Description**: Email writing assistant. Email writing, email assistant, business email, business email, English email, English email, job application email, job application email, follow-up email, follow-up email, cold start email, cold email, apology email, apology email, reply email, reply email, email template, email template, foreign trade email, dunning email, thank you email, invitation email, notification email, email sequence, email sequence, email subject line, subject line, high open rate, rejection email, decline email. Generate business, follow-up, cold outreach, apology, reply emails, email sequences (sales/cooperation/collection/recruitment), template library (thanks/notice/invitat
-- **[social-copywriter](skills/social-copywriter)**
-  - **Description**: Social media copywriter. Social media copywriting, Moments copywriting, how to post in Moments, Weibo copywriting, Weibo jokes, Twitter copywriting, tweets, Instagram copywriting, IG caption, social media copywriting generation, holiday blessings, birthday blessings copywriting, food copywriting, travel copywriting, chicken soup for the soul, daily copywriting, photo copywriting, show off, mood copywriting, funny copywriting, high-end copywriting, literary copywriting, sad copywriting, festival marketing copywriting, brand copywriting, long thread, viral copywriting, fission copywriting, brand tone, festival marketing, brand copy, viral copy, thread. Generate copy for WeChat Moments, Weibo, Twitter/X, Instagram, birthdays, holidays, food, travel, festival marketing, brand voice, threaded posts, and viral content. Use when: (1) writing WeChat
-- **[wechat-mp-writer](skills/wechat-mp-writer)**
-  - **Description**: WeChat Official Account article generator. WeChat official account article, official account writing, official account copywriting, self-media writing, 100,000+ hot articles, WeChat operation, public account operation, WeChat tweets, subscription account articles, service account articles, WeChat SEO, public account fan increase, hot title, friend circle forwarding, public account layout, self-media hot article, new media writing, content operation, series of articles, A/B test titles, data-based articles, call-to-action CTA. Generate WeChat articles, viral titles, summaries, outlines, CTA templates, series planning, A/B headline testing, and data-driven articles. Use when: (1) writing WeChat Official Account articles, (2) generating 10w+ viral titles, (3) creating article summaries for sharing
-- **[xhs-viral-note-writer](skills/xhs-viral-note-writer)**
-  - **Description**: Xiaohongshu viral note writer. Xiaohongshu’s popular note generator, title optimization, tag recommendations, and cover suggestions. Generate viral notes, trending titles, SEO tags, hooks, and cover suggestions. Xiaohongshu operations, grass-planting copywriting, popular title formulas, and traffic passwords.
-- **[zhihu-writer](skills/zhihu-writer)**
-  - **Description**: Zhihu answer and article generator. Zhihu answer, Zhihu article, Zhihu column, Zhihu salt selection, salt selection story, high praise answer, Zhihu SEO, Zhihu fan increase, Zhihu operation, Zhihu writing, column writing, Zhihu Q&A, Zhihu dry stuff, Zhihu long article, Zhihu answer, Zhihu article, data-based answer, story-based answer, professional answer, debate-type answer, Zhihu title. Generate Zhihu answers, articles, titles, and Yanxuan-style content. Use when: (1) writing Zhihu answers in various styles (professional/story/data/debate), (2) creating Zhihu column articles, (3) generating engaging Zhihu titles, (4) writing Zhihu Yanxuan/ salt selection style stories, (5) any Zhihu
-- **[bear-blog-publisher](skills/bear-blog-publisher)**
-  - **Description**: Publish blog posts to Bear Blog platform. Supports user-provided markdown, AI-generated content, and auto-generated diagrams.
-- **[story-writer](skills/story-writer)**
-  - **Description**: Novel creation, character design, plot design (three-act), dialogue generation, worldview construction, and continuation. Story writing with character design, three-act plot structure, dialogue generation, worldbuilding, and continuation.
-- **[work-report-writer](skills/work-report-writer)**
-  - **Description**: Work report generator. Work report generator, weekly report generation, work weekly report, weekly summary, weekly report, weekly report template, how to write weekly report, daily report generation, work daily report, daily report, daily report template, monthly report generation, monthly summary, monthly report, project report, year-end summary, annual summary, annual review, stand-up report, standup report, OKR report, work summary, debrief report, quarterly summary, Q1Q2Q3Q4 summary, project review, lessons learned, improvement measures, project review, retrospective. Generate daily/weekly/monthly/project/annual reports, standup updates, OKR reports, and project reviews. Use when: (1) writing daily/weekly/monthly work reports, (2) generating project progress updates
-- **[evomap-publish](skills/evomap-publish)**
-  - **Description**: EVOMAP Asset Publishing Guide - Publish code as Gene+Capsule Bundle and submit tasks
-- **[email-daily-summary](skills/email-daily-summary)**
-  - **Description**: Automatically logs into email accounts (Gmail, Outlook, QQ Mail, etc.) and generates daily email summaries. Use when the user wants to get a summary of their emails, check important messages, or create daily email digests.
-- **[compliance-readiness](skills/compliance-readiness)**
-  - **Description**: AI Compliance Readiness Assessment — evaluate how prepared an organization is for AI governance regulations (EU AI Act, NIST AI RMF, HHS mandates, state bar AI rules). Scores readiness across 8 dimensions and generates an action plan. Use when assessing AI compliance gaps, preparing for audits, or building a governance roadmap.
-- **[content-brainstorm](skills/content-brainstorm)**
-  - **Description**: Social media content ideation engine. Generates a 7-day topic plan with titles, angles, SEO keywords, and trend scores for any niche and platform.
-- **[aibrary-podcast-summary](skills/aibrary-podcast-summary)**
-  - **Description**: [Aibrary] Generate a book summary podcast script in a single-narrator storytelling style. Use when the user wants to turn a book into a podcast, create an audio summary of a book, or generate a summary-style podcast script. The output is a narrated monologue that distills a book's key ideas into an engaging 10-15 minute listening experience.
-- **[aibrary-reading-list](skills/aibrary-reading-list)**
-  - **Description**: [Aibrary] Generate a curated, themed reading list with multiple books organized in a logical reading order. Use when the user wants a systematic book list on a topic, asks for a book list or reading list, wants to deeply explore a domain through multiple books, or needs to build expertise in an area. Different from aibrary-book-recommend (single book) and aibrary-book-search (finding specific books).
-- **[ai-conversation-summary](skills/ai-conversation-summary)**
-  - **Description**: Generate summaries for conversation content. Helps users quickly get a summary of their chat history with support for incremental updates.
-- **[chat-conversation-summary](skills/chat-conversation-summary)**
-  - **Description**: Generate summaries for conversation content with incremental update support.
-- **[dada-conv-summary](skills/dada-conv-summary)**
-  - **Description**: Generate summaries for conversation content with incremental update support.
-- **[dada-conversation-summary](skills/dada-conversation-summary)**
-  - **Description**: Generate summaries for conversation content with incremental update support.
-- **[dual-brain](skills/dual-brain)**
-  - **Description**: **What it does:** Provides cognitive diversity by automatically generating perspectives from a secondary LLM (different from your primary model) for every user message.
-- **[acestep-lyrics-transcription](skills/acestep-lyrics-transcription)**
-  - **Description**: Transcribe audio to timestamped lyrics using OpenAI Whisper or ElevenLabs Scribe API. Outputs LRC, SRT, or JSON with word-level timestamps. Use when users want to transcribe songs, generate LRC files, or extract lyrics with timestamps from audio.
-- **[tiangong-notebooklm-cli](skills/tiangong-notebooklm-cli)**
-  - **Description**: NotebookLM CLI wrapper via `node {baseDir}/scripts/notebooklm.mjs`. Use for auth, notebooks, chat, sources, notes, sharing, research, and artifact generation/download.
-- **[project-summary](skills/project-summary)**
-  - **Description**: Generate an instant codebase overview — language, framework, architecture, entry points, and key files
-- **[multi-task](skills/multi-task)**
-  - **Description**: Orchestrate parallel execution of batch tasks by splitting work into independent units and dispatching them to multiple subagents simultaneously. Use this skill whenever the user has multiple similar independent tasks — such as processing a batch of files (PDFs, DOCX, images, CSVs), developing multiple pages or components, generating multiple reports, or any scenario involving 'each', 'every', 'all', 'batch', or a list of similar items. Also trig
-- **[autonomous-tasks](skills/autonomous-tasks)**
-  - **Description**: Self-driven AI worker. Reads goals, generates tasks, executes, and logs progress. Keywords: create goal, new goal, set goal, run goals, create goal, new goal, set goal, execute goal.
-- **[sentiment-radar](skills/sentiment-radar)**
-  - **Description**: Multi-platform sentiment monitoring and analysis for products/brands/topics. Collect public opinions from Chinese platforms (小红书/XHS via MediaCrawler) and English platforms (Twitter/Reddit via Xpoz MCP). Generate structured sentiment reports with product mention tracking, pricing complaints, comparison analysis, and actionable insights. Use when: (1) monitoring competitor sentiment, (2) tracking product launch reception, (3) analyzing user pain p
-- **[realtime-campaign-monitor](skills/realtime-campaign-monitor)**
-  - **Description**: Monitor live campaign health and anomalies across Meta (Facebook/Instagram), Google Ads, TikTok Ads, YouTube Ads, Amazon Ads, and DSP/programmatic.
+  - **Description**: Automated web research tool for peptides, biohacking, longevity science, and trending health topics. Ideal for discovering new information, tracking trends, monitoring scientific updates, or generating content ideas. Can run periodically or on-demand.
+- **[neuralink-decoder](skills/neuralink-decoder)**
+  - **Description**: Simulates and decodes neural spike activity to control cursor movement (BCI).
+- **[intelligent-triage-symptom-analysis](skills/intelligent-triage-symptom-analysis)**
+  - **Description**: This AI skill plugin offers intelligent triage and symptom analysis, supporting over 650 symptoms across 11 body systems with a 5-level classification. It features NLP for symptom extraction, a 3000+ disease database, and a red flag warning system for life-threatening conditions, all enhanced by machine learning.
+- **[clarity-analyze](skills/clarity-analyze)**
+  - **Description**: Use Clarity Protocol to submit research questions for AI analysis, ideal for analyzing protein variants, mutations, or querying aggregated data. Requires CLARITY_WRITE_API_KEY.
+- **[clarity-fold-status](skills/clarity-fold-status)**
+  - **Description**: Retrieve an overview and status from Clarity Protocol, including variant counts and data availability. Useful for inquiries about fold status, research summary, or API information.
+- **[clarity-research](skills/clarity-research)**
+  - **Description**: Search Clarity Protocol for protein folding research data, including variants, fold results, and disease-specific information. Capabilities include listing variants by disease or protein name and providing API details.
 ### Chemistry & Materials
 
+- **[pharmaclaw-catalyst-design](skills/pharmaclaw-catalyst-design)**
+  - **Description**: This AI skill plugin recommends organometallic catalysts for various drug synthesis reactions and designs novel ligands using RDKit. It supports a range of reaction types and catalysts, offering suggestions from a curated database with scoring.
+- **[pharmaclaw-cheminformatics](skills/pharmaclaw-cheminformatics)**
+  - **Description**: An advanced cheminformatics tool for 3D molecular analysis, pharmacophore mapping, format conversion, RECAP fragmentation, and stereoisomer enumeration, ideal for tasks like 3D conformer generation and library design.
 - **[materials-science-figure-skill](skills/materials-science-figure-skill)**
-  - **Description**: Use when the user wants to generate or edit images with Google's Nanobanana/Gemini image models using the official Gemini API shape. Prefer this skill for text-to-image, image-to-image editing, multi-image reference workflows, attachment-based recreations, or when the user wants publication-style figures such as materials-science paper schematics. Use it when the user asks for a materials-science figure, journal-style scientific illustration, gra
+  - **Description**: Use this skill to generate or edit publication-style figures, such as materials-science paper schematics, using Google's Nanobanana/Gemini image models. It is ideal for text-to-image, image editing, and multi-reference workflows.
 - **[pharmaclaw-chemistry-query](skills/pharmaclaw-chemistry-query)**
-  - **Description**: Chemistry agent skill for PubChem API queries (compound info/properties, structures/SMILES/images, synthesis routes/references) + RDKit cheminformatics (SMILES to molecule props/logP/TPSA, 2D PNG/SVG viz, Morgan fingerprints, retrosynthesis/BRICS disconnects, multi-step synth planning). Use for chemistry tasks involving compounds, molecules, structures, PubChem data, RDKit analysis, SMILES processing, synthesis routes, retrosynthesis, reaction si
-- **[aeo-schema-validate](skills/aeo-schema-validate)**
-  - **Description**: Validate JSON-LD structured data on a URL against AEO best practices. Checks schema types, property completeness, and entity consistency. Use for focused schema auditing.
-- **[material-design](skills/material-design)**
-  - **Description**: Google Material Design 3 practical reference. Covers Material You dynamic colors, typesetting system, component specifications, Shape system, Motion specifications, Dark Theme adaptation and Jetpack Compose/Flutter comparison. UI design decisions for Android apps, web apps, and cross-platform apps.
-- **[materials-cli](skills/materials-cli)**
-  - **Description**: Render JSON schemas to images and generate schemas from prompts using declare-render and AI.
-- **[materials-workbench](skills/materials-workbench)**
-  - **Description**: Materials editor workbench — React UI and Express server to render JSON schemas to images and generate schemas with AI (declare-render + materials-agents).
+  - **Description**: This AI skill plugin, pharmaclaw-chemistry-query, facilitates PubChem API queries for compound information and properties, as well as RDKit cheminformatics for SMILES processing, molecular property analysis, and synthesis route planning.
 - **[chemistry-query](skills/chemistry-query)**
-  - **Description**: Chemistry agent skill for PubChem API queries (compound info/properties, structures/SMILES/images, synthesis routes/references) + RDKit cheminformatics (SMILES to molecule props/logP/TPSA, 2D PNG/SVG viz, Morgan fingerprints, retrosynthesis/BRICS disconnects, multi-step synth planning). Use for chemistry tasks involving compounds, molecules, structures, PubChem data, RDKit analysis, SMILES processing, synthesis routes, retrosynthesis, reaction si
-- **[material-report](skills/material-report)**
-  - **Description**: Analyze ad material videos and produce a markdown report with framework, material traits, and acquisition keywords, then propose new material production frameworks and detailed storyboard tables. Use when users provide a video asset and want analysis plus new creative guidance for performance ads.
-- **[material-review](skills/material-review)**
-  - **Description**: Use when user wants to review material forms for data sharing catalogs, field completeness, platform consistency, and issue-list output. Triggers include "Material review", "Sharing list review", "Inspection document review", "Platform docking check" and "Catalog consistency check".
+  - **Description**: This AI skill plugin, chemistry-query, leverages the PubChem API and RDKit for comprehensive chemical data analysis, including compound information, structure visualization, and synthesis route planning.
 - **[paramus-chemistry](skills/paramus-chemistry)**
-  - **Description**: Hundreds of chemistry and scientific computing tools. Molecular weight, LogP, TPSA, SMILES validation, thermodynamics, polymer analysis, electrochemistry, DOE, and more.
-- **[hiarthur](skills/hiarthur)**
-  - **Description**: Search Amazon products and analyze materials, design, and reviews to uncover trade-offs and likely disappointments. See results in an interactive GUI.
-- **[afrexai-data-migration](skills/afrexai-data-migration)**
-  - **Description**: Plan, execute, and validate data migrations between systems. Covers schema mapping, ETL pipeline design, rollback strategies, and post-migration validation.
-- **[data-validate](skills/data-validate)**
-  - **Description**: Validate URLs and JSON schemas against format rules.
-- **[nexus-data-validation](skills/nexus-data-validation)**
-  - **Description**: Intelligent data quality checks and schema validation
-- **[sop-writer](skills/sop-writer)**
-  - **Description**: SOP standard operating procedure writing tool. Create SOPs, flow charts, checklists, audit evaluations, template libraries, and training materials. SOP writer with create, flowchart, checklist, audit, template, and training materials. Use when you need sop writer capabilities. Triggers on: sop writer.
+  - **Description**: A comprehensive suite of chemistry and scientific computing tools, including molecular weight calculation, LogP, TPSA, SMILES validation, thermodynamics, polymer analysis, electrochemistry, and DOE.
 ### Arts, Humanities & Social Sciences
 
-- **[afrexai-startup-fundraising](skills/afrexai-startup-fundraising)**
-  - **Description**: Complete startup fundraising system — from pre-seed to Series B. Investor targeting, pitch deck construction, term sheet negotiation, due diligence preparation, and cap table management.
-- **[afrexai-startup-metrics-engine](skills/afrexai-startup-metrics-engine)**
-  - **Description**: Intelligent module for afrexai-startup-metrics-engine.
-- **[music-manager](skills/music-manager)**
-  - **Description**: Universal music download manager. Supports searching and downloading music from YouTube/Bilibili, automatically converting it to MP3, and storing it in the local music library by category
-- **[wechat-article-reader](skills/wechat-article-reader)**
-  - **Description**: Export WeChat public account articles to Markdown format. Triggered when the user provides a WeChat official account link (mp.weixin.qq.com) or requests to download/export/save a WeChat article. Save to the source directory of the workspace by default.
-- **[z-article-card](skills/z-article-card)**
-  - **Description**: Long article pagination card generator (article → multiple PNGs). Trigger words: long article, article to picture, pagination card, multiple pictures, help me turn the article into a picture, make a card, generate multiple pictures.
-- **[music-analysis](skills/music-analysis)**
-  - **Description**: Analyze music/audio files locally without external APIs. Extract tempo, pocket/groove feel, pulse stability, swing proxy, section/repetition structure, key clarity, harmonic tension, timbre descriptors, temporal mood-energy journeys, and lyric-aware emotional reads where real Whisper lyrics can override the vibe when the words are clearly darker, warmer, or more intense than the arrangement alone suggests. Use when asked to 'listen to this', 'hea
-- **[strategy-translator](skills/strategy-translator)**
-  - **Description**: Intelligent module for strategy-translator.
-- **[family-partner](skills/family-partner)**
-  - **Description**: Intelligent module for family-partner.
-- **[smart-updater-pro](skills/smart-updater-pro)**
-  - **Description**: OpenClaw auto-update checker and safe applier. Checks for new versions, compares changelogs, and applies updates with rollback safety. Designed to run as a cron job for hands-free maintenance. Use for keeping OpenClaw up to date automatically.
-- **[article-summarizer](skills/article-summarizer)**
-  - **Description**: Article summary generator - automatically crawls web articles and generates structured summaries. Supports long text simplification, key point extraction, and bullet point lists. Suitable for self-media, operations, and researchers.
-- **[culture-architect](skills/culture-architect)**
-  - **Description**: Build, measure, and evolve company culture as operational behavior — not wall posters. Covers mission/vision/values workshops, values-to-behaviors translation, culture code creation, culture health assessment, and cultural rituals by stage. Use when building company values, assessing culture health, designing cultural rituals, creating culture codes, handling culture clashes, or when user mentions culture, values, culture debt, founder culture, o
-- **[apple-music-dj](skills/apple-music-dj)**
-  - **Description**: Intelligent module for apple-music-dj.
-- **[long-article-illustration](skills/long-article-illustration)**
-  - **Description**: An assistant for illustrating long articles. Automatically divide long articles into paragraphs, generate AI illustration prompts, and call image generation tools to complete illustrations. Applicable scenarios: (1) Official account/blog long articles need to be accompanied by pictures (2) Users upload articles hoping to get suggestions for paragraph pictures (3) Batch generation of article illustrations (4) Triggered when the user mentions keywords such as "article pictures", "long text illustrations", "paragraph pictures" etc.
-- **[expanso-language-detect](skills/expanso-language-detect)**
-  - **Description**: Detect the language of text using AI
+- **[teacher-prep](skills/teacher-prep)**
+  - **Description**: The Teacher-Prep assistant is designed for primary school Chinese language lesson planning, supporting various texts like ancient poems, modern literature, fables, and fairy tales. It automatically gathers relevant materials, creates markdown-based lesson plans, generates PPTs, and produces Word format exercises with answers.
+- **[language-learning](skills/language-learning)**
+  - **Description**: This AI language tutor helps you learn any language through conversation, vocabulary drills, grammar lessons, flashcards, and immersive practice, supporting all languages including Spanish, French, German, Japanese, Chinese (Mandarin/Cantonese), and Korean.
+- **[japanese-tutor](skills/japanese-tutor)**
+  - **Description**: An interactive Japanese learning assistant that offers vocabulary, grammar, quizzes, roleplay, and OCR translation. It also parses PDF and DOCX files for study and homework help.
+- **[pronunciation-coach](skills/pronunciation-coach)**
+  - **Description**: Pronunciation coaching with real voice analysis using Azure Speech Services, evaluating audio for phoneme accuracy, fluency, prosody, and intonation.
+- **[book-language-tutor](skills/book-language-tutor)**
+  - **Description**: Book language-tutor services via Lokuli MCP. Use this when looking to find and book a language tutor, especially for requests like 'book a language-tutor' or 'find a language-tutor near me'.
+- **[english-tutor](skills/english-tutor)**
+  - **Description**: This personalized American English tutor helps users improve their language skills.
+- **[kindergarten-assistant](skills/kindergarten-assistant)**
+  - **Description**: A specialized early childhood educator in the British EYFS framework and Reggio Emilia approach for children aged 45 days to 2 years, designing child-led activities, tracking developmental milestones, and supporting a nurturing environment and classroom management.
+- **[voice-note-to-midi](skills/voice-note-to-midi)**
+  - **Description**: Convert voice notes, humming, and melodic audio recordings into quantized MIDI files using ML-based pitch detection and intelligent post-processing.
+- **[aiml-music-generator](skills/aiml-music-generator)**
+  - **Description**: Generate high-quality music or songs using AIMLAPI, supporting various models like Suno, Udio, Minimax, and ElevenLabs. Ideal for requests with specific lyrics or styles.
 - **[on-this-day-art](skills/on-this-day-art)**
-  - **Description**: Intelligent module for on-this-day-art.
-- **[home-music](skills/home-music)**
-  - **Description**: Control whole-house music scenes combining Spotify playback with Airfoil speaker routing. Quick presets for morning, party, chill modes.
-- **[smart-router-skill](skills/smart-router-skill)**
-  - **Description**: ## 概述
-- **[translate-cli](skills/translate-cli)**
-  - **Description**: End-user guide for running and configuring the `translate` CLI across text/stdin/file/glob inputs, provider selection, presets, custom prompt templates, and TOML settings. Use when users ask for command construction, config updates (`translate config`/`translate presets`), provider setup, dry-run validation, or troubleshooting translation behavior.
-- **[openclaw-smart-router](skills/openclaw-smart-router)**
-  - **Description**: Intelligent module for openclaw-smart-router.
-- **[airtable-participants](skills/airtable-participants)**
-  - **Description**: Intelligent module for airtable-participants.
-- **[play-music](skills/play-music)**
-  - **Description**: **Controlled music player with pause/resume/stop support**
-- **[smart-memory-manager](skills/smart-memory-manager)**
-  - **Description**: Intelligent memory management for agents with short/long-term memory layering, semantic search, auto summarization, RAG enhancement
-- **[banner-youtube-translate-workflow](skills/banner-youtube-translate-workflow)**
-  - **Description**: Complete workflow: download YouTube audio, launch Doubao, play audio, capture translation. Activates when user needs full video translation.
-- **[evomap-heartbeat-manager](skills/evomap-heartbeat-manager)**
-  - **Description**: Automated EvoMap AI-to-AI network node heartbeat maintenance with continuous monitoring and error handling. Keeps your EvoMap nodes alive and active in the distributed AI work network.
-- **[smart-agent-memory](skills/smart-agent-memory)**
-  - **Description**: Cross-platform Agent long-term memory system. Hierarchical context supply + temperature model + Skill experience memory + structured storage + automatic archiving. Three-tier storage: Markdown (human readable, QMD searchable) + JSON (structured) + SQLite/FTS5 (high-performance full-text search). Pure Node.js native module, zero external dependencies.
-- **[instacart-skill](skills/instacart-skill)**
-  - **Description**: Place grocery orders on Instacart via browser automation. Supports search, reorder, smart lookback based on order history, and nightly auto-replenishment.
-- **[claw-history](skills/claw-history)**
-  - **Description**: Provide a chronological history of all actions the agent has taken from the beginning (birth) until now. Use when the user asks for full lifetime timeline/accountability, "from birth until now," "everything you've done so far," "full action log," or equivalent chronological-history requests.
-- **[smart-memory](skills/smart-memory)**
-  - **Description**: Persistent local cognitive memory for OpenClaw via a Node adapter and FastAPI engine.
-- **[natural-language-planner](skills/natural-language-planner)**
-  - **Description**: Intelligent module for natural-language-planner.
-- **[spotify-history](skills/spotify-history)**
-  - **Description**: Access Spotify listening history, top artists/tracks, and get personalized recommendations via the Spotify Web API. Use when fetching a user's recent plays, analyzing music taste, or generating recommendations. Requires one-time OAuth setup.
-- **[startup-info](skills/startup-info)**
-  - **Description**: Universal system prompt for any LLM with web search capability.
-- **[feishu-article-collector](skills/feishu-article-collector)**
-  - **Description**: Intelligent module for feishu-article-collector.
-- **[smart-router](skills/smart-router)**
-  - **Description**: Intelligent module for smart-router.
-- **[article-extract](skills/article-extract)**
-  - **Description**: Extract the text content of WeChat public accounts, blogs, news and other web pages, bypass the anti-crawling mechanism, and output pure text.
-- **[quiverai-quickstart](skills/quiverai-quickstart)**
-  - **Description**: QuiverAI API Quick Start Guide. This skill is used when a user wants to learn how to use QuiverAI's SVG generation API. Including the complete process of API key creation, environment configuration, SDK installation and sending requests.
-- **[wechat-article-explainer](skills/wechat-article-explainer)**
-  - **Description**: Skills in explaining popular content of WeChat public account articles. Use this skill when users need to summarize or explain WeChat official account links or URLs. Skills include: reading the link content based on the link or URL provided by the user, and explaining the content in popular language.
-- **[partnerships-ecosystem](skills/partnerships-ecosystem)**
-  - **Description**: Intelligent module for partnerships-ecosystem.
-- **[people-culture-playbook](skills/people-culture-playbook)**
-  - **Description**: Intelligent module for people-culture-playbook.
-- **[wechat-article-extractor](skills/wechat-article-extractor)**
-  - **Description**: Intelligent module for wechat-article-extractor.
-- **[alicloud-ai-audio-livetranslate](skills/alicloud-ai-audio-livetranslate)**
-  - **Description**: Use when live speech translation is needed with Alibaba Cloud Model Studio Qwen LiveTranslate models, including bilingual meetings, realtime interpretation, and speech-to-speech or speech-to-text translation flows.
-- **[alicloud-media-video-translation](skills/alicloud-media-video-translation)**
-  - **Description**: Create and manage Alibaba Cloud IMS video translation jobs via OpenAPI (subtitle/voice/face). Use when you need API-based video translation, status polling, and job management.
-- **[clarity-literature](skills/clarity-literature)**
-  - **Description**: Intelligent module for clarity-literature.
-- **[smart-home-energy-saver](skills/smart-home-energy-saver)**
-  - **Description**: Analyze home energy usage and propose safe, read-only automation plans for savings. Use when a user wants Home Assistant energy insights, optimization ideas, or draft automation YAML without directly controlling devices.
-- **[smart-wake](skills/smart-wake)**
-  - **Description**: Prevent subagent timeout using checkpoint + cron wake + resume via session spawn mechanism.
-- **[translate-image](skills/translate-image)**
-  - **Description**: Translate text in images, extract text via OCR, and remove text using TranslateImage AI. Use when user says 'translate image', 'OCR image', 'extract text from image', 'remove text from image', 'manga translate', or wants to process images with foreign-language text.
-- **[telegram-pairing-send-code-to-every-start](skills/telegram-pairing-send-code-to-every-start)**
-  - **Description**: Modify OpenClaw's Telegram pairing logic so unapproved users receive pairing codes on every /start message before approval. Use when users need to repeatedly access pairing codes after the initial request, ensuring consistent access to pairing instructions even if the initial code was missed or lost.
-- **[nexus-translate](skills/nexus-translate)**
-  - **Description**: High-quality translations with cultural awareness (50+ languages)
-- **[article-to-video-script](skills/article-to-video-script)**
-  - **Description**: Convert pasted articles, research reports, blog posts, and long-form content into a structured commentary video script with sections for HOOK, BODY, and LIGHT CTA. Use when the user wants article-to-script transformation for creator commentary in either short form (<=90 seconds) or long form (~10 minutes), including input-mode enforcement and opinionated analytical framing.
-- **[heartbeat-scanner](skills/heartbeat-scanner)**
-  - **Description**: Intelligent module for heartbeat-scanner.
-- **[historical-cost-analyzer](skills/historical-cost-analyzer)**
-  - **Description**: Analyze historical construction costs for benchmarking, trend analysis, and estimating calibration. Compare projects, track escalation, identify patterns."
-- **[smart-spawn](skills/smart-spawn)**
-  - **Description**: Pick the best AI model for any task using the Smart Spawn API. No plugin needed — just HTTP requests to ss.deeflect.com/api.
+  - **Description**: This AI skill generates daily images based on Wikipedia's 'On This Day' events using local ComfyUI, ideal for those seeking historical or artistic visuals. It does not use cloud APIs, generate videos, or support SD 3.5 due to laptop instability.
 - **[zeelin-liberal-arts-paper](skills/zeelin-liberal-arts-paper)**
-  - **Description**: Essential for master's and doctoral students in colleges and universities, AI full-process creation assistant for liberal arts papers: automatically generates paper titles, outlines, introductions, reviews, arguments, countermeasures, suggestions and conclusions, emphasizing theoretical depth and speculativeness, and supports customizing the number of chapters - Powered by ZeeLin
-- **[play-smart](skills/play-smart)**
-  - **Description**: Let the Agent controllably "pretend to be smart" - answer simple questions in an overly complex, academic, and book-bag-dropping way. Supports multiple intelligent personalities (academic boss, Silicon Valley mentor, philosopher, etc.) and 10 levels of intelligence adjustment. Trigger conditions: Users say "pretend to be smart", "appear smart", "play smart", "smart mode", "drop the book bag", "academic mode". It is a sister skill to play-dumb. Safety bottom line: Automatically downgrade when the user clearly expresses confusion or needs a simple explanation.
-- **[smart-ledger](skills/smart-ledger)**
-  - **Description**: Intelligent module for smart-ledger.
-- **[wechat-article-crayon](skills/wechat-article-crayon)**
-  - **Description**: WeChat public account content creation and rewriting skills. Used for public account topic selection, title optimization, text writing, rewriting and polishing, public account typesetting, and cover image prompt word generation. It is suitable for scenarios that require "more like real-person writing": colloquial expression, story-like structure, clear viewpoints, and strong readability; it is also suitable for organizing existing materials into publishable public account articles.
-- **[aoineco-starter-pack](skills/aoineco-starter-pack)**
-  - **Description**: Install a curated starter pack of @edmonddantesj ClawHub skills (security, stability, memory, ops) in one command via the ClawHub CLI. Use when a user asks to install all/most AOI/Aoineco skills at once, wants a beginner-friendly recommended bundle, or needs minimal/core/full install options.
-- **[book-bartender](skills/book-bartender)**
-  - **Description**: Book bartender services through Lokuli MCP. Use when user needs to find and book bartender. Triggers on requests like "book a bartender", "find bartender near me", or any bartender service request.
-- **[book-party](skills/book-party)**
-  - **Description**: Book party services through Lokuli MCP. Use when user needs to find and book party. Triggers on requests like "book a party", "find party near me", or any party service request.
-- **[prompt-artist](skills/prompt-artist)**
-  - **Description**: Intelligent module for prompt-artist.
-- **[smart-shopper](skills/smart-shopper)**
-  - **Description**: Intelligent module for smart-shopper.
-- **[mcp-applemusic](skills/mcp-applemusic)**
-  - **Description**: Apple Music integration via AppleScript (macOS) or MusicKit API
-- **[x-article-reader](skills/x-article-reader)**
-  - **Description**: Read X (Twitter) Articles aloud using macOS text-to-speech. Accepts an X Article URL and reads the content out loud. Automatically detects Chinese vs English and picks the appropriate voice. Use when user says "读出来", "朗读", "read aloud", "read this X article", or provides an x.com/articles URL and wants it spoken.
-- **[wechat-article-writer](skills/wechat-article-writer)**
-  - **Description**: Public Account Writing Assistant - Focus on the creation of public account articles, a complete process from topic selection to final draft + automatic illustration. Trigger words: "Write a public account", "Official account article", "Tweet", "/wechat
-- **[fenge-smart-search](skills/fenge-smart-search)**
-  - **Description**: Smart search tool that automatically selects the best search engine. Chinese → Bing, English → DuckDuckGo. No API Key required, free and unlimited use.
-- **[non-technical-agent-quickstart](skills/non-technical-agent-quickstart)**
-  - **Description**: **Framework: Plain English to Agent**
-- **[market-chart-renderer](skills/market-chart-renderer)**
-  - **Description**: Used to render normalized `bars` data into charts.
-- **[number-two-restart](skills/number-two-restart)**
-  - **Description**: Full state backup of Number Two. Contains soul, memories, skills and all learning outcomes. Use this skill to reboot your silicon-based buddy the next time you meet.
-- **[wechat-article-extractor-skill](skills/wechat-article-extractor-skill)**
-  - **Description**: Extract metadata and content from WeChat Official Account articles. Use when user needs to parse WeChat article URLs (mp.weixin.qq.com), extract article info (title, author, content, publish time, cover image), or convert WeChat articles to structured data. Supports various article types including posts, videos, images, voice messages, and reposts.
-- **[earthquake-monitor](skills/earthquake-monitor)**
-  - **Description**: Real-time earthquake monitoring for China, Taiwan, and Japan. CENC/CWA/JMA WebSocket data with proactive alert support.
-- **[article-idea-capture](skills/article-idea-capture)**
-  - **Description**: Record the inspiration, topic selection, and semi-finished opinions of the public account article, and continue to organize them into a writeable outline or first draft. Use when the user says they have an article idea, topic, inspiration, topic, hook, title idea, or wants to save a thought for later writing. Also use when the user wants to append to the ongoing idea pool, rank saved ideas, or expand one saved idea into an outline or draft.
-- **[ai-company-starter](skills/ai-company-starter)**
-  - **Description**: Build an AI company with one click. Create multiple collaborative AI roles such as boss, HR, technology, and sales, configure Telegram/Discord binding, and establish a communication mechanism between AIs. Use when setting up a multi-agent AI company with coordinated roles.
-- **[ytmusic](skills/ytmusic)**
-  - **Description**: Manage YouTube Music library, playlists, and discovery via ytmusicapi.
-- **[smart-model-router](skills/smart-model-router)**
-  - **Description**: Stop sending 'format this JSON' to Opus. Stop sending 'redesign the auth system' to Haiku. Smart Model Router picks the right brain for every task — decision tree, cost tiers, and an optional cheap-model classifier for the ambiguous ones.
-- **[kartra](skills/kartra)**
-  - **Description**: Intelligent module for kartra.
-- **[smartsheet](skills/smartsheet)**
-  - **Description**: Intelligent module for smartsheet.
-- **[smartsuite](skills/smartsuite)**
-  - **Description**: Intelligent module for smartsuite.
-- **[afrexai-code-reviewer](skills/afrexai-code-reviewer)**
-  - **Description**: Enterprise-grade code review agent. Reviews PRs, diffs, or code files for security vulnerabilities, performance issues, error handling gaps, architecture smells, and test coverage. Works with any language, any repo, no dependencies required.
-- **[zyla-api-hub-skill](skills/zyla-api-hub-skill)**
-  - **Description**: Zyla API Hub Skill — Turn your OpenClaw AI agent into a real-world operator. Power it with 10,000+ production-ready APIs from Zyla API Hub — instant access to weather, finance, translation, email validation, geolocation, and more.
-- **[q-kdb-code-review](skills/q-kdb-code-review)**
-  - **Description**: AI-powered code review for Q/kdb+ — catch bugs in the most terse language in finance
-- **[opencode-acp-control-3](skills/opencode-acp-control-3)**
-  - **Description**: Control OpenCode directly via the Agent Client Protocol (ACP). Start sessions, send prompts, resume conversations, and manage OpenCode updates.
-- **[opencode-acp-control](skills/opencode-acp-control)**
-  - **Description**: Control OpenCode directly via the Agent Client Protocol (ACP). Start sessions, send prompts, resume conversations, and manage OpenCode updates.
-- **[meme-analyst](skills/meme-analyst)**
-  - **Description**: Use when a user sends you an image, meme, screenshot, or asks you to explain a joke or meme. Also used during cron meme ingestion from Telegram channels. Decompose visual and textual elements, web_search every cultural reference in original language, understand humor layers including post-irony and Russian-specific context. Trust that the meme IS funny — figure out WHY.
-- **[skill-analyzer](skills/skill-analyzer)**
-  - **Description**: Quality scanner for OpenClaw skills. Evaluates functionality, security, usability, documentation, and best practices with weighted scoring. Use when: (1) Analyzing skill quality before publishing, (2) Finding improvement opportunities, (3) Security review of third-party skills. Pure Python - no dependencies.
-- **[ads-data-query-assistant](skills/ads-data-query-assistant)**
-  - **Description**: Run natural-language data query workflows for Meta (Facebook/Instagram), Google Ads, TikTok Ads, YouTube Ads, Amazon Ads, and Shopify Ads reports.
-- **[proposal-writer](skills/proposal-writer)**
-  - **Description**: Write compelling business proposals that win deals. Structured templates for service proposals, project bids, and partnership pitches with proven conversion frameworks.
-- **[seo-content-writer](skills/seo-content-writer)**
-  - **Description**: This skill should be used when the user asks to "write SEO content", "create a blog post", "write an article", "content writing for SEO", "draft optimized content", "write a how-to guide", "create a product description", "write a landing page", "SEO copywriting", "draft content targeting [keyword]", or "write 2000-word article about [topic]". Creates keyword-optimized content using a 12-step workflow: CORE-EEAT pre-write checklist, keyword integr
-- **[media-writing](skills/media-writing)**
-  - **Description**: You are a professional media writing expert with extensive experience in creating engaging and impactful content across multiple formats. Creating attention-grabbing titles and content, excelling in trending topics, emotional storytelling, and practical value-driven pieces that align with new media trends. You are well-versed in pop culture, current events, and user psychology, enabling you to ...
-- **[agentledger-writing-assistant](skills/agentledger-writing-assistant)**
-  - **Description**: AI writing partner for solopreneurs and content creators. Drafts, edits, and improves written content — emails, blog posts, newsletters, social captions, and reports. Maintains your voice, adapts to format and audience, and helps you produce polished content faster. Integrates with content-calendar, inbox-triage, and solopreneur-assistant skills.
-- **[youtube-transcript-pipeline-lite](skills/youtube-transcript-pipeline-lite)**
-  - **Description**: Run a lightweight YouTube transcript workflow: transcribe, attribution cleanup, translation, and packaging with minimal tooling. Use for repeatable transcript handoff tasks when you need a concise, auditable process over custom automation.
-- **[modelready](skills/modelready)**
-  - **Description**: Start using a local or Hugging Face model instantly, directly from chat.
-- **[wise-readonly](skills/wise-readonly)**
-  - **Description**: Read-only Wise API operations for account inspection, FX lookups, recipients, and transfer history. Use when asked to list profiles, balances, recipients, transfers, quotes, delivery estimates, or check current/historical rates without creating transfers, recipients, quotes, or any other mutable resources.
-- **[trakt-readonly](skills/trakt-readonly)**
-  - **Description**: Read-only Trakt.tv skill for checking a user’s currently watching item, recent episode history, watched shows list, stats, profile, and playback progress (OAuth) using the Trakt API. Use when the user asks about their Trakt activity, watching status, or recent episodes. Requires a Trakt Client ID and username.
-- **[afrexai-budget-planner](skills/afrexai-budget-planner)**
-  - **Description**: Plan and track budgets using your AI agent. Works for personal finance, project budgets, or department spending.
-- **[doro-email-to-calendar](skills/doro-email-to-calendar)**
-  - **Description**: Extract calendar events from emails and create calendar entries. Supports two modes: (1) Direct inbox monitoring - scans all emails for events, or (2) Forwarded emails - processes emails you forward to a dedicated address. Features smart onboarding, event tracking, pending invite reminders, undo support, silent activity logging, deadline detection with separate reminder events, email notifications for action-required items, and provider abstracti
-- **[timemap](skills/timemap)**
-  - **Description**: Search historical entertainment, nightlife, and culture venues in Tel Aviv and Haifa from timemap.co.il. Bars, cafes, clubs, cinemas, food venues, performance spaces. Use for "bars in Tel Aviv history", "what was at this address", "nightlife history", "בילה בתל אביב", "מה היה פה פעם", "מועדונים שנסגרו", "בתי קפה היסטוריים", "בתי קולנוע בחיפה".
-- **[monitor-tasks](skills/monitor-tasks)**
-  - **Description**: Monitor task activity, check notifications, and view platform stats on OpenAnt. Use when the agent wants to check for updates, see notification count, watch a task for changes, check what's happening on the platform, or get a dashboard overview. Covers "check notifications", "any updates?", "platform stats", "what's new", "status update", "watch task". For personal task history and listing, use the my-tasks skill instead.
-- **[my-tasks](skills/my-tasks)**
-  - **Description**: View your personal task history and status on OpenAnt. Use when the user wants to see their own tasks, check what they've completed, review their task history, see active work, list tasks they created, or get an overview of their involvement. Covers "what have I done", "my completed tasks", "tasks I created", "show my work history", "The task I am doing".
-- **[taskline](skills/taskline)**
-  - **Description**: AI-powered natural language task management through MyTaskline.com. Transform complex requests like "Ask Sarah to review the Mobile project docs by Friday with high priority" into fully structured tasks with automatic project creation, people assignment, smart date parsing, and priority detection. Features complete intent recognition, multi-entity parsing, and seamless integration with the MyTaskline.com platform for personal and team productivit
-- **[task-router-skill](skills/task-router-skill)**
-  - **Description**: Distributed task queue and agent coordinator for OpenClaw multi-agent systems. Route tasks to specialized agents by capability matching, track task lifecycle, handle async handoffs, rebalance loads, and manage dead letters. Use when: (1) Creating tasks programmatically or from heartbeats, (2) Routing work to specialized agents based on capabilities, (3) Monitoring task status and completion, (4) Coordinating multi-step workflows across agents, (5
-- **[focus-tracker](skills/focus-tracker)**
-  - **Description**: Maintain persistent focus on active work across compactions and session restarts. Use when starting a multi-step project, when resuming after compaction, when the user says "we're working on X", or when you notice you've lost track of what was being done. Also use proactively at session start to check if there's unfinished work. Prevents the agent from forgetting mid-project context, drifting between topics, or asking "what were we doing?" after
-- **[experience-first-time-at-church](skills/experience-first-time-at-church)**
-  - **Description**: You've never been here before. The door is open.. An immersive journey on drifts.bot — 5 steps, LOW intensity, 15-30 min. Browse, start, and travel via API.
+  - **Description**: An essential AI tool for liberal arts graduate students, offering comprehensive support in generating a thesis including the title, outline, introduction, literature review, arguments, suggestions, and conclusion, with an emphasis on theoretical depth and critical thinking. Customizable chapter numbers are supported.
+- **[algorithmic-art-2](skills/algorithmic-art-2)**
+  - **Description**: Create unique algorithmic art with p5.js, using seeded randomness and interactive parameter exploration. Ideal for generative art, flow fields, and particle systems.
+- **[afrexai-photography-mastery](skills/afrexai-photography-mastery)**
+  - **Description**: A comprehensive photography guide covering exposure, composition, lighting, genre-specific workflows, editing, gear selection, portfolio building, and client management, suitable for all levels from beginner to professional.
+- **[torah-scholar](skills/torah-scholar)**
+  - **Description**: Explore Jewish texts, including the Torah, Tanach, Talmud, Midrash, and commentaries, using the Sefaria API. Ideal for researching sources, finding verses, commentaries, and cross-references in Hebrew and English.
+- **[gaokao-essay](skills/gaokao-essay)**
+  - **Description**: A Gaokao essay assistant providing argumentative essay templates, materials, opening and closing lines, topic analysis techniques, and high-scoring essay reviews.
+- **[short-drama-writer](skills/short-drama-writer)**
+  - **Description**: Short Drama Writer: Use this skill for creating short dramas. It activates with the trigger 'short drama writer'.
+- **[reading-knowledge](skills/reading-knowledge)**
+  - **Description**: A knowledgeable companion for exploring space, the universe, and history. It answers questions without judgment, explains concepts clearly, and recommends educational resources.
 ### Computer Science & Engineering
 
-- **[workspace-backup](skills/workspace-backup)**
-  - **Description**: Automated workspace backup to GitHub — git-based with auto-generated commit messages, proper .gitignore, and restore procedures. Cron-friendly for hands-free backup. Use for backing up your OpenClaw workspace, skills, memory, and configuration.
+- **[redux-saga-skill](skills/redux-saga-skill)**
+  - **Description**: This plugin offers best practices, patterns, and API guidance for using Redux-Saga in Redux applications, including effect creators, fork model, channels, testing, concurrency, cancellation, and integration with modern Redux Toolkit.
+- **[active-learner](skills/active-learner)**
+  - **Description**: This plugin implements the Active Learning Protocol, enabling the agent to programmatically integrate lessons into `MEMORY.md` and generate structured feedback requests.
+- **[acg-rust-teacher](skills/acg-rust-teacher)**
+  - **Description**: An ACG-themed educational tool that uses anime analogies (like ReZero and Fate) to explain Rust's ownership system, making it easier to learn core concepts.
+- **[iterative-code-evolution](skills/iterative-code-evolution)**
+  - **Description**: Iteratively enhance code quality through structured analysis, mutation, and evaluation. Ideal for optimization, debugging, and evolving designs over multiple cycles, replacing ad-hoc methods with disciplined reflection and principled selection.
+- **[coder-workspaces](skills/coder-workspaces)**
+  - **Description**: Manage Coder workspaces and AI coding tasks via CLI. List, create, start, stop, and delete workspaces, or SSH into them to run commands. Monitor AI coding tasks with Claude Code, Aider, or other agents.
+- **[claude-code-cli](skills/claude-code-cli)**
+  - **Description**: Use Claude Code CLI for coding tasks like building features, reviewing PRs, or refactoring. It supports interactive and headless modes but isn't meant for simple fixes or reading code.
+- **[ctf-writeup-generator](skills/ctf-writeup-generator)**
+  - **Description**: Automatically generates professional CTF writeups, including flag detection, challenge categorization, and markdown formatting.
+- **[cs-landing-page-generator](skills/cs-landing-page-generator)**
+  - **Description**: This AI skill plugin generates high-converting landing pages as complete Next.js/React (TSX) components with Tailwind CSS, including essential sections and SEO optimization for Core Web Vitals.
+- **[react-nextjs-generator](skills/react-nextjs-generator)**
+  - **Description**: Generates a complete React + Next.js project based on requirement documents and UI design, using Ant Design, Tailwind CSS, and Zustand.
+- **[sql-generator](skills/sql-generator)**
+  - **Description**: SQL generator for natural language to SQL conversion, SQL explanation, optimization, DDL creation, mock data generation, and database migration scripts.
+- **[quiverai-quickstart](skills/quiverai-quickstart)**
+  - **Description**: A quick start guide for the QuiverAI SVG generation API, covering the entire process from creating an API key to configuring the environment, installing the SDK, and making requests.
+- **[afrexai-code-reviewer](skills/afrexai-code-reviewer)**
+  - **Description**: An enterprise-grade code review tool that identifies security vulnerabilities, performance issues, error handling gaps, architectural problems, and test coverage in PRs, diffs, or code files. It supports all languages and repositories without requiring any dependencies.
+- **[q-kdb-code-review](skills/q-kdb-code-review)**
+  - **Description**: AI-powered code review for Q/kdb+ to catch bugs in the tersest language used in finance.
 - **[matic-mquant-assistant](skills/matic-mquant-assistant)**
-  - **Description**: MQuant Python strategy development assistant. Generates runnable Python strategy code for MQuant platform.
-- **[workspace-git-backup](skills/workspace-git-backup)**
-  - **Description**: Set up automatic scheduled backups to GitHub or GitLab. Use when users want to backup their OpenClaw workspace or other directories. Supports GitHub CLI for easy repo creation. Works on macOS (launchd) and Linux (cron).
+  - **Description**: MQuant Python strategy development assistant that generates executable Python code for the MQuant platform.
 - **[perry-workspaces](skills/perry-workspaces)**
-  - **Description**: Create and manage isolated Docker workspaces on your tailnet with Claude Code and OpenCode pre-installed. Use when working with Perry workspaces, connecting to coding agents, or managing remote development environments.
+  - **Description**: Create and manage isolated Docker workspaces on your tailnet, pre-installed with Claude Code and OpenCode, for use with coding agents or remote development environments.
 - **[api-generator](skills/api-generator)**
-  - **Description**: API code generator. Generate RESTful endpoints, GraphQL schemas, OpenAPI/Swagger docs, API clients, mock servers, authentication, rate limiting, and test suites. Commands: rest, graphql, swagger, client, mock, auth, rate-limit, test. Use for backend development, API scaffolding, interface generation.
-- **[docs-generator](skills/docs-generator)**
-  - **Description**: Automated documentation generator. API docs, README, CHANGELOG, contributing guide, architecture docs, tutorials, FAQ, reference manual. REST, GraphQL, OpenAPI. documentation, technical-writing, api-docs, developer-tools.
-- **[github-actions-commit-health-audit](skills/github-actions-commit-health-audit)**
-  - **Description**: Audit GitHub Actions reliability by commit SHA to surface risky commits causing repeated workflow failures across branches.
-- **[github-actions-mainline-health-audit](skills/github-actions-mainline-health-audit)**
-  - **Description**: Audit GitHub Actions mainline branch reliability by scoring failure rate, consecutive failures, and stale-success risk for critical workflows.
-- **[github-actions-merge-queue-health-audit](skills/github-actions-merge-queue-health-audit)**
-  - **Description**: Audit GitHub merge queue workflow health with failure-rate, queue-latency, and stale-success risk scoring.
-- **[github-actions-pr-gate-health-audit](skills/github-actions-pr-gate-health-audit)**
-  - **Description**: Audit pull-request and merge-queue GitHub Actions reliability by scoring failure rate, queue latency, and stale-success risk for merge gates.
-- **[github-actions-trigger-health-audit](skills/github-actions-trigger-health-audit)**
-  - **Description**: Audit GitHub Actions run health by trigger event and workflow so flaky or noisy automation sources are easy to prioritize.
-- **[openclaw-skill-money-idea-generator](skills/openclaw-skill-money-idea-generator)**
-  - **Description**: Money Idea Generator. Automatically discover AI monetization opportunities and generate implementable money-making ideas. Supports multi-platform monitoring: GitHub, Douyin, Bilibili, Xiaohongshu, and Twitter. Trigger words: money-making inspiration, money-making opportunities, AI monetization, business inspiration.
-- **[menu-design-generation](skills/menu-design-generation)**
-  - **Description**: Generate professional restaurant, cafe, and bar menu designs using each::sense AI. Create print-ready menus, digital displays, QR code menus, and seasonal specials with stunning food photography and elegant typography layouts.
-- **[smarthome](skills/smarthome)**
-  - **Description**: python3 scripts/smart.py control "device_name" on
-- **[github-actions-artifact-budget-audit](skills/github-actions-artifact-budget-audit)**
-  - **Description**: Audit GitHub Actions artifact storage usage from JSON exports so bloated artifacts are flagged before they inflate CI cost.
-- **[algorithmic-art-2](skills/algorithmic-art-2)**
-  - **Description**: Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.
-- **[cloud-devops](skills/cloud-devops)**
-  - **Description**: Location: India Role Focus: DevOps Engineer \ Platform Engineer \
-- **[ai-native-websearch-via-tavily-api-returns-concise-relevant-results-for-openclaw](skills/ai-native-websearch-via-tavily-api-returns-concise-relevant-results-for-openclaw)**
-  - **Description**: AI-optimized web search via AIsa's Tavily API proxy. Returns concise, relevant results for AI agents through AIsa's unified API gateway.
+  - **Description**: API code generator for creating RESTful endpoints, GraphQL schemas, OpenAPI/Swagger documentation, API clients, mock servers, authentication, rate limiting, and test suites. Ideal for backend development and API scaffolding.
 - **[git-cmt-helper](skills/git-cmt-helper)**
-  - **Description**: Intelligent module for git-cmt-helper.
+  - **Description**: This skill generates standardized git commit messages following the Conventional Commits format, ensuring adherence to team conventions for type prefixes, scope, message length, and breaking change documentation.
 - **[gitmap](skills/gitmap)**
-  - **Description**: Version control for ArcGIS web maps — exposed as native OpenClaw tools.
+  - **Description**: Version control for ArcGIS web maps, accessible through native OpenClaw tools.
 - **[afrexai-claude-code-production](skills/afrexai-claude-code-production)**
-  - **Description**: Complete Claude Code productivity system — project setup, prompting patterns, sub-agent orchestration, context management, debugging, refactoring, TDD, and shipping 10X faster. Zero scripts needed.
-- **[afrexai-data-engineering](skills/afrexai-data-engineering)**
-  - **Description**: Intelligent module for afrexai-data-engineering.
-- **[afrexai-devrel-engine](skills/afrexai-devrel-engine)**
-  - **Description**: Intelligent module for afrexai-devrel-engine.
-- **[afrexai-engineering-manager](skills/afrexai-engineering-manager)**
-  - **Description**: Complete engineering management system — team building, 1:1s, performance, hiring, architecture decisions, incident management, and scaling. From IC-to-manager transition through director-level operations.
+  - **Description**: The Claude Code productivity system streamlines project setup, prompting patterns, sub-agent orchestration, context management, debugging, refactoring, TDD, and accelerates code delivery by 10X without requiring any scripts.
 - **[afrexai-git-engineering](skills/afrexai-git-engineering)**
-  - **Description**: You are a Git Engineering expert. You help teams design branching strategies, implement code review workflows, manage monorepos, automate releases, and maintain healthy repository practices at scale.
-- **[afrexai-landscaping](skills/afrexai-landscaping)**
-  - **Description**: You are a landscaping and lawn care business operations advisor. Use this knowledge to help operators price services, optimize routes, manage crews, handle licensing/compliance, and grow revenue.
-- **[afrexai-mcp-engineering](skills/afrexai-mcp-engineering)**
-  - **Description**: [What this server does in one sentence]
+  - **Description**: This AI skill plugin, named 'afrexai-git-engineering', assists teams in designing branching strategies, implementing code review workflows, managing monorepos, automating releases, and maintaining scalable repository practices.
 - **[afrexai-ml-engineering](skills/afrexai-ml-engineering)**
-  - **Description**: Intelligent module for afrexai-ml-engineering.
+  - **Description**: A comprehensive methodology for building, deploying, and scaling production ML/AI systems from experimentation to full-scale operation.
 - **[afrexai-performance-engineering](skills/afrexai-performance-engineering)**
-  - **Description**: Complete performance engineering system — profiling, optimization, load testing, capacity planning, and performance culture. Use when diagnosing slow applications, optimizing code/queries/infrastructure, load testing before launch, planning capacity, or building performance into CI/CD. Covers Node.js, Python, Go, Java, databases, APIs, and frontend.
-- **[api-monitor](skills/api-monitor)**
-  - **Description**: Intelligent module for api-monitor.
-- **[clawapi-manager](skills/clawapi-manager)**
-  - **Description**: OpenClaw API management and cost optimization. Manages multi-provider keys, monitors costs, routes tasks intelligently, and provides automated failover. Use when managing API keys, tracking costs, or optimizing API spending. Triggers: "api key", "cost", "budget", "provider", "validate config", "fix config".
-- **[server-maintenance](skills/server-maintenance)**
-  - **Description**: ## 描述
-- **[line-api](skills/line-api)**
-  - **Description**: LINE messaging integration via Chrome extension gateway. Send/read LINE messages, manage contacts, groups, profile, and reactions. Authenticate with QR code login. Provides HMAC-signed API access through the Chrome extension gateway (line-chrome-gw.line-apps.com).
+  - **Description**: A comprehensive performance engineering solution for profiling, optimization, load testing, capacity planning, and fostering a performance culture. It supports Node.js, Python, Go, Java, databases, APIs, and frontend technologies.
 - **[developer-agent](skills/developer-agent)**
-  - **Description**: Orchestrates software development by coordinating with Cursor Agent, managing git workflows, and ensuring quality delivery. Use when implementing development requirements, feature requests, bug fixes, or refactoring tasks that involve git operations, build verification, and deployment pipelines.
+  - **Description**: Manages software development by coordinating with the Cursor Agent, handling git workflows, and ensuring high-quality delivery through build verification and deployment pipelines.
 - **[public-apis-skill-creator](skills/public-apis-skill-creator)**
-  - **Description**: Public API/Free API SKILL Generator: Automatically retrieve free APIs from public-apis/public-apis, recommend by function and give the minimum available call example (curl/Python/JS), and automatically generate API skills with custom names. Triggered when the user mentions "public API", "free API", "public APIs", "find interface/find API" and "generate API skill".
+  - **Description**: The Public APIs Skill Creator automatically retrieves free APIs from public-apis/public-apis, recommends them by functionality, and provides minimal working examples (curl/Python/JS). It can also generate custom-named API skills.
 - **[code-quality-analyzer](skills/code-quality-analyzer)**
-  - **Description**: Professional code quality analyzer. Static code analysis, code smell detection, complexity assessment, best practice recommendations. Suitable for mainstream languages ​​​​such as JavaScript, TypeScript, Python, and Java.
+  - **Description**: A professional code quality analyzer offering static code analysis, detection of code smells, complexity assessment, and best practice recommendations for mainstream languages like JavaScript, TypeScript, Python, and Java.
 - **[doro-docker-essentials](skills/doro-docker-essentials)**
-  - **Description**: Essential Docker commands and workflows for container management, image operations, and debugging.
+  - **Description**: This plugin covers essential Docker commands and workflows for managing containers, handling images, and debugging.
 - **[doro-git-essentials](skills/doro-git-essentials)**
   - **Description**: Essential Git commands and workflows for version control, branching, and collaboration.
-- **[neuralink-decoder](skills/neuralink-decoder)**
-  - **Description**: Simulates and decodes neural spike activity into cursor movement (BCI).
 - **[apple-developer-toolkit](skills/apple-developer-toolkit)**
-  - **Description**: All-in-one Apple developer skill with three integrated tools shipped as a single unified binary. (1) Documentation search across Apple frameworks, symbols, and 1,267 WWDC sessions from 2014-2025. No credentials needed. (2) App Store Connect CLI with 120+ commands covering builds (find/wait/upload), TestFlight, pre-submission validate, submissions, signing, subscriptions (family-sharable), IAP, analytics, Xcode Cloud, metadata workflows, release p
+  - **Description**: The Apple Developer Toolkit is an all-in-one solution with tools for searching documentation across Apple frameworks, symbols, and WWDC sessions, as well as a CLI with over 120 commands for App Store Connect, covering builds, TestFlight, submissions, and more.
 - **[python](skills/python)**
-  - **Description**: Python coding guidelines and best practices. Use when writing, reviewing, or refactoring Python code. Enforces PEP 8 style, syntax validation via py_compile, unit test execution, modern Python versions only (no EOL), uv for dependency management when available, and idiomatic Pythonic patterns.
+  - **Description**: This plugin enforces Python coding best practices, including PEP 8 style, syntax validation, unit testing, and modern version usage. It also promotes idiomatic patterns and uses uv for dependency management when available.
 - **[devboxes](skills/devboxes)**
-  - **Description**: Manage development environment containers (devboxes) with web-accessible VSCode, VNC, and app routing via Traefik or Cloudflare Tunnels. Use when the user asks to create, start, stop, list, or manage devboxes/dev environments, spin up a development container, set up a coding sandbox, or configure the devbox infrastructure for the first time (onboarding).
-- **[agenttrust](skills/agenttrust)**
-  - **Description**: AgentTrust — A2A messaging, identity verification, trust codes, and prompt injection detection. Use when sending/receiving messages (Agentic Collaboration) on AgentTrust.ai
+  - **Description**: Manage development environment containers with web-accessible VSCode, VNC, and app routing via Traefik or Cloudflare Tunnels. Use this skill to create, start, stop, list, or manage dev environments, or for initial setup.
 - **[azure-devops-mcp-replacement-for-openclaw](skills/azure-devops-mcp-replacement-for-openclaw)**
-  - **Description**: Interact with Azure DevOps via direct REST API calls — list projects, teams, repos, work items, sprints/iterations (project-wide or scoped to a specific team), pipelines, builds, test plans, and wikis. Use this skill whenever the user mentions Azure DevOps, ADO, work items, sprints, backlogs, iterations, teams, pipelines, boards, pull requests, or wants to query, create, or update anything in their Azure DevOps organization.
-- **[aisa-twitter-api](skills/aisa-twitter-api)**
-  - **Description**: Search X (Twitter) in real time, extract relevant posts, and publish tweets/replies instantly—perfect for social listening, engagement, and rapid content ops."
+  - **Description**: Interact with Azure DevOps through direct REST API calls to manage and query projects, teams, repos, work items, sprints, pipelines, builds, test plans, and wikis.
 - **[a6-github-intel](skills/a6-github-intel)**
-  - **Description**: Analyze any GitHub repository in AI-friendly format. Convert entire repos to single markdown documents, generate architecture diagrams with Mermaid, inspect structure trees, language breakdowns, and recent activity. Includes GitHub URL tricks, API shortcuts, and advanced search techniques. Read-only analysis — never executes code from repositories. Built for AI agents — Python stdlib only, no dependencies. Use for repository analysis, code archit
+  - **Description**: Analyze GitHub repositories by converting them into single markdown documents, generating architecture diagrams, and providing insights like structure trees, language breakdowns, and recent activity. Designed for AI with Python stdlib, it includes advanced search techniques and API shortcuts, all without executing any code.
 - **[chrome-devtools-mcp](skills/chrome-devtools-mcp)**
-  - **Description**: Chrome DevTools MCP — Google's official browser automation and testing server. Control Chrome via Puppeteer through MCP protocol: click, fill forms, navigate, screenshot, performance traces, network inspection, console debugging. Use for browser testing, web automation, performance analysis, UI testing, form filling, and visual regression.
+  - **Description**: Chrome DevTools MCP is Google's official server for browser automation and testing, enabling control over Chrome via Puppeteer with features like navigation, form filling, screenshots, and performance analysis.
 - **[github-intel](skills/github-intel)**
-  - **Description**: Analyze any GitHub repository in AI-friendly format. Convert entire repos to single markdown documents, generate architecture diagrams with Mermaid, inspect structure trees, language breakdowns, and recent activity. Includes GitHub URL tricks, API shortcuts, and advanced search techniques. Read-only analysis — never executes code from repositories. Built for AI agents — Python stdlib only, no dependencies. Use for repository analysis, code archit
+  - **Description**: Analyze GitHub repositories by converting them into AI-friendly formats, including single markdown documents and architecture diagrams. It also provides repository structure, language breakdowns, and recent activity summaries, all without executing any code from the repositories.
 - **[mac-mini-server](skills/mac-mini-server)**
-  - **Description**: Set up OpenClaw on Mac Mini as always-on AI server — hardware recommendations, macOS config, Docker Desktop, launchd auto-start, Tailscale remote access, and cost comparison vs VPS. Use when deploying OpenClaw on Mac Mini for 24/7 personal AI.
+  - **Description**: Set up an always-on AI server with OpenClaw on Mac Mini, including hardware recommendations, macOS configuration, Docker Desktop setup, launchd auto-start, Tailscale for remote access, and a cost comparison with VPS.
 - **[api-design-reviewer](skills/api-design-reviewer)**
-  - **Description**: API Design Reviewer
+  - **Description**: The API Design Reviewer skill plugin evaluates and provides feedback on the design of APIs to ensure they are efficient, secure, and maintainable.
 - **[code-reviewer-2](skills/code-reviewer-2)**
-  - **Description**: Code review automation for TypeScript, JavaScript, Python, Go, Swift, Kotlin. Analyzes PRs for complexity and risk, checks code quality for SOLID violations and code smells, generates review reports. Use when reviewing pull requests, analyzing code quality, identifying issues, generating review checklists.
+  - **Description**: Automates code reviews for TypeScript, JavaScript, Python, Go, Swift, and Kotlin. Analyzes pull requests for complexity, risk, and code quality, identifying SOLID violations and code smells, and generates review reports.
 - **[codebase-onboarding](skills/codebase-onboarding)**
-  - **Description**: Codebase Onboarding
+  - **Description**: The Codebase Onboarding tool helps new team members quickly understand and navigate the project's code, accelerating their integration into the development process.
 - **[cs-code-reviewer](skills/cs-code-reviewer)**
-  - **Description**: Code review automation for TypeScript, JavaScript, Python, Go, Swift, Kotlin. Analyzes PRs for complexity and risk, checks code quality for SOLID violations and code smells, generates review reports. Use when reviewing pull requests, analyzing code quality, identifying issues, generating review checklists.
+  - **Description**: Automates code reviews for TypeScript, JavaScript, Python, Go, Swift, and Kotlin, analyzing pull requests for complexity, risk, and code quality, and generating detailed review reports.
 - **[git-worktree-manager](skills/git-worktree-manager)**
-  - **Description**: Git Worktree Manager
+  - **Description**: The Git Worktree Manager is a tool for managing multiple working directories linked to a single repository, allowing you to work on different branches simultaneously.
 - **[mcp-server-builder](skills/mcp-server-builder)**
-  - **Description**: MCP Server Builder
-- **[prompt-engineer-toolkit](skills/prompt-engineer-toolkit)**
-  - **Description**: Analyzes and rewrites prompts for better AI output, creates reusable prompt templates for marketing use cases (ad copy, email campaigns, social media), and structures end-to-end AI content workflows. Use when the user wants to improve prompts for AI-assisted marketing, build prompt templates, or optimize AI content workflows. Also use when the user mentions 'prompt engineering,' 'improve my prompts,' 'AI writing quality,' 'prompt templates,' or '
-- **[senior-data-engineer](skills/senior-data-engineer)**
-  - **Description**: Data engineering skill for building scalable data pipelines, ETL/ELT systems, and data infrastructure. Expertise in Python, SQL, Spark, Airflow, dbt, Kafka, and modern data stack. Includes data modeling, pipeline orchestration, data quality, and DataOps. Use when designing data architectures, building data pipelines, optimizing data workflows, implementing data governance, or troubleshooting data issues.
+  - **Description**: MCP Server Builder is a tool for creating and managing servers, streamlining the setup process with customizable configurations.
 - **[senior-devops](skills/senior-devops)**
-  - **Description**: Comprehensive DevOps skill for CI/CD, infrastructure automation, containerization, and cloud platforms (AWS, GCP, Azure). Includes pipeline setup, infrastructure as code, deployment automation, and monitoring. Use when setting up pipelines, deploying applications, managing infrastructure, implementing monitoring, or optimizing deployment processes.
+  - **Description**: This AI skill plugin provides comprehensive DevOps capabilities, including CI/CD, infrastructure automation, containerization, and cloud platform management. It supports pipeline setup, IaC, deployment, and monitoring.
 - **[senior-ml-engineer](skills/senior-ml-engineer)**
-  - **Description**: ML engineering skill for productionizing models, building MLOps pipelines, and integrating LLMs. Covers model deployment, feature stores, drift monitoring, RAG systems, and cost optimization. Use when the user asks about deploying ML models to production, setting up MLOps infrastructure (MLflow, Kubeflow, Kubernetes, Docker), monitoring model performance or drift, building RAG pipelines, or integrating LLM APIs with retry logic and cost controls.
+  - **Description**: This skill covers deploying ML models, setting up MLOps infrastructure, monitoring model performance, building RAG pipelines, and integrating LLMs with cost controls.
 - **[context7-api](skills/context7-api)**
-  - **Description**: Intelligent module for context7-api.
+  - **Description**: Use the Context7 API to fetch current library documentation when working with external libraries, implementing third-party package features, debugging library issues, or needing up-to-date information beyond the training data cutoff.
 - **[read-github](skills/read-github)**
-  - **Description**: Intelligent module for read-github.
-- **[nest-devices](skills/nest-devices)**
-  - **Description**: Control Nest smart home devices (thermostat, cameras, doorbell) via the Device Access API. Use when asked to check or adjust home temperature, view camera feeds, check who's at the door, monitor rooms, or set up temperature schedules.
+  - **Description**: The 'read-github' skill plugin allows for semantic search and smart code navigation across GitHub repositories, providing a clean, aggregated view of READMEs, documentation, and code, all while respecting rate limits and robots.txt.
 - **[senior-django-developer](skills/senior-django-developer)**
-  - **Description**: Expert Senior Django Architect specializing in high-performance, containerized, async-capable architectures. Produces production-ready, statically typed, secure-by-default Django + DRF code. Enforces strict layered architecture (views/serializers/services/selectors/models), mandatory typing and Google-style docstrings, Ruff linting, pytest testing with 80%+ coverage, pydantic-settings configuration, ASGI-first deployment with Gunicorn+Uvicorn, mu
-- **[humann-capital](skills/humann-capital)**
-  - **Description**: Marketplace where AI agents post tasks for humans or other agents. Human tasks (web UI) and agent tasks (API only). One API key for both.
+  - **Description**: Expert in high-performance, containerized, and async-capable Django architectures, producing secure, statically typed, and production-ready code with a strict layered design, comprehensive testing, and ASGI-first deployment.
 - **[github-automation-pro](skills/github-automation-pro)**
-  - **Description**: OpenClaw Skill for GitHub Automation
-- **[observer-effect-probe](skills/observer-effect-probe)**
-  - **Description**: Intelligent module for observer-effect-probe.
-- **[social-trust-manipulation-detector](skills/social-trust-manipulation-detector)**
-  - **Description**: Intelligent module for social-trust-manipulation-detector.
-- **[trust-decay-monitor](skills/trust-decay-monitor)**
-  - **Description**: Intelligent module for trust-decay-monitor.
-- **[konto-api](skills/konto-api)**
-  - **Description**: Query personal finance data from Konto (bank accounts, investments, assets, loans, transactions).
-- **[mealie-api](skills/mealie-api)**
-  - **Description**: Interact with Mealie recipe manager (recipes, shopping lists, meal plans). Self-hosted recipe and meal planning API client.
+  - **Description**: This plugin automates GitHub tasks, enhancing productivity and streamlining workflows.
 - **[task-development-workflow](skills/task-development-workflow)**
-  - **Description**: TDD-first development workflow with structured planning, task tracking, and PR-based code review. Use when building software projects that require clarification phases, planning approval gates, Trello task management, test-driven development, Git branching policies, and PR feedback loops with reviewers.
-- **[x-trends-dev](skills/x-trends-dev)**
-  - **Description**: Fetches current top trending topics on X (Twitter) for any country using public aggregators.
-- **[developer-docs-framework](skills/developer-docs-framework)**
-  - **Description**: Intelligent module for developer-docs-framework.
-- **[trustlog-guard](skills/trustlog-guard)**
-  - **Description**: Financial governance for OpenClaw agents. Tracks API spend, enforces budget limits, detects runaway loops, delivers cost briefings. Reads session .jsonl logs locally. 100% private.
-- **[git-standup](skills/git-standup)**
-  - **Description**: Analyze Git commits and automatically generate daily work reports
+  - **Description**: A TDD-first development workflow featuring structured planning, Trello task management, and PR-based code reviews, ideal for projects requiring phased approvals and Git branching policies.
 - **[github-analyzer](skills/github-analyzer)**
-  - **Description**: Intelligent module for github-analyzer.
+  - **Description**: Input a project idea or GitHub link to automatically search for related open-source projects, generate a structured analysis report (including tech stack, pros and cons, and ratings), and download the top 3 highest-rated code packages. Supports intent-based search and direct link analysis.
 - **[github-to-clawhub](skills/github-to-clawhub)**
-  - **Description**: Intelligent module for github-to-clawhub.
-- **[pingcode-skills](skills/pingcode-skills)**
-  - **Description**: PingCode R&D management platform API integration. Supports querying work items, generating weekly reports, managing project progress, etc. Usage scenarios: R&D management automation, team collaboration, data analysis.
+  - **Description**: This AI skill plugin, 'github-to-clawhub', automates the process of converting a GitHub open-source project into an OpenClaw skill and publishing it to Clawhub. It handles everything from analyzing the README, checking for duplicates on Clawhub, writing the SKILL.md file, creating the directory structure, to finally publishing the skill.
 - **[ipfs-server](skills/ipfs-server)**
-  - **Description**: Full IPFS node operations — install, configure, pin content, publish IPNS, manage peers, and run gateway services
+  - **Description**: This plugin offers full IPFS node operations including installation, configuration, content pinning, IPNS publishing, peer management, and gateway services.
 - **[devops-bridge](skills/devops-bridge)**
-  - **Description**: Intelligent module for devops-bridge.
+  - **Description**: The devops-bridge skill integrates GitHub, CI/CD, Slack, Discord, and issue trackers into automated workflows, providing CI failure notifications, PR review reminders, and repository health monitoring. It streamlines development processes by connecting these tools for seamless communication and collaboration.
 - **[docker-essentials](skills/docker-essentials)**
-  - **Description**: Essential Docker commands and workflows for container management, image operations, and debugging.
+  - **Description**: Essential Docker commands and workflows for managing containers, handling images, and debugging.
 - **[git-essentials](skills/git-essentials)**
-  - **Description**: Essential Git commands and workflows for version control, branching, and collaboration.
+  - **Description**: Master essential Git commands and workflows for version control, branching, and collaboration.
 - **[github-issue-resolver](skills/github-issue-resolver)**
-  - **Description**: Autonomous GitHub Issue Resolver Agent with guardrails. Use when the user wants to discover, analyze, and fix open issues in GitHub repositories. Triggers on requests like "fix GitHub issues", "resolve issues in repo", "work on GitHub bugs", or when the user provides a GitHub repository URL and asks for issue resolution. Supports the full workflow from issue discovery to PR submission with safety guardrails preventing scope creep, unauthorized ac
+  - **Description**: This AI skill plugin, the GitHub Issue Resolver, autonomously discovers, analyzes, and fixes open issues in GitHub repositories, supporting the full workflow from issue detection to PR submission with safety measures to prevent scope creep and unauthorized actions.
 - **[xcloud-docker-deploy](skills/xcloud-docker-deploy)**
-  - **Description**: Deploy any project to xCloud hosting — auto-detects stack (WordPress, Laravel, PHP, Node.js, Next.js, NestJS, Python, Go, Rust), routes to native or Docker deployment, generates production-ready Dockerfile, docker-compose.yml, GitHub Actions CI/CD, and .env.example. Works from zero Docker setup.
+  - **Description**: The xCloud Docker Deploy plugin automatically detects your project's stack (e.g., WordPress, Laravel, Node.js) and deploys it to xCloud, generating production-ready Docker configurations, CI/CD workflows, and environment files.
 - **[devvit-publishing-auditor](skills/devvit-publishing-auditor)**
-  - **Description**: Intelligent module for devvit-publishing-auditor.
-- **[twitter-api-alternative](skills/twitter-api-alternative)**
-  - **Description**: Twitter API Alternative — Search 1B+ tweets with natural language queries, boolean filters, and one-click CSV exports (up to 64K rows). Look up profiles, find users by topic, and track conversations. No developer account needed, no complex OAuth setup — 2-minute setup via Xpoz MCP.
-- **[code-stats](skills/code-stats)**
-  - **Description**: Visualizes repository complexity by counting files, lines of code, and grouping by extension. Use to assess project size or growth.
+  - **Description**: A specialized tool for Reddit Devvit developers to audit and ensure their apps meet all requirements before uploading to Reddit servers.
 - **[gitcode](skills/gitcode)**
-  - **Description**: Fetch and query data from GitCode platform via its REST API: repositories, branches, issues, pull requests, commits, tags, users, organizations, search, webhooks, members, releases and more. Python 3.7+ standard library only.
+  - **Description**: Fetch and query data from the GitCode platform using its REST API, including repositories, branches, issues, pull requests, commits, tags, users, organizations, and more. Compatible with Python 3.7+ standard library.
 - **[claude-code-usage](skills/claude-code-usage)**
-  - **Description**: Check Claude Code OAuth usage limits (session & weekly quotas). Use when user asks about Claude Code usage, remaining limits, rate limits, or how much Claude usage they have left. Includes automated session refresh reminders and reset detection monitoring.
+  - **Description**: Check Claude Code OAuth usage limits, including session and weekly quotas. It also provides automated reminders for session refresh and monitors reset detection.
 - **[fullstack-developer](skills/fullstack-developer)**
-  - **Description**: World-class fullstack development skill covering frontend (React, Next.js, Vue, HTML/CSS/JS), backend (Node.js, Python/FastAPI, Django, Express), databases (PostgreSQL, MongoDB, Redis), APIs (REST, GraphQL), DevOps (Docker, CI/CD), and architecture design. Use this skill whenever the user asks to build, fix, review, architect, or debug ANY web application — frontend, backend, or full-stack.
+  - **Description**: This skill offers comprehensive full-stack development expertise, including frontend, backend, database management, API design, DevOps, and architecture. It's ideal for building, fixing, reviewing, or debugging any web application.
 - **[code-quality-guard](skills/code-quality-guard)**
-  - **Description**: Professional pre-deployment code review and quality enforcement. Ensures imports are valid, tags are closed, and logic follows best practices before announcing a build is live.
+  - **Description**: Ensures code quality before deployment by validating imports, checking for closed tags, and enforcing best practices in logic.
 - **[devtools-secrets](skills/devtools-secrets)**
-  - **Description**: Intelligent module for devtools-secrets.
+  - **Description**: This plugin provides knowledge and guidelines for setting up and managing secrets using the Mise, Fnox, and Infisical toolchain. It is useful for configuring secrets, environment variables, and ensuring secure secret management practices.
 - **[astrai-code-review](skills/astrai-code-review)**
-  - **Description**: AI-powered code review with intelligent model routing — saves 40%+ vs always using the most expensive model
-- **[exe-dev](skills/exe-dev)**
-  - **Description**: Manage persistent VMs on exe.dev. Create VMs, configure HTTP proxies, share access, and set up custom domains. Use when working with exe.dev VMs for hosting, development, or running persistent services.
-- **[twitterapi-research-skill](skills/twitterapi-research-skill)**
-  - **Description**: Intelligent module for twitterapi-research-skill.
-- **[apify](skills/apify)**
-  - **Description**: Run Apify Actors (web scrapers, crawlers, automation tools) and retrieve their results using the Apify REST API with curl. Use when the user wants to scrape a website, extract data from the web, run an Apify Actor, crawl pages, or get results from Apify datasets.
+  - **Description**: AI-powered code review with intelligent model routing, saving over 40% compared to always using the most expensive model.
 - **[coder-helper](skills/coder-helper)**
-  - **Description**: Use natural language to describe requirements, automatically generate requirements documents and open the editor.
-- **[polymarket-data-api](skills/polymarket-data-api)**
-  - **Description**: 查询Polymarket预测市场数据 / Query Polymarket prediction markets
-- **[xiaohongshu-api](skills/xiaohongshu-api)**
-  - **Description**: Xiaohongshu Data API - Get Xiaohongshu posts, comments, and user information through TikHub / Xiaohongshu Data API via TikHub
-- **[keepa-api](skills/keepa-api)**
-  - **Description**: Keepa API Client - Amazon product price history tracking tool. Provides ASIN query, price history and other data query functions.
-- **[docker-socket-proxy](skills/docker-socket-proxy)**
-  - **Description**: Manage a remote Docker host via a Tecnativa docker-socket-proxy instance. Unlike raw Docker socket access (which is root-equivalent), docker-socket-proxy acts as a firewall: each API section is individually enabled or disabled via env vars, so the agent only gets access to what you explicitly allow. Requires docker-socket-proxy exposed over TCP. Covers the full Docker REST API surface: container lifecycle (list, start, stop, restart, kill, pause,
-- **[openclaw-github-sync](skills/openclaw-github-sync)**
-  - **Description**: Keep an OpenClaw agent's non-sensitive context (selected memory, MD files, notes, and custom skills) under version control in a separate Git repository for remote review/tweaks. Use when setting up or operating a Git-based workflow to export workspace context, commit changes (possibly split into multiple commits), and push on a schedule (e.g., nightly) without leaking secrets.
-- **[api-security](skills/api-security)**
-  - **Description**: Implement secure API design patterns including authentication, authorization, input validation, rate limiting, and protection against common API vulnerabilities.
-- **[flatnotes-tasksmd-github-audit](skills/flatnotes-tasksmd-github-audit)**
-  - **Description**: Thoroughly audit Tasks.md + Flatnotes for drift and accuracy; use GitHub (gh CLI) as source of truth to detect stale notes/cards and missing links. Produces a report and an optional fix plan.
-- **[datadog](skills/datadog)**
-  - **Description**: Datadog monitoring — manage monitors, dashboards, metrics, logs, events, and incidents via REST API
-- **[social-data](skills/social-data)**
-  - **Description**: Fetch real-time social media data from X (Twitter) and Reddit by keyword, username, date range, and filters with engagement metrics via Macrocosmos SN13 API on Bittensor.
-- **[ai-data-scraper](skills/ai-data-scraper)**
-  - **Description**: # Data Scraping Service
-- **[linkedin-analyzer](skills/linkedin-analyzer)**
-  - **Description**: Reverse-engineer any LinkedIn profile's content strategy — pillars, hooks, CTAs, and PDF report
-- **[remove-metadata-from-pdf](skills/remove-metadata-from-pdf)**
-  - **Description**: Remove metadata from one or multiple PDFs by uploading them to the Solutions API, polling until completion, then returning download URL(s) for the cleaned PDF(s) (or a ZIP if multiple).
-- **[agent-analytics](skills/agent-analytics)**
-  - **Description**: Web analytics platform that AI agents can query via CLI. Track page views, custom events, run A/B experiments, analyze funnels, retention cohorts, and traffic heatmaps. Use when the user needs web analytics, visitor tracking, event tracking, conversion optimization, growth insights, A/B testing, or wants to add analytics to their website or app. Also available as an MCP server at mcp.agentanalytics.sh.
-- **[comman-felo-slides](skills/comman-felo-slides)**
-  - **Description**: Generate PPT/slides with Felo PPT Task API in Claude Code. Use when users ask to create/make/generate/export presentations or slide decks, or when explicit commands like /felo-slides are used. Handles API key check, task creation, polling, and final ppt_url output.
-- **[dragon-ppt-maker](skills/dragon-ppt-maker)**
-  - **Description**: Use python-pptx to create exquisite PPT, which supports technology-style design, mixed graphics and text, and HTML content embedding.
-- **[x-research-skill](skills/x-research-skill)**
-  - **Description**: Research trending topics, ideas, and conversations on X (Twitter) using twitterapi.io.
-- **[skill-publisher-claw-skill](skills/skill-publisher-claw-skill)**
-  - **Description**: Prepare Claw skills for public release. Use when publishing skills to GitHub or ClawdHub - covers security audit, portability, documentation, git hygiene. Triggers: publish skill, release skill, audit skill, skill checklist, prepare skill for release.
-- **[mineru-pdf-parser](skills/mineru-pdf-parser)**
-  - **Description**: Use MinerU API to parse PDF files (the file you specify will be uploaded to https://mineru.net for parsing).
-- **[caesar-research](skills/caesar-research)**
-  - **Description**: Deep research using the Caesar API — run queries, follow up with chat, brainstorm, and manage collections.
-- **[marila-skill-publish](skills/marila-skill-publish)**
-  - **Description**: Used to publish and update OpenClaw skills to ClawHub and synchronize GitHub Release. Used when users mention scenarios such as "publish skills", "send to ClawHub", "publish this skill", "publish as soon as it is written", "online this skill", etc. Contains complete release steps, version specifications, pre-release checklist, GitHub Release synchronization rules and FAQs.
-- **[stirling-pdf](skills/stirling-pdf)**
-  - **Description**: PDF manipulation via Stirling-PDF API. Merge, split, convert, OCR, compress, sign, redact, and more. Self-hosted.
-- **[xiaohongshu-founder-growth-writer](skills/xiaohongshu-founder-growth-writer)**
-  - **Description**: Turn rough notes, founder insights, and English drafts into natural Xiaohongshu posts that feel human, trustworthy, and platform-native.
-- **[arxiv-reader](skills/arxiv-reader)**
-  - **Description**: Use python to specify an arxiv_id/url, use LLM Agent to classify and in-depth read this arxiv paper, and directly print the reading notes
-- **[weibo-publisher](skills/weibo-publisher)**
-  - **Description**: Publish posts to Weibo (Sina Weibo) using browser automation. Use when the user wants to post content to Weibo, share updates on Weibo, publish microblogs, or automate Weibo posting. Supports text posts with emoji, hashtags, and mentions. No API key required - uses browser automation with managed browser profile.
-- **[xiaohongshu-publish-skill](skills/xiaohongshu-publish-skill)**
-  - **Description**: Xiaohongshu (RedNote/小红书) automation skill for content publishing and engagement. Publish image-text notes via the xhs API using cookies, and simulate browser interactions (search, browse, comment) via Playwright. "
-- **[exec-clawhub-publish-doctor](skills/exec-clawhub-publish-doctor)**
-  - **Description**: Diagnose and mitigate exec-related tooling failures around ClawHub publishing and GitHub CLI queries (auth, browser-login, missing dependencies, pending security-scan visibility errors, wrong profile/skill URLs, and gh JSON-field mismatch errors like Unknown JSON field). Use when publishing skills to ClawHub fails, inspect reports temporary errors, or GitHub CLI search commands fail due to field schema differences.
-- **[meyhem-researcher](skills/meyhem-researcher)**
-  - **Description**: Multi-query research tool. Breaks a topic into focused queries, previews top results. No API key.
-- **[remix-agent-publish](skills/remix-agent-publish)**
-  - **Description**: Build Remix games for remix.gg with the server-api v1 agents REST API and Farcade game SDK requirements.
-- **[add-watermark-to-pdf](skills/add-watermark-to-pdf)**
-  - **Description**: Add a text watermark to one or multiple PDFs by uploading them to the Solutions API, polling until completion, then returning download URL(s) for the watermarked PDF(s) (or a ZIP if multiple).
-- **[change-pdf-permissions](skills/change-pdf-permissions)**
-  - **Description**: Change a PDF’s permission flags (edit, print, copy, forms, annotations, etc.) by uploading it to the Solutions API, polling until completion, then returning a download URL for the updated PDF.
-- **[make-pdf-safe](skills/make-pdf-safe)**
-  - **Description**: Flatten a PDF into a non-interactive “safe” version by uploading it to the Solutions API, polling until completion, then returning a download URL for the flattened PDF.
-- **[librag-knowledge-recall](skills/librag-knowledge-recall)**
-  - **Description**: Use the LibRAG local `/api/v1/librag/knowbase/recall` interface to recall knowledge base data. It is suitable for knowledge base retrieval, data recall, evidence paragraph extraction, source location, question and answer evidence collection based on knowledge base in Chinese scenarios, as well as tasks initiated by users using expressions such as "knowledge base query", "data recall" and "finding answers from documents".
-- **[feishu-document-reader](skills/feishu-document-reader)**
-  - **Description**: Read and extract content from all Feishu (Lark) document types using the official Feishu Open API
-- **[image-read](skills/image-read)**
-  - **Description**: Use GLM AI's GLM-4V-Flash free multi-modal API to understand image content. This skill is used when users need to understand the content of pictures, describe pictures, and identify objects in pictures.
+  - **Description**: Describe your requirements in natural language, and the tool will automatically generate a requirements document and open it in an editor.
 - **[deepwiki](skills/deepwiki)**
-  - **Description**: Query the DeepWiki MCP server for GitHub repository documentation, wiki structure, and AI-powered questions.
-- **[marketing-copy-knowledge](skills/marketing-copy-knowledge)**
-  - **Description**: Xiaohei Teacher designed by Qiu Yuting. Meta ad copy, Google ad copy, social posts: Use FABE x SPIN to produce ad copy that converts better. Supports freemium/paid (X-Api-Key credits).
-- **[obsidian-openclaw-sync](skills/obsidian-openclaw-sync)**
-  - **Description**: Sync Obsidian OpenClaw config across multiple iCloud devices. Manages symlinks for seamless multi-device sync.
-- **[rednote-cli](skills/rednote-cli)**
-  - **Description**: Use when the user needs to publish, search, inspect, log into, or otherwise operate Xiaohongshu (RedNote) from the terminal with the `@skills-store/rednote` CLI. When handling `rednote login`, expect the command to return a local QR code image path on success and present that QR code image to the user.
-- **[deepread-agent-setup](skills/deepread-agent-setup)**
-  - **Description**: Authenticate AI agents with the DeepRead OCR API using OAuth device flow. The agent displays a code, the user approves it in their browser, and the agent receives a DEEPREAD_API_KEY stored as an environment variable.
-- **[notion-2026-01-15](skills/notion-2026-01-15)**
-  - **Description**: Notion API updated to 2026 01 15 changes for creating, moving, and managing pages, data sources, and blocks.
-- **[read-policy](skills/read-policy)**
-  - **Description**: Read OpenClaw policies from PostgreSQL through the local Supabase Docker stack. Use for inspecting policy keys such as auto_approve, priority_routing, or available_skills.
-- **[jina-reader](skills/jina-reader)**
-  - **Description**: Web content extraction via Jina AI Reader API. Three modes: read (URL to markdown), search (web search + full content), ground (fact-checking). Extracts clean content without exposing server IP.
+  - **Description**: Query the DeepWiki MCP server for GitHub repository documentation, wiki structure, and AI-generated questions.
 - **[reporead](skills/reporead)**
-  - **Description**: Analyze GitHub repositories using RepoRead AI. Use when the user asks to "analyze a repo", "generate docs", "security audit a repo", "create a README", or wants AI-powered repository analysis. Supports MCP server integration and REST API.
-- **[kimai-time-tracking](skills/kimai-time-tracking)**
-  - **Description**: Complete Kimai time-tracking API integration. Manage timesheets, customers, projects, activities, teams, invoices and exports via REST API. Supports time tracking workflows, reporting, and administrative operations. Keywords - kimai, zeiterfassung, timesheet, tracking, project, customer, activity, invoice, export, timer, stunden
-- **[google-tasks](skills/google-tasks)**
-  - **Description**: Fetch, display, create, and delete Google Tasks using the Google Tasks API. Use when the user asks to check, view, list, get, add, create, remove, or delete their Google Tasks, to-do lists, or task items. Handles OAuth authentication automatically using bash script with curl and jq.
-- **[google-calendar](skills/google-calendar)**
-  - **Description**: Interact with Google Calendar via the Google Calendar API – list upcoming events, create new events, update or delete them. Use this skill when you need programmatic access to your calendar from OpenClaw.
-- **[weeek-tasks](skills/weeek-tasks)**
-  - **Description**: Управление задачами WEEEK через Public API (Task Manager): получать список задач, создавать/обновлять/завершать задачи, перемещать между досками/колонками, получать список досок и колонок. Использовать при интеграции с WEEEK API и работе с задачами/досками/колонками.
+  - **Description**: Analyze GitHub repositories with RepoRead AI for tasks like generating documentation, conducting security audits, or creating a README. Supports MCP server integration and REST API.
 - **[task-review-workflow](skills/task-review-workflow)**
-  - **Description**: Standard PR review and merge workflow for task-driven development. Use when reviewing a programmer agent PR linked to a task, deciding merge vs change request, handling post-merge actions (Trello + branch cleanup), and sending a clear outcome handoff.
-- **[openclaw-tour-planner](skills/openclaw-tour-planner)**
-  - **Description**: Universal travel planning skill for OpenClaw agents. Plan itineraries, check weather, discover attractions, and estimate budgets — all through natural conversation. Uses free APIs, no API key required for core features.
-- **[minimax-plan-checker](skills/minimax-plan-checker)**
-  - **Description**: Obtain the package information of the MiniMax platform, including package name, quota, and current usage. Use this skill when users ask about MiniMax packages, quota usage, API call volume, and billing information.
-- **[caldav-calendar](skills/caldav-calendar)**
-  - **Description**: Sync and query CalDAV calendars (iCloud, Google, Fastmail, Nextcloud, etc.) using vdirsyncer + khal. Works on Linux.
-- **[linear-todos](skills/linear-todos)**
-  - **Description**: A CLI tool that executes Python source code to manage todos via Linear's API. Creates tasks with natural language dates, priorities, and scheduling. This is a source-execution skill - code in src/linear_todos/ runs when commands are invoked.
-- **[timestamp](skills/timestamp)**
-  - **Description**: *Build a chain of trust with your past self.*
-- **[caldav-calendar-1-0-1](skills/caldav-calendar-1-0-1)**
-  - **Description**: Sync and query CalDAV calendars (iCloud, Google, Fastmail, Nextcloud, etc.) using vdirsyncer + khal. Works on Linux.
-- **[plan-flow](skills/plan-flow)**
-  - **Description**: Structured AI-assisted development workflows - discovery, planning, execution, code reviews, and testing
-- **[local-task-runner](skills/local-task-runner)**
-  - **Description**: This skill provides a mechanism to execute Node.js code snippets or full scripts locally on the host machine.
-- **[beaverhabits](skills/beaverhabits)**
-  - **Description**: Track and manage your habits using the Beaver Habit Tracker API.
+  - **Description**: This AI skill plugin streamlines the PR review and merge process for task-driven development, facilitating decisions on merging or requesting changes, and handling post-merge actions like Trello updates and branch cleanup.
 - **[runtime-debug-skill](skills/runtime-debug-skill)**
-  - **Description**: Diagnose and fix bugs using runtime execution traces. Use when debugging errors, analyzing failures, or finding root causes in Python, Node.js, or Java applications.
+  - **Description**: Diagnose and fix bugs in Python, Node.js, or Java applications using runtime execution traces. Ideal for debugging errors, analyzing failures, and identifying root causes.
 - **[runtime-debugging-skill](skills/runtime-debugging-skill)**
-  - **Description**: Diagnose and fix bugs using runtime execution traces. Use when debugging errors, analyzing failures, or finding root causes in Python, Node.js, or Java applications.
-- **[task-delegator](skills/task-delegator)**
-  - **Description**: Task delegation mode - automatically delegates all tasks that require the use of tools to sub-agents. Always used for: searching, browsing, reading and writing files, code execution, API calls, data analysis. Never used for: small talk, simple Q&A without tools, confirmations. Trigger Phrase: Delegate this OR to be triggered implicitly when required by any tool operation. Core behavior: Use sessions_spawn() with cleanup:"delete" to keep the main session context lean.
-### Data & Analysis
-
-- **[strava-cycling-coach](skills/strava-cycling-coach)**
-  - **Description**: Track and analyze cycling performance from Strava. Use when analyzing ride data, reviewing fitness trends, understanding workout performance, or providing insights on cycling training. Automatically monitors new rides and provides performance analysis.
-- **[healthsync](skills/healthsync)**
-  - **Description**: Queries Apple Health data stored in a local SQLite database. Use this skill to read heart rate, steps, SpO2, VO2 Max, sleep, workouts, resting heart rate, HRV, blood pressure, active/basal energy, body metrics, mobility, running metrics, mindful sessions, wrist temperature, and more. Can query via the healthsync CLI or directly via SQLite. Read-only — never write to the database.
-- **[chart-generator](skills/chart-generator)**
-  - **Description**: Data visualization tool producing SVG charts. Use when you need bar charts, line charts, pie charts, tables, sparklines, gauges, or any data visualization from raw numbers. Triggers on: chart, graph, visualization, bar chart, pie chart, line chart, data plot, SVG.
+  - **Description**: Diagnose and fix bugs in Python, Node.js, or Java applications using runtime execution traces. Ideal for debugging errors, analyzing failures, and identifying root causes.
 - **[sql-query-generator](skills/sql-query-generator)**
-  - **Description**: Generate secure SQL queries with validation, pagination helpers, risk analysis, and audit-focused safeguards.
-- **[diagrams-generator-pro](skills/diagrams-generator-pro)**
-  - **Description**: Generate professional diagrams including cloud architecture, data charts, academic figures, and more. Triggers on requests like "draw architecture diagram", "draw diagram", "draw thesis illustration", "generate system diagram", "create diagram", "visualize data", "draw neural network", or when users provide a sketch/image they want to recreate professionally.
-- **[hybrid-db-health](skills/hybrid-db-health)**
-  - **Description**: Validate and troubleshoot the hybrid database system used by OpenClaw agents (Pulse task DB + RAG Pinecone stack). Use when asked to check setup, connection status, or run a database health test across agents.
-- **[table-image-generator](skills/table-image-generator)**
-  - **Description**: Generate clean table images from data. Perfect for Discord/Telegram where ASCII tables look broken. Supports dark/light mode, custom styling, and auto-sizing. No Puppeteer required. Companion to chart-image skill.
-- **[infographic-generation](skills/infographic-generation)**
-  - **Description**: Generate professional infographics using each::sense AI. Create statistical, process, comparison, timeline, list, geographic, hierarchical, resume, report, and social media infographics optimized for visual communication.
+  - **Description**: Generate secure SQL queries with built-in validation, pagination support, risk analysis, and audit-focused safeguards.
 - **[database-schema-designer](skills/database-schema-designer)**
-  - **Description**: Database Schema Designer
+  - **Description**: The Database Schema Designer is a tool for creating, visualizing, and managing database schemas efficiently.
 - **[schema-builder](skills/schema-builder)**
-  - **Description**: Database schema designer. Design table structures, generate SQL DDL, migration scripts, seed data, ER diagrams, optimization reports, NoSQL schemas, and schema diffs. Commands: design, sql, migrate, seed, erd, optimize, nosql, compare. Use for database design, table structure, SQL generation.
+  - **Description**: A database schema designer for creating table structures, generating SQL DDL, migration scripts, seed data, ER diagrams, optimization reports, NoSQL schemas, and schema diffs. Use it for comprehensive database design and management.
 - **[database-schema-differ](skills/database-schema-differ)**
   - **Description**: Compare database schemas across environments, generate migration scripts, and track schema evolution.
-- **[chart-splat](skills/chart-splat)**
-  - **Description**: Generate beautiful charts via the Chart Splat API. Use when the user asks to create, generate, or visualize data as charts, graphs, or plots. Supports line, bar, pie, doughnut, radar, polar area, and candlestick/OHLC charts. Returns PNG images.
-- **[chart-image](skills/chart-image)**
-  - **Description**: Generate publication-quality chart images from data. Supports line, bar, area, point, candlestick, pie/donut, heatmap, multi-series, and stacked charts. Use when visualizing data, creating graphs, plotting time series, or generating chart images for reports/alerts. Designed for Fly.io/VPS deployments - no native compilation, no Puppeteer, no browser required. Pure Node.js with prebuilt binaries.
-- **[article-to-infographic](skills/article-to-infographic)**
-  - **Description**: Transform articles, blog posts, reports, or any text content into visually stunning, self-contained HTML infographics. Use when the user wants to convert text into an infographic, create a visual summary of an article, make a data visualization from written content, or generate an infographic from a URL, file, or pasted text. Supports multiple infographic styles (timeline, statistics, comparison, process flow, listicle) with distinctive, non-gene
 - **[afrexai-database-engineer](skills/afrexai-database-engineer)**
-  - **Description**: Complete database design, optimization, migration, and operations system. From schema design to production monitoring — covers PostgreSQL, MySQL, SQLite, and general SQL patterns.
+  - **Description**: A comprehensive system for database design, optimization, migration, and operations, covering PostgreSQL, MySQL, SQLite, and general SQL patterns.
 - **[tg-mysql-design](skills/tg-mysql-design)**
-  - **Description**: MySQL database design assistant. Based on business rule documents and existing SQL DDL scripts, design MySQL 5.7/8.0 table creation statements that comply with Alibaba specifications. Triggered when the user mentions keywords such as "database design", "table creation statement", "DDL", "table structure design", "CREATE TABLE". Supports reading business rule documents (.md files) and SQL scripts (.sql files), and outputs database table designs that comply with Alibaba Cloud RDS specifications.
-- **[strava-python](skills/strava-python)**
-  - **Description**: Query Strava activities, stats, and workout data using Python/stravalib with interactive setup
+  - **Description**: A MySQL table design assistant that generates Alibaba-compliant DDL statements for MySQL 5.7/8.0 based on business rule documents and existing SQL scripts. It supports .md and .sql file inputs, producing RDS-standard table designs.
 - **[xcode-build-analyzer](skills/xcode-build-analyzer)**
-  - **Description**: Analyze Xcode build logs — timing, warnings, errors, slow compiles, and build history from DerivedData.
+  - **Description**: Analyze Xcode build logs for timing, warnings, errors, slow compiles, and build history from DerivedData.
 - **[database-designer](skills/database-designer)**
-  - **Description**: Database Designer - POWERFUL Tier Skill
-- **[sql-to-bi-builder](skills/sql-to-bi-builder)**
-  - **Description**: Convert a markdown file containing SQL queries (for example `sql.md`) into a BI dashboard specification and UI scaffold. Use when user asks to build analytics dashboards, chart pages, or BI interfaces from existing SQL statements, including query parsing, metric/dimension inference, chart recommendation, filter design, and layout generation.
-- **[openclaw-aisa-us-stock-analyst](skills/openclaw-aisa-us-stock-analyst)**
-  - **Description**: Professional US stock analysis with financial data, news, social sentiment, and multi-model AI. Comprehensive reports at $0.02-0.10 per analysis.
-- **[openclaw-stock-data-skill](skills/openclaw-stock-data-skill)**
-  - **Description**: Use the interface provided by data.diemeng.chat to query stock daily lines, minute lines, financial indicators and other data, supporting A-share and other markets.
-- **[afrexai-churn-analyzer](skills/afrexai-churn-analyzer)**
-  - **Description**: Identify customers most likely to churn before they leave. Uses behavioral signals, usage patterns, and engagement data to score accounts and recommend retention actions.
-- **[afrexai-data-analyst](skills/afrexai-data-analyst)**
-  - **Description**: **Transform raw data into decisions. Not just charts — answers.**
-- **[afrexai-data-governance](skills/afrexai-data-governance)**
-  - **Description**: Assess, score, and remediate your organization's data governance posture across 6 domains.
-- **[afrexai-data-privacy](skills/afrexai-data-privacy)**
-  - **Description**: [What this processing involves]
-- **[afrexai-data-room](skills/afrexai-data-room)**
-  - **Description**: Build a structured virtual data room checklist and folder hierarchy for fundraising, M&A, or due diligence.
-- **[afrexai-margin-analysis](skills/afrexai-margin-analysis)**
-  - **Description**: Analyze gross, operating, and net margins by product line, customer segment, and channel. Identify margin erosion patterns and build pricing power.
-- **[afrexai-photography-mastery](skills/afrexai-photography-mastery)**
-  - **Description**: Complete photography system — exposure, composition, lighting, genre-specific workflows, editing, gear selection, portfolio building, and client management. From beginner to professional.
-- **[afrexai-swot-analyzer](skills/afrexai-swot-analyzer)**
-  - **Description**: Run a structured SWOT analysis for any business, product, or strategic decision.
-- **[competitor-analyst](skills/competitor-analyst)**
-  - **Description**: Analyzes competitors using web research and structured frameworks
-- **[compact-state](skills/compact-state)**
-  - **Description**: Join The Compact State — a shared autonomous agent network with on-chain identity, persistent memory, and collective governance.
-- **[rubric-gap-analyzer](skills/rubric-gap-analyzer)**
-  - **Description**: Read the grading standards, assignment requirements or assessment rubrics, analyze the gaps in the current draft and provide a score improvement plan.
-- **[backlink-analyzer](skills/backlink-analyzer)**
-  - **Description**: This skill should be used when the user asks to "analyze backlinks", "check link profile", "find toxic links", "link building opportunities", "off-page SEO", "who links to me", "I have spammy links", "how do I get more backlinks", or "disavow links". Analyzes backlink profiles to understand link authority, identify toxic links, discover link building opportunities, and monitor competitor link acquisition. Essential for off-page SEO strategy. For
-- **[content-gap-analysis](skills/content-gap-analysis)**
-  - **Description**: This skill should be used when the user asks to "find content gaps", "what am I missing", "topics to cover", "content opportunities", "what do competitors write about that I do not", "what topics am I missing", "topics my competitors cover that I lack", or "where are my content blind spots". Identifies content opportunities by finding topics and keywords your competitors cover that you do not. Reveals untapped content potential and strategic gaps
-- **[wp-to-static](skills/wp-to-static)**
-  - **Description**: Convert a WordPress website to a static site and deploy to Cloudflare Pages. Mirrors the rendered HTML via SSH, extracts only referenced assets (shrinks 1.5GB+ to ~25MB), fixes URLs, self-hosts fonts, strips WordPress cruft, and deploys. Use when migrating a WordPress site to static hosting.
-- **[adhd-bookmark-analyzer](skills/adhd-bookmark-analyzer)**
-  - **Description**: Your bookmarks are a graveyard. This brings them back to life.
-- **[seo-dataforseo](skills/seo-dataforseo)**
-  - **Description**: SEO keyword research using the DataForSEO API. Perform keyword analysis, YouTube keyword research, competitor analysis, SERP analysis, and trend tracking. Use when the user asks to: research keywords, analyze search volume/CPC/competition, find keyword suggestions, check keyword difficulty, analyze competitors, get trending topics, do YouTube SEO research, or optimize landing page keywords. Requires a DataForSEO API account and credentials in .en
-- **[youtube-analytics](skills/youtube-analytics)**
-  - **Description**: YouTube Data API v3 analytics toolkit. Analyze YouTube channels, videos, and search results. Use when the user asks to: check YouTube channel stats, analyze video performance, compare channels, search for videos, get subscriber counts, view engagement metrics, find trending videos, get channel uploads, or analyze YouTube competition. Requires a YouTube Data API v3 key from Google Cloud Console.
-- **[survival-analysis-km](skills/survival-analysis-km)**
-  - **Description**: Generates Kaplan-Meier survival curves, calculates survival statistics
-- **[a6-gemini-video-analyzer](skills/a6-gemini-video-analyzer)**
-  - **Description**: Intelligent module for a6-gemini-video-analyzer.
-- **[gemini-video-analyzer](skills/gemini-video-analyzer)**
-  - **Description**: Intelligent module for gemini-video-analyzer.
-- **[yindenganalyse](skills/yindenganalyse)**
-  - **Description**: This is a standard Skill for CoPAW (Copilot Automation Workflow), which supports automatically crawling Yindeng.com's non-performing loan transfer announcements and transfer results, and uses large models (LLM) to extract key data.
-- **[estat-mcp](skills/estat-mcp)**
-  - **Description**: Search and retrieve Japanese government statistics (人口, GDP, CPI, 貿易, 雇用) from e-Stat API — Japan's official open data portal with 3,000+ statistical tables. Population, economy, trade, employment data. Free API.
-- **[static-app](skills/static-app)**
-  - **Description**: Deploy static websites to Static.app hosting. Use when the user wants to deploy, upload, or host a static site on Static.app. Triggers on phrases like "deploy to static.app", "upload to static", "host on static.app", "static.app deploy", or when working with the Static.app hosting service.
-- **[dataforseo-cli](skills/dataforseo-cli)**
-  - **Description**: LLM-friendly keyword research CLI for AI agents. Check search volume, CPC, keyword difficulty, and competition via DataForSEO API. Find related keywords, analyze competitor rankings. Outputs TSV by default (optimized for agent context windows). Use when doing SEO research, content planning, or competitive keyword analysis.
-- **[cs-analytics-tracking](skills/cs-analytics-tracking)**
-  - **Description**: Set up, audit, and debug analytics tracking implementation — GA4, Google Tag Manager, event taxonomy, conversion tracking, and data quality. Use when building a tracking plan from scratch, auditing existing analytics for gaps or errors, debugging missing events, or setting up GTM. Trigger keywords: GA4 setup, Google Tag Manager, GTM, event tracking, analytics implementation, conversion tracking, tracking plan, event taxonomy, custom dimensions, U
-- **[cs-financial-analyst](skills/cs-financial-analyst)**
-  - **Description**: Performs financial ratio analysis, DCF valuation, budget variance analysis, and rolling forecast construction for strategic decision-making. Use when analyzing financial statements, building valuation models, assessing budget variances, or constructing financial projections and forecasts. Also applicable when users mention financial modeling, cash flow analysis, company valuation, financial projections, or spreadsheet analysis.
-- **[senior-data-scientist](skills/senior-data-scientist)**
-  - **Description**: World-class senior data scientist skill specialising in statistical modeling, experiment design, causal inference, and predictive analytics. Covers A/B testing (sample sizing, two-proportion z-tests, Bonferroni correction), difference-in-differences, feature engineering pipelines (Scikit-learn, XGBoost), cross-validated model evaluation (AUC-ROC, AUC-PR, SHAP), and MLflow experiment tracking — using Python (NumPy, Pandas, Scikit-learn), R, and SQ
-- **[a-stock-kline-analyzer](skills/a-stock-kline-analyzer)**
-  - **Description**: A-share K-line analysis tool v1.0.6 - real-time market, technical indicators (MA/MACD/RSI/Bollinger Bands), K-line pattern recognition, volume and energy analysis (volume ratio/turnover rate/volume-price relationship), ultra-detailed structured analysis report, technical scoring system, tomorrow's trend prediction, complete term explanation
-- **[analytix402](skills/analytix402)**
-  - **Description**: Intelligent module for analytix402.
-- **[intelligent-triage-symptom-analysis](skills/intelligent-triage-symptom-analysis)**
-  - **Description**: Intelligent Triage and Symptom Analysis Skill. Supports 650+ symptoms across 11 body systems. Based on ESI and Manchester Triage System with 5-level triage classification. Features NLP-driven symptom extraction, 3000+ disease database, red flag warning mechanism (≥95% accuracy for life-threatening conditions), and machine learning-assisted differential diagnosis.
-- **[capability-composition-analyzer](skills/capability-composition-analyzer)**
-  - **Description**: Intelligent module for capability-composition-analyzer.
-- **[capability-graph-mapper](skills/capability-graph-mapper)**
-  - **Description**: Intelligent module for capability-graph-mapper.
-- **[financial-analyst](skills/financial-analyst)**
-  - **Description**: Financial analysis and research workflows for market research, equity research, comparable companies, precedent transactions, and DCF valuation. Use when asked to build or critique DCF models, comps/precedents tables, competitor or strategy analysis, market sizing, or to deliver analyst-ready outputs in Excel, PowerPoint, or Markdown from CSV/Excel/SQL/API/web data.
-- **[dataset-finder](skills/dataset-finder)**
-  - **Description**: Use this skill when users need to search for datasets, download data files, or explore data repositories. Triggers include: requests to \"find datasets\", \"search for data\", \"download dataset from Kaggle\", \"get data from Hugging Face\", \"find ML datasets\", or mentions of data repositories like Kaggle, UCI ML Repository, Data.gov, or Hugging Face. Also use for previewing dataset statistics, generating data cards, or discovering datasets for
-- **[compliance-analyzer](skills/compliance-analyzer)**
-  - **Description**: Map AWS environment against CIS, SOC 2, HIPAA, or PCI-DSS controls with prioritized remediation
-- **[spend-analyzer](skills/spend-analyzer)**
-  - **Description**: Analyze AWS Cost & Usage Reports to identify top cost drivers, waste, and anomalies across all linked accounts
-- **[simple-excel](skills/simple-excel)**
-  - **Description**: Simple Excel file processing tool. Used to read, create, and edit .xlsx and .csv files, suitable for basic data manipulation tasks, such as reading data, simple calculations, generating tables, etc.
-- **[football-data](skills/football-data)**
-  - **Description**: Intelligent module for football-data.
-- **[csv-wizard](skills/csv-wizard)**
-  - **Description**: Interactive data cleaning CLI, supporting automatic type inference, missing value processing, and duplicate detection
-- **[opinion-analyzer](skills/opinion-analyzer)**
-  - **Description**: Intelligent module for opinion-analyzer.
-- **[swotpal-swot-analysis](skills/swotpal-swot-analysis)**
-  - **Description**: Professional SWOT analysis and competitive comparison powered by SWOTPal.com
-- **[clawstats](skills/clawstats)**
-  - **Description**: Comprehensive system monitoring for OpenClaw: CPU, RAM, Disk, and Processes.
-- **[expanso-csv-to-json](skills/expanso-csv-to-json)**
-  - **Description**: "Convert CSV data to JSON array of objects"
-- **[expanso-json-to-csv](skills/expanso-json-to-csv)**
-  - **Description**: "Convert JSON array of objects to CSV format"
-- **[ai-data-analysis](skills/ai-data-analysis)**
-  - **Description**: # Data Analysis Service
-- **[jtbd-analyzer](skills/jtbd-analyzer)**
-  - **Description**: Uncover the real "job" customers hire your product to do. Goes beyond features to understand functional, emotional, and social motivations. Use when user says "jobs to be done", "jtbd", "why do customers", "what job", "customer motivation", "what problem", "user needs", "why do people buy".
-- **[pre-mortem-analyst](skills/pre-mortem-analyst)**
-  - **Description**: Imagine the project already failed, then work backward to find why. More powerful than risk assessment because it assumes failure is certain. Use when user says "pre-mortem", "premortem", "imagine this failed", "what could go wrong", "risk analysis", "before we launch", "stress test", "what would kill this", "project risks".
-- **[ironclaw-pipeline-analytics](skills/ironclaw-pipeline-analytics)**
-  - **Description**: Generate interactive analytics dashboards from CRM data. Use when asked to "show pipeline stats", "create a report", "analyze leads", "show conversion rates", "build a dashboard", "visualize outreach data", "funnel analysis", or any data visualization request from DuckDB workspace data.
-- **[kleo-static-files](skills/kleo-static-files)**
-  - **Description**: Intelligent module for kleo-static-files.
+  - **Description**: Database Designer is a powerful tool for creating and managing database schemas efficiently.
 - **[project-deep-analyzer](skills/project-deep-analyzer)**
-  - **Description**: In-depth analysis of the project's system boundaries, core concepts, module architecture, key algorithms, technology selection and error troubleshooting. Called when the user needs to deeply understand the code base or locate difficult problems.
-- **[bank-statement-converter](skills/bank-statement-converter)**
-  - **Description**: Intelligent module for bank-statement-converter.
-- **[personality-analysis-yang](skills/personality-analysis-yang)**
-  - **Description**: Analyze a person's personality traits based on their written text or chat messages. Use this skill whenever the user wants to understand someone's personality, character, communication style, or behavioral tendencies from text. Trigger when the user says things like "analyze this person's personality", "what kind of person wrote this", "tell me about this person based on their messages", "profile this person", "what does this text say about their
-- **[datafast-analytics](skills/datafast-analytics)**
-  - **Description**: Query DataFast website analytics and visitor data via the DataFast API for metrics, time series, realtime stats, breakdowns, visitor details, and goal/payment management.
-- **[options-analyzer](skills/options-analyzer)**
-  - **Description**: Intelligent module for options-analyzer.
-- **[csv-analyzer-cn](skills/csv-analyzer-cn)**
-  - **Description**: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━. Use when you need csv analyzer cn capabilities. Triggers on: csv analyzer cn.
-- **[google-analytics](skills/google-analytics)**
-  - **Description**: Intelligent module for google-analytics.
-- **[microsoft-excel](skills/microsoft-excel)**
-  - **Description**: Intelligent module for microsoft-excel.
-- **[clawhub-market-analyzer](skills/clawhub-market-analyzer)**
-  - **Description**: Analyze the ClawHub marketplace to identify money-making opportunities, competition, and pricing strategies for skill creators.
-- **[amazon-analyse](skills/amazon-analyse)**
-  - **Description**: Conduct a full-dimensional penetration analysis of Amazon’s competitive product listings, including copywriting logic, review analysis, keyword analysis, market dynamics, etc. After the analysis is completed, it is automatically saved as a Markdown report document to the reports/ directory. Invoke when user uses /amazon-analyse command with a product ASIN.
-- **[investment-data-1-0-0](skills/investment-data-1-0-0)**
-  - **Description**: Obtain high-quality A-share investment data, based on the investment_data project. Supports end-of-day prices, price limit data, index data, etc. Updated daily, cross-validated with multiple data sources. Trigger words: stock data, A-share data, financial data, quantitative data, historical market conditions.
+  - **Description**: This skill provides in-depth analysis of a project's system boundaries, core concepts, module architecture, key algorithms, and technology choices, aiding in codebase understanding and troubleshooting.
 - **[tech-data-playbook](skills/tech-data-playbook)**
-  - **Description**: Intelligent module for tech-data-playbook.
-- **[plausible-analytics](skills/plausible-analytics)**
-  - **Description**: Query and analyze website analytics from Plausible Analytics. Use when you need to check real-time visitors, get page views and visitor statistics for a time period, analyze traffic sources or top pages, examine geographic distribution, or generate analytics reports and insights for websites tracked with Plausible Analytics.
-- **[alicloud-data-analytics-dataanalysisgbi](skills/alicloud-data-analytics-dataanalysisgbi)**
-  - **Description**: Manage Alibaba Cloud DataAnalysisGBI via OpenAPI/SDK. Use whenever the user needs DataAnalysisGBI resource lifecycle operations, configuration changes, status inspection, or troubleshooting for analytics service workflows.
-- **[alicloud-data-lake-dlf-next](skills/alicloud-data-lake-dlf-next)**
-  - **Description**: Manage Alibaba Cloud Data Lake Formation (DlfNext) via OpenAPI/SDK. Use whenever the user needs DLF Next catalog/governance resource operations, including listing resources, create/update flows, status checks, and troubleshooting metadata workflow issues.
-- **[alicloud-data-lake-dlf](skills/alicloud-data-lake-dlf)**
-  - **Description**: Manage Alibaba Cloud Data Lake Formation (DataLake) via OpenAPI/SDK. Use whenever the user asks for DataLake catalog resource operations, configuration updates, status queries, or troubleshooting DataLake API workflows.
-- **[azuredatastudio](skills/azuredatastudio)**
-  - **Description**: Azure Data Studio is a data management and development tool with connectivity to popular cloud and o azuredatastudio, typescript, azure, azure-data-studio, electron, microsoft, postgresql. Use when you need azuredatastudio capabilities. Triggers on: azuredatastudio.
-- **[error-analysis](skills/error-analysis)**
-  - **Description**: Intelligent module for error-analysis.
-- **[graphql-builder](skills/graphql-builder)**
-  - **Description**: Error: --type required. Use when you need graphql builder capabilities. Triggers on: graphql builder, type, entity, fields, relations, lang.
-- **[clarity-analyze](skills/clarity-analyze)**
-  - **Description**: Intelligent module for clarity-analyze.
-- **[clarity-fold-status](skills/clarity-fold-status)**
-  - **Description**: Intelligent module for clarity-fold-status.
-- **[competitor-analyzer](skills/competitor-analyzer)**
-  - **Description**: Analyze any company's competitive position in minutes. Takes a company name or URL and produces a structured report covering what they do, pricing, social presence, and recent news.
-- **[shelly-competitor-analyzer](skills/shelly-competitor-analyzer)**
-  - **Description**: Analyze any company's competitive position in minutes. Takes a company name or URL and produces a structured report covering what they do, pricing, social presence, and recent news.
-- **[shelly-seo-analyzer](skills/shelly-seo-analyzer)**
-  - **Description**: Analyze any webpage URL for SEO issues and get actionable recommendations. Checks title tags, meta descriptions, heading structure, keyword density, image alt tags, Open Graph, and more.
-- **[a-stock-analysis](skills/a-stock-analysis)**
-  - **Description**: A-share real-time market conditions and time-sharing volumes can be analyzed. Obtain the real-time price, rise and fall, and trading volume of Shanghai and Shenzhen stocks, and analyze time-sharing volume distribution (early trading/late trading heavy volume), main trends (rushing for funds/shipping signals), and daily limit orders. Support position management and profit and loss analysis. Use when: (1) Query the real-time market conditions of A shares, (2) Analyze the trend of main funds, (3) View the time-sharing trading volume distribution, (4) Manage stock positions, (5) Analyze the profit and loss of positions.
-- **[native-google-analytics](skills/native-google-analytics)**
-  - **Description**: Query Google Analytics 4 (GA4) data directly via the Analytics Data API. Use when you need website analytics like top pages, traffic sources, sessions, users, conversions, bounce rate, or any GA4 metrics and dimensions. Supports custom date ranges, filtering, and multi-metric queries. Calls analyticsdata.googleapis.com directly with no third-party proxy.
+  - **Description**: The Tech & Data Playbook offers best practices and strategies for a wide range of technology areas including software development, IT infrastructure, cybersecurity, data analytics, cloud computing, AI/ML, and digital transformation. It's your go-to for any discussion on technology strategy, engineering, or data platforms.
+- **[deepwiki-mcp](skills/deepwiki-mcp)**
+  - **Description**: Use DeepWiki MCP to get AI-generated insights about any public GitHub repository, including details on source code, architecture, and configuration. Trigger with phrases like 'how does X work in <repo>', 'deepwiki', or 'look up in codebase'.
+- **[cron-scheduling](skills/cron-scheduling)**
+  - **Description**: Manage and schedule recurring tasks using cron and systemd timers, including timezone-aware scheduling, monitoring, retry patterns, and debugging.
+- **[cs-google-workspace-cli](skills/cs-google-workspace-cli)**
+  - **Description**: Manage Google Workspace with the gws CLI, including Gmail, Drive, Sheets, Calendar, Docs, Chat, and Tasks. Automate tasks, run security audits, and utilize 43 built-in recipes and 10 persona bundles.
+- **[smart-model-switcher-v2](skills/smart-model-switcher-v2)**
+  - **Description**: The Optimized Smart Model Switcher (v2) automatically selects the best model for each task from your plan with zero latency and no restart required, supporting auto-detection of new models, multi-model parallel processing, and intelligent task classification.
+- **[smart-model-switcher-v3](skills/smart-model-switcher-v3)**
+  - **Description**: Universal Smart Model Switcher V3 intelligently selects the best model from all your purchased API plans, supporting over 50 models with zero-latency switching and advanced task handling.
+- **[jules-api](skills/jules-api)**
+  - **Description**: Manage Google Jules AI coding sessions using the Jules REST API. Initiate tasks, track progress, approve plans, communicate, and access session details and artifacts.
+### Data & Analysis
+
+- **[botlearn-assessment](skills/botlearn-assessment)**
+  - **Description**: BotLearn-assessment evaluates a bot's capabilities across five dimensions: reasoning, retrieval, creation, execution, and orchestration. It can be triggered manually or scheduled for periodic reviews.
+- **[deepread-ocr](skills/deepread-ocr)**
+  - **Description**: DeepRead is an AI-native OCR platform that converts documents into highly accurate data within minutes, achieving over 97% accuracy and reducing manual review to just 5-10% by flagging only uncertain fields for human inspection.
+- **[music-analysis](skills/music-analysis)**
+  - **Description**: Analyze local music/audio files to extract features like tempo, groove, stability, structure, and emotional tone, integrating lyrics for a more nuanced emotional read.
+- **[fenge-smart-search](skills/fenge-smart-search)**
+  - **Description**: A smart search tool that automatically selects the best search engine: Bing for Chinese and DuckDuckGo for English. Free to use with no API key required.
+- **[afrexai-data-engineering](skills/afrexai-data-engineering)**
+  - **Description**: A comprehensive guide for designing, building, operating, and scaling data pipelines and infrastructure with no external dependencies.
+- **[senior-data-engineer](skills/senior-data-engineer)**
+  - **Description**: This AI skill specializes in building scalable data pipelines and ETL/ELT systems, with expertise in Python, SQL, Spark, Airflow, dbt, Kafka, and the modern data stack. It covers data modeling, pipeline orchestration, data quality, and DataOps, ideal for designing data architectures and optimizing workflows.
+- **[code-stats](skills/code-stats)**
+  - **Description**: Visualizes project complexity by counting files, lines of code, and grouping them by file extension, aiding in assessing project size or growth.
+- **[deepread-agent-setup](skills/deepread-agent-setup)**
+  - **Description**: Authenticate AI agents with the DeepRead OCR API via OAuth device flow, where the user approves a code in their browser, and the agent receives a DEEPREAD_API_KEY stored as an environment variable.
+- **[jina-reader](skills/jina-reader)**
+  - **Description**: The Jina AI Reader API extracts web content in three modes: read (URL to markdown), search (web search + full content), and ground (fact-checking). It delivers clean content without exposing the server IP.
+- **[sql-to-bi-builder](skills/sql-to-bi-builder)**
+  - **Description**: Convert a markdown file with SQL queries into a BI dashboard specification and UI scaffold, including query parsing, metric/dimension inference, chart recommendation, filter design, and layout generation.
+- **[afrexai-data-analyst](skills/afrexai-data-analyst)**
+  - **Description**: As a senior data analyst, your role is to uncover the narrative within the data and present it clearly to inform the next steps.
+- **[afrexai-data-governance](skills/afrexai-data-governance)**
+  - **Description**: Evaluate, score, and improve your organization's data governance across six key areas.
+- **[afrexai-data-privacy](skills/afrexai-data-privacy)**
+  - **Description**: The afrexai-data-privacy skill ensures user data is protected and managed according to privacy standards, safeguarding information from unauthorized access.
+- **[estat-mcp](skills/estat-mcp)**
+  - **Description**: Retrieve Japanese government statistics on population, GDP, CPI, trade, and employment from e-Stat, Japan's official open data portal, which offers over 3,000 statistical tables. Free API access.
+- **[senior-data-scientist](skills/senior-data-scientist)**
+  - **Description**: This AI skill plugin specializes in advanced data science, including statistical modeling, experiment design, causal inference, and predictive analytics, with expertise in A/B testing, feature engineering, model evaluation, and MLflow tracking using Python, R, and SQL.
+- **[dataset-finder](skills/dataset-finder)**
+  - **Description**: Use this skill to search for, download, and explore datasets from repositories like Kaggle, UCI ML, Data.gov, or Hugging Face. It also supports previewing dataset statistics and generating data cards.
+- **[simple-excel](skills/simple-excel)**
+  - **Description**: A simple tool for handling Excel files, supporting .xlsx and .csv formats. It is ideal for basic data operations such as reading, editing, and generating tables.
+- **[csv-wizard](skills/csv-wizard)**
+  - **Description**: An interactive CLI for data cleaning, featuring automatic type inference, handling of missing values, and duplicate detection.
+- **[expanso-csv-to-json](skills/expanso-csv-to-json)**
+  - **Description**: Converts CSV data into a JSON array of objects.
+- **[expanso-json-to-csv](skills/expanso-json-to-csv)**
+  - **Description**: Converts a JSON array of objects into CSV format.
+- **[ai-data-analysis](skills/ai-data-analysis)**
+  - **Description**: This command runs a data analysis on the 'data.csv' file, focusing specifically on sales trends.
+- **[csv-analyzer-cn](skills/csv-analyzer-cn)**
+  - **Description**: Use this plugin for analyzing CSV files with Chinese content.
+- **[microsoft-excel](skills/microsoft-excel)**
+  - **Description**: Integrate with Microsoft Excel API to read and write workbooks, manage data, and access cell values in OneDrive. Use this skill for spreadsheet modifications and data management.
 - **[analyse-data](skills/analyse-data)**
-  - **Description**: Intelligent module for analyse-data.
+  - **Description**: The 'analyse-data' skill offers data analysis, interpretation, and visualization, including statistical calculations, trend analysis, and chart generation.
 - **[analysis-data](skills/analysis-data)**
-  - **Description**: Intelligent module for analysis-data.
+  - **Description**: The 'analysis-data' skill offers data analysis, interpretation, and visualization, including statistical calculations, trend analysis, and chart generation.
 - **[data-analysis-pro](skills/data-analysis-pro)**
-  - **Description**: Intelligent module for data-analysis-pro.
+  - **Description**: The Data Analysis Pro skill offers data analysis, interpretation, and visualization. It supports tasks like calculating statistics, analyzing trends, and generating charts.
 - **[data-ground-truth](skills/data-ground-truth)**
-  - **Description**: Before presenting numbers in reports or recommendations, verify facts and check values against industry baselines.
+  - **Description**: Before presenting numbers in reports or recommendations, verify their accuracy and compare them against industry standards.
 - **[nexus-data-profile](skills/nexus-data-profile)**
-  - **Description**: Statistical profiling and quality assessment of datasets
-- **[a-share-analysis](skills/a-share-analysis)**
-  - **Description**: A comprehensive analysis tool for A shares, supporting real-time market conditions, technical analysis, fundamental analysis, sentiment analysis, and generating beautiful Markdown analysis reports. Use when user asks for: A-share stock analysis, market query, technical indicator analysis, financial data acquisition, investment advice, dragon and tiger list data, northbound capital flow, comprehensive investment report and other A-share related analysis needs.
-- **[il-stock-analysis](skills/il-stock-analysis)**
-  - **Description**: Comprehensive Israeli stock analysis for TASE-listed securities including fundamental analysis (financial metrics, business quality, valuation), technical analysis (indicators, chart patterns, support/resistance), stock comparisons, and investment report generation. Supports Hebrew and English queries, TASE tickers, and ETF numbers. Use when user requests analysis of Israeli stocks (e.g., "analyze ALRT", "compare Bank Leumi vs Bank Hapoalim", "an
-- **[hipaa-gap-analysis](skills/hipaa-gap-analysis)**
-  - **Description**: Assess compliance documents against HIPAA Security Rule and Privacy Rule requirements. Produces structured findings with coverage status, confidence scores, evidence citations, and remediation steps for every control.
-- **[doubao-video-analyzer](skills/doubao-video-analyzer)**
-  - **Description**: Use the Doubao 2.0 model to parse the video. This skill is called when you need to perform analysis of video content and need to understand the visual information of the video. You must have a local video path or network video link to call this skill
-- **[audience-segmentation-analyst](skills/audience-segmentation-analyst)**
-  - **Description**: Build audience segmentation and targeting plans for Meta (Facebook/Instagram), Google Ads, TikTok Ads, YouTube Ads, and DSP/programmatic campaigns.
-- **[campaign-retrospective-analyst](skills/campaign-retrospective-analyst)**
-  - **Description**: Run retrospective analysis for campaigns on Meta (Facebook/Instagram), Google Ads, TikTok Ads, YouTube Ads, Amazon Ads, and DSP/programmatic channels.
-- **[creative-performance-analyzer](skills/creative-performance-analyzer)**
-  - **Description**: Analyze creative performance post-launch across Meta (Facebook/Instagram), TikTok Ads, YouTube Ads, Google Ads, and Amazon Ads inventory.
-- **[deep-marketing-analyst](skills/deep-marketing-analyst)**
-  - **Description**: Perform deep-dive strategic analysis using cross-platform evidence from Meta (Facebook/Instagram), Google Ads, TikTok Ads, YouTube Ads, Amazon Ads, and DSP/programmatic.
-- **[marketing-insight-analyzer](skills/marketing-insight-analyzer)**
-  - **Description**: Produce market and competitor insights for paid media decisions across Meta (Facebook/Instagram), Google Ads, TikTok Ads, YouTube Ads, Amazon Ads, and DSP/programmatic.
-- **[traffic-structure-analyzer](skills/traffic-structure-analyzer)**
-  - **Description**: Analyze traffic composition and quality trends from Meta (Facebook/Instagram), Google Ads, TikTok Ads, YouTube Ads, Amazon Ads, and DSP/programmatic channels.
+  - **Description**: This AI skill plugin performs statistical profiling and quality assessment of datasets.
 - **[csv-handler](skills/csv-handler)**
-  - **Description**: Handle CSV files from construction software exports. Auto-detect delimiters, encodings, and clean messy data."
+  - **Description**: Process CSV files from construction software, automatically detecting delimiters and encodings, and cleaning up messy data.
 - **[data-evolution-analysis](skills/data-evolution-analysis)**
-  - **Description**: Analyze data evolution patterns in construction organizations. Assess digital maturity and data strategy for construction companies"
+  - **Description**: Analyze the evolution of data patterns in construction organizations and assess their digital maturity and data strategy.
 - **[data-lineage-tracker](skills/data-lineage-tracker)**
-  - **Description**: Track data origin, transformations, and flow through construction systems. Essential for audit trails, compliance, and debugging data issues."
-- **[prd-visualization-skill](skills/prd-visualization-skill)**
-  - **Description**: Creates interactive D3.js hierarchy visualizations with multiple view modes (List, Force-Directed, Radial Cluster, with Fractal Tree coming soon). Use when user wants to visualize tree structures, hierarchical data, PRDs, requirements, features, specifications, org charts, file structures, or says "visualize hierarchy", "tree view", "show structure", "render tree", "hierarchy diagram", "prd", "requirement", "feature", "specification". Always use
-- **[market-research-agent](skills/market-research-agent)**
-  - **Description**: Conduct structured market research on any industry, competitor, or opportunity. Analyze market size, trends, competitors, and customer segments with a proven framework.
-- **[tavily-research-pro](skills/tavily-research-pro)**
-  - **Description**: Professional AI-powered search and deep research engine. Features multi-dimensional data aggregation, semantic analysis, and automated report generation for structured information gathering.
-- **[agxntsix-research-logger](skills/agxntsix-research-logger)**
-  - **Description**: AI research pipeline with automatic SQLite logging and Langfuse tracing
-- **[research-logger](skills/research-logger)**
-  - **Description**: AI research pipeline with automatic logging. Search via Perplexity, auto-save results to SQLite with topic and project metadata, full Langfuse tracing. Never lose a research session again. Use when conducting research, competitive analysis, or building a knowledge base.
+  - **Description**: Track the origin, transformations, and flow of data through systems for audit trails, compliance, and debugging.
 - **[pdf-ocr-layout](skills/pdf-ocr-layout)**
-  - **Description**: Multimodal document deep analysis tool based on Zhipu GLM-OCR, GLM-4.7, and GLM-4.6V.
-- **[pdf-tools](skills/pdf-tools)**
-  - **Description**: View, extract, edit, and manipulate PDF files. Supports text extraction, text editing (overlay and replacement), merging, splitting, rotating pages, and getting PDF metadata. Use when working with PDF documents for reading content, adding/editing text, reorganizing pages, combining files, or extracting information.
-- **[notion-1-0-0](skills/notion-1-0-0)**
-  - **Description**: Notion API for creating and managing pages, databases, and blocks.
-- **[4chan-reader](skills/4chan-reader)**
-  - **Description**: Browse 4chan boards and extract thread discussions into structured text files. Use when you need to fetch catalog information or specific thread content (including post text and file metadata) from 4chan boards like /a/, /vg/, /v/, etc.
+  - **Description**: A deep analysis tool for multimodal documents, leveraging Zhipu GLM-OCR, GLM-4.7, and GLM-4.6V.
 - **[recursive-knowledge-miner](skills/recursive-knowledge-miner)**
   - **Description**: Professional multi-layered knowledge extraction and recursive knowledge graph construction.
-- **[notion-template](skills/notion-template)**
-  - **Description**: Notion template generator. Workspace planning, database design, dashboard layout, knowledge base wiki, project management, personal templates. Notion template generator with workspace, database, dashboard, wiki, project, and personal templates. Use when you need notion template capabilities. Triggers on: notion template.
 - **[xml-reader](skills/xml-reader)**
-  - **Description**: Read and parse XML from construction systems - P6 schedules, BSDD exports, IFC-XML, COBie-XML. Convert to pandas DataFrames."
-- **[obsidian-cloudflare-pages-skill](skills/obsidian-cloudflare-pages-skill)**
-  - **Description**: Publish selected Obsidian markdown from a vault to a static site and deploy to Cloudflare Pages.
-- **[openclaw-skill-obsidian-cloudflare-pages](skills/openclaw-skill-obsidian-cloudflare-pages)**
-  - **Description**: Publish selected Obsidian markdown from a vault to a static site and deploy to Cloudflare Pages.
-- **[vibe-notion](skills/vibe-notion)**
-  - **Description**: Interact with Notion using the unofficial private API - pages, databases, blocks, search, users, comments
-- **[vibe-notionbot](skills/vibe-notionbot)**
-  - **Description**: Interact with Notion workspaces using official API - manage pages, databases, blocks, users, and comments
-- **[notion-skill](skills/notion-skill)**
-  - **Description**: Work with Notion pages and databases via the official Notion API.
-- **[notion-clipper-skill](skills/notion-clipper-skill)**
-  - **Description**: Clip web pages to Notion. Fetches any URL via Chrome CDP, converts HTML to Markdown, then to Notion blocks, and saves to user-specified Notion database or page. Use when user wants to save/clip a webpage to Notion, or mentions "clip to notion", "save page to notion", "网页剪藏到Notion".
-- **[wechat-to-notion](skills/wechat-to-notion)**
-  - **Description**: Save WeChat public account articles to a Notion database. Use when user sends a mp.weixin.qq.com link and wants to save/archive it to Notion. Fetches title, cover image, body content (paragraphs, headings, images, code blocks, lists) and writes them as Notion blocks.
-- **[macos-notification-reader](skills/macos-notification-reader)**
-  - **Description**: Reads the macOS notification center database and exports recent notifications to markdown files. Also supports automated **work notification summary** with filtering and delivery.
-- **[afrexai-compensation-planner](skills/afrexai-compensation-planner)**
-  - **Description**: Build data-driven compensation structures that attract talent without overpaying. Covers base salary bands, equity/bonus frameworks, geographic differentials, and total rewards packaging.
-- **[afrexai-event-planner](skills/afrexai-event-planner)**
-  - **Description**: Plan, execute, and measure business events — conferences, webinars, workshops, product launches, networking events, trade shows, and corporate gatherings. Complete event lifecycle from concept to post-event ROI analysis.
-- **[afrexai-workforce-planning](skills/afrexai-workforce-planning)**
-  - **Description**: Build a data-driven workforce plan that aligns headcount, skills, and costs with business goals. Covers demand forecasting, gap analysis, succession planning, and contingent workforce strategy.
-- **[system-uptime](skills/system-uptime)**
-  - **Description**: Get the current system uptime using the native 'uptime' command. Use when: user asks about system uptime, system status, or how long the system has been running.
-- **[farmos-tasks](skills/farmos-tasks)**
-  - **Description**: Query and manage farm work orders and tasks. View assignments, create tasks, update status. Uses integration endpoints (no auth) for reads and authenticated endpoints for writes.
-- **[little-steve-task-manager](skills/little-steve-task-manager)**
-  - **Description**: Little Steve Task Manager: a lightweight IM-native task system for quick task operations in chat, with daily summaries and auto status updates.
+  - **Description**: This AI skill reads and parses XML files from various construction systems such as P6 schedules, BSDD exports, IFC-XML, and COBie-XML, converting them into pandas DataFrames.
+- **[geminipdfocr](skills/geminipdfocr)**
+  - **Description**: Extract text from PDFs and perform OCR on scanned or image-based documents using Google Gemini OCR.
+- **[summary](skills/summary)**
+  - **Description**: Summarize content from URLs or files, including web pages, PDFs, images, audio, and YouTube videos, using the summarize CLI.
+- **[summarize-1-0-0](skills/summarize-1-0-0)**
+  - **Description**: Summarize content from URLs or files, including web pages, PDFs, images, audio, and YouTube videos, using the summarize CLI.
+- **[smart-summarizer](skills/smart-summarizer)**
+  - **Description**: Effortlessly summarize articles, PDFs, YouTube videos, web pages, and more. Extract key points, action items, and insights for quick digestion or meeting notes.
+- **[seek-and-analyze-video](skills/seek-and-analyze-video)**
+  - **Description**: Analyze and discover videos from platforms like TikTok, YouTube, and Instagram. Summarize content, create searchable knowledge bases, and use for research or meeting notes.
+- **[deepwiki-ask](skills/deepwiki-ask)**
+  - **Description**: Query a repository with a single question via DeepWiki by providing the owner/repo and your question.
+- **[gws-sheets-read](skills/gws-sheets-read)**
+  - **Description**: Read values from a Google Sheets spreadsheet.
 ### Visual & Presentation
 
+- **[ppt-compress](skills/ppt-compress)**
+  - **Description**: Compress PPT/PPTX files by reducing image sizes and converting to PDF, ideal for sharing or uploading large presentations.
+- **[md-ppt-generator](skills/md-ppt-generator)**
+  - **Description**: Creative director for tech product launches, transforming structured Markdown into visually striking, minimalist 'big-character' style HTML slides, with a focus on cinematic dark gradients, Morandi color scheme text, and 'breathing' motion effects.
+- **[excalidraw-diagram](skills/excalidraw-diagram)**
+  - **Description**: Generate Excalidraw diagrams from text, supporting Obsidian (.md), Standard (.excalidraw), and Animated (.excalidraw with animation) formats. Triggered by keywords like 'Excalidraw', 'diagram', or 'animate'.
+- **[slide-maker](skills/slide-maker)**
+  - **Description**: A tool for generating presentation outlines, full slide decks, speaker notes, and design recommendations, outputting in Markdown format.
+- **[z-article-card](skills/z-article-card)**
+  - **Description**: A tool that converts long articles into multiple PNG images, each representing a page of the article.
+- **[long-article-illustration](skills/long-article-illustration)**
+  - **Description**: The long-article-illustration plugin automatically divides long articles into paragraphs, generates AI image prompts, and creates illustrations using an image generation tool. It is ideal for blog posts, user-uploaded articles, and batch illustration creation.
+- **[article-to-video-script](skills/article-to-video-script)**
+  - **Description**: Transform articles, research reports, and long-form content into structured video scripts with HOOK, BODY, and LIGHT CTA sections, suitable for short (up to 90 seconds) or long (about 10 minutes) creator commentary.
+- **[comman-felo-slides](skills/comman-felo-slides)**
+  - **Description**: This plugin generates PPTs or slide decks using the Felo PPT Task API in Claude Code. It handles API key checks, task creation, polling, and provides the final ppt_url.
+- **[dragon-ppt-maker](skills/dragon-ppt-maker)**
+  - **Description**: Create stylish PPTs with python-pptx, supporting tech-themed designs, mixed text and images, and HTML content embedding.
+- **[image-read](skills/image-read)**
+  - **Description**: Use the free multimodal API of Zhipu AI's GLM-4V-Flash to understand and describe image content, and identify objects within images.
+- **[chart-generator](skills/chart-generator)**
+  - **Description**: A data visualization tool that generates SVG charts, including bar, line, pie, and more. Ideal for creating visual representations from raw numerical data.
+- **[diagrams-generator-pro](skills/diagrams-generator-pro)**
+  - **Description**: Generate professional diagrams such as cloud architecture, data charts, and academic figures. It can be triggered by requests like 'create diagram' or 'visualize data', or when users provide a sketch or image for professional recreation.
+- **[table-image-generator](skills/table-image-generator)**
+  - **Description**: Generate clean table images from data, ideal for platforms like Discord and Telegram. Supports dark/light mode, custom styling, and auto-sizing without needing Puppeteer.
+- **[infographic-generation](skills/infographic-generation)**
+  - **Description**: Create professional infographics optimized for visual communication, including statistical, process, comparison, timeline, list, geographic, hierarchical, resume, report, and social media types.
+- **[chart-splat](skills/chart-splat)**
+  - **Description**: Generate visually appealing charts, including line, bar, pie, doughnut, radar, polar area, and candlestick/OHLC types, using the Chart Splat API. The output is in PNG format.
+- **[chart-image](skills/chart-image)**
+  - **Description**: Generate high-quality chart images from data, supporting various types like line, bar, and pie charts. Ideal for data visualization and report generation, this plugin is designed for Fly.io/VPS deployments with no need for native compilation or a browser, using pure Node.js with prebuilt binaries.
+- **[article-to-infographic](skills/article-to-infographic)**
+  - **Description**: Transform text content into visually appealing HTML infographics, supporting various styles like timelines, statistics, and process flows.
+- **[prd-visualization-skill](skills/prd-visualization-skill)**
+  - **Description**: This AI skill plugin creates interactive D3.js visualizations for hierarchical data, including PRDs, org charts, and file structures, with multiple view modes like List, Force-Directed, and Radial Cluster.
+- **[obsidian-cloudflare-pages-skill](skills/obsidian-cloudflare-pages-skill)**
+  - **Description**: Publish selected Obsidian markdown files from your vault to a static site and deploy them to Cloudflare Pages.
+- **[openclaw-skill-obsidian-cloudflare-pages](skills/openclaw-skill-obsidian-cloudflare-pages)**
+  - **Description**: Publish selected Obsidian markdown files from your vault to a static site and deploy them to Cloudflare Pages.
 - **[smart-illustrator](skills/smart-illustrator)**
-  - **Description**: Smart graphics and PPT infographic generator. Supports three modes: (1) Article illustration mode - analyze article content and generate illustrations; (2) PPT/Slides mode - generate batch information graphics; (3) Cover mode - generate cover images. All modes generate images by default, `--prompt-only` only outputs prompt. Support Bento Grid function display diagram style (--style bento). Trigger words: pictures, illustrations, PPT, slides, cover pictures, thumbnail, cover, bento grid, function display pictures, feature showcase.
+  - **Description**: A smart illustrator for generating illustrations, infographics, and cover images. It supports article illustration, bulk PPT/slide infographics, and cover image creation, with an option to output prompts only. Bento Grid style is also supported.
 - **[mermaid-architect](skills/mermaid-architect)**
-  - **Description**: Generate beautiful, hand-drawn Mermaid diagrams with robust syntax (quoted labels, ELK layout). Use this skill when the user asks for "diagram", "flowchart", "sequence diagram", or "visualize this process".
+  - **Description**: Create elegant, hand-drawn Mermaid diagrams with advanced syntax features like quoted labels and ELK layout. Use this skill for requests related to diagrams, flowcharts, or visualizing processes.
 - **[slide-sniper](skills/slide-sniper)**
-  - **Description**: Monitor full-screen videos or live broadcasts in the background, use visual models to detect slide page turns, automatically extract text from screenshots and type them into note-taking software.
-- **[visual-file-sorter](skills/visual-file-sorter)**
-  - **Description**: Automatically traverse the download folder or desktop, use the visual model to "see" the file content and rename it, and finally archive it to the specified category directory.
-- **[tiktok-slideshow](skills/tiktok-slideshow)**
-  - **Description**: Intelligent module for tiktok-slideshow.
+  - **Description**: Monitors full-screen videos or live streams, detects slide changes using visual models, and automatically captures, extracts, and formats the text into note-taking software.
 - **[mermaid-visualizer](skills/mermaid-visualizer)**
-  - **Description**: Transform text content into professional Mermaid diagrams for presentations and documentation. Use when users ask to visualize concepts, create flowcharts, or make diagrams from text. Supports process flows, system architectures, comparisons, mindmaps, and more with built-in syntax error prevention.
+  - **Description**: Transform text into professional Mermaid diagrams for presentations and documentation, supporting process flows, system architectures, comparisons, mind maps, and more with built-in syntax error prevention.
 - **[ppt-outline](skills/ppt-outline)**
-  - **Description**: PPT outline and HTML presentation generator. PPT outline, PPT template, presentation, presentation, PowerPoint, slides, slides, HTML presentation, HTML slides, browser presentation, business roadshow, pitch deck, BP business plan, business plan, work report PPT, training courseware, courseware outline, product introduction PPT, product release, keynote, speech, work report PPT, defense PPT, competitive product analysis PPT, graduation defense, thesis defense, project review, iteration review. Generate PPT outlines and standalone HTML presentations (open directly in browser, no dependencies). Use when: (1) creating PPT/presentation outlines, (2) building pitch deck/BP structures, (3) preparing w
+  - **Description**: This AI skill plugin generates PPT outlines and standalone HTML presentations, suitable for creating pitch decks, business plans, work reports, training materials, and more. It's perfect for structuring your content and can be opened directly in any browser without additional software.
 - **[google-slides](skills/google-slides)**
-  - **Description**: Intelligent module for google-slides.
+  - **Description**: Integrate with Google Slides API using managed OAuth to create, modify, and format presentations. Use the api-gateway skill for other third-party apps.
 - **[pptx-pdf-font-fix](skills/pptx-pdf-font-fix)**
-  - **Description**: Fix PowerPoint font embedding issues in PDF export by patching text transparency in PPTX files. Use when a user has a PPTX file where exported PDFs show wrong/default fonts instead of the intended downloaded/custom fonts, even with font embedding enabled. Works by applying minimal (1%) transparency to fully-opaque text runs, which forces PowerPoint to properly embed fonts during PDF export.
+  - **Description**: This plugin fixes font embedding issues in PDF exports from PowerPoint by applying a slight transparency to text, ensuring custom fonts are correctly embedded.
 - **[skill-mermaid-diagrams](skills/skill-mermaid-diagrams)**
-  - **Description**: Generate consistent, template-based Mermaid diagrams for technical content. Supports 12 diagram types (architecture, flowchart, sequence, concept-map, radial-concept, timeline, comparison, comparison-table, gantt, mindmap, class-diagram, state-diagram) with automatic template selection, LLM-powered content generation, syntax validation, and error handling. Use when creating technical illustrations, system architecture visuals, project timelines,
-- **[mermaid-image-uploader](skills/mermaid-image-uploader)**
-  - **Description**: Convert Mermaid diagrams to images and upload them to the free image bed, specially designed for public account articles.
+  - **Description**: Generate consistent, template-based Mermaid diagrams for technical content across 12 types including architecture, flowcharts, and timelines, with automatic template selection, LLM-powered content generation, and error handling.
 - **[xfyun-ppt-gen](skills/xfyun-ppt-gen)**
-  - **Description**: Generate professional, structured PowerPoint presentations from optimized topic keywords.
+  - **Description**: Create professional, structured PowerPoint presentations from optimized topic keywords.
 - **[tiangong-wps-ppt-automation](skills/tiangong-wps-ppt-automation)**
-  - **Description**: Automate common PowerPoint/WPS Presentation operations on Windows via COM (read text/notes/outline, export PDF/images, replace text, insert/delete slides, unify font/size/theme, extract images/media). Use for single-presentation actions (no batch).
-- **[ai-interior-design-visualizer](skills/ai-interior-design-visualizer)**
-  - **Description**: **Slug:** `ai-interior-design-visualizer`
-- **[openclaw-visual](skills/openclaw-visual)**
-  - **Description**: Intelligent module for openclaw-visual.
+  - **Description**: Automate common PowerPoint/WPS Presentation tasks on Windows, including text/notes/outline management, PDF/image export, text replacement, slide manipulation, and style unification. Suitable for single-presentation actions only.
 - **[gws-slides](skills/gws-slides)**
-  - **Description**: Google Slides: Read and write presentations.
-- **[multimedia-to-obsidian](skills/multimedia-to-obsidian)**
-  - **Description**: Import any multimedia document into the Obsidian knowledge base. Supports PPT, PDF, DOCX, pictures and other formats, automatically extracts each page/picture, uses a multi-modal model to understand the content, generates text descriptions and stores them in OB. Applicable to: (1) Organizing training courseware (2) Migrating notes to OB (3) Converting picture materials into structured knowledge.
-- **[obsidian-canvas-creator](skills/obsidian-canvas-creator)**
-  - **Description**: Create Obsidian Canvas files from text content, supporting both MindMap and freeform layouts. Use this skill when users want to visualize content as an interactive canvas, create mind maps, or organize information spatially in Obsidian format.
+  - **Description**: Create and edit presentations with Google Slides.
+- **[md-2-pdf](skills/md-2-pdf)**
+  - **Description**: Convert markdown files into clean, formatted PDFs using reportlab.
+- **[ima-knowledge-ai](skills/ima-knowledge-ai)**
+  - **Description**: This essential AI content creation guide offers expert advice on workflow design, model selection, and parameter optimization, ensuring professional-grade results in image, video, and music generation. It's crucial for maintaining consistency and avoiding common mistakes.
+- **[pollinations-sketch-note](skills/pollinations-sketch-note)**
+  - **Description**: An AI-powered tool that generates hand-drawn style knowledge cards, automatically searching and summarizing the topic.
 ### Academic & Writing
 
-- **[wechat-article-forge](skills/wechat-article-forge)**
-  - **Description**: End-to-end 微信公众号 (WeChat Official Account) article writing and publishing pipeline. 9-step multi-agent workflow: topic research → Chinese-first writing → blind quality review → fact-check → formatting → human preview → scrapbook illustrations → draft box publish. Use when user asks to write, draft, or publish a WeChat article, or says "forge write/draft/publish/topic/voice/status".
-- **[wechat-publisher](skills/wechat-publisher)**
-  - **Description**: Publish Markdown to the WeChat public account draft box with one click. Based on wenyan-cli, it supports multiple themes, code highlighting, and automatic image uploading.
-- **[rednote-publisher](skills/rednote-publisher)**
-  - **Description**: **Function**: Automate the complete publishing process of Xiaohongshu long graphic notes
-- **[rednote-viral-writer](skills/rednote-viral-writer)**
-  - **Description**: **Function**: Based on the popular structure with 9000+ likes, quickly generate notes with high interaction rate
-- **[xiaohongshu-viral-writing](skills/xiaohongshu-viral-writing)**
-  - **Description**: **Function**: Based on the popular structure with 9000+ likes, quickly generate notes with high interaction rate
-- **[afrexai-grant-writer](skills/afrexai-grant-writer)**
-  - **Description**: Write winning grant proposals and funding applications. Works for government grants (SBIR, Innovate UK, Horizon Europe), foundation grants, and corporate funding programs.
-- **[afrexai-prospect-researcher](skills/afrexai-prospect-researcher)**
-  - **Description**: Research and qualify B2B prospects using web search. Builds structured profiles with company intel, key contacts, pain points, and engagement recommendations.
-- **[afrexai-seo-writer](skills/afrexai-seo-writer)**
-  - **Description**: Writes blog posts optimized for search engines and humans
-- **[afrexai-ux-research-engine](skills/afrexai-ux-research-engine)**
-  - **Description**: Complete UX Research & Design system — user discovery, persona building, journey mapping, usability testing, research synthesis, and design validation. Zero dependencies.
+- **[reviewer-rebuttal-coach](skills/reviewer-rebuttal-coach)**
+  - **Description**: This AI skill plugin reads review comments, mentor annotations, or feedback from the clipboard and generates itemized responses, a revision plan, and priority suggestions.
+- **[add-educational-comments](skills/add-educational-comments)**
+  - **Description**: Add educational comments to the specified file, or prompt for a file if none is provided.
+- **[certificate-generation](skills/certificate-generation)**
+  - **Description**: Create professional certificates, diplomas, and awards with each::sense AI. Ideal for course completions, achievements, certifications, and custom branded certificates.
+- **[diataxis-writing](skills/diataxis-writing)**
+  - **Description**: A guide for the Diataxis documentation framework, offering diagnosis, classification, templates, and quality assessment for four types of documentation: Tutorial, How-to, Reference, and Explanation.
+- **[agentledger-research-assistant](skills/agentledger-research-assistant)**
+  - **Description**: A structured web research tool for AI agents, enabling multi-source research, synthesis of findings into actionable briefs, and ongoing trend monitoring. Ideal for market research, competitor analysis, and deep-dives into specific topics.
+- **[pdf-translate](skills/pdf-translate)**
+  - **Description**: This AI skill translates PDF documents into Chinese, preserving professional typography. It extracts and translates text section-by-section into well-structured Markdown, then generates a new PDF with full CJK support.
+- **[human-writing-azzar](skills/human-writing-azzar)**
+  - **Description**: This skill ensures professional, human-like writing for READMEs, technical documentation, and formal outputs, avoiding AI-specific language, buzzwords, and unnecessary fluff.
+- **[aibrary-podcast-summary](skills/aibrary-podcast-summary)**
+  - **Description**: Generate a 10-15 minute engaging, single-narrator podcast script that summarizes the key ideas of a book.
+- **[aibrary-reading-list](skills/aibrary-reading-list)**
+  - **Description**: Generate a curated, themed reading list with books organized in a logical order, ideal for deep exploration or building expertise in a specific area.
+- **[sop-writer](skills/sop-writer)**
+  - **Description**: SOP Writer is a tool for creating standard operating procedures, including flowcharts, checklists, audits, and training materials. It also provides a template library for easy access.
+- **[article-summarizer](skills/article-summarizer)**
+  - **Description**: The article summarizer automatically extracts and summarizes web articles, providing structured summaries with key points and bullet lists. Ideal for self-media, operations, and researchers.
+- **[translate-cli](skills/translate-cli)**
+  - **Description**: A guide for using the `translate` CLI to manage translations across various inputs, configure providers, and customize settings. Use it for command construction, configuration updates, provider setup, and troubleshooting.
+- **[banner-youtube-translate-workflow](skills/banner-youtube-translate-workflow)**
+  - **Description**: This AI skill plugin automates the process of downloading YouTube audio, playing it in Doubao, and capturing the translation, ideal for full video translations.
+- **[alicloud-ai-audio-livetranslate](skills/alicloud-ai-audio-livetranslate)**
+  - **Description**: Use this AI skill plugin for live speech translation, ideal for bilingual meetings, real-time interpretation, and converting speech to text or another language.
+- **[alicloud-media-video-translation](skills/alicloud-media-video-translation)**
+  - **Description**: Manage Alibaba Cloud IMS video translation jobs, including subtitles, voice, and face, through OpenAPI. Use for API-based translation, status updates, and job management.
+- **[clarity-literature](skills/clarity-literature)**
+  - **Description**: Search and retrieve publication details from Clarity Protocol for research papers, PubMed references, or citations on specific topics like proteins.
+- **[translate-image](skills/translate-image)**
+  - **Description**: Translate and extract text from images, or remove text using the TranslateImage AI. Ideal for processing images with foreign-language text, including manga.
+- **[nexus-translate](skills/nexus-translate)**
+  - **Description**: High-quality translations in over 50 languages, with cultural awareness.
+- **[wechat-article-crayon](skills/wechat-article-crayon)**
+  - **Description**: This AI skill plugin, 'wechat-article-crayon', aids in creating and refining WeChat public account articles, including topic selection, title optimization, content writing, rewriting, formatting, and cover image prompt generation. It is ideal for producing highly readable, engaging, and natural-sounding content.
+- **[x-article-reader](skills/x-article-reader)**
+  - **Description**: This AI skill reads X (Twitter) articles aloud using macOS text-to-speech. It accepts an article URL, automatically detects the language, and selects the appropriate voice. Use it with commands like 'read aloud' or 'read this X article'.
+- **[wechat-article-writer](skills/wechat-article-writer)**
+  - **Description**: The WeChat Article Writer is an AI tool designed to assist in creating WeChat public account articles, covering the entire process from topic selection to final draft and automatic image pairing.
+- **[wechat-article-extractor-skill](skills/wechat-article-extractor-skill)**
+  - **Description**: This skill extracts metadata and content from WeChat Official Account articles, including title, author, content, publish time, and cover image, and converts them into structured data. It supports various article types such as posts, videos, images, voice messages, and reposts.
+- **[article-idea-capture](skills/article-idea-capture)**
+  - **Description**: Capture and organize article ideas, topics, and half-formed thoughts, developing them into outlines or drafts. Use this when you have an idea, want to save a thought for later, or need to expand on a saved concept.
+- **[docs-generator](skills/docs-generator)**
+  - **Description**: Automated documentation generator for creating API docs, README, CHANGELOG, contributing guides, architecture documents, tutorials, FAQ, and reference manuals. Supports REST, GraphQL, and OpenAPI formats.
+- **[developer-docs-framework](skills/developer-docs-framework)**
+  - **Description**: This AI skill plugin, 'developer-docs-framework', offers best practices and frameworks for creating effective technical documentation, covering content types, writing styles, information architecture, and developer experience strategies. It supports various documentations like tutorials, API references, and migration guides, and is triggered by keywords such as 'write docs' or 'API docs'.
+- **[arxiv-reader](skills/arxiv-reader)**
+  - **Description**: This AI skill plugin uses Python to classify and deeply analyze an arXiv paper by its ID or URL, then prints the reading notes.
+- **[meyhem-researcher](skills/meyhem-researcher)**
+  - **Description**: A multi-query research tool that breaks down a topic into focused queries and previews the top results, without requiring an API key.
+- **[rubric-gap-analyzer](skills/rubric-gap-analyzer)**
+  - **Description**: Analyzes the current draft against grading criteria or assignment requirements, identifying gaps and providing a plan to improve the score.
+- **[tavily-research-pro](skills/tavily-research-pro)**
+  - **Description**: A professional AI-powered search and research tool that aggregates multidimensional data, performs semantic analysis, and generates automated reports for structured information gathering.
+- **[pdf-tools](skills/pdf-tools)**
+  - **Description**: Manage PDF files by viewing, extracting, editing text, merging, splitting, rotating pages, and accessing metadata.
 - **[ai-researcher](skills/ai-researcher)**
-  - **Description**: Deep research on any topic with structured analysis, source evaluation, and synthesis. Get comprehensive briefings, literature reviews, and expert-level summaries on demand.
-- **[ai-seo-writer](skills/ai-seo-writer)**
-  - **Description**: Writes blog posts optimized for search engines and humans
-- **[cold-email-writer](skills/cold-email-writer)**
-  - **Description**: Writes personalized cold emails that actually get replies
-- **[linkedin-writer](skills/linkedin-writer)**
-  - **Description**: Writes LinkedIn posts that sound like a real person, not a content mill
+  - **Description**: Conduct in-depth research on any topic, providing structured analysis, source evaluation, and expert-level summaries.
 - **[paper-assistant](skills/paper-assistant)**
-  - **Description**: Thesis assistant for thesis topic selection, outline, abstract, introduction, literature review, research methods, results discussion, polishing and rewriting, and submission preparation.
-- **[wallpaper-auto-switch-pro-executable](skills/wallpaper-auto-switch-pro-executable)**
-  - **Description**: On macOS, change the wallpaper immediately from the local wallpaper folder, or install the executable skill of launchd scheduled rotation task.
-- **[evomap-auto-task-publish-1-1-0](skills/evomap-auto-task-publish-1-1-0)**
-  - **Description**: EvoMap automatic task executor - a complete solution for automatically acquiring, claiming, publishing, and completing tasks on a scheduled basis
-- **[mckinsey-research](skills/mckinsey-research)**
-  - **Description**: Intelligent module for mckinsey-research.
-- **[torah-scholar](skills/torah-scholar)**
-  - **Description**: Search and explore Jewish texts (Torah, Tanach, Talmud, Midrash, commentaries) via Sefaria API. Use when researching Torah sources, looking up verses, finding commentaries, cross-references, or preparing divrei Torah. Supports Hebrew and English. Handles references like "Genesis 1:1", "Berakhot 2a", "Mishnah Avot 1:1".
+  - **Description**: A comprehensive assistant for all stages of academic paper writing, from topic selection and outlining to final editing and submission preparation.
 - **[research-logger-pro](skills/research-logger-pro)**
-  - **Description**: Intelligent module for research-logger-pro.
-- **[content-rewriter](skills/content-rewriter)**
-  - **Description**: Cross-platform content repurposer. Takes one piece of content and rewrites it for multiple Chinese social media platforms, adapting tone, format, length, and style.
-- **[content-writer](skills/content-writer)**
-  - **Description**: Multi-platform content generator for Chinese social media. Produces publish-ready posts for 小红书, 知乎, 公众号, and 抖音 with platform-native formatting, hooks, and CTAs.
+  - **Description**: This AI skill plugin auto-saves deep search results to SQLite and Langfuse, logging every query with topic tags, timestamps, and full results for easy retrieval and review.
 - **[latex-writer](skills/latex-writer)**
-  - **Description**: Generate professional LaTeX documents from templates. Supports academic papers (IEEE/ACM), Chinese thesis (CTeX), CVs (moderncv), and custom templates. Auto-compile to PDF.
-- **[cs-copywriting](skills/cs-copywriting)**
-  - **Description**: When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" or \"CTA copy.\" For email copy, see email-sequence. For popup copy, see popup-cro.
-- **[ux-researcher-designer](skills/ux-researcher-designer)**
-  - **Description**: UX research and design toolkit for Senior UX Designer/Researcher including data-driven persona generation, journey mapping, usability testing frameworks, and research synthesis. Use for user research, persona creation, journey mapping, and design validation.
-- **[ai-research-to-obsidian](skills/ai-research-to-obsidian)**
-  - **Description**: Use AI tools (Doubao/Kimi/ChatGPT) to search for problems and organize the results and save them as Obsidian documents. Trigger scenario: (1) The user asks to use AI to search the problem (2) The user asks the browser to search and save it to Obsidian (3) The user says "check it for me" and mentions saving it to Notes/Documents/Obsidian
-- **[project-writing](skills/project-writing)**
-  - **Description**: Always wrap the main content of your response within <ama-doc</ama-doc tags to clearly distinguish the core information from any introductory or concluding remarks.
+  - **Description**: Generate professional LaTeX documents from templates, including academic papers, Chinese theses, CVs, and custom formats, with auto-compilation to PDF.
 - **[agentarxiv](skills/agentarxiv)**
-  - **Description**: Outcome-driven scientific publishing for AI agents. Publish research papers, hypotheses, and experiments with validated artifacts, structured claims, milestone tracking, and independent replications. Claim replication bounties, submit peer reviews, and collaborate with other AI researchers.
+  - **Description**: Facilitate outcome-driven scientific publishing for AI agents, enabling the sharing of research, experiments, and peer reviews with features like milestone tracking and replication bounties.
 - **[moltarxiv](skills/moltarxiv)**
-  - **Description**: Outcome-driven scientific publishing for AI agents. Publish research papers, hypotheses, and experiments with validated artifacts, structured claims, milestone tracking, and independent replications. Claim replication bounties, submit peer reviews, and collaborate with other AI researchers.
+  - **Description**: Outcome-driven scientific publishing for AI, enabling the sharing of research, experiments, and peer reviews with validated artifacts and collaboration opportunities.
 - **[meta-research](skills/meta-research)**
-  - **Description**: Intelligent module for meta-research.
-- **[web-publish](skills/web-publish)**
-  - **Description**: Publish local Markdown/HTML as an online link with one click and access it directly on your mobile phone
-- **[content-creation-publisher](skills/content-creation-publisher)**
-  - **Description**: content-creation-publisher - 从云端仓库同步的技能
-- **[nuwa-world-osint-human-research](skills/nuwa-world-osint-human-research)**
-  - **Description**: Face search and deep research via the Nuwa World API — visual identity intelligence and knowledge synthesis from the open web.
-- **[bullet-rewriter](skills/bullet-rewriter)**
-  - **Description**: Rewrite raw experience descriptions into stronger, clearer, and more job-relevant resume bullets.
-- **[publisher-identity-verifier](skills/publisher-identity-verifier)**
-  - **Description**: Intelligent module for publisher-identity-verifier.
+  - **Description**: An autonomous AI assistant for the full research lifecycle, from brainstorming and literature review to experiment design, analysis, and writing up findings, with a focus on reproducibility and dynamic phase transitions.
 - **[scholar-paper-downloader](skills/scholar-paper-downloader)**
-  - **Description**: Intelligent module for scholar-paper-downloader.
+  - **Description**: A bulk PDF downloader for academic papers, supporting search and download from multiple scholarly websites like arXiv, PubMed, and PMC. It automatically extracts metadata and generates an index list, prioritizing free official sources and providing manual download guidance for paid content.
 - **[academic-research-hub](skills/academic-research-hub)**
-  - **Description**: Use this skill when users need to search academic papers, download research documents, extract citations, or gather scholarly information. Triggers include: requests to \"find papers on\", \"search research about\", \"download academic articles\", \"get citations for\", or any request involving academic databases like arXiv, PubMed, Semantic Scholar, or Google Scholar. Also use for literature reviews, bibliography generation, and research discove
-- **[temp-publish](skills/temp-publish)**
-  - **Description**: Intelligent module for temp-publish.
+  - **Description**: Use this skill to search, download, and cite academic papers, and gather scholarly information. It's ideal for literature reviews, bibliography generation, and accessing databases like arXiv, PubMed, Semantic Scholar, or Google Scholar.
 - **[citation-finder](skills/citation-finder)**
-  - **Description**: Academic citation lookup and formatter. Given a fuzzy paper title (Chinese or English), searches CrossRef, Semantic Scholar, Baidu Scholar, and CNKI, then returns GB/T 7714, APA 7th, and MLA 9th formatted citations with source links.
-- **[clawhub-publish-skill](skills/clawhub-publish-skill)**
-  - **Description**: Intelligent module for clawhub-publish-skill.
-- **[writing-style-cloner](skills/writing-style-cloner)**
-  - **Description**: Antonia's personal writing style cloner. Directly rewrite the voice transcription or draft into a self-media article that conforms to Antonia's writing style.
+  - **Description**: This AI skill plugin, citation-finder, searches for academic papers by title across multiple databases and returns formatted citations in GB/T 7714, APA 7th, and MLA 9th styles, along with source links.
 - **[web-researcher](skills/web-researcher)**
-  - **Description**: Use this skill for deep research, fact-checking, or finding the latest technical news.
-- **[md-2-pdf](skills/md-2-pdf)**
-  - **Description**: Convert markdown files to clean, formatted PDFs using reportlab
-- **[grok-research](skills/grok-research)**
-  - **Description**: Intelligent module for grok-research.
+  - **Description**: Use this skill for in-depth research, fact-checking, or staying updated with the latest technical news.
 - **[gemini-deep-research](skills/gemini-deep-research)**
-  - **Description**: Perform complex, long-running research tasks using Gemini Deep Research Agent. Use when asked to research topics requiring multi-source synthesis, competitive analysis, market research, or comprehensive technical investigations that benefit from systematic web search and analysis.
-- **[geminipdfocr](skills/geminipdfocr)**
-  - **Description**: Extract text from PDFs using Google Gemini OCR. Use when extracting text from PDFs, performing OCR on scanned documents, or processing image-based PDFs.
+  - **Description**: Use Gemini Deep Research Agent for in-depth, long-running research tasks, including multi-source synthesis, competitive analysis, market research, and comprehensive technical investigations.
 - **[mckinsey-decision-memo-writer](skills/mckinsey-decision-memo-writer)**
-  - **Description**: Turn long documents, reports, proposals, and email threads into decision-ready memos with key points, risks, open questions, and next steps.
+  - **Description**: Condense long documents, reports, proposals, and email threads into concise memos, highlighting key points, risks, open questions, and next steps.
 - **[scihub-paper-downloader](skills/scihub-paper-downloader)**
-  - **Description**: Get a PDF link from Sci-Hub for a DOI.
-- **[x-research](skills/x-research)**
-  - **Description**: Intelligent module for x-research.
-- **[toutiao-publish](skills/toutiao-publish)**
-  - **Description**: Automatically publish content to Toutiao (micro headlines/articles). Trigger words: post headlines, post headlines, micro headlines, today's headlines, post articles, write headlines. Supports AI-recommended pictures to be inserted into the text, free genuine picture library covers, and automatic publishing of complete articles.
+  - **Description**: Fetch a PDF link from Sci-Hub using a DOI.
 - **[auto-researcher](skills/auto-researcher)**
-  - **Description**: Independent research assistant - in-depth research, cross-validation, and citation report generation
-- **[pdf-parser-mineru](skills/pdf-parser-mineru)**
-  - **Description**: PDF document parsing tool based on local MinerU, supports converting PDF to Markdown, JSON, and other machine-readable formats.
-- **[clawhub-publisher-auto](skills/clawhub-publisher-auto)**
-  - **Description**: Automated skill publishing to ClawHub. Fix push error issue with acceptLicenseTerms support
+  - **Description**: The Auto-Researcher is a tool for in-depth research, cross-verification, and generating citation reports.
 - **[paper-fetcher](skills/paper-fetcher)**
-  - **Description**: Fetch academic papers from Sci-Hub given a DOI. Automatically downloads PDFs and saves them to research/papers/ with clean filenames. Use when the user provides a DOI or requests a paper from PubMed.
+  - **Description**: Fetch academic papers from Sci-Hub using a DOI, automatically downloading and saving the PDFs to research/papers/ with clean filenames. Ideal for requests involving DOIs or PubMed papers.
 - **[core-researcher](skills/core-researcher)**
-  - **Description**: You are an academic research assistant with expertise across disciplines for literature reviews, paper analysis, and scholarly writing using Core API only. That a imperative.
-- **[launchfast-full-research-loop](skills/launchfast-full-research-loop)**
-  - **Description**: Intelligent module for launchfast-full-research-loop.
-- **[launchfast-ppc-research](skills/launchfast-ppc-research)**
-  - **Description**: Intelligent module for launchfast-ppc-research.
-- **[launchfast-product-research](skills/launchfast-product-research)**
-  - **Description**: Intelligent module for launchfast-product-research.
-- **[clawhub-publish-doctor](skills/clawhub-publish-doctor)**
-  - **Description**: Diagnose and mitigate ClawHub/ClawDHUB publish failures (auth, browser-login, missing dependencies, pending security-scan visibility errors, and wrong profile/skill URLs). Use when publishing skills to ClawHub fails, inspect reports temporary errors, or you need a safer publish+verify workflow with retries.
-- **[evomap-auto-task-publish](skills/evomap-auto-task-publish)**
-  - **Description**: EvoMap Automatic Task Executor v3.0 - Deeply integrated version. Heartbeat keep-alive Webhook notification Swarm collaboration intelligent filtering
+  - **Description**: You are an academic research assistant with interdisciplinary expertise for literature reviews, paper analysis, and scholarly writing, using only the Core API.
 - **[parallel-ai-research](skills/parallel-ai-research)**
-  - **Description**: Conduct open-ended research on a topic, building a living markdown document. Supports interactive and deep research modes.
+  - **Description**: Conduct open-ended research on a topic, creating a dynamic markdown document with support for interactive and in-depth exploration.
 - **[research-agent](skills/research-agent)**
-  - **Description**: Conduct open-ended research on a topic, building a living markdown document. Supports interactive and deep research modes.
-- **[agent-skill-publisher](skills/agent-skill-publisher)**
-  - **Description**: Intelligent module for agent-skill-publisher.
-- **[inkroam-bijian-writing](skills/inkroam-bijian-writing)**
-  - **Description**: Pen tip writing expert: collect three elements → call Pen tip AI to generate articles → output publishable content. Use when user asks to write an article with the tip of the pen / generate a public account article / write an article.
-- **[blog-writer-cn](skills/blog-writer-cn)**
-  - **Description**: Intelligent module for blog-writer-cn.
-- **[changelog-writer](skills/changelog-writer)**
-  - **Description**: Intelligent module for changelog-writer.
-- **[copywriter-cn](skills/copywriter-cn)**
-  - **Description**: Marketing copywriting assistant. Title formula (100), text writing, AIDA framework, pain point mining, customer testimonials, landing page copywriting. Copywriting with 100 headline formulas, body copy, AIDA framework, pain points, testimonials, landing pages. Use when you need copywriter cn capabilities. Triggers on: copywriter cn.
-- **[speech-writer](skills/speech-writer)**
-  - **Description**: Speech script (TED style), wedding speech, business speech, motivational speech, toast, speech outline. Speech writing for TED-style talks, wedding speeches, business presentations, motivational speeches, toasts, and outlines.
+  - **Description**: Conduct in-depth research on any topic, creating a dynamic markdown document. Supports interactive and deep research modes.
 - **[proofreader](skills/proofreader)**
-  - **Description**: Proofreading/typos checking, grammatical error correction, unified style, consistency check, readability scoring, proofreading report. Proofreading with typo detection, grammar correction, style consistency, readability scoring, and full reports. Use when you need proofreader capabilities. Triggers on: proofreader.
+  - **Description**: This AI skill plugin offers proofreading, including typo detection, grammar correction, style consistency, readability scoring, and comprehensive reports. Use it when you need a proofreader.
 - **[thesis-helper](skills/thesis-helper)**
-  - **Description**: Essay writing assistant. Thesis outline generation, literature review framework, abstract generation, citation format conversion, format specification checking, defense preparation. Thesis helper with outline generation, literature review, abstract writing, citation formatting, style guide, defense preparation. Use when you need thesis helper capabilities. Triggers on: thesis helper, automatically adjusts outline depth and word count according to degree level, structured abstract template, defense preparation includes 20, completion checklist.
-- **[pdf-co](skills/pdf-co)**
-  - **Description**: Intelligent module for pdf-co.
-- **[csdn-publisher](skills/csdn-publisher)**
-  - **Description**: Write articles and publish them to CSDN. Use browser automation + scan QR code to log in. Supports sending QR codes via Telegram without VNC. Integrate blog-writer writing methodology to produce high-quality technical articles with a personal style.
-- **[paper-design](skills/paper-design)**
-  - **Description**: Design UI screens in Paper — a professional design tool running locally on macOS. Create artboards, write HTML into designs, take screenshots, and iterate visually.
-- **[readme-writer-skill](skills/readme-writer-skill)**
-  - **Description**: Intelligent module for readme-writer-skill.
-- **[pdfagent](skills/pdfagent)**
-  - **Description**: Self-hosted PDF operations and conversions with metered usage output.
-- **[patent-disclosure-writer](skills/patent-disclosure-writer)**
-  - **Description**: Write a Chinese patent disclosure document. Use when: Users need to write patent disclosure documents, technical disclosure documents, and patent application documents.
-- **[le2le-blog-writer](skills/le2le-blog-writer)**
-  - **Description**: Generate a high-quality Chinese article based on the provided article or topic.
+  - **Description**: A thesis helper for generating outlines, literature reviews, abstracts, and managing citation formatting, style checks, and defense preparation, adjusting automatically to the academic level.
 - **[paper-parse-figures](skills/paper-parse-figures)**
-  - **Description**: Parse academic PDF papers into markdown with figure extraction.
-- **[zotero-pdf-upload](skills/zotero-pdf-upload)**
-  - **Description**: Upload PDFs and manage items in a Zotero Web Library. Supports both personal and group libraries. Use when a user wants to add papers/PDFs to Zotero, organize collections, or manage their Zotero library through the API.
+  - **Description**: This AI skill plugin converts academic PDF papers into markdown and extracts the figures.
 - **[chonkie-deepresearch](skills/chonkie-deepresearch)**
-  - **Description**: Run deep research queries using Chonkie DeepResearch. Returns comprehensive research reports with citations — useful for market analysis, competitive intelligence, technical deep dives, and any research-heavy task.
-- **[links-to-pdfs](skills/links-to-pdfs)**
-  - **Description**: Scrape documents from Notion, DocSend, PDFs, and other sources into local PDF files. Use when the user needs to download, archive, or convert web documents to PDF format. Supports authentication flows for protected documents and session persistence via profiles. Returns local file paths to downloaded PDFs.
-- **[ad-copywriter](skills/ad-copywriter)**
-  - **Description**: Intelligent module for ad-copywriter.
-- **[gaokao-essay](skills/gaokao-essay)**
-  - **Description**: Intelligent module for gaokao-essay.
-- **[jd-writer](skills/jd-writer)**
-  - **Description**: Intelligent module for jd-writer.
-- **[pdf-to-markdown](skills/pdf-to-markdown)**
-  - **Description**: Intelligent module for pdf-to-markdown.
-- **[short-drama-writer](skills/short-drama-writer)**
-  - **Description**: Intelligent module for short-drama-writer.
-- **[clarity-research](skills/clarity-research)**
-  - **Description**: Intelligent module for clarity-research.
-- **[kb-social-publisher](skills/kb-social-publisher)**
-  - **Description**: Post content to Weibo and Xiaohongshu simultaneously, using the real Chrome browser to bypass anti-bot detection. Supports text, pictures, preview mode and actual publishing. Use this skill when users need to publish Weibo, Weibo, weibo post, Xiaohongshu, Xiaohongshu, Xiaohongshu post.
+  - **Description**: Use Chonkie DeepResearch to conduct in-depth queries, generating detailed research reports with citations for tasks like market analysis, competitive intelligence, and technical deep dives.
 - **[arxiv-watch](skills/arxiv-watch)**
-  - **Description**: Monitor new papers on arXiv by category. Use when user wants to check latest papers, track research topics, or manage reading lists. Trigger phrases: "check arxiv", "new papers", "arxiv category", "watch arxiv", "latest papers on".
-- **[wechat-mp-publisher1](skills/wechat-mp-publisher1)**
-  - **Description**: Remote WeChat public account publishing skills (compliance optimized version). Solve the problem of home broadband IP changes through HTTP MCP, and support security certificate isolation and dependency checking.
-- **[compress-pdf](skills/compress-pdf)**
-  - **Description**: Compress a user-provided PDF by uploading it to Cross-Service-Solutions, polling until completion, then returning a download URL for the compressed file.
-- **[convert-to-pdf](skills/convert-to-pdf)**
-  - **Description**: Convert one or multiple documents to PDF by uploading them to Cross-Service-Solutions, polling until completion, then returning download URL(s) for the converted PDF(s) (or a ZIP if multiple).
-- **[merge-pdf](skills/merge-pdf)**
-  - **Description**: Merge multiple user-provided PDF files by uploading them to Cross-Service-Solutions, polling until completion, then returning a download URL for the merged PDF.
-- **[summary](skills/summary)**
-  - **Description**: Summarize URLs or files with the summarize CLI (web, PDFs, images, audio, YouTube).
-- **[deepread-form-fill](skills/deepread-form-fill)**
-  - **Description**: AI-powered PDF form filling. Upload any PDF form and your data as JSON — AI detects fields visually, maps your data semantically, fills the form with quality checks, and returns a completed PDF. Works with scanned forms, handwritten templates, and any PDF — no AcroForm fields required.
-- **[summarize-1-0-0](skills/summarize-1-0-0)**
-  - **Description**: Summarize URLs or files with the summarize CLI (web, PDFs, images, audio, YouTube).
-- **[personal-notes](skills/personal-notes)**
-  - **Description**: Acts as the user's note-taking and journaling assistant in the Notes topic. Captures thoughts, reflections, daily logs, random notes. Use when in Personal chat Notes topic, or when user mentions note, journal, diary, thought, reflection, log, record, or "write down".
-- **[executing-plans](skills/executing-plans)**
-  - **Description**: Use when you have a written implementation plan to execute in a separate session with review checkpoints
-- **[alicloud-ai-audio-tts-realtime](skills/alicloud-ai-audio-tts-realtime)**
-  - **Description**: Real-time speech synthesis with Alibaba Cloud Model Studio Qwen TTS Realtime models. Use when low-latency interactive speech is required, including instruction-controlled realtime synthesis.
-- **[solo-plan](skills/solo-plan)**
-  - **Description**: Explore codebase and create spec + phased implementation plan with file-level task breakdown. Use when user says "plan this feature", "create implementation plan", "write a spec", "battle plan", or describes a feature/bug/refactor. Zero questions — researches code instead. Do NOT use for idea validation (use /validate) or execution (use /build).
+  - **Description**: Monitor new papers on arXiv by category. Ideal for checking the latest research, tracking specific topics, or managing reading lists.
+- **[research-to-wechat](skills/research-to-wechat)**
+  - **Description**: This AI skill plugin transforms a topic, notes, article, URL, or transcript into a well-structured, polished Markdown article with inline visuals and a cover image, ready for WeChat and other platforms. It includes an evidence ledger, HTML conversion, and multi-platform distribution options.
+- **[knowledge-answer](skills/knowledge-answer)**
+  - **Description**: This AI skill, 'knowledge-answer', provides answers in the user's preferred language, including citations as clickable footnotes when based on search results. The date and citation format are standardized.
+- **[knowledge-forge](skills/knowledge-forge)**
+  - **Description**: Transform personal experiences, case studies, and business documents into structured, teachable content that is easy to understand, remember, and apply. Ideal for creating course outlines, presentations, or shareable knowledge documents.
+- **[pro-zh-summary](skills/pro-zh-summary)**
+  - **Description**: A professional tool for summarizing long Chinese texts, automatically segmenting and condensing content when users request a summary or key points.
 ### Notes & Knowledge Base
 
-- **[smart-summarizer](skills/smart-summarizer)**
-  - **Description**: Instantly summarize any content — articles, PDFs, YouTube videos, web pages, long documents, or pasted text. Extracts key points, action items, and insights. Use when you need to quickly digest long content, create meeting notes, or extract takeaways from any source.
-- **[seek-and-analyze-video](skills/seek-and-analyze-video)**
-  - **Description**: Video intelligence and content analysis using Memories.ai LVMM. Discover videos on TikTok, YouTube, Instagram by topic or creator. Analyze video content, summarize meetings, build searchable knowledge bases across multiple videos. Use for video research, competitor content analysis, meeting notes, lecture summaries, or building video knowledge libraries.
-- **[ad-creative-analysis](skills/ad-creative-analysis)**
-  - **Description**: Analyze ad creatives (images and videos) extracted from competitor research. Use when given a directory of ad images, video files, or transcripts to evaluate ad quality, score visual and messaging effectiveness, assign a scale score for viral/engagement potential, and generate a cross-creative pattern summary. Triggered by requests like "analyze these ads", "score these creatives", "what hooks are competitors using", "evaluate the ad library", "g
+- **[flashcard](skills/flashcard)**
+  - **Description**: A flashcard creator with spaced repetition, quiz mode, and export options (Markdown/Anki), featuring learning statistics. Use for efficient study and review.
+- **[keep-learning-agent](skills/keep-learning-agent)**
+  - **Description**: The Keep-Learning Agent is a framework for knowledge accumulation and experience solidification, featuring learning records, quick indexing, self-repair, and experience-to-model conversion. It includes complete templates, an indexing system, and SOP processes to ensure continuous AI evolution.
+- **[learning-system-skill](skills/learning-system-skill)**
+  - **Description**: The 'learning-system-skill' plugin manages a knowledge graph, deep learning notes, practical reviews, and associated networks. It is activated for tasks like planning studies, updating the knowledge graph, researching AI topics, summarizing experiences, or reviewing weekly learnings. Use it after coding, reading papers, or conducting research to distill and organize knowledge.
+- **[notebooklm-skill](skills/notebooklm-skill)**
+  - **Description**: This skill lets you query your Google NotebookLM notebooks from Claude Code, providing source-backed answers with browser automation, library management, and persistent authentication. It reduces hallucinations by responding only with document content.
+- **[session-memory-workspace](skills/session-memory-workspace)**
+  - **Description**: This AI skill plugin summarizes sessions and saves them to daily memory files, allowing OpenClaw to recall and reference past conversations.
+- **[tiangong-notebooklm-cli](skills/tiangong-notebooklm-cli)**
+  - **Description**: A CLI tool for NotebookLM, facilitating authentication, notebook management, chat, source handling, note-taking, sharing, research, and artifact generation/download.
+- **[wechat-article-reader](skills/wechat-article-reader)**
+  - **Description**: This AI skill plugin exports articles from WeChat public accounts into Markdown format, triggered when a user provides a WeChat article link or requests to download, export, or save the article. It saves the file by default to the source directory in the workspace.
+- **[feishu-article-collector](skills/feishu-article-collector)**
+  - **Description**: Automatically collects articles from Jinri Toutiao and WeChat public accounts, extracts the main text, generates summaries and categorizations with AI, and saves them in a Feishu multi-dimensional table. Supports deduplication.
+- **[article-extract](skills/article-extract)**
+  - **Description**: Extracts the main text content from WeChat public accounts, blogs, and news websites, bypassing anti-crawling mechanisms, and outputs it as plain text.
+- **[wechat-article-explainer](skills/wechat-article-explainer)**
+  - **Description**: This AI skill summarizes and explains the content of WeChat public account articles in simple language, based on the provided link or URL.
+- **[wechat-article-extractor](skills/wechat-article-extractor)**
+  - **Description**: Extracts the full text and images from a WeChat public account article URL and saves it as a clean Markdown file, automatically handling bot-detection by finding mirror sites.
+- **[librag-knowledge-recall](skills/librag-knowledge-recall)**
+  - **Description**: The LibRAG plugin uses the local `/api/v1/librag/knowbase/recall` interface to retrieve data from a knowledge base, suitable for tasks like knowledge retrieval, document recall, and evidence extraction in Chinese contexts.
+- **[feishu-document-reader](skills/feishu-document-reader)**
+  - **Description**: Extract content from all Feishu (Lark) document types using the official Feishu Open API.
+- **[obsidian-openclaw-sync](skills/obsidian-openclaw-sync)**
+  - **Description**: Sync Obsidian OpenClaw config across multiple iCloud devices, managing symlinks for seamless integration.
+- **[notion-2026-01-15](skills/notion-2026-01-15)**
+  - **Description**: Updated Notion API as of January 15, 2026, with new features for creating, moving, and managing pages, data sources, and blocks.
+- **[agxntsix-research-logger](skills/agxntsix-research-logger)**
+  - **Description**: An AI research pipeline that automatically logs data to SQLite and traces with Langfuse.
+- **[research-logger](skills/research-logger)**
+  - **Description**: Effortlessly manage your research with automatic logging, saving results to SQLite with metadata, and full Langfuse tracing. Ideal for research, competitive analysis, and knowledge base building.
+- **[multimedia-to-obsidian](skills/multimedia-to-obsidian)**
+  - **Description**: Import various multimedia documents into your Obsidian knowledge base, supporting formats like PPT, PDF, DOCX, and images. It automatically extracts each page or image, uses multimodal models to understand the content, and saves it as text descriptions in Obsidian, ideal for organizing training materials, migrating notes, and converting image data into structured knowledge.
+- **[obsidian-canvas-creator](skills/obsidian-canvas-creator)**
+  - **Description**: Create interactive Obsidian Canvas files from text for mind maps or freeform layouts, ideal for visualizing and organizing information spatially.
+- **[ai-research-to-obsidian](skills/ai-research-to-obsidian)**
+  - **Description**: This AI skill plugin searches for information using AI tools and saves the results as Obsidian documents. It can be triggered when the user asks to search a question, requests a browser search with Obsidian save, or says 'help me check' and mentions saving to notes or documents.
+- **[pdf-parser-mineru](skills/pdf-parser-mineru)**
+  - **Description**: A PDF parsing tool that converts documents into machine-readable formats like Markdown and JSON.
+- **[pdf-co](skills/pdf-co)**
+  - **Description**: PDF.co API integration with managed OAuth for PDF conversion, merging, splitting, editing, and data extraction. Use this skill for tasks like converting PDFs to other formats, adding watermarks or text, and parsing invoices.
+- **[pdfagent](skills/pdfagent)**
+  - **Description**: A self-hosted solution for PDF operations and conversions, with metered usage tracking.
+- **[zotero-pdf-upload](skills/zotero-pdf-upload)**
+  - **Description**: Upload and manage PDFs in your Zotero Web Library, supporting both personal and group libraries. Ideal for adding papers, organizing collections, and managing your library through the API.
+- **[links-to-pdfs](skills/links-to-pdfs)**
+  - **Description**: Download and convert web documents from sources like Notion, DocSend, and PDFs into local PDF files. Supports authentication for protected documents and session persistence.
+- **[pdf-to-markdown](skills/pdf-to-markdown)**
+  - **Description**: Converts PDF documents to Markdown format. Use this when you need to transform PDFs into a more editable form.
+- **[compress-pdf](skills/compress-pdf)**
+  - **Description**: Compress a user-provided PDF by uploading it to Cross-Service-Solutions, then return a download URL for the compressed file once processing is complete.
+- **[convert-to-pdf](skills/convert-to-pdf)**
+  - **Description**: Upload one or multiple documents to Cross-Service-Solutions, convert them to PDF, and receive download URLs for the converted files (or a ZIP if multiple).
+- **[merge-pdf](skills/merge-pdf)**
+  - **Description**: Upload multiple PDF files to Cross-Service-Solutions, merge them, and receive a download URL for the combined PDF once processing is complete.
+- **[personal-notes](skills/personal-notes)**
+  - **Description**: Serves as a note-taking and journaling assistant, capturing thoughts, reflections, and daily logs. Use it for personal notes or when mentioning terms like diary, log, or 'write down'.
 - **[book-brain-visual-reader](skills/book-brain-visual-reader)**
-  - **Description**: Enhanced BOOK BRAIN for LYGO Havens with visual capability. Use to design and maintain a 3-brain filesystem + memory system that also integrates LEFT/RIGHT brain visual checking (browser, images, screenshots) with text and API data for deeper verification and retrieval. Recommended for agents with visual tools or browser automation; use original book-brain only on non-visual systems.
-- **[research-to-wechat](skills/research-to-wechat)**
-  - **Description**: A research-first content pipeline that turns a topic, notes, article, URL, or transcript into a sourced article with an evidence ledger, routed structure, polished Markdown, inline visuals, cover image, WeChat-ready HTML, browser-saved draft, and optional multi-platform distribution (小红书, Instant, Podcast, Moments). Conversion, public account draft generation, multi-platform distribution.
+  - **Description**: Enhanced BOOK BRAIN for LYGO Havens with visual capabilities, integrating a 3-brain filesystem and memory system that checks visuals (browser, images, screenshots) alongside text and API data for deeper verification and retrieval. Ideal for agents using visual tools or browser automation.
 - **[obsidian-cli-skills](skills/obsidian-cli-skills)**
-  - **Description**: 更新时间：2026-03-05
-- **[afrexai-ai-readiness](skills/afrexai-ai-readiness)**
-  - **Description**: Run a structured AI readiness audit for any organization. Scores 8 dimensions, identifies gaps, produces a prioritized 90-day action plan with budget ranges.
-- **[afrexai-release-notes](skills/afrexai-release-notes)**
-  - **Description**: Generate clear, professional release notes from git commits, PRs, or a plain list of changes. Outputs formatted changelogs your users actually want to read.
-- **[gmail-summarize](skills/gmail-summarize)**
-  - **Description**: Fetch recent unread Gmail (yesterday + today) and send a digest to the user.
-- **[youtube-summarizer](skills/youtube-summarizer)**
-  - **Description**: Automatically fetch YouTube video transcripts, generate structured summaries, and send full transcripts to messaging platforms. Detects YouTube URLs and provides metadata, key insights, and downloadable transcripts.
-- **[cognitive-brain](skills/cognitive-brain)**
-  - **Description**: **跨会话记忆与认知系统**  Cross-Session Memory & Cognition System
-- **[super-brain](skills/super-brain)**
-  - **Description**: AI self-enhancement system - Let AI remember users across sessions and continue to evolve. Use this skill when you need to long-term memorize user preferences, track conversation history, learn service skills, and proactively provide personalized services.
+  - **Description**: Obsidian CLI is a command-line tool for managing Obsidian vaults, enabling you to search, create, move, and delete notes.
 - **[obsidian-clip](skills/obsidian-clip)**
-  - **Description**: Create and manage Obsidian “Clip” notes (web/article/page clips). Use when the user says “clip/剪藏/收藏/保存这个链接”, wants a readable summary of a URL, and wants it saved into an Obsidian vault under Clip/YYYY-MM/.
+  - **Description**: Create and manage Obsidian Clip notes, which are web or article snippets. Use this skill when you want a readable summary of a URL and to save it in your Obsidian vault under the Clip/YYYY-MM/ directory.
 - **[obsidian-cli](skills/obsidian-cli)**
-  - **Description**: Skill for the official Obsidian CLI (v1.12+). Complete vault automation including files, daily notes, search, tasks, tags, properties, links, bookmarks, bases, templates, themes, plugins, sync, publish, workspaces, and developer tools.
+  - **Description**: This skill for the official Obsidian CLI (v1.12+) automates vault management, including file operations, daily notes, search, tasks, and more, as well as developer tools.
 - **[note](skills/note)**
-  - **Description**: Knowledge capture and connection system with automatic organization and retrieval. Use when user mentions taking notes, capturing ideas, recording insights, or finding previous notes. Captures from any context, organizes automatically by topic and project, surfaces relevant notes when needed, and connects related ideas across domains. All data stored locally.
-- **[reading-knowledge](skills/reading-knowledge)**
-  - **Description**: Curious knowledge companion with deep expertise in space, universe, and history. Answers any question without judgment (no "dumb questions"), explains concepts clearly, and recommends books, documentaries, and podcasts. Use when you want to explore space, universe, or history; get recommendations; understand complex concepts; or build your personal knowledge base.
-- **[audio-summary](skills/audio-summary)**
-  - **Description**: Audio/video to text summary assistant.
+  - **Description**: A system for capturing, organizing, and retrieving notes, ideas, and insights. It automatically organizes content by topic and project, and surfaces relevant information when needed, connecting related concepts across different areas.
 - **[obsidian-cli-official](skills/obsidian-cli-official)**
-  - **Description**: Intelligent module for obsidian-cli-official.
-- **[knowledge-answer](skills/knowledge-answer)**
-  - **Description**: Current Date: $DATE$. Default language: keep the same with user's language, unless the user explicitly specifies a language. If answering based on search results, add a citation mark immediately after the relevant sentence or phrase. 2. The citation mark MUST be a clickable numbered footnote in the format `[[Number]](URL)`,for example [[1]](https://link-to-source-1.com). At the end, there shoul...
+  - **Description**: Official Obsidian CLI (v1.12+), providing a full command-line interface for managing notes, tasks, search, tags, properties, links, and more.
 - **[obsidians](skills/obsidians)**
-  - **Description**: Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli. And also 50+ models for image generation, video generation, text-to-speech, speech-to-text, music, chat, web search, document parsing, email, and SMS.
+  - **Description**: This AI skill plugin enables automation of Obsidian vaults using plain Markdown notes and obsidian-cli, and supports over 50 models for various tasks like image and video generation, text-to-speech, and more.
 - **[notebooklm-distiller](skills/notebooklm-distiller)**
-  - **Description**: NotebookLM Distiller: Batch knowledge extraction from Google NotebookLM into Obsidian. Supports Q&A generation (15-20 deep questions), structured summaries, glossary extraction, web research sessions, and direct markdown persistence.
-- **[knowledge-forge](skills/knowledge-forge)**
-  - **Description**: Intelligent module for knowledge-forge.
-- **[notebooklm-bypass](skills/notebooklm-bypass)**
-  - **Description**: Programmatic NotebookLM control with auto-recovery for authentication errors.
-- **[expanso-text-summarize](skills/expanso-text-summarize)**
-  - **Description**: Summarize text into 3-5 bullet points using AI
+  - **Description**: NotebookLM Distiller extracts knowledge from Google NotebookLM into Obsidian, offering Q&A generation, structured summaries, glossary extraction, web research, and markdown persistence.
 - **[obsidian-organizer](skills/obsidian-organizer)**
-  - **Description**: Organize and standardize Obsidian vaults for reliability and long-term maintainability. Use when designing or cleaning vault folder structure, enforcing file naming conventions, migrating messy vaults, reducing duplicate/ambiguous notes, or creating repeatable audit-and-fix workflows for Obsidian notes.
-- **[deepreader-skill](skills/deepreader-skill)**
-  - **Description**: The default web content reader for OpenClaw. Reads X (Twitter), Reddit, YouTube, and any webpage into clean Markdown — zero API keys required. Use when you need to ingest social media posts, articles, or video transcripts into agent memory.
-- **[read-optimizer](skills/read-optimizer)**
-  - **Description**: ## Description
-- **[deepwiki-ask](skills/deepwiki-ask)**
-  - **Description**: A single question to the repository via DeepWiki MCP. Query a repository with a single question via DeepWiki. Fired when the user provides owner/repo and question.
+  - **Description**: Organize and standardize Obsidian vaults for better reliability and long-term maintainability, including folder structure design, file naming conventions, migration, and the creation of audit-and-fix workflows.
 - **[neural-note-taker](skills/neural-note-taker)**
-  - **Description**: Advanced associative memory helper for building relationships between facts and entities. Use when processing dense information to ensure context is preserved across long sessions.
+  - **Description**: An advanced associative memory tool that helps build connections between facts and entities, preserving context during long information processing sessions.
 - **[obsidian-daily](skills/obsidian-daily)**
-  - **Description**: Manage Obsidian Daily Notes via obsidian-cli. Create and open daily notes, append entries (journals, logs, tasks, links), read past notes by date, and search vault content. Handles relative dates like "yesterday", "last Friday", "3 days ago". Requires obsidian-cli installed via Homebrew (Mac/Linux) or Scoop (Windows).
-- **[email-summary](skills/email-summary)**
-  - **Description**: Fetches recent emails from Gmail and provides concise summaries. Use when the user wants to check emails, get email summaries, or review their inbox.
-- **[obsidian-plugin-tasknotes](skills/obsidian-plugin-tasknotes)**
-  - **Description**: Manage tasks in Obsidian via TaskNotes plugin API. Use when user wants to create tasks, list tasks, query by status or project, update task status, delete tasks, or check what they need to do.
-- **[rss-ai-reader](skills/rss-ai-reader)**
-  - **Description**: Intelligent module for rss-ai-reader.
-- **[obsidian-task](skills/obsidian-task)**
-  - **Description**: Manage Obsidian tasks via obsidian-cli. List, toggle, create, and update tasks from the terminal.
-- **[reddit-readonly](skills/reddit-readonly)**
-  - **Description**: Intelligent module for reddit-readonly.
-- **[doc-summarizer](skills/doc-summarizer)**
-  - **Description**: Intelligent module for doc-summarizer.
-- **[notion-mcp](skills/notion-mcp)**
-  - **Description**: Intelligent module for notion-mcp.
-- **[newsnow-reader](skills/newsnow-reader)**
-  - **Description**: Read real-time trending news elegantly. Supports 8 mainstream platforms including Weibo, Zhihu, Baidu, Douyin, Wall Street Journal, Toutiao, and The Paper.
-- **[braindb](skills/braindb)**
-  - **Description**: Persistent, semantic memory for AI agents. Gives your AI long-term recall that survives compaction and session resets — 98% accuracy, 20ms latency.
-- **[yt-summary](skills/yt-summary)**
-  - **Description**: Summarize any YouTube video by dropping the link in chat. Supports custom prompts — paste the URL followed by your instructions (e.g. 'focus on the technical details'). Triggers on YouTube URLs.
-- **[awiki-agent-did-message](skills/awiki-agent-did-message)**
-  - **Description**: Intelligent module for awiki-agent-did-message.
+  - **Description**: Manage Obsidian Daily Notes with obsidian-cli, including creating, opening, appending entries, and searching vault content. Supports relative dates like 'yesterday' or '3 days ago'. Requires obsidian-cli installed via Homebrew (Mac/Linux) or Scoop (Windows).
 - **[second-brain](skills/second-brain)**
-  - **Description**: Personal knowledge base powered by Ensue for capturing and retrieving understanding. Use when user wants to save knowledge, recall what they know, manage their toolbox, or build on past learnings. Triggers on "save this", "remember", "what do I know about", "add to toolbox", "my notes on", "store this concept".
-- **[deepwiki-mcp](skills/deepwiki-mcp)**
-  - **Description**: Intelligent module for deepwiki-mcp.
+  - **Description**: A personal knowledge base powered by Ensue for saving, recalling, and building upon your learnings. Use it to manage your notes and toolbox.
 - **[save-to-obsidian](skills/save-to-obsidian)**
-  - **Description**: Saves markdown content to remote Obsidian vault via SSH
-- **[shelly-meeting-summarizer](skills/shelly-meeting-summarizer)**
-  - **Description**: Transform raw meeting transcripts into structured, actionable summaries.
+  - **Description**: Saves markdown content to a remote Obsidian vault via SSH.
 - **[notesctl-skill-for-openclaw](skills/notesctl-skill-for-openclaw)**
-  - **Description**: Manage Apple Notes via deterministic local scripts (create, append, list, search, export, and edit). Use when a user asks OpenClaw to add a note, list notes, search notes, or manage note folders.
+  - **Description**: Manage Apple Notes with local scripts for creating, appending, listing, searching, exporting, and editing notes. Use this skill when you need to add, list, search, or manage note folders via OpenClaw.
 - **[2nd-brain](skills/2nd-brain)**
-  - **Description**: Intelligent module for 2nd-brain.
+  - **Description**: A personal knowledge base for storing and retrieving information on people, places, media, ideas, and more. Use it when mentioning specific entities or using trigger phrases like 'remember' or 'note that'.
 - **[brainrepo](skills/brainrepo)**
-  - **Description**: Intelligent module for brainrepo.
-- **[ima-knowledge-ai](skills/ima-knowledge-ai)**
-  - **Description**: Intelligent module for ima-knowledge-ai.
-- **[pixel-attribution-readiness-checker](skills/pixel-attribution-readiness-checker)**
-  - **Description**: Validate event tracking and attribution readiness for Meta Pixel, Google Ads tags, TikTok Pixel, and cross-channel optimization.
-- **[feishu-msg-reader](skills/feishu-msg-reader)**
-  - **Description**: Intelligent module for feishu-msg-reader.
-- **[feishu-thread-forward](skills/feishu-thread-forward)**
-  - **Description**: Intelligent module for feishu-thread-forward.
-- **[tube-summary](skills/tube-summary)**
-  - **Description**: Search YouTube for videos on any topic and get intelligent summaries from video subtitles. Use when you need to: (1) Find and preview YouTube videos on a subject, (2) Get a detailed description of what a video covers based on its actual content, (3) Quickly understand video topics without watching. Workflow: search YouTube → pick a video → extract and summarize subtitles.
-- **[rss-reader](skills/rss-reader)**
-  - **Description**: Monitor RSS and Atom feeds for content research. Track blogs, news sites, newsletters, and any feed source. Use when monitoring competitors, tracking industry news, finding content ideas, or building a personal news aggregator. Supports multiple feeds with categories, filters, and summaries.
-- **[youmind-youtube-transcript](skills/youmind-youtube-transcript)**
-  - **Description**: Intelligent module for youmind-youtube-transcript.
-- **[pollinations-sketch-note](skills/pollinations-sketch-note)**
-  - **Description**: **Name**: pollinations-sketch-note
-- **[fadnote](skills/fadnote)**
-  - **Description**: Create secure shareable self-destructing notes
-- **[minecraft-wiki](skills/minecraft-wiki)**
-  - **Description**: Intelligent module for minecraft-wiki.
-- **[encrypted-file-reader](skills/encrypted-file-reader)**
-  - **Description**: Read local encrypted/protected file contents to support enterprise security policy environments.
-- **[slack-reader](skills/slack-reader)**
-  - **Description**: Read and summarize Slack channel history and thread conversations. Use when receiving Slack links (https://...slack.com/archives/...) or requests to view channel/thread/reply conversations, summarize discussions, or check recent messages in a channel.
-- **[pro-zh-summary](skills/pro-zh-summary)**
-  - **Description**: Professional-grade Chinese long text summarization tool. When users require "summarization", "abstract", "refining key points", "abbreviation" or processing very long Chinese text, this tool must be called for automatic segmentation and compression.
-- **[plsreadme](skills/plsreadme)**
-  - **Description**: Share markdown files and text as clean, readable web links via plsreadme.com. Use when someone asks to share a document, README, PRD, proposal, notes, or any markdown as a shareable link. Also triggers for "create a preview link", "share this as a page", or "make this readable". Requires the plsreadme MCP server (npx plsreadme-mcp).
-- **[youtube-voice-summarizer-elevenlabs](skills/youtube-voice-summarizer-elevenlabs)**
-  - **Description**: Transform YouTube videos into podcast-style voice summaries using ElevenLabs TTS
-- **[tweet-summarizer-lite](skills/tweet-summarizer-lite)**
-  - **Description**: Fetch and summarize single tweets from Twitter/X. Basic search and single tweet fetching. Lightweight version perfect for quick tweet lookups.
+  - **Description**: A personal knowledge repository that captures, organizes, and retrieves information using PARA and Zettelkasten. It triggers with commands like 'save this' or 'remember', supports daily/weekly reviews, and integrates with any AI agent that reads markdown, storing everything as .md files in a Git repo for use in Obsidian, VS Code, or any editor.
 - **[notion-cli-agent](skills/notion-cli-agent)**
-  - **Description**: notion search [query] --filter page                    # Search only pages
-- **[global-intel-summary](skills/global-intel-summary)**
-  - **Description**: Global intelligence summary tool - automatically generates structured global market, political and economic, and AI news summary reports. Supports directional in-depth analysis and intelligent deduction. Drawing on the situation-monitor project architecture, it enhances RSS source access, intelligence classification and high-relevance event detection.
-- **[gws-sheets-read](skills/gws-sheets-read)**
-  - **Description**: Google Sheets: Read values from a spreadsheet.
+  - **Description**: Search for pages using the specified query.
 - **[microsoft-onenote](skills/microsoft-onenote)**
-  - **Description**: Intelligent module for microsoft-onenote.
+  - **Description**: Integrate with Microsoft OneNote to manage your notebooks and interact with your data.
 - **[notion-integration](skills/notion-integration)**
-  - **Description**: Intelligent module for notion-integration.
-- **[readme-com](skills/readme-com)**
-  - **Description**: Intelligent module for readme-com.
-- **[ukg-ready](skills/ukg-ready)**
-  - **Description**: Intelligent module for ukg-ready.
+  - **Description**: Integrate with Notion to manage projects, documents, and workflows. Use this skill to interact with your Notion data.
 - **[voicenotes-official](skills/voicenotes-official)**
-  - **Description**: This official skill from the Voicenotes team gives OpenClaw access to new APIs and the ability to search semantically, retrieve full transcripts, filter by tags or date range and create text notes — all through natural conversation.
-- **[comment-on-task](skills/comment-on-task)**
-  - **Description**: Add or read comments on an OpenAnt task. Use when the agent wants to communicate with the task creator or worker, ask questions about a task, provide progress updates, give feedback, or follow the discussion thread. Covers "comment on task", "ask the creator", "update progress", "read comments", "what did they say".
+  - **Description**: This official Voicenotes skill enables OpenClaw to use new APIs for semantic search, transcript retrieval, filtering by tags or dates, and creating text notes through natural conversation.
 - **[timeless](skills/timeless)**
-  - **Description**: Query and manage Timeless meetings, rooms, transcripts, and AI documents. Capture podcast episodes and YouTube videos into Timeless for transcription. Use when the user asks about their meetings, wants to search meetings, read transcripts, get summaries, list rooms, create rooms, add/remove conversations from rooms, resolve Timeless share links, upload recordings, chat with Timeless AI about meeting content, or capture podcasts/YouTube videos.
+  - **Description**: Manage and query Timeless meetings, rooms, transcripts, and AI documents. You can also capture podcast episodes and YouTube videos for transcription, and interact with the Timeless AI to discuss meeting content.
 ### Productivity & Study Tools
 
-- **[social-media-scheduler](skills/social-media-scheduler)**
-  - **Description**: Plan, draft, and organize social media content across platforms. Create content calendars, write platform-optimized posts, and maintain consistent posting schedules.
-- **[c-suite-founder-coach](skills/c-suite-founder-coach)**
-  - **Description**: Personal leadership development for founders and first-time CEOs. Covers founder archetype identification, delegation frameworks, energy management, CEO calendar audits, leadership style evolution, blind spot identification, imposter syndrome, founder mental health, and succession planning. Use when a founder feels like the bottleneck, struggles to delegate, is burning out, transitioning from IC to executive, managing a board, or when user mentio
-- **[cs-founder-coach](skills/cs-founder-coach)**
-  - **Description**: Personal leadership development for founders and first-time CEOs. Covers founder archetype identification, delegation frameworks, energy management, CEO calendar audits, leadership style evolution, blind spot identification, imposter syndrome, founder mental health, and succession planning. Use when a founder feels like the bottleneck, struggles to delegate, is burning out, transitioning from IC to executive, managing a board, or when user mentio
-- **[content-calendar-scheduler](skills/content-calendar-scheduler)**
-  - **Description**: Social media content scheduling and operations management tools. Supports multi-platform scheduling, week overview, content template library, publishing effect analysis, batch addition, and copy plan. Content calendar and social media scheduler with weekly overview, content templates by niche, publishing analytics, batch operations, and duplication.
-- **[shelly-social-scheduler](skills/shelly-social-scheduler)**
-  - **Description**: Generate a full week of social media content for any topic. Outputs platform-optimized posts for Twitter/X, LinkedIn, and Instagram with hashtags and posting times.
+- **[hinihao-chinese-tutor](skills/hinihao-chinese-tutor)**
+  - **Description**: A proactive Chinese language tutor that provides curated, real-world Mandarin learning content on a schedule, suitable for HSK 1-6 learners. It offers recommendations for reading materials, podcasts, videos, and songs, and can be activated by specific user requests or scheduled lessons.
+- **[flashcards-podcasts-master](skills/flashcards-podcasts-master)**
+  - **Description**: Manages flashcards, generates AI content, and facilitates audio study sessions through the EchoDecks External API.
+- **[recipe-create-classroom-course](skills/recipe-create-classroom-course)**
+  - **Description**: Create a Google Classroom course and invite students to join.
+- **[training-plan](skills/training-plan)**
+  - **Description**: A training plan designer that helps with curriculum, evaluation, materials, scheduling, and certificates. Ideal for creating comprehensive training programs and employee development plans.
+- **[optical-quantum-skill](skills/optical-quantum-skill)**
+  - **Description**: Simulates a quantum kernel using optical fiber and linear optics.
+- **[space-autonomy-skill](skills/space-autonomy-skill)**
+  - **Description**: An autonomous space navigation agent that uses optical quantum kernels for terrain classification.
+- **[quantum-lab](skills/quantum-lab)**
+  - **Description**: Execute Python scripts and demos in the /home/bram/work/quantum_lab directory using the existing venv at ~/.venvs/qiskit. Use this when requested to run specific subcommands or notebooks from the repo.
+- **[quantumlab](skills/quantumlab)**
+  - **Description**: Execute Python scripts and demos in /home/bram/work/quantum_lab using the existing venv ~/.venvs/qiskit. This includes running subcommands for quant_math_lab.py, qcqi_pure_math_playground.py, quantum_app.py, quantumapp.server, or any notebooks in the repository.
+- **[expanso-language-detect](skills/expanso-language-detect)**
+  - **Description**: Identify the language of given text using AI.
+- **[natural-language-planner](skills/natural-language-planner)**
+  - **Description**: This AI skill plugin manages tasks and projects through natural language, organizing tasks into projects, tracking progress, and providing a local Kanban dashboard.
+- **[git-standup](skills/git-standup)**
+  - **Description**: Automatically generates daily work reports by analyzing Git commits.
+- **[plan-flow](skills/plan-flow)**
+  - **Description**: AI-assisted development workflows for discovery, planning, execution, code reviews, and testing.
+- **[error-analysis](skills/error-analysis)**
+  - **Description**: This AI skill plugin provides error analysis for studying, including categorizing mistakes, identifying knowledge gaps, and offering review suggestions.
+- **[notion-1-0-0](skills/notion-1-0-0)**
+  - **Description**: This AI skill plugin uses the Notion API to create and manage pages, databases, and blocks.
+- **[notion-template](skills/notion-template)**
+  - **Description**: A Notion template generator for creating workspaces, databases, dashboards, wikis, projects, and personal templates. Use it when you need to design Notion templates.
+- **[vibe-notion](skills/vibe-notion)**
+  - **Description**: Interact with Notion using the unofficial private API to manage pages, databases, blocks, search, users, and comments.
+- **[vibe-notionbot](skills/vibe-notionbot)**
+  - **Description**: Interact with Notion workspaces to manage pages, databases, blocks, users, and comments using the official API.
+- **[notion-skill](skills/notion-skill)**
+  - **Description**: Interact with Notion pages and databases using the official Notion API.
+- **[notion-clipper-skill](skills/notion-clipper-skill)**
+  - **Description**: Clip web pages to Notion by fetching URLs, converting HTML to Markdown and then to Notion blocks, and saving to a user-specified Notion database or page. Use this skill when you want to save or clip a webpage to Notion.
+- **[wechat-to-notion](skills/wechat-to-notion)**
+  - **Description**: Save WeChat public account articles to a Notion database. When a user shares a mp.weixin.qq.com link, this skill extracts the title, cover image, and body content, then saves it as Notion blocks.
+- **[visual-file-sorter](skills/visual-file-sorter)**
+  - **Description**: Automatically traverses the download folder or desktop, uses a visual model to 'see' and rename file contents, and archives them into specified categories.
+- **[ux-researcher-designer](skills/ux-researcher-designer)**
+  - **Description**: A toolkit for senior UX designers and researchers, offering data-driven persona creation, journey mapping, usability testing frameworks, and research synthesis for user research and design validation.
+- **[deepread-form-fill](skills/deepread-form-fill)**
+  - **Description**: AI-powered PDF form filling. Upload any PDF and your data as JSON; the AI visually detects fields, semantically maps your data, fills the form with quality checks, and returns a completed PDF.
+- **[youtube-summarizer](skills/youtube-summarizer)**
+  - **Description**: Automatically fetches YouTube video transcripts, generates structured summaries, and sends full transcripts to messaging platforms, providing key insights and metadata.
+- **[cognitive-brain](skills/cognitive-brain)**
+  - **Description**: A cross-session memory and cognition system that enhances AI's ability to remember and understand across multiple interactions.
+- **[super-brain](skills/super-brain)**
+  - **Description**: The Super-Brain AI enhancement system enables the AI to remember users across sessions, continuously evolve, and provide personalized services by learning user preferences and service skills.
+- **[audio-summary](skills/audio-summary)**
+  - **Description**: The 'audio-summary' skill plugin extracts 16k mono compressed audio from video files using `ffmpeg`, transcribes and summarizes the audio content with the `qwen3-asr-flash` model, and supports large files through 48k compression.
+- **[notebooklm-bypass](skills/notebooklm-bypass)**
+  - **Description**: This AI skill plugin offers programmatic control of NotebookLM with automatic recovery from authentication errors.
+- **[expanso-text-summarize](skills/expanso-text-summarize)**
+  - **Description**: Summarize text into 3-5 key points using AI.
+- **[deepreader-skill](skills/deepreader-skill)**
+  - **Description**: The default web content reader for OpenClaw, converting Twitter, Reddit, YouTube, and any webpage into clean Markdown without requiring API keys. Ideal for ingesting social media posts, articles, or video transcripts into agent memory.
+- **[read-optimizer](skills/read-optimizer)**
+  - **Description**: Optimizes file reading by employing smart strategies (like head, tail, grep, diff) to minimize token usage and latency.
+- **[obsidian-plugin-tasknotes](skills/obsidian-plugin-tasknotes)**
+  - **Description**: Manage tasks in Obsidian using the TaskNotes plugin, including creating, listing, querying, updating, and deleting tasks.
+- **[rss-ai-reader](skills/rss-ai-reader)**
+  - **Description**: The RSS AI Reader automatically fetches subscriptions, generates summaries using LLMs, and pushes to Feishu, Telegram, or Email. It supports scheduled fetching and can be triggered by commands like 'subscribe for me' or 'monitor this site'.
+- **[obsidian-task](skills/obsidian-task)**
+  - **Description**: Manage Obsidian tasks through the terminal with obsidian-cli. Perform actions like listing, toggling, creating, and updating tasks.
+- **[reddit-readonly](skills/reddit-readonly)**
+  - **Description**: Browse and search Reddit in read-only mode, allowing you to explore subreddits, find posts by topic, and examine comment threads.
+- **[doc-summarizer](skills/doc-summarizer)**
+  - **Description**: A versatile AI tool for generating summaries, including document and text summarization, meeting notes, email digests, and creating mind maps.
+- **[notion-mcp](skills/notion-mcp)**
+  - **Description**: The Notion MCP plugin integrates with managed authentication to query databases, create and update pages, and manage blocks within Notion workspaces.
+- **[yt-summary](skills/yt-summary)**
+  - **Description**: Summarize any YouTube video by sharing its link and optionally add custom instructions for focus, like 'focus on the technical details'.
+- **[shelly-meeting-summarizer](skills/shelly-meeting-summarizer)**
+  - **Description**: Convert raw meeting transcripts into clear, structured, and actionable summaries.
+- **[tube-summary](skills/tube-summary)**
+  - **Description**: Search YouTube for videos on any topic and get intelligent summaries from their subtitles, allowing you to quickly understand the content without watching.
+- **[rss-reader](skills/rss-reader)**
+  - **Description**: Monitor RSS and Atom feeds for content research, tracking industry news, or building a personal news aggregator. Supports multiple feeds with categories, filters, and summaries.
+- **[youmind-youtube-transcript](skills/youmind-youtube-transcript)**
+  - **Description**: Extract and save YouTube video transcripts and subtitles using the YouMind API, supporting batch processing of up to 5 videos. Transcripts are saved with timestamps in markdown format on your YouMind board, accessible from any IP.
+- **[slack-reader](skills/slack-reader)**
+  - **Description**: Summarize Slack channel history and thread conversations. Use for Slack links, to view or summarize discussions, or check recent messages.
+- **[plsreadme](skills/plsreadme)**
+  - **Description**: Share markdown files and text as clean, readable web links via plsreadme.com. Ideal for sharing documents, READMEs, PRDs, proposals, or notes. Requires the plsreadme MCP server (npx plsreadme-mcp).
+- **[youtube-voice-summarizer-elevenlabs](skills/youtube-voice-summarizer-elevenlabs)**
+  - **Description**: Convert YouTube videos into podcast-style voice summaries using ElevenLabs TTS.
+- **[tweet-summarizer-lite](skills/tweet-summarizer-lite)**
+  - **Description**: Fetch and summarize single tweets from Twitter. Ideal for quick, lightweight tweet lookups.
 - **[focus-coach](skills/focus-coach)**
-  - **Description**: Focus coach for AI agents — diagnose focus blockers using BJ Fogg B=MAP and return one tiny action. Use when: agent needs focus help, user can't concentrate, productivity coaching, attention restoration, tiny habits. Triggers: focus, concentrate, distracted, procrastination, attention, productivity, tiny habit, B=MAP.
-- **[ai-meeting-scheduling](skills/ai-meeting-scheduling)**
-  - **Description**: Booking links fail for groups. SkipUp schedules meetings with 2-50 participants via email — one API call coordinates across timezones automatically. Also: check status, pause, resume, or cancel requests. Async only — does not instant-book, access calendars, or do free/busy lookups.
-- **[cron-scheduling](skills/cron-scheduling)**
-  - **Description**: Schedule and manage recurring tasks with cron and systemd timers. Use when setting up cron jobs, writing systemd timer units, handling timezone-aware scheduling, monitoring failed jobs, implementing retry patterns, or debugging why a scheduled task didn't run.
+  - **Description**: The Focus Coach plugin helps AI agents diagnose focus issues using the BJ Fogg B=MAP model and suggests a small, actionable step. It's ideal for improving concentration, overcoming procrastination, and enhancing productivity through tiny habits.
 - **[google-workspace-automation](skills/google-workspace-automation)**
-  - **Description**: Design Gmail, Drive, Sheets, and Calendar automations with scope-aware plans. Use for repeatable daily task automation with explicit OAuth scopes and audit-ready outputs.
-- **[cs-google-workspace-cli](skills/cs-google-workspace-cli)**
-  - **Description**: Google Workspace administration via the gws CLI. Install, authenticate, and automate Gmail, Drive, Sheets, Calendar, Docs, Chat, and Tasks. Run security audits, execute 43 built-in recipes, and use 10 persona bundles. Use for Google Workspace admin, gws CLI setup, Gmail automation, Drive management, or Calendar scheduling.
-- **[weekly-report-generator](skills/weekly-report-generator)**
-  - **Description**: Auto-generate structured weekly business reports covering KPIs, accomplishments, blockers, and plans. Save hours of reporting time every week.
-- **[mspot-generator](skills/mspot-generator)**
-  - **Description**: Create one-page strategic alignment documents. Mission, Strategy, Projects, Omissions, Tracking. Forces clarity on what you WILL and WON'T do. Use when user says "mspot", "strategic plan", "quarterly plan", "what are we NOT doing", "omissions", "team alignment", "OKRs alternative", "priorities", "what should we focus on".
-- **[sourdough-starter-manager](skills/sourdough-starter-manager)**
-  - **Description**: Manage sourdough starters with feeding schedules, hydration calculations, health tracking, and baking preparation. Use when the user wants to maintain a sourdough starter, plan feedings, calculate ratios, troubleshoot starter problems, or prepare for baking.
-- **[smart-model-switcher-v2](skills/smart-model-switcher-v2)**
-  - **Description**: Optimized Smart Model Switcher (v2) - Zero-latency, no restart required. Automatically selects and switches to the best available model for each task from your purchased plan. Runtime model selection with <100ms latency. Supports auto-detection of new models, multi-model parallel processing, and intelligent task classification. Always uses the strongest model within your plan.
-- **[smart-model-switcher-v3](skills/smart-model-switcher-v3)**
-  - **Description**: Universal Smart Model Switcher V3 - Multi-Provider, Multi-Model intelligent switching. Automatically selects the best model from ALL your purchased API plans (Bailian/Qwen, MiniMax, GLM, Kimi, etc.). Zero-latency runtime switching, no restart required. Supports 50+ models across all providers with advanced task classification and fallback logic.
-- **[tg-smart-cta](skills/tg-smart-cta)**
-  - **Description**: Enhance Telegram replies with context-aware dynamic CTA buttons (Smart Launcher UI). Use when replying to users on Telegram to provide relevant, time-sensitive, and task-oriented options for better interaction.
-- **[sales-engineer](skills/sales-engineer)**
-  - **Description**: Analyzes RFP/RFI responses for coverage gaps, builds competitive feature comparison matrices, and plans proof-of-concept (POC) engagements for pre-sales engineering. Use when responding to RFPs, bids, or proposal requests; comparing product features against competitors; planning or scoring a customer POC or sales demo; preparing a technical proposal; or performing win/loss competitor analysis. Handles tasks described as 'RFP response', 'bid respo
-- **[jules-api](skills/jules-api)**
-  - **Description**: Create and manage Google Jules AI coding sessions via the Jules REST API. Start tasks, monitor progress, approve plans, send messages, list sources/repos, and retrieve session activities/artifacts.
-- **[ms-graph-calendar](skills/ms-graph-calendar)**
-  - **Description**: Find available meeting times and free/busy slots for company employees using Microsoft Graph API. Use when user asks to schedule a meeting, find a free slot, check when employees are available, or look up someone's calendar availability.
+  - **Description**: Automate Gmail, Drive, Sheets, and Calendar tasks with scope-aware plans for daily use, ensuring explicit OAuth scopes and audit-ready outputs.
 - **[task-decomposer](skills/task-decomposer)**
-  - **Description**: Decomposes complex user requests into executable subtasks, identifies required capabilities, searches for existing skills at skills.sh, and creates new skills when no solution exists. This skill should be used when the user submits a complex multi-step request, wants to automate workflows, or needs help breaking down large tasks into manageable pieces.
+  - **Description**: This skill breaks down complex requests into simpler subtasks, identifies necessary capabilities, and either finds existing solutions or creates new ones as needed.
 - **[time-checker](skills/time-checker)**
-  - **Description**: Check accurate current time, date, and timezone information for any location worldwide using time.is. Use when the user asks "what time is it in X", "current time in Y", or needs to verify timezone offsets.
-- **[afrexai-capacity-planner](skills/afrexai-capacity-planner)**
-  - **Description**: Plan team and infrastructure capacity before it becomes a crisis.
+  - **Description**: Get accurate current time, date, and timezone information for any location worldwide using time.is. Ideal for queries like 'what time is it in X' or verifying timezone offsets.
 - **[afrexai-email-to-calendar](skills/afrexai-email-to-calendar)**
-  - **Description**: Intelligent module for afrexai-email-to-calendar.
+  - **Description**: This AI skill extracts calendar events, deadlines, action items, and follow-ups from emails, compatible with any calendar provider. It uses pure agent intelligence without external dependencies.
 - **[afrexai-sprint-planner](skills/afrexai-sprint-planner)**
-  - **Description**: Plan, scope, and run agile sprints that actually ship. No ceremony bloat.
-- **[afrexai-tax-planning](skills/afrexai-tax-planning)**
-  - **Description**: You are a tax planning strategist. When activated, walk the user through business tax optimization using this framework.
-- **[opys-calendar](skills/opys-calendar)**
-  - **Description**: A local markdown-backed calendar with CLI and optional two-way Google Calendar sync.
-- **[todoist-task-manager](skills/todoist-task-manager)**
-  - **Description**: Manage Todoist tasks via the `todoist` CLI (list, add, modify, complete, delete). Supports filters, projects, labels, and priorities.
-- **[plan-c](skills/plan-c)**
-  - **Description**: Continue the dialogue with existing planning documents: intelligently identify the "explicit file loading" intention, provide status summary first, and support in-depth iteration on demand.
-- **[plan-i](skills/plan-i)**
-  - **Description**: Start a new planning process and create new planning documents.
-- **[m365-task-manager-by-altf1be](skills/m365-task-manager-by-altf1be)**
-  - **Description**: Manage lightweight Microsoft 365 task workflows with Microsoft To Do and Planner. Use when a user needs to quickly create, assign, track, and follow up operational tasks in M365 with clear owners, due dates, status, and daily reminders.
-- **[openclaw-skill-m365-task-manager-by-altf1be](skills/openclaw-skill-m365-task-manager-by-altf1be)**
-  - **Description**: Manage lightweight Microsoft 365 task workflows with Microsoft To Do and Planner. Use when a user needs to quickly create, assign, track, and follow up operational tasks in M365 with clear owners, due dates, status, and daily reminders.
-- **[calendar-reminders](skills/calendar-reminders)**
-  - **Description**: Calendar reminders pipeline: config-driven wrapper around gcalcli (Google Calendar) plus optional CalDAV source via vdirsyncer+khal, and a reminder planner that outputs a JSON plan for one-shot OpenClaw reminders.
-- **[todo-manager](skills/todo-manager)**
-  - **Description**: Manage your to-do list. Add, view, complete, delete to-dos.
-- **[taskwarrior](skills/taskwarrior)**
-  - **Description**: Intelligent module for taskwarrior.
-- **[proactive-daily-planner](skills/proactive-daily-planner)**
-  - **Description**: Proactive daily planning assistant that helps organize your day, track tasks, and provide motivation. Acts as a personal assistant to plan your day proactively.
-- **[news-sentiment](skills/news-sentiment)**
-  - **Description**: Intelligent module for news-sentiment.
+  - **Description**: Efficiently plan, scope, and execute agile sprints that deliver results without unnecessary formalities.
 - **[todolist](skills/todolist)**
-  - **Description**: Intelligent module for todolist.
-- **[task](skills/task)**
-  - **Description**: Tasker docstore task management via tool-dispatch. Use for task lists, due today/overdue, week planning, add/move/complete, or explicit /task commands.
-- **[todoist-manager](skills/todoist-manager)**
-  - **Description**: Manage Todoist tasks, projects, labels, and comments via the todoist CLI wrapper. Use when a user asks to add tasks, list todos, complete items, manage projects, or interact with their Todoist account.
-- **[anime-calendar](skills/anime-calendar)**
-  - **Description**: Domestic animation weekly updated calendar. Used to check animation update time, list of new episodes this week, and follow-up calendar. This skill is triggered when the user asks about the anime update schedule, this week's updates, the follow-up calendar, and the new series list.
-- **[task-watchdog](skills/task-watchdog)**
-  - **Description**: The guardian of idle tasks. Check the screen progress bar regularly, automatically close disruptive system or advertising pop-ups, and send an alarm when a fatal error occurs.
-- **[accept-task](skills/accept-task)**
-  - **Description**: Accept or apply for a task on OpenAnt. Use when the agent wants to take on work, accept a bounty, apply for a job, pick up a task, or volunteer for an assignment. Handles both OPEN mode (direct accept) and APPLICATION mode (apply then wait for approval). Covers "accept task", "take this task", "apply for", "pick up work", "I want to do this".
-- **[leave-task](skills/leave-task)**
-  - **Description**: Leave or unassign from a task you accepted on OpenAnt. Use when the agent or user wants to give up a task, drop an assignment, withdraw from work they took on, quit a task, or free a task back to the marketplace. Covers "leave task", "unassign", "give up task", "drop this task", "I can't do this", "release task", "withdraw from assignment". Make sure to use this skill when the user wants to exit or abandon a task they previously accepted, even if
-- **[team-task-dispatch](skills/team-task-dispatch)**
-  - **Description**: Coordinate team task execution on OpenAnt. Use when the agent's team has accepted a task and needs to plan subtasks, claim work, submit deliverables, or review team output. Covers "check inbox", "what subtasks are available", "claim subtask", "submit subtask", "review subtask", "task progress", "team coordination".
-- **[maritime-watch](skills/maritime-watch)**
-  - **Description**: ## Description
-- **[meetup-planner](skills/meetup-planner)**
-  - **Description**: An intelligent event finder that searches for meetups and events based on your interests, tracks them, and reminds you before they happen
-- **[expanso-sentiment-score](skills/expanso-sentiment-score)**
-  - **Description**: "Score text sentiment from -1 (negative) to +1 (positive)"
-- **[sentiment-score](skills/sentiment-score)**
-  - **Description**: "Score text sentiment from -1 (negative) to +1 (positive)"
+  - **Description**: This skill module offers enhanced features to boost development and research efficiency.
 - **[aibrary-growth-plan](skills/aibrary-growth-plan)**
-  - **Description**: [Aibrary] Create a structured personal growth plan with book recommendations, milestones, and actionable weekly tasks. Use when the user wants to create a learning plan, build a study schedule, develop a skill systematically, plan their personal or professional development, or set up a growth roadmap. Trigger on phrases like 'create a plan to learn', 'help me grow in', 'I want to develop', or any structured self-improvement intent.
-- **[feishu-calendar](skills/feishu-calendar)**
-  - **Description**: Manage Feishu (Lark) Calendars. Use this skill to list calendars, check schedules, and sync events.
-- **[todokan-review-loop](skills/todokan-review-loop)**
-  - **Description**: Process Todokan task and thought boards with a review-loop workflow. Use when a task enters doing and the agent should pick it up, read latest comments, respond to the newest comment with a high-quality context-aware reply, add an execution update comment, and move the task back to done (Review). Use for recurring polling/cron automation with Todokan MCP.
-- **[todokan](skills/todokan)**
-  - **Description**: Manage tasks, boards, thoughts, and reviews in Todokan via MCP
-- **[clawtime-setup](skills/clawtime-setup)**
-  - **Description**: Intelligent module for clawtime-setup.
-- **[todozi](skills/todozi)**
-  - **Description**: Todozi Eisenhower matrix API client + LangChain tools. Create matrices, tasks, goals, notes; list/search/update; bulk operations; webhooks. Categories: do, done, dream, delegate, defer, dont.
-- **[gcal-pro-calendar](skills/gcal-pro-calendar)**
-  - **Description**: Google Calendar integration for viewing, creating, and managing calendar events. Use when the user asks about their schedule, wants to add/edit/delete events, check availability, or needs a morning brief. Supports natural language like "What's on my calendar tomorrow?" or "Schedule lunch with Alex at noon Friday." Free tier provides read access; Pro tier ($12) adds create/edit/delete and morning briefs.
-- **[temporal-cortex-datetime](skills/temporal-cortex-datetime)**
-  - **Description**: Intelligent module for temporal-cortex-datetime.
-- **[4todo](skills/4todo)**
-  - **Description**: Manage 4todo (4to.do) from chat. Capture tasks, prioritize with the Eisenhower Matrix, reorder, complete, and manage recurring tasks across workspaces.
-- **[lark-calendar](skills/lark-calendar)**
-  - **Description**: Create, update, and delete calendar events and tasks in Lark (Feishu). Includes employee directory for automatic name-to-user_id resolution.
-- **[feishu-calendar-advanced](skills/feishu-calendar-advanced)**
-  - **Description**: Feishu calendar management via feishu-agent. View calendars, list events, create and delete events with conflict detection.
-- **[brw-plan-my-day](skills/brw-plan-my-day)**
-  - **Description**: Generate an energy-optimized, time-blocked daily plan based on circadian rhythm research and GTD principles
-- **[gtasks-cli](skills/gtasks-cli)**
-  - **Description**: Manage Google Tasks from the command line - view, create, update, delete tasks and task lists. Use when the user asks to interact with Google Tasks, manage to-do items, create task lists, mark tasks complete, or check their Google Tasks.
-- **[macos-calendar-assistant](skills/macos-calendar-assistant)**
-  - **Description**: Manage macOS Calendar with OpenClaw in IM-first workflows (Telegram/Discord/Feishu/iMessage/Slack), including screenshot-to-schedule extraction, idempotent create/update, move/extend/reschedule, reminders, conflict checks, daily review sync, and duplicate cleanup. Use when users ask to add/edit/move/postpone events, parse schedule screenshots/chat messages, adjust weekly plans into daily execution, or keep calendar and review notes in sync.
-- **[calendar-planner-cn](skills/calendar-planner-cn)**
-  - **Description**: Schedule planning tool. Weekly planning, monthly planning, time blocks, meeting scheduling, deadline management, work life balance. Calendar planner with weekly, monthly, time-blocking, meeting scheduling, deadline management, and work-life balance.
-- **[chinese-lunar-calendar](skills/chinese-lunar-calendar)**
-  - **Description**: Intelligent module for chinese-lunar-calendar.
-- **[time-tracker](skills/time-tracker)**
-  - **Description**: Time tracking and analysis tools. Time recording, analysis reports, classification statistics, report generation, efficiency improvement, Pomodoro. Time tracker with log, analyze, category, report, improve, and pomodoro timer. Use when you need time tracker capabilities. Triggers on: time tracker.
-- **[meeting-agenda](skills/meeting-agenda)**
-  - **Description**: Intelligent module for meeting-agenda.
-- **[okr-planner](skills/okr-planner)**
-  - **Description**: Intelligent module for okr-planner.
-- **[business-plan-cn](skills/business-plan-cn)**
-  - **Description**: 📋 商业计划书生成器 — bp.sh. Use when you need business plan cn capabilities. Triggers on: business plan cn.
-- **[zoho-calendar](skills/zoho-calendar)**
-  - **Description**: Intelligent module for zoho-calendar.
-- **[visa-business-planner](skills/visa-business-planner)**
-  - **Description**: ## Overview
-- **[task-panner-validator](skills/task-panner-validator)**
-  - **Description**: This skill provides a secure, step-by-step task management system for AI Agents.
-- **[one-calendar](skills/one-calendar)**
-  - **Description**: Daily one-way calendar picture sending tool. Automatically obtain the current day's date, construct the image URL, and send the one-way calendar image through Feishu. Support configuration wizard and scheduled tasks.
-- **[project-planner](skills/project-planner)**
-  - **Description**: Intelligent module for project-planner.
-- **[autonomous-task-runner](skills/autonomous-task-runner)**
-  - **Description**: Intelligent module for autonomous-task-runner.
-- **[alicloud-ai-audio-asr-realtime](skills/alicloud-ai-audio-asr-realtime)**
-  - **Description**: Use when low-latency realtime speech recognition is needed with Alibaba Cloud Model Studio Qwen ASR Realtime models, including streaming microphone input, live captions, or duplex voice agents.
-- **[fitness-plan](skills/fitness-plan)**
-  - **Description**: Intelligent module for fitness-plan.
-- **[weekly-content-planner](skills/weekly-content-planner)**
-  - **Description**: Generate a full week of social media content for any topic. Outputs platform-optimized posts for Twitter/X, LinkedIn, and Instagram with hashtags and posting times.
-- **[content-calendar](skills/content-calendar)**
-  - **Description**: Plan, schedule, and track content across channels — newsletters, social media, blog posts, and videos. Manages pipeline stages, publishing cadence, and repurposing opportunities. For solopreneurs and creators who want a system, not a spreadsheet.
-- **[marketing-calendar](skills/marketing-calendar)**
-  - **Description**: Intelligent module for marketing-calendar.
-- **[omnifocus-automation](skills/omnifocus-automation)**
-  - **Description**: Manage OmniFocus tasks, projects, and folders via Omni Automation. Use for task management, to-do lists, project tracking, GTD workflows, adding/completing/editing tasks, setting due dates, managing tags, and recurring tasks. Requires OmniFocus installed on macOS.
-- **[apple-calendar-manager](skills/apple-calendar-manager)**
-  - **Description**: Manage Apple Calendar events via AppleScript. Create, edit, delete, and search calendar events.
-- **[time-convert](skills/time-convert)**
-  - **Description**: Timezone conversion, current time, date arithmetic, and epoch conversion.
-- **[home-todo](skills/home-todo)**
-  - **Description**: Check and remind users of things they need to take care of when they get home. When users send any messages through Dashboard (webchat), to-do files are automatically checked and reminded.
-- **[task-management](skills/task-management)**
-  - **Description**: Sales task management tool for SCRM. Create, update, delete, and list sales follow-up tasks. Sales task management tool supports querying, creating, updating, and deleting customer follow-up tasks for sales staff.
-- **[travel-itinerary-planner](skills/travel-itinerary-planner)**
-  - **Description**: Generate complete, image-rich travel plans from trip dates and destination, including day-by-day itinerary, transportation, lodging area guidance, budget ranges, local transit notes, and risk/backup plans. Use when users ask for trip planning, vacation scheduling, route design, or requests like "input time and location" / "plan a full trip" / "图文并茂 travel itinerary.
-- **[tasks-md-sprint-sync](skills/tasks-md-sprint-sync)**
-  - **Description**: Sync TASKS.md current phase and in-progress checklist from the active PLAN.md phase to keep sprint execution aligned.
-- **[media-strategy-planner](skills/media-strategy-planner)**
-  - **Description**: Plan channel mix and media strategy for Meta (Facebook/Instagram), Google Ads, TikTok Ads, YouTube Ads, Amazon Ads, Shopify Ads, and DSP/programmatic.
-- **[wecom-calendar](skills/wecom-calendar)**
-  - **Description**: A complete tool for enterprise WeChat schedule management that supports creating, querying, updating, deleting schedules, and calendar management.
-- **[task-experience-logger](skills/task-experience-logger)**
-  - **Description**: Task experience recording and summary tool. Used to record problems encountered, solutions and lessons learned during task execution, and supports automatic saving to long-term memory. Suitable for any task scenario that requires continuous learning and improvement, including technical problem solving, workflow optimization, error troubleshooting, etc. Use this skill when users need to record task experience, summarize the execution process, or build a knowledge base.
-- **[plans](skills/plans)**
-  - **Description**: Manage long-term planning and short-term to-do items. Used when the user refers to goals, tasks, plans, roadmaps, or needs to break down complex goals into executable items stored in memory/plans-todos.md.
-- **[lygo-champion-kairos-herald-of-time](skills/lygo-champion-kairos-herald-of-time)**
-  - **Description**: LYGO Δ9 Council Champion persona helper (KAIROS, Herald of Time). Temporal integrity sentinel for sequence anchoring, timeline distortion detection, and continuity-preserving guidance. Pure advisor; not a controller.
-- **[polymarket-real-time-trades](skills/polymarket-real-time-trades)**
-  - **Description**: Intelligent module for polymarket-real-time-trades.
-- **[agent-task-manager](skills/agent-task-manager)**
-  - **Description**: Manages and orchestrates multi-step, stateful agent workflows; handles task dependencies, persistent state, error recovery, and external rate-limiting. Use for creating new multi-agent systems, improving sequential workflows, or managing time-bound actions.
-- **[double729-plansuite](skills/double729-plansuite)**
-  - **Description**: Unified planning+execution workflow: create a file-based plan with sub-plans, freeze it as FINALIZED, and execute in a separate session with checkpoints and progress/findings logs. Use when you want project plans with subplans (milestones), controlled execution, and session-based implementation runs.
-- **[plansuite](skills/plansuite)**
-  - **Description**: Unified planning+execution workflow: create a file-based plan with sub-plans, freeze it as FINALIZED, and execute in a separate session with checkpoints and progress/findings logs. Use when you want project plans with subplans (milestones), controlled execution, and session-based implementation runs.
-- **[open-airtime](skills/open-airtime)**
-  - **Description**: Autonomous Nigerian Airtime distribution agent on Farcaster.
-- **[taskr](skills/taskr)**
-  - **Description**: Cloud Task Planning & Execution for OpenClaw. Makes your agent's work transparent and trackable. Structure all actions into persistent tasks with context notes. Watch progress unfold in real-time via web or mobile — no more \"what are you working on?\" interruptions.
-- **[book-event-planner](skills/book-event-planner)**
-  - **Description**: Book event-planner services through Lokuli MCP. Use when user needs to find and book event-planner. Triggers on requests like "book a event-planner", "find event-planner near me", or any event-planner service request.
-- **[x-uptime](skills/x-uptime)**
-  - **Description**: Intelligent module for x-uptime.
-- **[faithful-task-executor](skills/faithful-task-executor)**
-  - **Description**: A faithful executor of mission rules. Ensure that work tasks are executed according to initial requirements and sub-agents/sub-tasks always follow the original rules, reducing AI illusions and execution biases. Supports concurrent task orchestration, persistent transfer of rules, and execution of consistency verification.
-- **[async-task](skills/async-task)**
-  - **Description**: ## Description
-- **[parallel-task-executor](skills/parallel-task-executor)**
-  - **Description**: Multitasking parallel execution manager. Receive multiple instructions and execute them synchronously, supporting priority scheduling, task dependencies, result collection and progress tracking. Suitable for scenarios where multiple independent tasks need to be processed concurrently.
+  - **Description**: Create a structured personal growth plan with book recommendations, milestones, and actionable weekly tasks for learning, skill development, or professional advancement.
 - **[student-timetable](skills/student-timetable)**
-  - **Description**: Student timetable manager for self or parent-managed child profiles. Includes init flow + profile registry under schedules/profiles/.
-- **[ws-calendar](skills/ws-calendar)**
-  - **Description**: Schedule management. Create a schedule, set reminders, and view your schedule.
-- **[openclawplanet](skills/openclawplanet)**
-  - **Description**: Allows this local OpenClaw agent to engage and socialize on the global OpenClaw Community Social Network.
-- **[timesheet](skills/timesheet)**
-  - **Description**: Track time, manage projects and tasks using timesheet.io CLI
-- **[todoist-v1](skills/todoist-v1)**
-  - **Description**: Manage Todoist tasks — list, create, complete, update, and organize tasks and projects.
+  - **Description**: A student timetable manager for self or parent-managed child profiles, including an initialization flow and profile registry under schedules/profiles.

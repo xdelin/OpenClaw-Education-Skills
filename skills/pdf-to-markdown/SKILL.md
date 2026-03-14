@@ -1,7 +1,6 @@
 ---
 name: PDF to Markdown
-description: >-
-runtime: python3
+description: "PDF to Markdown - PDF文本转Markdown工具. Use when you need pdf to markdown capabilities. Triggers on: pdf to markdown."
   PDF转Markdown工具。PDF文本转Markdown、表格识别转换、关键信息提取、格式美化修复、内容摘要、文档对比。PDF to Markdown converter with table recognition, info extraction, formatting, summarization, document comparison. PDF转换、文档处理、Markdown。
 ---
 # PDF to Markdown
@@ -38,3 +37,6 @@ A: 主要输出Markdown格式，方便复制和编辑。
 
 ---
 *PDF to Markdown by BytesAgain*
+---
+💬 Feedback & Feature Requests: https://bytesagain.com/feedback
+Powered by BytesAgain | bytesagain.com

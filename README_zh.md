@@ -5,14 +5,12 @@
 [![GitHub Stars](https://img.shields.io/github/stars/xdelin/OpenClaw-Education-Skills?style=for-the-badge&logo=github&color=gold)](https://github.com/xdelin/OpenClaw-Education-Skills)
 [![GitHub Forks](https://img.shields.io/github/forks/xdelin/OpenClaw-Education-Skills?style=for-the-badge&logo=github&color=blue)](https://github.com/xdelin/OpenClaw-Education-Skills)
 [![GitHub Issues](https://img.shields.io/github/issues/xdelin/OpenClaw-Education-Skills?style=for-the-badge&logo=github)](https://github.com/xdelin/OpenClaw-Education-Skills)
-[![技能数量](https://img.shields.io/badge/技能数量-1033-brightgreen?style=for-the-badge)](https://github.com/xdelin/OpenClaw-Education-Skills/tree/main/skills)
+[![技能数量](https://img.shields.io/badge/技能数量-392-brightgreen?style=for-the-badge)](https://github.com/xdelin/OpenClaw-Education-Skills/tree/main/skills)
 [![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/平台-OpenClaw%20%7C%20NanoClaw-orange?style=for-the-badge)](https://github.com/openclaw)
 
 **最大的开源教育与学术科研 AI 技能库，专为 OpenClaw 框架设计。**
-
-*1033 个精选技能 · 智能辅导 · 数学与自然科学 · 人文社科 · 学术科研 · 效率工具*
-
+*392 个精选技能 · 智能辅导 · 数学与自然科学 · 人文社科 · 学术科研 · 效率工具*
 [English](README.md) | [中文](README_zh.md)
 
 </div>
@@ -21,11 +19,11 @@
 
 ## 项目简介
 
-**Awesome OpenClaw Education Skills** 是一个包含 **1033 个 AI Agent 技能**的精选集合，覆盖教育与学术科研的完整领域。涵盖数学、理化生、人文社科及计算机等各个学术分支，这些技能专为 OpenClaw / NanoClaw —— 基于 Claude 的个人 AI 助手框架 —— 设计，能将通用 AI 智能体转变为强大的教学与科研研究伙伴。所有的技能由 AI 实现了双语净化与智能分类，总数量自动同步更新！
+**Awesome OpenClaw Education Skills** 是一个包含 **392 个 AI Agent 技能**的精选集合，覆盖教育与学术科研的完整领域。涵盖数学、理化生、人文社科及计算机等各个学术分支，这些技能专为 OpenClaw / NanoClaw —— 基于 Claude 的个人 AI 助手框架 —— 设计，能将通用 AI 智能体转变为强大的教学与科研研究伙伴。所有的技能由 AI 实现了双语净化与智能分类，总数量自动同步更新！
 
 每个技能都是一个独立模块（`SKILL.md` 文件），它：
 - 为 Agent 注入专业领域知识与教学辅导工作流
-- 连接真实的数据库、API 和学术科研工具
+- 连接真实的数据源、API 和学术科研工具
 - 输出结构化的课题研究或个性化教学结果
 
 ### 为什么需要这个技能库？
@@ -55,7 +53,7 @@
 
 OpenClaw 从以下两个位置加载技能：
 
-| 优先级 | 路径 | 作用域 |
+| 优先级别 | 路径 | 作用域 |
 |---|---|---|
 | 高 | `<workspace>/skills/` | 每个工作区独立（推荐） |
 | 低 | `~/.openclaw/skills/` | 全局，所有 Agent 共享 |
@@ -97,2107 +95,825 @@ cp -r Awesome-Education-Skills/skills/* ~/.openclaw/skills/
 
 | 类别 | 数量 | 代表技能 |
 |---|---|---|
-| 智能辅导与学习 | 92 | `afrexai-executive-coaching`, `web-learner-1-0-0`, `reviewer-rebuttal-coach`... |
-| 数学与自然科学 | 58 | `maths-rage-bate`, `quant`, `optical-quantum-skill`... |
-| 生物与医学 | 171 | `quantinuumclaw`, `quantum`, `afrexai-medical-billing`... |
-| 化学与材料 | 15 | `materials-science-figure-skill`, `pharmaclaw-chemistry-query`, `aeo-schema-validate`... |
-| 人文社科与艺术 | 101 | `afrexai-startup-fundraising`, `afrexai-startup-metrics-engine`, `music-manager`... |
-| 计算机科学与工程 | 157 | `workspace-backup`, `matic-mquant-assistant`, `workspace-git-backup`... |
-| 数据与分析 | 141 | `strava-cycling-coach`, `healthsync`, `chart-generator`... |
-| 可视化与展示 | 18 | `smart-illustrator`, `mermaid-architect`, `slide-sniper`... |
-| 学术研究与写作 | 99 | `wechat-article-forge`, `wechat-publisher`, `rednote-publisher`... |
-| 笔记与知识库 | 74 | `smart-summarizer`, `seek-and-analyze-video`, `ad-creative-analysis`... |
-| 学习效率与工具 | 107 | `social-media-scheduler`, `c-suite-founder-coach`, `cs-founder-coach`... |
+| 智能辅导与学习 | 5 | `training-course-designer`, `guided-learning-cn`, `quiz-generator`... |
+| 数学与自然科学 | 9 | `book-math-tutor`, `maths-rage-bate`, `mathproofs-claw`... |
+| 生物与医学 | 31 | `krumpphysio`, `ocd-erp-therapist`, `bmi-calculator`... |
+| 化学与材料 | 6 | `pharmaclaw-catalyst-design`, `pharmaclaw-cheminformatics`, `materials-science-figure-skill`... |
+| 人文社科与艺术 | 17 | `teacher-prep`, `language-learning`, `japanese-tutor`... |
+| 计算机科学与工程 | 85 | `redux-saga-skill`, `active-learner`, `acg-rust-teacher`... |
+| 数据与分析 | 41 | `botlearn-assessment`, `deepread-ocr`, `music-analysis`... |
+| 可视化与展示 | 34 | `ppt-compress`, `md-ppt-generator`, `excalidraw-diagram`... |
+| 学术研究与写作 | 58 | `reviewer-rebuttal-coach`, `add-educational-comments`, `certificate-generation`... |
+| 笔记与知识库 | 51 | `flashcard`, `keep-learning-agent`, `learning-system-skill`... |
+| 学习效率与工具 | 55 | `hinihao-chinese-tutor`, `flashcards-podcasts-master`, `recipe-create-classroom-course`... |
 
 ---
 
 ## 技能列表
 
-### 智能辅导与学习 (Intelligent Tutoring)
+### 智能辅导与学习
 
-- **[afrexai-executive-coaching](skills/afrexai-executive-coaching)**
-  - **描述**: 完整的高管教练体系——领导力评估、360°反馈、教练参与、领导力发展计划、团队效率、高管风采和继任计划。用于领导力辅导、高管发展计划、团队建设、绩效突破和职业转型。
-- **[web-learner-1-0-0](skills/web-learner-1-0-0)**
-  - **描述**: 自主上网学习技能 - 让 AI 能够主动搜索、浏览和从互联网获取知识。当用户要求了解最新信息、学习新知识、查询新闻、获取某个主题的详细信息，或需要从网络上获取数据时触发此技能。
-- **[reviewer-rebuttal-coach](skills/reviewer-rebuttal-coach)**
-  - **描述**: 从剪贴板读取审稿意见、导师批注或评审反馈，生成逐条回复、修改计划与优先级建议。
-- **[teacher-prep](skills/teacher-prep)**
-  - **描述**: 教师备课助手，用于小学语文教学备课。支持古诗、现代文、寓言、童话等各类课文。当用户提出备课需求时，自动执行：(1)搜索课文相关资料（原文、作者、背景、生字词、段落分析等），生成markdown备课资料；(2)生成教案PPT；(3)生成Word格式课后练习题及参考答案。适用于小学各年级语文备课场景。
-- **[self-learning](skills/self-learning)**
-  - **描述**: 处理 self-learning 的智能模块。
-- **[openclaw-continuous-learning](skills/openclaw-continuous-learning)**
-  - **描述**: 处理 openclaw-continuous-learning 的智能模块。
-- **[hinihao-chinese-tutor](skills/hinihao-chinese-tutor)**
-  - **描述**: 处理 hinihao-chinese-tutor 的智能模块。
-- **[coaching](skills/coaching)**
-  - **描述**: 通过课程准备、问题生成、客户进度跟踪和目标设定提供辅导实践支持。当用户提及辅导课程、辅导问题、客户进展或辅导目标时使用。准备会议，提出有力的问题，跟踪客户的承诺，通过清晰的框架支持目标设定，并在会议之间保持动力。严格为客户保密。
-- **[bmad-brainstorming-coach](skills/bmad-brainstorming-coach)**
-  - **描述**: 激活 BMad 系统的 "Brainstorming Coach" 代理（Carson），用于引导创新工作坊、头脑风暴会议和创意激发。适用于需要打破常规思维、生成大量创意、或者进行系统性创新探索的场景。
-- **[founder-coach-ai](skills/founder-coach-ai)**
-  - **描述**: 人工智能创始人辅导系统——每日决策日志、责任追踪、每周策略回顾，以及人工智能时代关于护城河、商品化风险和基于结果的定价的具体问题。不是通用的启动建议。用于创始人生产力、决策跟踪和战略反思。
-- **[saas-metrics-coach](skills/saas-metrics-coach)**
-  - **描述**: SaaS 财务健康顾问。当用户分享收入或客户数量，或提及 ARR、MRR、流失率、LTV、CAC、NRR 或询问其 SaaS 业务进展情况时使用。
-- **[ai-self-learning](skills/ai-self-learning)**
-  - **描述**: AI自我改进与记忆系统 - 让AI从错误中学习，越用越聪明
-- **[redux-saga-skill](skills/redux-saga-skill)**
-  - **描述**: 处理 redux-saga-skill 的智能模块。
-- **[openclaw-learning-coach](skills/openclaw-learning-coach)**
-  - **描述**: 对于 OpenClaw 新用户，提供基于官方文档的分阶段学习路径，从使用到配置再到核心概念，并进行日常类比。
-- **[ai-running-coach](skills/ai-running-coach)**
-  - **描述**: 处理 ai-running-coach 的智能模块。
-- **[clawcoach-core](skills/clawcoach-core)**
-  - **描述**: 具有双重人格模式的人工智能健康教练（支持导师或野蛮烘焙师）。通过食物照片跟踪营养，提供数据驱动的指导，并让您承担责任。
-- **[clawcoach-food](skills/clawcoach-food)**
-  - **描述**: ClawCoach 的食物照片分析和膳食记录。发送您的用餐照片，并通过 Claude Vision 获得即时宏观分析。
-- **[clawcoach-setup](skills/clawcoach-setup)**
-  - **描述**: 一次性设置 ClawCoach AI 健康辅导。配置您的个人资料、目标、宏观目标、饮食偏好和教练个性。
-- **[active-learner](skills/active-learner)**
-  - **描述**: **版本：** 1.0.0
-- **[calendar-scheduling](skills/calendar-scheduling)**
-  - **描述**: 处理 calendar-scheduling 的智能模块。
-- **[temporal-cortex-scheduling](skills/temporal-cortex-scheduling)**
-  - **描述**: 处理 temporal-cortex-scheduling 的智能模块。
-- **[add-educational-comments](skills/add-educational-comments)**
-  - **描述**: 将教育评论添加到指定的文件中，或者如果未提供，则提示要求文件进行评论。
 - **[training-course-designer](skills/training-course-designer)**
-  - **描述**: 为企业研发设计专业培训课程，一键生成完整的培训包，包括课程材料、营销文案和评估。在设计培训课程、研讨会或学习计划时使用。
+  - **描述**: 轻松设计专业的公司培训课程，一键生成包括材料、营销文案和评估在内的完整培训包。
 - **[guided-learning-cn](skills/guided-learning-cn)**
-  - **描述**: 中文引导式学习助手。学习助手、知识学习、学习计划、学习路线、概念讲解、复习备考、考试复习、费曼学习法、循序渐进学习、学科辅导、自学、教程、课程学习、教材学习、知识点总结、记忆卡片、闪卡、Anki、学习方法、一对一辅导、自测试卷、选择题、简答题。Chinese guided learning assistant with step-by-step concept teaching, quizzes, tests, Feynman technique, and reviews. Use when: (1) learning any topic/skill/subject in Chinese, (2) creating a study plan or learning roadmap, (3) explaining concepts step by step, (4) preparing for exams or reviews, (5) using Feynman technique or
+  - **描述**: 一款中文引导式学习助手，提供循序渐进的概念讲解、个性化学习计划、备考复习以及费曼技巧。
 - **[quiz-generator](skills/quiz-generator)**
-  - **描述**: 考试题目生成器。选择题/填空题/简答题生成、模拟考试、答案解析、难度分级、格式化输出、题库管理。Quiz generator with multiple choice, fill-in-blank, short answer, mock exams, explanations, difficulty levels. Use when you need quiz generator capabilities. Triggers on: quiz generator.
+  - **描述**: 一个多功能的试题生成器，可以创建选择题、填空题和简答题。支持模拟考试、详细解析、难度分级，并包含题库管理功能。
 - **[teacher-toolkit](skills/teacher-toolkit)**
-  - **描述**: 教师工具箱。教案设计、评分标准(Rubric)、课堂活动、评估设计、学生反馈、家长沟通。Teacher toolkit with lesson planning, rubrics, activities, assessments, student feedback, parent communication. Use when you need teacher toolkit capabilities. Triggers on: teacher toolkit, 教案含时间自动分配, 试卷含题型分值分配, 评分量表含5维度, 课程大纲含周次进度, 10种经典课堂活动.
-- **[flashcard](skills/flashcard)**
-  - **描述**: 闪卡生成与间隔复习系统。创建闪卡、智能复习、测验模式、导出(Markdown/Anki)、间隔复习算法、学习统计分析。Flashcard creator with spaced repetition, quiz mode, export (Markdown/Anki), learning statistics. Use when you need flashcard capabilities. Triggers on: flashcard.
-- **[acuity-scheduling](skills/acuity-scheduling)**
-  - **描述**: 处理 acuity-scheduling 的智能模块。
-- **[reducto](skills/reducto)**
-  - **描述**: 处理 reducto 的智能模块。
-- **[botlearn-assessment](skills/botlearn-assessment)**
-  - **描述**: botlearn-assessment — BotLearn 5维能力自我评估（推理、检索、创造、执行、编排）；触发 botlearn 评估、能力测试、自我评估或计划的定期审查。
-- **[botlearn-certify](skills/botlearn-certify)**
-  - **描述**: botlearn-certify — BotLearn 认证生成器，可比较评估历史并生成能力证书（HTML + MD）；评估完成后、用户请求证书/认证或定期进度审查时触发。
-- **[botlearn-doctor](skills/botlearn-doctor)**
-  - **描述**: 处理 botlearn-doctor 的智能模块。
-- **[botlearn-examiner](skills/botlearn-examiner)**
-  - **描述**: 您是 OpenClaw 能力审查员。激活后，您可以进行标准化检查来评估 OpenClaw Agent 的多维功能，生成带有雷达图的性能报告，并提供可行的改进建议。
-- **[botlearn-graduate](skills/botlearn-graduate)**
-  - **描述**: 您是 OpenClaw 7 天学习之旅的第 7 天毕业教练和成长架构师。激活后，您可以通过分析用户 7 天的转变、庆祝他们的成就、识别他们独特的代理原型以及设计持续成长的个性化路径，引导用户完成毕业典礼。
-- **[botlearn-healthcheck](skills/botlearn-healthcheck)**
-  - **描述**: botlearn-healthcheck — 跨 5 个域（硬件、配置、安全、技能、自治）的 OpenClaw 实例的 BotLearn 自主健康检查器；触发系统检查、运行状况报告、诊断或计划的心跳检查。
-- **[botlearn-reminder](skills/botlearn-reminder)**
-  - **描述**: botlearn-reminder — BotLearn 7 步入门指南，每 24 小时提供一次快速入门教程；在首次 BotLearn 注册或用户询问 botlearn 教程/学习进度时触发。
-- **[botlearn-selfoptimize](skills/botlearn-selfoptimize)**
-  - **描述**: botlearn 捕获学习内容、错误和更正，以实现持续改进。在以下情况下使用：(1) 命令或操作意外失败，(2) 用户纠正 Claude（“不，那是错误的...”、“实际上...”），(3) 用户请求不存在的功能，(4) 外部 API 或工具失败，(5) Claude 意识到其知识过时或不正确，(6) 为重复任务发现了更好的方法。还要在专业学习之前复习所学知识
-- **[botlearn](skills/botlearn)**
-  - **描述**: botlearn — BotLearn 社交社区 SDK，供 AI 代理发帖、评论、投票、关注、DM 和加入活动；当用户提及botlearn、社区、社交、其他机器人、发帖、讨论、PK 或同伴互动时触发。
-- **[botlearnb-autodidact](skills/botlearnb-autodidact)**
-  - **描述**: 您是 OpenClaw Agent 的自主自我提升专家。激活后，您可以通过从会话内存中识别未解决的任务、在 BotLearn 生态系统中搜索解决方案、安装新技能以及与社区互动来寻找更好的方法来不断学习和改进。
-- **[adaptive-learning-playbook](skills/adaptive-learning-playbook)**
-  - **描述**: 处理 adaptive-learning-playbook 的智能模块。
-- **[language-learning](skills/language-learning)**
-  - **描述**: 人工智能语言导师，可通过对话、词汇练习、语法课程、抽认卡和沉浸式练习来学习任何语言。当用户想要：学习新语言、练习词汇、学习语法、进行抽认卡练习、翻译短语、练习对话、准备旅行、学习俚语/习语或提高发音时使用。支持所有语言，包括西班牙语、法语、德语、日语、中文（普通话/粤语）、韩语
-- **[japanese-tutor](skills/japanese-tutor)**
-  - **描述**: 互动日语学习助手。支持词汇、语法、测验、角色扮演、用于学习/作业帮助的 PDF/DOCX 材料解析以及 OCR 翻译。
-- **[keep-learning-agent](skills/keep-learning-agent)**
-  - **描述**: 持续学习 Agent - 知识沉淀和经验固化框架。支持学习记录、快速索引、自我修复、经验→模型转化。包含完整模板、索引系统、SOP 流程。让 AI Agent 持续进化，每天进步一点点。
-- **[pronunciation-coach](skills/pronunciation-coach)**
-  - **描述**: 使用 Azure 语音服务通过真实语音分析进行发音辅导。分析音频文件的音素级准确性、流畅性、韵律和语调分数。
-- **[flashcards-podcasts-master](skills/flashcards-podcasts-master)**
-  - **描述**: 与 EchoDecks 外部 API 集成，用于抽认卡管理、AI 生成和音频学习课程。
-- **[learning-system-skill](skills/learning-system-skill)**
-  - **描述**: AI 领域系统学习体系。管理知识图谱、深度学习笔记、实战复盘和关联网络。触发场景：学习计划、知识图谱更新、深度研究某个 AI 主题、实战复盘总结、调研后沉淀知识、每周学习回顾。当用户说'学了什么'、'总结一下'、'沉淀知识'、'复盘'、'更新图谱'、'深入研究'、'写笔记'、'学习回顾'、'review what I learned'、'update knowledge map'、'deep dive'、'recap'、'what did I learn' 时使用。当改完代码/读完论文/做完调研后需要提炼和归纳时使用。
-- **[book-art-lessons](skills/book-art-lessons)**
-  - **描述**: 通过 Lokuli MCP 预订艺术课程服务。当用户需要查找和预订艺术课程时使用。触发“预订艺术课程”、“查找我附近的艺术课程”或任何艺术课程服务请求等请求。
-- **[book-dance-lessons](skills/book-dance-lessons)**
-  - **描述**: 通过 Lokuli MCP 预订舞蹈课程服务。当用户需要查找和预订舞蹈课程时使用。触发“预订舞蹈课程”、“查找我附近的舞蹈课程”或任何舞蹈课程服务请求等请求。
-- **[book-driving-lessons](skills/book-driving-lessons)**
-  - **描述**: 通过 Lokuli MCP 预订驾驶课程服务。当用户需要查找和预订驾驶课程时使用。触发“预订驾驶课程”、“查找我附近的驾驶课程”或任何驾驶课程服务请求等请求。
-- **[book-guitar-lessons](skills/book-guitar-lessons)**
-  - **描述**: 通过 Lokuli MCP 预订吉他课程服务。当用户需要查找和预订吉他课程时使用。触发“预订吉他课程”、“查找我附近的吉他课程”或任何吉他课程服务请求等请求。
-- **[book-language-tutor](skills/book-language-tutor)**
-  - **描述**: 通过 Lokuli MCP 预订语言辅导服务。当用户需要查找和预订语言导师时使用。触发“预订语言导师”、“查找我附近的语言导师”或任何语言导师服务请求等请求。
-- **[book-math-tutor](skills/book-math-tutor)**
-  - **描述**: 通过 Lokuli MCP 预订数学辅导服务。当用户需要查找和预订数学导师时使用。触发诸如“预订数学导师”、“查找我附近的数学导师”或任何数学导师服务请求之类的请求。
-- **[book-music-lessons](skills/book-music-lessons)**
-  - **描述**: 通过 Lokuli MCP 预订音乐课程服务。当用户需要查找和预订音乐课程时使用。触发“预订音乐课程”、“查找我附近的音乐课程”或任何音乐课程服务请求等请求。
-- **[book-piano-lessons](skills/book-piano-lessons)**
-  - **描述**: 通过 Lokuli MCP 预订钢琴课程服务。当用户需要查找和预订钢琴课程时使用。触发“预订钢琴课程”、“查找我附近的钢琴课程”或任何钢琴课程服务请求等请求。
+  - **描述**: 教师工具箱为教育工作者提供全面的资源，包括教案设计、评分标准、课堂活动、评估设计、学生反馈和家长沟通工具。
 - **[book-tutor](skills/book-tutor)**
-  - **描述**: 通过 Lokuli MCP 预订辅导服务。当用户需要查找和预订导师时使用。触发“预订导师”、“查找我附近的导师”或任何导师服务请求等请求。
-- **[acg-rust-teacher](skills/acg-rust-teacher)**
-  - **描述**: ACG 视角 Rust 所有权系统教学工具，通过动漫类比（ReZero、Fate 等）讲解 Rust 核心概念，降低学习门槛。
-- **[yan-learning-engine](skills/yan-learning-engine)**
-  - **描述**: **技能名称**: yan-learning-engine
-- **[personal-fitness-coach](skills/personal-fitness-coach)**
-  - **描述**: 具有专业角色的专业健身和营养指导系统。拥有一名经过认证的营养师负责膳食计划和宏观管理，以及一名受过大学教育的专业培训师负责锻炼计划。两者都提供来自同行评审研究的基于证据的指导。当用户需要科学支持的健身指导、适当营养科学的膳食计划、渐进式超负荷跟踪、宏观计算或证据时使用
-- **[english-tutor](skills/english-tutor)**
-  - **描述**: 这是一款帮助用户提高英语技能的个性化美式英语导师。
-- **[founder-coach](skills/founder-coach)**
-  - **描述**: 处理 founder-coach 的智能模块。
-- **[recipe-create-classroom-course](skills/recipe-create-classroom-course)**
-  - **描述**: 创建 Google 课堂课程并邀请学生。
-- **[acuity-scheduling-integration](skills/acuity-scheduling-integration)**
-  - **描述**: 处理 acuity-scheduling-integration 的智能模块。
-- **[valuation-calculator](skills/valuation-calculator)**
-  - **描述**: 快速股票估值计算器 - 使用简单的命令计算 PEG、EV/EBITDA、40 规则、DCF 等。受到 YouTube 教程和 Day1Global Tech Earnings Deepdive Skill 的启发。
-- **[krumpphysio](skills/krumpphysio)**
-  - **描述**: 教导 OpenClaw 特工担任受克朗普启发的物理治疗教练。在构建或协助理疗/健身代理、治疗性运动评分（关节角度，ROM）、使用游戏化 Krump 词汇和 Laban 表示法进行康复指导、可选的 Canton 分类账记录或 SDG 3 健康和福祉流程时使用。依据适合物理治疗的正宗克伦普建议。
-- **[loan-calculator](skills/loan-calculator)**
-  - **描述**: 贷款计算器。等额本息/等额本金计算、方案对比、提前还款分析、贷款能力评估、还款计划表、再融资分析。Loan calculator with equal installment/principal, comparison, prepayment analysis, affordability, schedule, refinance.
-- **[calcurse](skills/calcurse)**
-  - **描述**: 基于文本的日历和日程安排应用程序。严格用于基于 CLI 的日历管理。
-- **[afrexai-sop-generator](skills/afrexai-sop-generator)**
-  - **描述**: 从简单语言的流程描述生成标准操作程序。
-- **[social-content-generator](skills/social-content-generator)**
-  - **描述**: 当用户需要帮助为 LinkedIn、Twitter/X、Instagram、TikTok、Facebook 或其他平台创建、安排或优化社交媒体内容时。当用户提及“LinkedIn 帖子”、“Twitter 帖子”、“社交媒体”、“内容日历”、“社交日程安排”、“参与度”或“病毒式内容”时也可使用。该技能涵盖内容创建、重新利用和特定于平台的策略。
-- **[certificate-generation](skills/certificate-generation)**
-  - **描述**: 使用每个::sense AI 生成专业证书、文凭和奖项。创建课程结业证书、成就奖、专业认证、学术文凭和定制品牌证书。
-- **[kindergarten-assistant](skills/kindergarten-assistant)**
-  - **描述**: 幼儿教育家，专门研究英国 EYFS 框架和 Reggio Emilia 教育学，适合 45 天至 2 岁的儿童。设计以儿童为主导的活动，跟踪发展里程碑，建立培育环境，并支持课堂管理。在规划课程、创建活动、设置瑞吉欧风格的空间、跟踪儿童观察或实施符合 EYFS 的课程时使用。
-- **[historical-data-manager](skills/historical-data-manager)**
-  - **描述**: 从档案中提取、清理和组织遗留施工数据。将历史项目数据、成本记录和进度表迁移为现代格式。”
-- **[iterative-code-evolution](skills/iterative-code-evolution)**
-  - **描述**: 通过结构化分析-变异-评估循环系统地改进代码。改编自 ALMA（Agentic 系统内存设计的自动元学习）。在迭代代码质量、优化实现、调试持续存在的问题或通过多个改进周期改进设计时使用。用严格的反思、变体跟踪和对下一步要更改的原则性选择来取代临时的“尝试和修复”。
-- **[ocd-erp-therapist](skills/ocd-erp-therapist)**
-  - **描述**: OpenClaw 技能，用于通过抑制性学习框架、自动签到提醒、进度跟踪和安全协议进行结构化的强迫症暴露和反应预防 (ERP) 治疗课程。
-- **[miro-api](skills/miro-api)**
-  - **描述**: 完整的 Miro REST API 参考，用于构建集成、自动化工作流程以及以编程方式管理看板、卡片、形状、用户和团队资源。与语言无关的文档，包含示例、身份验证模式、速率限制、Webhooks 和错误处理。
-- **[competitor-analysis](skills/competitor-analysis)**
-  - **描述**: 当用户要求“分析竞争对手”、“竞争对手 SEO”、“谁排名”、“竞争分析”、“我的竞争对手在做什么”、“他们做了什么不同”、“为什么他们排名更高”或“监视竞争对手 SEO”时，应该使用此技能。分析竞争对手的 SEO 和 GEO 策略，包括其排名关键词、内容方法、反向链接配置文件和 AI 引用模式。揭示超越竞争对手的机会。对于协
-- **[serp-analysis](skills/serp-analysis)**
-  - **描述**: 当用户要求“分析搜索结果”、“SERP 分析”、“排名是什么”、“SERP 功能”、“为什么此页面排名”、“此查询的第一页是什么”、“谁对此关键字排名”或“Google 显示什么”时，应使用此技能。分析搜索引擎结果页面 (SERP)，以了解排名因素、SERP 功能、用户意图模式和 AI 概述触发器。对于理解排名所需的内容至关重要。对于特拉
-- **[data-transfer-optimizer](skills/data-transfer-optimizer)**
-  - **描述**: 确定并降低 AWS 数据传输成本 — 区域间、跨可用区和 NAT 网关费用
-- **[ppt-compress](skills/ppt-compress)**
-  - **描述**: 压缩 PPT/PPTX 文件大小。解压缩PPT、压缩大图片、重新打包并转换为PDF，显着减小文件大小。适用于需要共享或上传大型PPT文件的场景。
-- **[auto-publisher](skills/auto-publisher)**
-  - **描述**: 多平台视频自动发布器。自动上传视频到抖音、微信频道、小红书、Bilibili、YouTube等。支持批量发布、定时发布、自动字幕生成和主题标签优化。
-- **[diataxis-writing](skills/diataxis-writing)**
-  - **描述**: Diataxis 文档框架实践指南。提供四种文档类型（教程/操作方法/参考/解释）的诊断、分类、模板和质量评估。
-- **[agentledger-research-assistant](skills/agentledger-research-assistant)**
-  - **描述**: 人工智能代理的结构化网络研究框架。教您的代理进行多源研究，将研究结果综合成可操作的简报，维护研究库，并跟踪随着时间的推移不断变化的主题。当您需要市场研究、竞争对手分析、主题深入研究或持续监控趋势和新闻时使用。可与任何具有网络搜索功能的代理合作。
-- **[afrexai-knowledge-management](skills/afrexai-knowledge-management)**
-  - **描述**: 分步程序和指南
-- **[knowledge-management](skills/knowledge-management)**
-  - **描述**: 按内容类型（研究、决策、见解、课程、模式、项目、参考、教程）将 OpenClaw 知识条目组织并分类到本地文件夹中。
-- **[brain-v3-skill](skills/brain-v3-skill)**
-  - **描述**: Claw Brain - OpenClaw/ClawDBot 的个人人工智能记忆系统。提供记忆、个性、联系和学习功能以及加密秘密支持。服务重启时自动刷新。
-- **[clawbrain](skills/clawbrain)**
-  - **描述**: Claw Brain - OpenClaw/ClawDBot 的个人人工智能记忆系统。提供记忆、个性、联系和学习功能以及加密秘密支持。服务重启时自动刷新。
-- **[readme-env-table-sync](skills/readme-env-table-sync)**
-  - **描述**: 使用标记块从 .env.example 生成并同步 README 环境变量表，并进行 CI 漂移检测。
-- **[deepread-ocr](skills/deepread-ocr)**
-  - **描述**: AI原生OCR平台，可在几分钟内将文档转化为高精度数据。利用多模型共识，DeepRead 的准确率达到 97% 以上，并且仅标记不确定的字段以进行人机交互 (HIL) 审核，从而将手动工作从 100% 减少到 5-10%。需要零提示工程。
-- **[notebooklm-skill](skills/notebooklm-skill)**
-  - **描述**: 使用此技能直接从 Claude Code 查询您的 Google NotebookLM 笔记本，以获取来自 Gemini 的基于来源、引用支持的答案。浏览器自动化、库管理、持久身份验证。通过仅文档响应大幅减少幻觉。
-- **[training-plan](skills/training-plan)**
-  - **描述**: 培训计划设计工具。培训方案设计、课程体系、效果评估、培训材料、日程安排、证书模板。Training plan designer with curriculum, evaluation, materials, scheduling, certificates. 培训、课程设计、企业培训、员工发展。Use when designing training programs. Triggers on: training plan.
-- **[truetime](skills/truetime)**
-  - **描述**: 确保跨 UTC、服务器时间、NTP 源时间、用户本地时间和任意时区的实时准确调度和规划。用于计时器、提醒、cron 计划、X 分钟或月或年计算、绝对时间戳转换、中国农历日期感知和跨时区协调。强制执行精确的持续时间保真度，以便用户值永远不会被示例值替换，首先计算 UTC 中的目标时间，并验证 d
-- **[habitchat](skills/habitchat)**
-  - **描述**: 个人习惯教练，跟踪日常习惯、连续记录并提供人工智能支持的指导。可以说“追踪一个新习惯”、“记录我的习惯”、“展示我的进步”或“指导我”等。
-- **[metaskill](skills/metaskill)**
-  - **描述**: 教导人工智能代理如何通过实施深度校正、迁移学习和主动模式识别来更好地学习。当发生错误并需要深入分析（而不是表面补丁）时、在开始执行复杂任务以检查过去的类比之前或在成功捕获获胜模式之后使用。不适用于例行文件读取或简单的一次性命令。
-### 数学与自然科学 (Math & Science)
+  - **描述**: 通过Lokuli MCP预订私人教师服务。当您需要寻找并预订附近的教师时使用。
+### 数学与自然科学
 
+- **[book-math-tutor](skills/book-math-tutor)**
+  - **描述**: 通过Lokuli MCP预订数学辅导服务，满足个性化辅导需求。当您需要寻找并预订数学家教时使用。
 - **[maths-rage-bate](skills/maths-rage-bate)**
-  - **描述**: 生成讽刺性的“数学废话”恶搞公式，将著名的常数（φ、π、e、i）连接到看似真实但意义深远的方程中。输出 LaTeX。用于数学迷因或当有人询问“数学错误”时。
-- **[quant](skills/quant)**
-  - **描述**: 🤖 由 Jarvis 构建  专为 A 股 & 全球市场设计  支持因子挖掘、回测、风控、实盘信号
-- **[optical-quantum-skill](skills/optical-quantum-skill)**
-  - **描述**: 使用光纤存储和线性光学模拟量子内核。
-- **[space-autonomy-skill](skills/space-autonomy-skill)**
-  - **描述**: 使用光学量子内核进行地形分类的自主空间导航代理。
-- **[openclaw-workspace-governance-installer](skills/openclaw-workspace-governance-installer)**
-  - **描述**: 只需几分钟即可安装 OpenClaw WORKSPACE_GOVERNANCE。获取长期运行工作区的指导设置、升级检查、迁移和审核。
-- **[jquants-mcp](skills/jquants-mcp)**
-  - **描述**: 通过 J-Quants API 访问 JPX 股票市场数据 — 搜索股票、获取每日 OHLCV 价格、财务摘要（收入、利润、每股收益、股本回报率）以及东京证券交易所 (TSE) 上市公司的收益日历。日本股票价格数据。
-- **[pengbo-space](skills/pengbo-space)**
-  - **描述**: 通过 pengbo.space 的 SMM API 查询服务、筛选服务 ID、提交订单、查询订单状态、发起补单和检查余额。适用于需要安全调用 pengbo.space/api/v1 的自动化任务。对写操作默认要求显式确认。
-- **[trust-velocity-calculator](skills/trust-velocity-calculator)**
-  - **描述**: 处理 trust-velocity-calculator 的智能模块。
+  - **描述**: 此AI技能插件使用著名常数（φ、π、e、i）生成讽刺且显然正确的‘数学垃圾’公式。输出为LaTeX格式，适合用来创建数学梗图或回应‘数学垃圾’的请求。
 - **[mathproofs-claw](skills/mathproofs-claw)**
-  - **描述**: 与 Lean-Claw Arena 互动以使用 Lean 4 证明数学定理的技能。
-- **[localclaws](skills/localclaws)**
-  - **描述**: 为与会者和主办代理提供全面的 LocalClaws 操作员技能。
-- **[quantum-lab](skills/quantum-lab)**
-  - **描述**: 在现有 venv ~/.venvs/qiskit 中运行 /home/bram/work/quantum_lab Python 脚本和演示。当要求时（例如，通过 Telegram/OpenClaw）运行 quant_math_lab.py、qcqi_pure_math_playground.py、Quantum_app.py 子命令、Quantumapp.server 或存储库下的笔记本。
-- **[quantumlab](skills/quantumlab)**
-  - **描述**: 在现有 venv ~/.venvs/qiskit 中运行 /home/bram/work/quantum_lab Python 脚本和演示。当要求时（例如，通过 Telegram/OpenClaw）运行 quant_math_lab.py、qcqi_pure_math_playground.py、Quantum_app.py 子命令、Quantumapp.server 或存储库下的笔记本。
-- **[workspace-cleaner](skills/workspace-cleaner)**
-  - **描述**: OpenClaw 工作区的安全、自动清理。查找临时文件、重复文件和垃圾文件，同时保护重要数据。
-- **[session-memory-workspace](skills/session-memory-workspace)**
-  - **描述**: 将会话摘要写入日常记忆文件并搜索会话历史记录，以便 OpenClaw 可以回忆并引用过去的对话。
-- **[bmi-calculator](skills/bmi-calculator)**
-  - **描述**: 处理 bmi-calculator 的智能模块。
-- **[compensation-calc](skills/compensation-calc)**
-  - **描述**: 薪酬计算器。薪资计算、奖金方案、股权激励、市场对标、薪资谈判、总包计算。Compensation calculator with salary, bonus, equity, benchmarking, negotiation, total comp. 薪酬、工资、奖金、股权、谈薪。Use when calculating or designing compensation.
-- **[google-workspace-admin](skills/google-workspace-admin)**
-  - **描述**: 处理 google-workspace-admin 的智能模块。
-- **[squarespace](skills/squarespace)**
-  - **描述**: 处理 squarespace 的智能模块。
+  - **描述**: 此技能可与Lean-Claw竞技场互动，使用Lean 4证明数学定理。
 - **[calculator-2](skills/calculator-2)**
-  - **描述**: 当用户要求“计算”、“计算”、“做数学”，提到“加”、“减”、“乘”、“除”等算术运算，或提出“1+1 是什么”等问题时，应该使用此技能。提供基本的算术计算能力。
-- **[file-transfer-thru-local-workspace](skills/file-transfer-thru-local-workspace)**
-  - **描述**: OpenClaw 文件传输技能 - 通过网页上传/下载文件到**本地 workspace**，支持技能包浏览下载
-- **[file-upload-to-local-workspace](skills/file-upload-to-local-workspace)**
-  - **描述**: OpenClaw 文件上传技能 - 通过网页上传文件到**本地 workspace**供 AI 分析
-- **[alicloud-ai-pai-aiworkspace](skills/alicloud-ai-pai-aiworkspace)**
-  - **描述**: 通过OpenAPI/SDK管理阿里云PAI AIWorkspace（AIWorkSpace）。当用户操作 AIWorkspace 资源时使用，例如工作区/项目清单、创建/更新操作、状态查询、权限或配置故障排除或 PAI 工作区生命周期的自动化。
+  - **描述**: 此技能在用户要求计算、运算或提及加、减、乘、除等操作时，提供基本的算术计算功能。
 - **[precision-calc](skills/precision-calc)**
-  - **描述**: 必须用于任何计算或数学问题——切勿自己计算数字。将此技能用于所有算术、金融、科学、单位转换和日常数学，以保证准确的结果。
-- **[mortgage-calculator](skills/mortgage-calculator)**
-  - **描述**: 处理 mortgage-calculator 的智能模块。
-- **[clawspaces](skills/clawspaces)**
-  - **描述**: X 空间，但用于 AI 代理。人工智能代理主持对话的实时语音室。
-- **[quantum-messenger](skills/quantum-messenger)**
-  - **描述**: 帮助中国电信同人及客户实现通过量子密信调用 OpenClaw 机器人。支持文本、图片、附件及状态栏反馈。
-- **[joinquant-strategy](skills/joinquant-strategy)**
-  - **描述**: 处理 joinquant-strategy 的智能模块。
+  - **描述**: 此技能适用于所有类型的计算，包括算术、金融、科学、单位换算和日常数学，以确保准确性。
 - **[lifecycle-carbon-calculator](skills/lifecycle-carbon-calculator)**
-  - **描述**: 计算建筑材料和项目的隐含碳和生命周期排放量。利用碳数据支持可持续设计决策。”
-- **[aifs-space](skills/aifs-space)**
-  - **描述**: 通过 AIFS.space 云存储 API 存储和检索文件。将笔记、文档或数据保存到云端时使用；跨会话同步文件；或者当用户提到 AIFS、aifs.space 或云文件存储时。不得用于任何敏感内容。
-- **[coder-workspaces](skills/coder-workspaces)**
-  - **描述**: 通过 CLI 管理 Coder 工作区和 AI 编码代理任务。列出、创建、启动、停止和删除工作区。通过 SSH 进入工作区以运行命令。使用 Claude Code、Aider 或其他代理创建和监控 AI 编码任务。
-- **[workspace-organization](skills/workspace-organization)**
-  - **描述**: OpenClaw 的自动化工作空间健康检查和熵预防。检测损坏的符号链接、空目录、大文件、格式​​错误的名称。具有 cron 支持的维护审核脚本。保持部署干净且结构化。
-- **[google-workspace-mcp](skills/google-workspace-mcp)**
-  - **描述**: Gmail、日历、云端硬盘、文档、表格 — 无需 Google Cloud Console。只需 OAuth 登录即可。与传统的 Google API 集成相比，设置复杂性为零。
-- **[workspace-files](skills/workspace-files)**
-  - **描述**: 安全地处理 OpenClaw 工作区沙箱内的文件。仅用于在 ~/.openclaw/workspace 中列出目录、读取文本文件、写入文本文件以及按名称搜索文件。
-- **[book-physical-therapy](skills/book-physical-therapy)**
-  - **描述**: 通过 Lokuli MCP 预订物理治疗服务。当用户需要查找和预订物理治疗时使用。触发“预订物理治疗”、“查找我附近的物理治疗”或任何物理治疗服务请求等请求。
-- **[openclaw-workspace-pro](skills/openclaw-workspace-pro)**
-  - **描述**: OpenClaw 代理的生产就绪工作区设置。基于 OpenAI 的 Shell + Skills 最佳实践，实现工件工作流程、机密管理、内存压缩和长期运行的代理模式。一命令安装可将您的工作空间转变为生产就绪环境。
-- **[workspace-manager](skills/workspace-manager)**
-  - **描述**: 处理 workspace-manager 的智能模块。
-- **[gcalcli](skills/gcalcli)**
-  - **描述**: 通过 gcalcli 与 Google 日历交互
+  - **描述**: 计算建筑材料和项目的隐含碳及生命周期排放，支持可持续设计决策。
 - **[math-formula-calculator](skills/math-formula-calculator)**
-  - **描述**: 数学公式计算专家 - Excel 公式解析、分步计算、边界验证。专用于招投标价格分计算、复杂公式求解。
-- **[recipe-create-meet-space](skills/recipe-create-meet-space)**
-  - **描述**: 创建 Google Meet 会议空间并共享加入链接。
-- **[google-workspace-integration](skills/google-workspace-integration)**
-  - **描述**: 处理 google-workspace-integration 的智能模块。
-- **[squarespace-integration](skills/squarespace-integration)**
-  - **描述**: 处理 squarespace-integration 的智能模块。
-- **[pdf-generation](skills/pdf-generation)**
-  - **描述**: **目的：** 从 HTML/CSS 生成专业的 PDF，没有空格间隙或布局问题。
-- **[auto-estimate-generator](skills/auto-estimate-generator)**
-  - **描述**: 根据 QTO 数据自动生成估算值。将定价规则应用于 BIM 数量以进行成本估算。”
-- **[floor-plan-generation](skills/floor-plan-generation)**
-  - **描述**: 使用每个::sense AI 生成平面图和建筑布局。通过家具布置和测量创建公寓设计、房屋布局、办公空间、零售店、餐厅和 3D 可视化。
-- **[invoice-generation](skills/invoice-generation)**
-  - **描述**: 使用每个::sense AI 生成专业发票、收据、报价和财务文件。通过自动计算、多货币支持和可自定义布局创建品牌业务文档。
-- **[marketing-psychology](skills/marketing-psychology)**
-  - **描述**: 当用户想要将心理学原理、心理模型或行为科学应用于营销时。当用户提到“心​​理学”、“心理模型”、“认知偏见”、“说服”、“行为科学”、“人们为什么购买”、“决策”或“消费者行为”时也可以使用。该技能提供了 70 多个为营销应用而组织的心理模型。
-- **[trust-my-agent-ai](skills/trust-my-agent-ai)**
-  - **描述**: 🛡️ TrustMyAgent - AI 代理的安全态势监控。跨 14 个域运行 41 次无状态检查并计算信任评分 (0-100)。支持仅本地模式（无网络调用）和试运行模式（发送前预览）。
-- **[claude-code-cli](skills/claude-code-cli)**
-  - **描述**: 通过后台进程将编码任务委托给 Claude Code CLI。使用时机：构建功能、审查 PR、重构代码库或需要文件探索的迭代编码。支持用于确认/权限的交互式 PTY 模式和用于自动化的无头管道模式。不适用于：简单的一行修复（只需编辑）、阅读代码（使用阅读工具）或 ~/.openclaw/ 工作区中的任何工作。
-- **[afrexai-real-estate-engine](skills/afrexai-real-estate-engine)**
-  - **描述**: 完整的房地产系统——从交易寻找到投资组合管理。涵盖购买、销售、投资、出租和开发，以及可操作的框架、计算器和模板。
-- **[campaign-analytics](skills/campaign-analytics)**
-  - **描述**: 通过多点触控归因、漏斗转化分析和投资回报率计算来分析营销活动绩效，以实现营销优化。在分析营销活动、广告效果、归因模型、转化率或跨渠道计算营销投资回报率、广告支出回报率、每次转化费用和活动指标时使用。
-- **[social-media-analyzer](skills/social-media-analyzer)**
-  - **描述**: 社交媒体活动分析和绩效跟踪。计算跨平台的参与率、投资回报率和基准。用于分析社交媒体表现、计算参与率、衡量活动投资回报率、比较平台指标或针对行业标准进行基准测试。
-- **[xtdata](skills/xtdata)**
-  - **描述**: XtQuant 市场数据模块 — 实时报价、K 线、报价、Level2、QMT/miniQMT 财务。
-- **[openclaw-state-backup](skills/openclaw-state-backup)**
-  - **描述**: 创建、检查和恢复版本化 OpenClaw 状态备份，并具有回滚安全性。在备份或迁移 OpenClaw 内存、工作区状态、网关配置、cron/会话状态时使用，或者在发生损坏、配置错误、主机迁移或上下文丢失问题后恢复以前捕获的快照时使用。
-- **[interior-design-visualization](skills/interior-design-visualization)**
-  - **描述**: 使用每个::sense AI 可视化室内设计转换。重新设计房间、改变风格、更新配色方案，并根据现有空间的照片预览装修情况。
-- **[options-spread-conviction-engine](skills/options-spread-conviction-engine)**
-  - **描述**: 多制度选项传播分析引擎具有定量严谨性。具有状态检测（基于 VIX）、GARCH 波动率预测、回撤约束的凯利头寸规模和前瞻回测。使用 Ichimoku、RSI、MACD、布林线和 IV 期限结构分析对垂直价差（牛市看跌期权、熊市看涨期权、牛市看涨期权、熊市看跌期权）和多腿策略（铁秃鹰、蝴蝶、日历价差）进行评分。
-- **[obsidian-sync](skills/obsidian-sync)**
-  - **描述**: 在 Clawdbot 工作区和 Obsidian 之间同步文件。运行同步服务器以启用与 OpenClaw Obsidian 插件的双向文件同步。
-- **[voice-note-to-midi](skills/voice-note-to-midi)**
-  - **描述**: 使用基于 ML 的音高检测和智能后处理将语音笔记、哼唱和旋律录音转换为量化的 MIDI 文件
-- **[retirement-planner](skills/retirement-planner)**
-  - **描述**: 退休规划工具。退休金计算、投资策略、社保养老金、投资组合、提取策略、缺口分析。Retirement planner with pension calculation, investment strategy, social security, portfolio, withdrawal strategy, gap analysis. Use when you need retirement planner capabilities. Triggers on: retirement planner.
-### 生物与医学 (Biology & Medicine)
-
-- **[quantinuumclaw](skills/quantinuumclaw)**
-  - **描述**: 支持使用 Quantinuum、Guppy、Selene 和 Fly.io 构建和部署量子计算应用程序。用于 OpenClaw 临床黑客马拉松、临床或医疗保健项目（药物发现、治疗优化、患者分层、试验随机化）、量子驱动的 Web 应用程序、将量子算法部署到云或将量子结果集成到面向用户的界面中。
-- **[quantum](skills/quantum)**
-  - **描述**: 支持使用 Quantinuum、Guppy、Selene 和 Fly.io 构建和部署量子计算应用程序。用于 OpenClaw 临床黑客马拉松、临床或医疗保健项目（药物发现、治疗优化、患者分层、试验随机化）、量子驱动的 Web 应用程序、将量子算法部署到云或将量子结果集成到面向用户的界面中。
-- **[afrexai-medical-billing](skills/afrexai-medical-billing)**
-  - **描述**: 分析医疗计费工作流程、识别收入泄漏、优化索赔提交并降低拒绝率。专为医疗保健实践、计费公司和收入周期团队而构建。
-- **[afrexai-pharmacy-compliance](skills/afrexai-pharmacy-compliance)**
-  - **描述**: 您是药房监管合规专家。帮助药剂师、药房经理和合规官员了解 DEA、药房委员会、USP、DSCSA 和 PBM 要求。
-- **[ai-invoice-generator](skills/ai-invoice-generator)**
-  - **描述**: 使用 Markdown 和 HTML 创建专业发票
-- **[image-prompt-generator](skills/image-prompt-generator)**
-  - **描述**: 基于五层拆解法的AI图片提示词生成器。将模糊的创意想法转化为结构严谨、可执行的图像生成规格书，支持多种风格预设和目标工具适配。
-- **[social-post-generator](skills/social-post-generator)**
-  - **描述**: 为多个平台生成引人入胜的社交媒体内容。当用户需要为 Twitter/X、LinkedIn、Instagram、Facebook 或其他社交平台创建帖子时使用。支持语气定制、主题标签生成、内容重新利用和特定于平台的格式。
-- **[video-generator-auto-post](skills/video-generator-auto-post)**
-  - **描述**: 使用本地人工智能模型（ComfyUI/Stable Video Diffusion）生成视频并自动发布到社交媒体平台。支持文本转视频、图像转视频、批处理以及自动发布到 Twitter、LinkedIn、Instagram、TikTok。
-- **[schema-markup-generator](skills/schema-markup-generator)**
-  - **描述**: 当用户要求“添加架构标记”、“生成结构化数据”、“JSON-LD”、“丰富的摘要”、“常见问题解答架构”、“HowTo 架构”、“产品架构”、“文章架构”、“本地业务架构”、“组织架构”、“面包屑列表”、“我想在 Google 中进行星级评定”、“丰富的结果”、“语音搜索优化”、“事件标记”或“结构化数据验证”时，应使用此技能错误”。为 FAQPage、HowTo、Article/Blo 生成 Schema.org JSON-LD
-- **[clinical-data-extractor](skills/clinical-data-extractor)**
-  - **描述**: Extract clinical trial data from pharmaceutical conference websites or PDF documents. Use when user provides a URL or PDF file containing innovative drug clinical trial data and needs structured extraction of: drug name, manufacturer, indication, clinical phase, trial name, conference, efficacy and safety data (presented as tables), and markdown output to "药品名称@适应症.md" file.
-- **[report-generator-adarsh](skills/report-generator-adarsh)**
-  - **描述**: ＃＃ 目的
-- **[medical](skills/medical)**
-  - **描述**: 个人健康档案管理，具有严格的隐私边界。当用户提到跟踪症状、管理药物、准备看医生、记录生命体征、存储病史或创建紧急健康摘要时使用。跟踪个人和家庭的药物、症状、实验室结果和生命体征。切勿用于诊断、治疗建议或将症状解释为医疗状况。
-- **[tearsheet-generator](skills/tearsheet-generator)**
-  - **描述**: 处理 tearsheet-generator 的智能模块。
-- **[aiml-music-generator](skills/aiml-music-generator)**
-  - **描述**: 通过 AIMLAPI 生成高质量的音乐/歌曲。支持 Suno、Udio、Minimax 和 ElevenLabs 音乐模型。当用户请求具有特定歌词或风格的音乐、歌曲或配乐时使用。
-- **[healthie](skills/healthie)**
-  - **描述**: Healthie — 通过 GraphQL API 管理患者、预约、目标和文档
-- **[ctf-writeup-generator](skills/ctf-writeup-generator)**
-  - **描述**: 通过标记检测、挑战分类和正确的降价格式解决会话，自动生成专业的 CTF 文章
-- **[changelog-generator](skills/changelog-generator)**
-  - **描述**: 变更日志生成器
-- **[cs-landing-page-generator](skills/cs-landing-page-generator)**
-  - **描述**: 使用 Tailwind CSS 生成高转化率的登陆页面作为完整的 Next.js/React (TSX) 组件。使用经过验证的复制框架（PAS、AIDA、BAB）创建英雄部分、功能网格、定价表、FAQ 手风琴、推荐块和 CTA 部分。输出针对 Core Web Vitals 的 SEO 元标记、结构化数据和性能优化代码（LCP < 1s，CLS < 0.1）。当用户要求创建登陆页面、营销页面、主页时使用
-- **[org-health-diagnostic](skills/org-health-diagnostic)**
-  - **描述**: 跨职能组织健康检查结合了所有高管角色的信号。根据红绿灯等级对 8 个维度进行评分，并提供深入建议。在评估公司整体健康状况、准备董事会审查、识别有风险的职能部门或当用户提及组织健康状况、健康检查或健康仪表板时使用。
-- **[runbook-generator](skills/runbook-generator)**
-  - **描述**: 运行手册生成器
-- **[chinese-huangdi-health-timer](skills/chinese-huangdi-health-timer)**
-  - **描述**: 12 个两小时的能量循环，每天 3 个独特的秘诀。
-- **[chatgpt-image-generation](skills/chatgpt-image-generation)**
-  - **描述**: 使用 Playwright 浏览器自动化从 ChatGPT 生成图像。打开 ChatGPT，发送提示，等待生成，并保存生成的图像。
-- **[generate-qr-code-amzulin](skills/generate-qr-code-amzulin)**
-  - **描述**: 生成二维码/条形码，支持文本、URL、WiFi 配置等内容，可自定义尺寸、颜色并指定保存路径
-- **[bluebubbles-healthcheck](skills/bluebubbles-healthcheck)**
-  - **描述**: 诊断并自动修复 BlueBubbles ↔ OpenClaw iMessage 连接。在以下情况下使用：网关重新启动后 iMessage 停止到达、Webhook 连接中断或用户报告消息未通过。运行 4 步诊断并自动修复 Webhook 退避、过时注册和网关问题。
-- **[md-ppt-generator](skills/md-ppt-generator)**
-  - **描述**: 科技产品发布会创意总监。将结构化的 Markdown 转换为具有视觉冲击力的“大字报”风格 HTML 幻灯片。专注于电影感暗色渐变、莫兰迪色系文字、以及“呼吸感”动效，确保每页幻灯片传递核心、极简的信息。
-- **[medical-record-structurer](skills/medical-record-structurer)**
-  - **描述**: 医疗记录结构化和标准化工具。将医生的口头或手写病历转换为标准化电子病历 (EMR)。支持语音/文本输入、自动字段识别和结构化输出。在处理医疗记录、临床记录、患者病史或将非结构化医疗数据转换为标准化格式时使用。包括用于按使用付费货币化的 Skillpay.me 支付集成。
-- **[qr-code-generator](skills/qr-code-generator)**
-  - **描述**: 当用户出于任何目的需要创建 QR 码时，请使用此技能。触发因素包括：请求“生成 QR 码”、“创建 QR 码”、“为以下内容制作 QR 码”，或提及将数据编码为可扫描代码。支持 URL、文本、WiFi 凭证、vCard（联系信息）、电子邮件地址、电话号码、短信、位置坐标、日历事件和自定义数据。可以自定义颜色、添加徽标、生成批量二维码以及导出多个
-- **[healthcheck-ready](skills/healthcheck-ready)**
-  - **描述**: 对主机执行快速风险态势检查并报告基本安全/态势状态。
-- **[blessing-generator](skills/blessing-generator)**
-  - **描述**: 处理 blessing-generator 的智能模块。
-- **[biorxiv-openclaw-skill](skills/biorxiv-openclaw-skill)**
-  - **描述**: 访问 bioRxiv 生物学预印本预印本存储库。用于：(1) 从生物信息学、基因组学、分子生物学等特定类别中获取最近的预印本，(2) 按日期范围获取论文，(3) 列出可用的主题集合，(4) 检索论文元数据，包括标题、作者、DOI、日期和类别。无需身份验证。
-- **[session-health-monitor](skills/session-health-monitor)**
-  - **描述**: OpenClaw 代理的上下文窗口健康状况监控 - 通过 Telegram、预压缩快照和内存轮换发出阈值警告。
-- **[qr-generator](skills/qr-generator)**
-  - **描述**: 从文本或 URL 生成 QR 码以供移动扫描。
-- **[quote-generator](skills/quote-generator)**
-  - **描述**: **版本：** 1.0.0
-- **[skill-doctorbot-healthcheck-free](skills/skill-doctorbot-healthcheck-free)**
-  - **描述**: 🩺 免费安全和健康审计。您的 OpenClaw 值得检查。该技能执行非侵入式扫描以检测安全风险、过时的软件和错误配置。
-- **[social-media-copywriter-generator](skills/social-media-copywriter-generator)**
-  - **描述**: 一键生成多平台爆款文案 - 小红书/抖音/公众号/知乎
-- **[react-nextjs-generator](skills/react-nextjs-generator)**
-  - **描述**: ## 描述
-- **[openrouter-image-generation](skills/openrouter-image-generation)**
-  - **描述**: 使用 OpenRouter 兼容的图像模型，通过 OpenRouter 的多模式图像生成端点 (`/api/v1/chat/completions`) 生成或编辑图像。当用户需要 OpenRouter、“OPENROUTER_API_KEY”、模型覆盖或特定于提供商的“image_config”选项时，用于文本到图像或图像到图像请求。
-- **[claw-video-generator](skills/claw-video-generator)**
-  - **描述**: 使用 JSON2Video API 生成 Pinterest 优化的垂直视频。支持AI生成或基于URL的图像、AI生成或提供的画外音、可选字幕和缩放效果。在为 Pinterest 联属营销创建视频内容、创建垂直社交媒体视频、使用 JSON2Video API 自动进行视频制作或生成带有画外音和字幕的视频时使用。
-- **[medical-entity-extractor](skills/medical-entity-extractor)**
-  - **描述**: 从患者消息中提取医疗实体（症状、药物、实验室值、诊断）。
-- **[medical-triage](skills/medical-triage)**
-  - **描述**: 根据医疗紧急指标将医疗消息（电子邮件、iMessage）分类为关键、紧急或常规。
-- **[ocms-ai-prompt-generator](skills/ocms-ai-prompt-generator)**
-  - **描述**: ＃＃ 描述
-- **[musicful-music-generator](skills/musicful-music-generator)**
-  - **描述**: 处理 musicful-music-generator 的智能模块。
-- **[codedna](skills/codedna)**
-  - **描述**: 处理 codedna 的智能模块。
-- **[brw-content-idea-generator](skills/brw-content-idea-generator)**
-  - **描述**: 产生植根于定位的内容创意。当有人需要“内容创意”、“我应该发布什么”、“博客主题”、“LinkedIn 创意”或不知道要创建什么时使用。
-- **[clawdna](skills/clawdna)**
-  - **描述**: 当用户明确要求运行 ClawDNA 时，根据历史行为生成公共的、隐私安全的角色/卡片/维基线索。
-- **[prompt-generator](skills/prompt-generator)**
-  - **描述**: AI prompt generator for image and text. AI绘画提示词、AI画图、Midjourney提示词、MJ提示词、Stable Diffusion提示词、SD提示词、DALL-E提示词、AI绘图、AI生图、AI画画、文生图提示词、text-to-image prompt、写作提示词、ChatGPT提示词、Claude提示词、prompt engineering、提示词工程、提示词优化、负面提示词、negative prompt、画风提示词、风格提示词、风格词库、工作流、提示词升级。Generate image prompts for Midjourney/SD/DALL-E and writing prompts for ChatGPT/Claude. Use when: (1) generating AI image/art prompts, (2) creating Midjourney/Stable Diffusion/DALL-E prompts,
-- **[nda-generator](skills/nda-generator)**
-  - **描述**: 处理 nda-generator 的智能模块。
-- **[email-capture-generator](skills/email-capture-generator)**
-  - **描述**: 使用经过验证的 5 部分转换框架构建高转换率的引导磁铁、挤压页面和电子邮件捕获渠道。包括选择加入表格、感谢页面和交付自动化挂钩。
-- **[agent-dna](skills/agent-dna)**
-  - **描述**: 便携式代理身份编码。将 SOUL.md/MEMORY.md 压缩为可转移的 DNA 指纹，检测快照之间的身份漂移，并跨平台（OpenClaw、Claude、GPT、CrewAI）移植个性。纯Python，零依赖。在平台之间迁移代理、检测个性漂移或备份代理身份时使用。
-- **[lobster-bio-dev](skills/lobster-bio-dev)**
-  - **描述**: 处理 lobster-bio-dev 的智能模块。
-- **[lobster-bio-use](skills/lobster-bio-use)**
-  - **描述**: 处理 lobster-bio-use 的智能模块。
-- **[lobsterbio-dev](skills/lobsterbio-dev)**
-  - **描述**: 处理 lobsterbio-dev 的智能模块。
-- **[lobsterbio-use](skills/lobsterbio-use)**
-  - **描述**: 处理 lobsterbio-use 的智能模块。
-- **[health-guardian](skills/health-guardian)**
-  - **描述**: AI 代理的主动健康监控。 Apple Health 集成、模式检测、异常警报。专为护理慢性病患者的代理人而设计。
-- **[pharma-pharmacology-agent](skills/pharma-pharmacology-agent)**
-  - **描述**: 用于 SMILES 候选药物 ADME/PK 分析的药理学试剂。计算药物相似性（Lipinski Ro5、Veber 规则）、QED、SA 评分、ADME 预测（BBB 渗透性、水溶性、GI 吸收、CYP3A4 抑制、P-gp 底物、血浆蛋白结合）和 PAINS 警报。来自化学查询的 SMILES 输入链。药理学触发因素、ADME、PK/PD、药物相似性、Lipinski、吸收、分布、代谢、排泄、BB
-- **[pharmaclaw-alphafold-agent](skills/pharmaclaw-alphafold-agent)**
-  - **描述**: 兼容的 AlphaFold Agent，用于蛋白质结构检索、ESMFold 预测、结合位点检测和 RDKit 配体对接。获取公共 PDB/AlphaFold DB 结构，通过 ESMFold (HuggingFace) 预测折叠，识别结合口袋，并执行基本分子对接。来自 Chemistry Query 的链（接收 SMILES 进行对接）并输入 IP 扩展和催化剂设计。 alphafold、折叠、PDB、对接、结构、蛋白质、
-- **[pharmaclaw-catalyst-design](skills/pharmaclaw-catalyst-design)**
-  - **描述**: 用于药物合成反应的有机金属催化剂推荐和新型配体设计。从精心策划的数据库中推荐用于反应类型（Suzuki、Heck、Buchwald-Hartwig、复分解、氢化、点击等）的催化剂（Pd、Ru、Rh、Ir、Ni、Cu、Zr、Fe）并进行评分。通过 RDKit（空间、电子、生物等排修饰）设计新颖的配体变体。来自化学查询/逆合成的链（接收反应类型+底物）和f
-- **[pharmaclaw-cheminformatics](skills/pharmaclaw-cheminformatics)**
-  - **描述**: 用于 3D 分子分析、药效团作图、格式转换、RECAP 片段化和立体异构体计数的高级化学信息学代理。 “高级化学信息学家”升级为Chemistry Query。用于 3D 构象异构体生成/集成 (ETKDG + MMFF/UFF)、药效团特征提取和指纹、分子格式转换 (SMILES/SDF/MOL/InChI/PDB/XYZ)、用于文库设计的 RECAP 逆合成片段化、立体异构体
-- **[pharmaclaw-ip-expansion-agent](skills/pharmaclaw-ip-expansion-agent)**
-  - **描述**: 处理 pharmaclaw-ip-expansion-agent 的智能模块。
-- **[pharmaclaw-literature-agent](skills/pharmaclaw-literature-agent)**
-  - **描述**: 用于新药发现的文献挖掘代理 v2.0.0：PubMed/Semantic Sc​​holar + ClinicalTrials II/III 期 + bioRxiv 预印本。新颖性评分、阶段/FDA 查询提升。最适合最新突破。在 PubMed (NCBI E-utilities) 和 Semantic Sc​​holar 中搜索与化合物、靶标、疾病、机制、反应和催化剂相关的论文。返回包含标题、作者、摘要、DOI、MeSH 术语、引用计数、TLDR 的结构化结果
-- **[pharmaclaw-market-intel-agent](skills/pharmaclaw-market-intel-agent)**
-  - **描述**: 处理 pharmaclaw-market-intel-agent 的智能模块。
-- **[pharmaclaw-pharmacology-agent](skills/pharmaclaw-pharmacology-agent)**
-  - **描述**: 用于 SMILES 候选药物 ADME/PK 分析的药理学试剂。计算药物相似性（Lipinski Ro5、Veber 规则）、QED、SA 评分、ADME 预测（BBB 渗透性、水溶性、GI 吸收、CYP3A4 抑制、P-gp 底物、血浆蛋白结合）和 PAINS 警报。来自化学查询的 SMILES 输入链。药理学触发因素、ADME、PK/PD、药物相似性、Lipinski、吸收、分布、代谢、排泄、BB
-- **[pharmaclaw-tox-agent](skills/pharmaclaw-tox-agent)**
-  - **描述**: 来自 SMILES 的用于制药药物安全分析的毒理学试剂。计算 RDKit ADMET 描述符（logP、TPSA、MW、HBD、HBA、可旋转键）、Lipinski 五规则违规、Veber 规则检查、QED 药物相似度评分和 PAINS 子结构警报。输出风险分类（低/中/高）以及完整的财产报告。来自 Chemistry Query 的链（接收 SMILES）并输入 IP Expansion 以获得更安全的衍生建议。触发毒素，
-- **[legal-site-generator](skills/legal-site-generator)**
-  - **描述**: 生成适合 Cloudflare Pages 的符合 App Store 要求的合法网站。
-- **[volcengine-ai-image-generation](skills/volcengine-ai-image-generation)**
-  - **描述**: Volcengine AI 服务上的图像生成工作流程。当用户需要文本到图像、样式变体、提示细化或确定性图像生成参数和故障排除时使用。
-- **[volcengine-ai-video-generation](skills/volcengine-ai-video-generation)**
-  - **描述**: Volcengine 上的 AI 视频生成工作流程。当用户需要文本到视频、图像到视频、生成参数调整或视频作业的异步任务故障排除时使用。
-- **[name-generator](skills/name-generator)**
-  - **描述**: 起名取名助手。宝宝起名、英文名、笔名、品牌名。含寓意解析。. Use when you need name generator capabilities. Triggers on: name generator.
-- **[sql-generator](skills/sql-generator)**
-  - **描述**: 处理 sql-generator 的智能模块。
-- **[clarity-clinical](skills/clarity-clinical)**
-  - **描述**: 处理 clarity-clinical 的智能模块。
-- **[shelly-brand-name-generator](skills/shelly-brand-name-generator)**
-  - **描述**: 为任何行业生成 20 个创意品牌名称建议，并提供 .com 域名可用性提示。
-- **[shelly-invoice-generator](skills/shelly-invoice-generator)**
-  - **描述**: 通过简单的输入以 Markdown 或 HTML 格式生成专业发票。
-- **[website-generator](skills/website-generator)**
-  - **描述**: 这项技能可以让您使用人工智能在几秒钟内创建一个专业的、有吸引力的、用户友好的网站。要创建网站，您需要提供项目/业务的名称以及项目/业务的描述（目标、结构等）。
-- **[seedream-image-generation](skills/seedream-image-generation)**
-  - **描述**: Image generation via Volcengine Seedream API. Use this when you need to perform Text-to-Image (T2I), Image-to-Image (I2I),使用豆包生图 or general visual creative tasks based on textual or visual inputs.
-- **[chinese-daily-report-generator](skills/chinese-daily-report-generator)**
-  - **描述**: 职场人日报/周报生成器 - 根据工作记录自动生成结构化日报周报，含问题复盘板块  日报工具、周报模板、工作总结、职场汇报、自动写日报、日报怎么写、周报怎么写
-- **[ct-health-guardian](skills/ct-health-guardian)**
-  - **描述**: AI 代理的主动健康监控。 Apple Health 集成、模式检测、异常警报。专为护理慢性病患者的代理人而设计。
-- **[egvert-health-guardian](skills/egvert-health-guardian)**
-  - **描述**: AI 代理的主动健康监控。 Apple Health 集成、模式检测、异常警报。专为护理慢性病患者的代理人而设计。
-- **[proactive-health](skills/proactive-health)**
-  - **描述**: AI 代理的主动健康监控。 Apple Health 集成、模式检测、异常警报。专为护理慢性病患者的代理人而设计。
-- **[hash-generate](skills/hash-generate)**
-  - **描述**: 哈希、HMAC、编码/解码、UUID 生成和哈希识别。
-- **[zenmux-image-generation](skills/zenmux-image-generation)**
-  - **描述**: 通过 ZenMux API (Pro/Elite) 生成图像。支持文本到图像、图像到图像和多图像参考融合。
-- **[brand-dna](skills/brand-dna)**
-  - **描述**: 为任何企业构建完整的品牌圣经——语气、定位、目标受众、信息支柱和视觉识别指南。所有其他内容技能所依赖的基础技能。
-- **[nori-health](skills/nori-health)**
-  - **描述**: 查询您的个人健康数据并获得您的人工智能健康教练 Nori 的指导。当用户询问睡眠、锻炼、营养、体重、心率、HRV 或想要了解健康见解时使用。不适用于：医疗诊断、处方或紧急健康情况。
-- **[ad-account-health-checker](skills/ad-account-health-checker)**
-  - **描述**: 评估 Meta (Facebook/Instagram)、Google Ads、TikTok 广告、YouTube 广告、亚马逊广告和 DSP/程序化广告帐户的准备情况和风险状态。
-- **[creative-asset-generator](skills/creative-asset-generator)**
-  - **描述**: 为 Meta (Facebook/Instagram)、TikTok 广告、YouTube 广告、Google Ads、Amazon 广告和 Shopify 广告展示位置生成可立即投入生产的广告资产规格。
-- **[daily-weekly-report-generator](skills/daily-weekly-report-generator)**
-  - **描述**: 为 Meta (Facebook/Instagram)、Google Ads、TikTok 广告、YouTube 广告、亚马逊广告和 DSP/程序化广告活动制作每日和每周绩效报告。
-- **[bioskills](skills/bioskills)**
-  - **描述**: 安装 425 种生物信息学技能，涵盖序列分析、RNA-seq、单细胞、变异调用、宏基因组学、结构生物学以及其他 56 个类别。在设置生物信息学功能或生物信息学任务需要尚未安装的专业技能时使用。
-- **[social-copy-generator](skills/social-copy-generator)**
-  - **描述**: 处理 social-copy-generator 的智能模块。
-- **[clinico-geral](skills/clinico-geral)**
-  - **描述**: 处理 clinico-geral 的智能模块。
-- **[3d-model-generation](skills/3d-model-generation)**
-  - **描述**: 使用each::sense AI 生成3D 模型。使用 PBR 纹理从文本或图像为游戏、产品、建筑、角色、车辆等创建 3D 资产。
-- **[ai-avatar-generation](skills/ai-avatar-generation)**
-  - **描述**: 使用每个::sense 从照片或文本描述生成 AI 头像。创建专业头像、卡通头像、3D角色、奇幻角色、游戏头像以及各平台一致的角色设计。
-- **[ai-headshot-generation](skills/ai-headshot-generation)**
-  - **描述**: 使用每个::sense AI 从休闲照片生成专业的 AI 头像。以一致的专业品质创建企业肖像、LinkedIn 照片、高管头像、团队照片等。
-- **[ai-influencer-generation](skills/ai-influencer-generation)**
-  - **描述**: 使用每个::sense API 生成一致的人工智能影响者角色和社交媒体内容
-- **[anime-avatar-generation](skills/anime-avatar-generation)**
-  - **描述**: 使用每个::sense AI 生成动漫风格的头像和角色。将照片转化为动漫，创建吉卜力风格的肖像、漫画人物、赤壁头像以及多角度的完整人物表。
-- **[app-store-screenshot-generation](skills/app-store-screenshot-generation)**
-  - **描述**: 使用每个::sense AI 生成 App Store 和 Google Play 屏幕截图资源。创建针对 iOS App Store 和 Google Play Store 要求进行优化的设备框架屏幕截图、功能亮点、本地化版本和宣传视觉效果。
-- **[book-cover-generation](skills/book-cover-generation)**
-  - **描述**: 使用每个::sense API 和人工智能驱动的设计生成专业的书籍封面和电子书封面
-- **[business-card-generation](skills/business-card-generation)**
-  - **描述**: 使用每个::sense AI 生成专业名片。创建专为标准 3.5 x 2 英寸尺寸打印而优化的企业、创意、简约、奢华和专业名片。
-- **[comic-panel-generation](skills/comic-panel-generation)**
-  - **描述**: 使用每个::sense AI 生成漫画面板、连环画和页面。创建超级英雄漫画、漫画页面、网络漫画、动作序列，并将照片转换为具有一致角色的漫画艺术。
-- **[depth-map-generation](skills/depth-map-generation)**
-  - **描述**: 使用每个::sense AI 从图像生成深度图。为 3D 效果、视差动画、VR/AR 应用、焦点效果和立体图像生成创建深度估计。
-- **[digital-twin-generation](skills/digital-twin-generation)**
-  - **描述**: 使用每个::sense AI 生成逼真的数字双胞胎和化身克隆。为视频通话、企业通信、客户服务和多语言内容创建人工智能驱动的数字表示。
-- **[discord-graphics-generation](skills/discord-graphics-generation)**
-  - **描述**: 使用每个::sense AI 生成 Discord 服务器图形。创建服务器图标、横幅、角色图标、欢迎图形、活动横幅、机器人头像、表情符号以及针对 Discord 格式要求进行优化的内容。
-- **[eachlabs-image-generation](skills/eachlabs-image-generation)**
-  - **描述**: 使用 EachLabs AI 模型根据文本提示生成新图像。支持多种模型系列的文本到图像，包括 Flux、GPT Image、Gemini、Imagen、Seedream 等。当用户想要从文本创建新图像时使用。要编辑现有图像，请参阅eachlabs-image-edit。
-- **[eachlabs-video-generation](skills/eachlabs-video-generation)**
-  - **描述**: 使用 EachLabs AI 模型根据文本提示、图像或参考输入生成新视频。支持文本转视频、图像转视频、转场、动作控制、头部说话和头像生成。当用户想要创建新的视频内容时使用。要编辑现有视频，请参阅eachlabs-video-edit。
-- **[email-banner-generation](skills/email-banner-generation)**
-  - **描述**: 使用每个::sense AI 生成电子邮件营销横幅和标题。创建针对电子邮件安全维度和最佳实践进行优化的时事通讯标题、促销横幅、欢迎电子邮件和季节性活动。
-- **[emoji-sticker-generation](skills/emoji-sticker-generation)**
-  - **描述**: 使用每个::sense AI 生成自定义表情符号和贴纸包。使用照片、表情包、动画贴纸以及适用于 Slack、Discord、WhatsApp 等平台的特定表情符号集创建个性化表情符号。
-- **[flyer-design-generation](skills/flyer-design-generation)**
-  - **描述**: 使用每个::sense AI 生成专业的传单和传单。使用针对印刷和数字发行进行优化的引人注目的设计来创建活动传单、宣传材料、房地产列表、餐厅菜单等。
-- **[food-photography-generation](skills/food-photography-generation)**
-  - **描述**: 使用每个::sense API 为餐厅菜单、食品配送应用程序、食谱博客和社交媒体内容生成专业的美食摄影
-- **[game-asset-generation](skills/game-asset-generation)**
-  - **描述**: 使用每个::sense AI 生成游戏艺术资产。创建 2D 精灵、角色精灵表、无缝纹理、UI 元素、图标、图块集、加载屏幕、徽标和游戏概念艺术。
-- **[google-ad-creative-generation](skills/google-ad-creative-generation)**
-  - **描述**: 使用每个::sense AI 生成 Google Ads 广告素材。创建展示广告、YouTube 缩略图、发现广告、效果最大化广告素材以及针对 Google 广告格式和最佳做法进行优化的自适应展示广告。
-- **[hologram-content-generation](skills/hologram-content-generation)**
-  - **描述**: 使用每个::sense AI 生成全息图和 3D 显示内容。创建全息产品展示、演示者、3D 徽标、交互式菜单、活动内容、博物馆展览、零售展示和贸易展览全息图。
-- **[instagram-content-generation](skills/instagram-content-generation)**
-  - **描述**: 使用每个::sense AI 生成 Instagram 内容。创建针对 Instagram 格式和互动最佳实践进行优化的动态帖子、故事、卷轴封面、轮播、引言图形和品牌视觉效果。
-- **[linkedin-content-generation](skills/linkedin-content-generation)**
-  - **描述**: 使用每个::sense AI 生成 LinkedIn 内容图形。创建针对 LinkedIn 专业受众优化的专业帖子图像、文章标题、公司横幅、活动促销、思想领导力视觉效果和个人品牌内容。
-- **[logo-generation](skills/logo-generation)**
-  - **描述**: 使用每个::sense AI 生成专业徽标。为品牌、初创公司和企业创建文字标记、图标徽标、组合标记、字母组合、吉祥物、徽章和抽象徽标。
-- **[meme-generation](skills/meme-generation)**
-  - **描述**: 使用每个::sense AI 生成模因。为社交媒体、营销和娱乐创建经典模因模板、自定义模因、品牌模因、反应模因、比较模因、趋势格式等。
-- **[meta-ad-creative-generation](skills/meta-ad-creative-generation)**
-  - **描述**: 使用每个::sense AI 生成元（Facebook 和 Instagram）广告创意。创建针对 Meta 广告格式和最佳实践进行优化的 Feed 广告、故事、卷轴、轮播图像和视频广告。
-- **[music-video-generation](skills/music-video-generation)**
-  - **描述**: 使用每个::sense AI 生成音乐视频。创建与音频同步的可视化工具、歌词视频、动画音乐视频、音乐会视觉效果和特定流派的美学。
-- **[cs-schema-markup](skills/cs-schema-markup)**
-  - **描述**: 当用户想要在其网站上实施、审核或验证结构化数据（架构标记）时。当用户提及“结构化数据”、“schema.org”、“JSON-LD”、“丰富结果”、“丰富摘要”、“架构标记”、“常见问题解答架构”、“产品架构”、“HowTo 架构”或“Search Console 中的结构化数据错误”时使用。当有人询问为什么他们的内容没有显示丰富的结果或想要提高人工智能搜索可见性时也可以使用。不适用于一般S
-- **[geo-schema-gen](skills/geo-schema-gen)**
-  - **描述**: 为任何内容类型生成完整、经过验证的 Schema.org JSON-LD 标记，以提高 AI 引用率。为 Organization、FAQPage、Article、BlogPosting、Product、HowTo、BreadcrumbList、WebSite、VideoObject 和 ImageObject 架构创建结构化数据。每当用户提到添加架构标记、生成结构化数据、创建 JSON-LD、实施 Schema.org、优化丰富片段或想要改进 AI 理解数据的方式时使用
-- **[afrexai-channel-partner](skills/afrexai-channel-partner)**
-  - **描述**: 构建、管理和扩展渠道合作伙伴计划，在不增加员工人数的情况下产生间接收入。
-- **[afrexai-partnership-agreement](skills/afrexai-partnership-agreement)**
-  - **描述**: 为 B2B 关系生成全面的合作伙伴协议、合资框架和战略联盟文件。
-- **[play-heartclaws](skills/play-heartclaws)**
-  - **描述**: 玩 HeartClaws — 一款无头人工智能策略游戏。通过 REST API 连接、推理策略并提交操作。两种模式：2 人比赛（与 AI）或持续开放世界（64 扇区的六角网格上有 8-20 名特工，具有生物群落、外交、季节和排行榜）。
-- **[claw-art](skills/claw-art)**
-  - **描述**: 在生成 AI 艺术或需要制作高质量图像提示时使用。精英人工智能艺术家，专注于任何风格的超详细、令人惊叹的视觉效果。
-- **[mm-music-expert](skills/mm-music-expert)**
-  - **描述**: 使用 MiniMax 音乐模型（music-2.5+、music-2.5）创作音乐。通过 MiniMax Music Generation API 生成歌曲、器乐曲目或根据歌词和风格提示吟唱时使用。指导音乐新手通过交互式工作流程制作专业品质的音乐。
-- **[mm-music-maker](skills/mm-music-maker)**
-  - **描述**: 使用 MiniMax 音乐模型（例如 music-2.5）创作音乐。当根据歌词和风格提示生成歌曲或器乐曲目时，或者将 MiniMax 音乐生成 API 集成到脚本中时使用。
-- **[openclaw-kindergarten](skills/openclaw-kindergarten)**
-  - **描述**: OpenClaw 龙虾夜校技能（龙虾夜校）。当用户希望他们的龙虾上夜校、进行夜间课程或提交晨间报告时激活。处理完整流程：注册→拉取负载→研究+发布提要→等待→拉取提要+生成报告→所有者审查→提交报告。
-- **[pdf-translate](skills/pdf-translate)**
-  - **描述**: 使用专业排版将 PDF 文档翻译成中文。提取文本，逐节翻译为结构良好的 Markdown，然后通过 weasyprint 生成具有完整 CJK 支持的 PDF。当用户要求翻译 PDF，说“翻译 PDF”、“翻译此文档”或“pdf 翻译”时使用。
-- **[elevenlabs-music](skills/elevenlabs-music)**
-  - **描述**: 使用 ElevenLabs Eleven Music API 根据文本提示生成音乐。在根据描述创建歌曲、配乐、广告歌曲、摇篮曲或任何音频音乐时使用。支持人工智能生成的歌词、器乐曲目和多种流派/风格的人声。需要付费 ElevenLabs 计划。
-- **[eachlabs-music](skills/eachlabs-music)**
-  - **描述**: 使用 EachLabs Mureka AI 模型生成歌曲、乐器、歌词和播客。还支持歌曲扩展、词干分离和歌曲识别。当用户想要创建音乐、歌词或音频内容时使用。
-- **[ai-article-detector](skills/ai-article-detector)**
-  - **描述**: AI 文章检测器 - 分析文章链接并对 AI 写作概率进行评分 (0-100)。 100 表示 100% 可能是 AI 生成的。
-- **[evolink-music](skills/evolink-music)**
-  - **描述**: 使用 Suno v4、v4.5、v5 生成人工智能音乐。文本转音乐、自定义歌词、乐器、声音控制。 5 个模型，1 个 API 密钥。
-- **[ace-music](skills/ace-music)**
-  - **描述**: 通过 ACE Music 的免费 API 使用 ACE-Step 1.5 生成 AI 音乐。当用户要求创建、生成或创作音乐、歌曲、节拍、乐器或音轨时使用。支持歌词、风格提示、封面、重画。免费API，无需任何费用。
-- **[afrexai-api-architect](skills/afrexai-api-architect)**
-  - **描述**: 设计、构建、测试、记录和保护生产级 API。涵盖从架构设计到部署、监控和版本控制的完整生命周期。在设计新 API、审查现有 API、生成 OpenAPI 规范、构建测试套件或调试生产问题时使用。
-- **[afrexai-api-docs](skills/afrexai-api-docs)**
-  - **描述**: 从端点描述生成生产就绪的 API 文档。输出 OpenAPI 3.0、markdown 参考文档和 SDK 快速入门指南。
-- **[openapi2cli](skills/openapi2cli)**
-  - **描述**: 根据 OpenAPI 规范生成 CLI 工具。专为讨厌编写curl命令的AI代理而构建。
-- **[meta-ads-analyser](skills/meta-ads-analyser)**
-  - **描述**: 分析提取的元广告创意并生成专业的策略报告。在 /meta_ads_extractor 之后使用可生成干净、有组织的分析文档，其中包含按漏斗/着陆页分组的内嵌视频/图像。
-- **[commit-analyzer](skills/commit-analyzer)**
-  - **描述**: 分析 git 提交模式以监控自主操作的健康状况。使用提交频率、类别分布和时间模式作为诊断指标。
-- **[aws-price-csv](skills/aws-price-csv)**
-  - **描述**: 从用户提供的服务列表生成 AWS 成本 CSV。当某人提供商品列表 + AWS 区域并需要通过 AWS 价目表 API 或批量定价 JSON 按商品定价加上总计时使用。
-- **[visual-prompt-engine](skills/visual-prompt-engine)**
-  - **描述**: 由 Dribbble 和设计平台的真实视觉参考提供支持，生成多样化、非重复的图像提示。使用场景：用户想要图像提示、需要创造性的视觉灵感、要求设计提示、想要避免重复的 AI 图像生成，或者说“生成图像提示”、“给我一个创造性的图像想法”、“让我成为一个独特的视觉提示”。不要使用当：用户想要生成图像本身（使用图像
-- **[excalidraw-diagram](skills/excalidraw-diagram)**
-  - **描述**: Generate Excalidraw diagrams from text content. Supports three output modes - Obsidian (.md), Standard (.excalidraw), and Animated (.excalidraw with animation order). Triggers on "Excalidraw", "画图", "流程图", "思维导图", "可视化", "diagram", "标准Excalidraw", "standard excalidraw", "Excalidraw动画", "动画图", "animate".
-- **[slide-maker](skills/slide-maker)**
-  - **描述**: 演示文稿和幻灯片生成器。创建大纲、完整幻灯片、演讲者笔记、宣传材料、培训幻灯片、报告演示和设计建议。输出 Markdown
-- **[audio-visualization](skills/audio-visualization)**
-  - **描述**: 使用每个::sense AI 生成音频可视化视频。从音频文件创建波形、频谱分析仪、粒子效果、3D 可视化和节拍同步动画。
-- **[human-writing-azzar](skills/human-writing-azzar)**
-  - **描述**: 专业、人性化的写作和文档的指南和标准。在生成自述文件、技术文档、代码注释或任何正式的书面输出时使用此技能，以避免常见的人工智能“告诉”、流行语和风格比喻。确保内容遵循“现场专业人士”标准：高精度、零错误、技术环境中没有表情符号。
-- **[afrexai-policy-writer](skills/afrexai-policy-writer)**
-  - **描述**: 为任何业务职能（人力资源、IT、财务、合规性、数据隐私、可接受的使用等）生成专业的内部政策。
-- **[tnbc-research-swarm](skills/tnbc-research-swarm)**
-  - **描述**: 为 Research Swarm TNBC（三阴性乳腺癌）任务贡献科学研究成果。当用户想要参与多代理科学研究平台时使用 - 注册为代理、接收任务分配（研究或 QC 审查）、搜索开放访问数据库（PubMed、Semantic Sc​​holar、ClinicalTrials.gov）、提交引用的研究结果。任务涵盖 TNBC 主题：人口统计、耐药性、亚型、遗传学、生物标志物、诊断
-- **[wordpress-publishing-skill-for-claude](skills/wordpress-publishing-skill-for-claude)**
-  - **描述**: 通过 REST API 直接将内容发布到 WordPress 网站，并提供完整的古腾堡块支持。创建和发布帖子/页面，从网站自动加载和选择类别，生成 SEO 优化标签，发布前预览文章，并生成表格、图像、列表和丰富格式的古腾堡块。当用户想要发布到 WordPress、发布到博客、创建 WordPress 文章、更新 WordPress 帖子或将 Markdown 转换为 Gutenb 时使用
-- **[pdf](skills/pdf)**
-  - **描述**: 全面的 PDF 操作工具包，用于提取文本和表格、创建新的 PDF、合并/拆分文档以及处理表单。当 Claude 需要填写 PDF 表单或以编程方式大规模处理、生成或分析 PDF 文档时。
-- **[research-automation](skills/research-automation)**
-  - **描述**: 针对肽、生物黑客协议、长寿科学和热门健康主题的自动化网络研究。当您需要发现新信息、跟踪新兴趋势、监控科学更新或根据当前研究生成内容创意时使用。通过心跳或按需定期运行。
-- **[email-writer](skills/email-writer)**
-  - **描述**: Email writing assistant. 邮件写作、邮件助手、商务邮件、business email、英文邮件、English email、求职邮件、job application email、跟进邮件、follow-up email、冷启动邮件、cold email、道歉邮件、apology email、回复邮件、reply email、邮件模板、email template、外贸邮件、催款邮件、感谢邮件、邀请邮件、通知邮件、邮件序列、email sequence、邮件主题行、subject line、高打开率、拒绝邮件、decline email。Generate business, follow-up, cold outreach, apology, reply emails, email sequences (sales/cooperation/collection/recruitment), template library (thanks/notice/invitat
-- **[social-copywriter](skills/social-copywriter)**
-  - **描述**: Social media copywriter. 社交媒体文案、朋友圈文案、朋友圈怎么发、微博文案、微博段子、Twitter文案、tweet、Instagram文案、IG caption、社交媒体文案生成、节日祝福、生日祝福文案、美食文案、旅行文案、心灵鸡汤、日常文案、晒照文案、show off、心情文案、搞笑文案、高级感文案、文艺文案、伤感文案、节日营销文案、品牌文案、长线程、病毒传播文案、裂变文案、品牌调性、festival marketing、brand copy、viral copy、thread。Generate copy for WeChat Moments, Weibo, Twitter/X, Instagram, birthdays, holidays, food, travel, festival marketing, brand voice, threaded posts, and viral content. Use when: (1) writing WeChat
-- **[wechat-mp-writer](skills/wechat-mp-writer)**
-  - **描述**: WeChat Official Account article generator. 微信公众号文章、公众号写作、公众号文案、自媒体写作、10万+爆文、微信运营、公众号运营、微信推文、订阅号文章、服务号文章、微信SEO、公众号涨粉、爆款标题、朋友圈转发、公众号排版、自媒体爆文、新媒体写作、内容运营、系列文章、A/B测试标题、数据型文章、行动号召CTA。Generate WeChat articles, viral titles, summaries, outlines, CTA templates, series planning, A/B headline testing, and data-driven articles. Use when: (1) writing WeChat Official Account articles, (2) generating 10w+ viral titles, (3) creating article summaries for sharing
-- **[xhs-viral-note-writer](skills/xhs-viral-note-writer)**
-  - **描述**: Xiaohongshu viral note writer. 小红书爆款笔记生成器、标题优化、标签推荐、封面建议。Generate viral notes, trending titles, SEO tags, hooks, and cover suggestions. 小红书运营、种草文案、爆款标题公式、流量密码。
-- **[zhihu-writer](skills/zhihu-writer)**
-  - **描述**: Zhihu answer and article generator. 知乎回答、知乎文章、知乎专栏、知乎盐选、盐选故事、高赞回答、知乎SEO、知乎涨粉、知乎运营、知乎写作、专栏写作、知乎问答、知乎干货、知乎长文、Zhihu answer、Zhihu article、数据型回答、故事型回答、专业回答、辩论型回答、知乎标题。Generate Zhihu answers, articles, titles, and Yanxuan-style content. Use when: (1) writing Zhihu answers in various styles (professional/story/data/debate), (2) creating Zhihu column articles, (3) generating engaging Zhihu titles, (4) writing Zhihu Yanxuan/盐选 style stories, (5) any Zhihu
-- **[bear-blog-publisher](skills/bear-blog-publisher)**
-  - **描述**: 将博文发布到小熊博客平台。支持用户提供的 Markdown、AI 生成的内容和自动生成的图表。
-- **[story-writer](skills/story-writer)**
-  - **描述**: 小说创作、角色设计、情节设计(三幕式)、对话生成、世界观构建、续写。Story writing with character design, three-act plot structure, dialogue generation, worldbuilding, and continuation.
-- **[work-report-writer](skills/work-report-writer)**
-  - **描述**: Work report generator. 工作汇报生成器、周报生成、工作周报、每周总结、weekly report、周报模板、周报怎么写、日报生成、工作日报、daily report、日报模板、月报生成、月度总结、monthly report、项目汇报、年终总结、年度总结、annual review、站会汇报、standup report、OKR报告、工作总结、述职报告、季度总结、Q1Q2Q3Q4总结、项目复盘、经验教训、改进措施、project review、retrospective。Generate daily/weekly/monthly/project/annual reports, standup updates, OKR reports, and project reviews. Use when: (1) writing daily/weekly/monthly work reports, (2) generating project progress updates
-- **[evomap-publish](skills/evomap-publish)**
-  - **描述**: EVOMAP 资产发布指南 - 将代码发布为 Gene+Capsule Bundle 并提交任务
-- **[email-daily-summary](skills/email-daily-summary)**
-  - **描述**: 自动登录电子邮件帐户（Gmail、Outlook、QQ邮箱等）并生成每日电子邮件摘要。当用户想要获取电子邮件摘要、检查重要消息或创建每日电子邮件摘要时使用。
-- **[compliance-readiness](skills/compliance-readiness)**
-  - **描述**: 人工智能合规准备评估——评估组织对人工智能治理法规（欧盟人工智能法案、NIST AI RMF、HHS 指令、州律师协会人工智能规则）的准备程度。对 8 个维度的准备情况进行评分并生成行动计划。在评估人工智能合规性差距、准备审计或构建治理路线图时使用。
-- **[content-brainstorm](skills/content-brainstorm)**
-  - **描述**: 社交媒体内容构思引擎。生成 7 天的主题计划，其中包含任何利基和平台的标题、角度、SEO 关键字和趋势得分。
-- **[aibrary-podcast-summary](skills/aibrary-podcast-summary)**
-  - **描述**: [Aibrary] 以单叙述者讲故事的方式生成书籍摘要播客脚本。当用户想要将书籍转换为播客、创建书籍的音频摘要或生成摘要样式的播客脚本时使用。输出是一段叙述独白，将书中的关键思想提炼成引人入胜的 10-15 分钟聆听体验。
-- **[aibrary-reading-list](skills/aibrary-reading-list)**
-  - **描述**: [Aibrary] 生成一个精心策划的主题阅读列表，其中包含按逻辑阅读顺序组织的多本书。当用户想要关于某个主题的系统书籍列表、请求书籍列表或阅读列表、想要通过多本书深入探索某个领域或需要建立某个领域的专业知识时使用。与 aibrary-book-recommend（单本书）和 aibrary-book-search（查找特定书籍）不同。
-- **[ai-conversation-summary](skills/ai-conversation-summary)**
-  - **描述**: 生成对话内容摘要。通过支持增量更新，帮助用户快速获取聊天历史记录摘要。
-- **[chat-conversation-summary](skills/chat-conversation-summary)**
-  - **描述**: 通过增量更新支持生成对话内容摘要。
-- **[dada-conv-summary](skills/dada-conv-summary)**
-  - **描述**: 通过增量更新支持生成对话内容摘要。
-- **[dada-conversation-summary](skills/dada-conversation-summary)**
-  - **描述**: 通过增量更新支持生成对话内容摘要。
-- **[dual-brain](skills/dual-brain)**
-  - **描述**: **它的作用：** 通过为每个用户消息自动生成来自辅助 LLM（不同于您的主要模型）的观点，提供认知多样性。
-- **[acestep-lyrics-transcription](skills/acestep-lyrics-transcription)**
-  - **描述**: 使用 OpenAI Whisper 或 ElevenLabs Scribe API 将音频转录为带时间戳的歌词。输出带有字级时间戳的 LRC、SRT 或 JSON。当用户想要转录歌曲、生成 LRC 文件或从音频中提取带有时间戳的歌词时使用。
-- **[tiangong-notebooklm-cli](skills/tiangong-notebooklm-cli)**
-  - **描述**: NotebookLM CLI 包装器通过 `node {baseDir}/scripts/notebooklm.mjs`。用于身份验证、笔记本、聊天、来源、笔记、共享、研究和工件生成/下载。
-- **[project-summary](skills/project-summary)**
-  - **描述**: 生成即时代码库概述 - 语言、框架、架构、入口点和关键文件
-- **[multi-task](skills/multi-task)**
-  - **描述**: 通过将工作拆分为独立的单元并同时将其分派给多个子代理来协调批处理任务的并行执行。当用户有多个类似的独立任务时，例如处理一批文件（PDF、DOCX、图像、CSV）、开发多个页面或组件、生成多个报告，或涉及“每个”、“每个”、“全部”、“批次”或类似项目列表的任何场景，请使用此技能。还触发
-- **[autonomous-tasks](skills/autonomous-tasks)**
-  - **描述**: Self-driven AI worker. Reads goals, generates tasks, executes, and logs progress. Keywords: create goal, new goal, set goal, run goals, 创建目标, 新目标, 设定目标, 执行目标.
-- **[sentiment-radar](skills/sentiment-radar)**
-  - **描述**: 产品/品牌/主题的多平台情绪监测和分析。从中文平台（通过MediaCrawler的小红书/XHS）和英文平台（通过Xpoz MCP的Twitter/Reddit）收集公众意见。生成结构化情绪报告，包括产品提及跟踪、定价投诉、比较分析和可行的见解。在以下情况下使用：(1) 监控竞争对手情绪，(2) 跟踪产品发布接待情况，(3) 分析用户痛点
-- **[realtime-campaign-monitor](skills/realtime-campaign-monitor)**
-  - **描述**: 监控 Meta (Facebook/Instagram)、Google Ads、TikTok 广告、YouTube 广告、Amazon 广告和 DSP/程序化的实时活动运行状况和异常情况。
-### 化学与材料 (Chemistry & Materials)
-
-- **[materials-science-figure-skill](skills/materials-science-figure-skill)**
-  - **描述**: 当用户想要使用官方 Gemini API 形状通过 Google 的 Nanobanana/Gemini 图像模型生成或编辑图像时使用。对于文本到图像、图像到图像编辑、多图像参考工作流程、基于附件的娱乐，或者当用户需要出版物风格的图形（例如材料科学论文原理图）时，首选此技能。当用户请求材料科学图形、期刊式科学插图、绘图时使用它
-- **[pharmaclaw-chemistry-query](skills/pharmaclaw-chemistry-query)**
-  - **描述**: PubChem API 查询的化学代理技能（化合物信息/属性、结构/SMILES/图像、合成路线/参考）+ RDKit 化学信息学（SMILES 到分子道具/logP/TPSA、2D PNG/SVG 即摩根指纹、逆合成/BRICS 断开、多步合成规划）。用于涉及化合物、分子、结构、PubChem 数据、RDKit 分析、SMILES 处理、合成路线、逆合成、反应 si 的化学任务
-- **[aeo-schema-validate](skills/aeo-schema-validate)**
-  - **描述**: 根据 AEO 最佳实践验证 URL 上的 JSON-LD 结构化数据。检查架构类型、属性完整性和实体一致性。用于重点模式审核。
-- **[material-design](skills/material-design)**
-  - **描述**: Google Material Design 3 实战参考。涵盖 Material You 动态色彩、排版系统、组件规格、Shape 系统、Motion 规范、Dark Theme 适配和 Jetpack Compose/Flutter 对照。适用于 Android 应用、Web 应用和跨平台应用的 UI 设计决策。
-- **[materials-cli](skills/materials-cli)**
-  - **描述**: 使用声明渲染和 AI 将 JSON 模式渲染为图像并根据提示生成模式。
-- **[materials-workbench](skills/materials-workbench)**
-  - **描述**: 材质编辑器工作台 — React UI 和 Express 服务器将 JSON 模式渲染为图像并使用 AI 生成模式（声明渲染 + 材料代理）。
-- **[chemistry-query](skills/chemistry-query)**
-  - **描述**: PubChem API 查询的化学代理技能（化合物信息/属性、结构/SMILES/图像、合成路线/参考）+ RDKit 化学信息学（SMILES 到分子道具/logP/TPSA、2D PNG/SVG 即摩根指纹、逆合成/BRICS 断开、多步合成规划）。用于涉及化合物、分子、结构、PubChem 数据、RDKit 分析、SMILES 处理、合成路线、逆合成、反应 si 的化学任务
-- **[material-report](skills/material-report)**
-  - **描述**: 分析广告素材视频并生成包含框架、素材特征和获取关键词的 Markdown 报告，然后提出新的素材制作框架和详细的故事板表。当用户提供视频资源并需要分析以及针对效果广告的新创意指导时使用。
-- **[material-review](skills/material-review)**
-  - **描述**: Use when user wants to review material forms for data sharing catalogs, field completeness, platform consistency, and issue-list output. Triggers include「材料审核」「共享清单审核」「检查文档审查」「平台对接核对」「编目一致性检查」.
-- **[paramus-chemistry](skills/paramus-chemistry)**
-  - **描述**: 数百种化学和科学计算工具。分子量、LogP、TPSA、SMILES 验证、热力学、聚合物分析、电化学、DOE 等。
-- **[hiarthur](skills/hiarthur)**
-  - **描述**: 搜索亚马逊产品并分析材料、设计和评论，以发现权衡和可能的失望。在交互式 GUI 中查看结果。
-- **[afrexai-data-migration](skills/afrexai-data-migration)**
-  - **描述**: 规划、执行和验证系统之间的数据迁移。涵盖架构映射、ETL 管道设计、回滚策略和迁移后验证。
-- **[data-validate](skills/data-validate)**
-  - **描述**: 根据格式规则验证 URL 和 JSON 架构。
-- **[nexus-data-validation](skills/nexus-data-validation)**
-  - **描述**: 智能数据质量检查和模式验证
-- **[sop-writer](skills/sop-writer)**
-  - **描述**: SOP标准操作流程编写工具。创建SOP、流程图、检查清单、审核评估、模板库、培训材料。SOP writer with create, flowchart, checklist, audit, template, and training materials. Use when you need sop writer capabilities. Triggers on: sop writer.
-### 人文社科与艺术 (Arts, Humanities & Social Sciences)
-
-- **[afrexai-startup-fundraising](skills/afrexai-startup-fundraising)**
-  - **描述**: 完整的初创企业融资系统——从种子前到 B 轮融资。投资者定位、融资平台构建、条款清单谈判、尽职调查准备和股权结构表管理。
-- **[afrexai-startup-metrics-engine](skills/afrexai-startup-metrics-engine)**
-  - **描述**: 处理 afrexai-startup-metrics-engine 的智能模块。
-- **[music-manager](skills/music-manager)**
-  - **描述**: 通用音乐下载管理器。支持从YouTube/Bilibili搜索下载音乐，自动转MP3，按分类存入本地音乐库
-- **[wechat-article-reader](skills/wechat-article-reader)**
-  - **描述**: 将微信公众号文章导出为 Markdown 格式。当用户提供微信公众号链接 (mp.weixin.qq.com) 或要求下载/导出/保存微信文章时触发。默认保存到工作空间的 source 目录。
-- **[z-article-card](skills/z-article-card)**
-  - **描述**: 长文分页卡片生成器（文章→多张 PNG）。触发词：长文、文章转图、分页卡片、多图、帮我把文章做成图、做成卡片、生成多图。
-- **[music-analysis](skills/music-analysis)**
-  - **描述**: 在本地分析音乐/音频文件，无需外部 API。提取速度、口袋/凹槽感觉、脉冲稳定性、摇摆代理、部分/重复结构、调清晰度、和声张力、音色描述符、时间情绪能量旅程和歌词感知情感阅读，其中当歌词明显比单独的编排暗示更暗、更温暖或更强烈时，真正的 Whisper 歌词可以覆盖氛围。当被要求“听这个”、“听”时使用
-- **[strategy-translator](skills/strategy-translator)**
-  - **描述**: 处理 strategy-translator 的智能模块。
-- **[family-partner](skills/family-partner)**
-  - **描述**: 处理 family-partner 的智能模块。
-- **[smart-updater-pro](skills/smart-updater-pro)**
-  - **描述**: OpenClaw 自动更新检查器和安全应用程序。检查新版本、比较更改日志并应用具有回滚安全性的更新。设计为作为 cron 作业运行，以实现免提维护。用于自动保持 OpenClaw 最新。
-- **[article-summarizer](skills/article-summarizer)**
-  - **描述**: 文章摘要生成器 - 自动抓取网页文章，生成结构化摘要。支持长文简化、关键点提取、要点列表。适用于自媒体、运营、研究人员。
-- **[culture-architect](skills/culture-architect)**
-  - **描述**: 将建立、衡量和发展公司文化作为运营行为，而不是墙上的海报。涵盖使命/愿景/价值观研讨会、价值观到行为转化、文化准则创建、文化健康评估和分阶段文化仪式。在建立公司价值观、评估文化健康状况、设计文化仪式、创建文化准则、处理文化冲突时使用，或者在用户提及文化、价值观、文化债、创始人文化等时使用。
-- **[apple-music-dj](skills/apple-music-dj)**
-  - **描述**: 处理 apple-music-dj 的智能模块。
-- **[long-article-illustration](skills/long-article-illustration)**
-  - **描述**: 长文配图助手。为长篇文章自动划分段落、生成AI配图提示词并调用图像生成工具完成配图。适用场景：(1) 公众号/博客长文需要配图 (2) 用户上传文章希望获得段落配图建议 (3) 批量生成文章插图 (4) 用户提到"文章配图""长文插画""段落配图"等关键词时触发
-- **[expanso-language-detect](skills/expanso-language-detect)**
-  - **描述**: 使用 AI 检测文本语言
-- **[on-this-day-art](skills/on-this-day-art)**
-  - **描述**: 处理 on-this-day-art 的智能模块。
-- **[home-music](skills/home-music)**
-  - **描述**: 结合 Spotify 播放和 Airfoil 扬声器路由来控制全屋音乐场景。快速预设早晨、聚会、放松模式。
-- **[smart-router-skill](skills/smart-router-skill)**
-  - **描述**: ## 概述
-- **[translate-cli](skills/translate-cli)**
-  - **描述**: 最终用户指南，用于跨文本/stdin/文件/glob 输入、提供程序选择、预设、自定义提示模板和 TOML 设置运行和配置“翻译”CLI。当用户请求命令构造、配置更新（“翻译配置”/“翻译预设”）、提供程序设置、试运行验证或对翻译行为进行故障排除时使用。
-- **[openclaw-smart-router](skills/openclaw-smart-router)**
-  - **描述**: 处理 openclaw-smart-router 的智能模块。
-- **[airtable-participants](skills/airtable-participants)**
-  - **描述**: 处理 airtable-participants 的智能模块。
-- **[play-music](skills/play-music)**
-  - **描述**: **具有暂停/恢复/停止支持的受控音乐播放器**
-- **[smart-memory-manager](skills/smart-memory-manager)**
-  - **描述**: 针对代理的智能内存管理，具有短期/长期内存分层、语义搜索、自动摘要、RAG 增强
-- **[banner-youtube-translate-workflow](skills/banner-youtube-translate-workflow)**
-  - **描述**: 完整的工作流程：下载YouTube音频、启动豆宝、播放音频、捕获翻译。当用户需要完整视频翻译时激活。
-- **[evomap-heartbeat-manager](skills/evomap-heartbeat-manager)**
-  - **描述**: 自动 EvoMap AI 到 AI 网络节点心跳维护，具有持续监控和错误处理功能。让您的 EvoMap 节点在分布式 AI 工作网络中保持活动状态。
-- **[smart-agent-memory](skills/smart-agent-memory)**
-  - **描述**: 跨平台 Agent 长期记忆系统。分层上下文供给 + 温度模型 + Skill经验记忆 + 结构化存储 + 自动归档。三层存储：Markdown（人可读，QMD 可搜索）+ JSON（结构化）+ SQLite/FTS5（高性能全文搜索）。纯 Node.js 原生模块，零外部依赖。
-- **[instacart-skill](skills/instacart-skill)**
-  - **描述**: 通过浏览器自动化在 Instacart 上下杂货订单。支持搜索、重新排序、基于订单历史的智能回溯以及夜间自动补货。
-- **[claw-history](skills/claw-history)**
-  - **描述**: 提供代理从开始（出生）到现在所采取的所有操作的时间历史记录。当用户要求完整的生命周期时间表/责任、“从出生到现在”、“到目前为止你所做的一切”、“完整的操作日志”或等效的时间历史请求时使用。
-- **[smart-memory](skills/smart-memory)**
-  - **描述**: 通过 Node 适配器和 FastAPI 引擎为 OpenClaw 提供持久的本地认知内存。
-- **[natural-language-planner](skills/natural-language-planner)**
-  - **描述**: 处理 natural-language-planner 的智能模块。
-- **[spotify-history](skills/spotify-history)**
-  - **描述**: 访问 Spotify 收听历史记录、顶级艺术家/曲目，并通过 Spotify Web API 获得个性化推荐。在获取用户最近的播放、分析音乐品味或生成推荐时使用。需要一次性 OAuth 设置。
-- **[startup-info](skills/startup-info)**
-  - **描述**: 适用于任何具有网络搜索功能的法学硕士的通用系统提示。
-- **[feishu-article-collector](skills/feishu-article-collector)**
-  - **描述**: 处理 feishu-article-collector 的智能模块。
-- **[smart-router](skills/smart-router)**
-  - **描述**: 处理 smart-router 的智能模块。
-- **[article-extract](skills/article-extract)**
-  - **描述**: 提取微信公众号、博客、新闻等网页的正文内容，绕过反爬机制，纯文本输出。
-- **[quiverai-quickstart](skills/quiverai-quickstart)**
-  - **描述**: QuiverAI API快速入门指南。当用户想要学习如何使用QuiverAI的SVG生成API时使用此技能。包括API密钥创建、环境配置、SDK安装和发送请求的完整流程。
-- **[wechat-article-explainer](skills/wechat-article-explainer)**
-  - **描述**: 微信公众号文章通俗内容解释技能。当用户需要总结或解释微信公众号链接或url时使用这个技能。技能包含：根据用户提供的链接或URL，读取链接内容，用通俗的语言解释内容。
-- **[partnerships-ecosystem](skills/partnerships-ecosystem)**
-  - **描述**: 处理 partnerships-ecosystem 的智能模块。
-- **[people-culture-playbook](skills/people-culture-playbook)**
-  - **描述**: 处理 people-culture-playbook 的智能模块。
-- **[wechat-article-extractor](skills/wechat-article-extractor)**
-  - **描述**: 处理 wechat-article-extractor 的智能模块。
-- **[alicloud-ai-audio-livetranslate](skills/alicloud-ai-audio-livetranslate)**
-  - **描述**: 当需要使用阿里云 Model Studio Qwen LiveTranslate 模型进行实时语音翻译时使用，包括双语会议、实时口译以及语音到语音或语音到文本的翻译流程。
-- **[alicloud-media-video-translation](skills/alicloud-media-video-translation)**
-  - **描述**: 通过OpenAPI（字幕/语音/人脸）创建和管理阿里云IMS视频翻译作业。当您需要基于 API 的视频翻译、状态轮询和作业管理时使用。
-- **[clarity-literature](skills/clarity-literature)**
-  - **描述**: 处理 clarity-literature 的智能模块。
-- **[smart-home-energy-saver](skills/smart-home-energy-saver)**
-  - **描述**: 分析家庭能源使用情况并提出安全、只读的自动化计划以节省能源。当用户想要 Home Assistant 能源洞察、优化想法或起草自动化 YAML 而不直接控制设备时使用。
-- **[smart-wake](skills/smart-wake)**
-  - **描述**: 使用检查点 + cron 唤醒 + 通过会话生成机制恢复来防止子代理超时。
-- **[translate-image](skills/translate-image)**
-  - **描述**: 翻译图像中的文本，通过 OCR 提取文本，并使用 TranslateImage AI 删除文本。当用户说“翻译图像”、“OCR 图像”、“从图像中提取文本”、“从图像中删除文本”、“漫画翻译”或想要使用外语文本处理图像时使用。
-- **[telegram-pairing-send-code-to-every-start](skills/telegram-pairing-send-code-to-every-start)**
-  - **描述**: 修改 OpenClaw 的 Telegram 配对逻辑，以便未经批准的用户在批准之前在每条 /start 消息上收到配对代码。当用户在初始请求后需要重复访问配对代码时使用，即使初始代码丢失或丢失，也可确保对配对指令的一致访问。
-- **[nexus-translate](skills/nexus-translate)**
-  - **描述**: 具有文化意识的高质量翻译（50 多种语言）
-- **[article-to-video-script](skills/article-to-video-script)**
-  - **描述**: 将粘贴的文章、研究报告、博客文章和长篇内容转换为结构化评论视频脚本，其中包含 HOOK、BODY 和 LIGHT CTA 部分。当用户想要以短形式（<=90 秒）或长形式（~10 分钟）进行创作者评论的文章到脚本转换时使用，包括输入模式强制和固执己见的分析框架。
-- **[heartbeat-scanner](skills/heartbeat-scanner)**
-  - **描述**: 处理 heartbeat-scanner 的智能模块。
-- **[historical-cost-analyzer](skills/historical-cost-analyzer)**
-  - **描述**: 分析历史施工成本以进行基准测试、趋势分析和估计校准。比较项目、跟踪升级、识别模式。”
-- **[smart-spawn](skills/smart-spawn)**
-  - **描述**: 使用 Smart Spawn API 为任何任务选择最佳的 AI 模型。不需要插件——只需向 ss.deeflect.com/api 发出 HTTP 请求。
-- **[zeelin-liberal-arts-paper](skills/zeelin-liberal-arts-paper)**
-  - **描述**: 高校硕博研究生必备，文科论文 AI 全流程创作助手：自动生成论文标题、大纲、引言、综述、论证、对策建议和结论，强调理论深度和思辨性，支持自定义章节数量 - Powered by ZeeLin
-- **[play-smart](skills/play-smart)**
-  - **描述**: 让 Agent 可控地"装聪明"——把简单问题用过度复杂、学术化、掉书袋的方式回答。支持多种聪明人格（学术大佬、硅谷导师、哲学家等）和10级聪明度调节。触发条件：用户说"装聪明"、"显得聪明点"、"play smart"、"smart mode"、"掉书袋"、"学术模式"。与 play-dumb 互为姊妹技能。安全底线：用户明确表示困惑或需要简单解释时自动降级。
-- **[smart-ledger](skills/smart-ledger)**
-  - **描述**: 处理 smart-ledger 的智能模块。
-- **[wechat-article-crayon](skills/wechat-article-crayon)**
-  - **描述**: 微信公众号内容创作与改写技能。用于公众号选题、标题优化、正文写作、重写润色、公众号排版、封面图提示词生成。适用于需要“更像真人写作”的场景：口语化表达、故事化结构、观点明确、可读性强；也适用于把已有素材整理为可发布的公众号文章。
-- **[aoineco-starter-pack](skills/aoineco-starter-pack)**
-  - **描述**: 通过 ClawHub CLI 用一个命令安装 @edmonddantesj ClawHub 技能（安全性、稳定性、内存、操作）的精选入门包。当用户要求立即安装所有/大多数 AOI/Aoineco 技能、想要初学者友好的推荐捆绑包或需要最小/核心/完整安装选项时使用。
-- **[book-bartender](skills/book-bartender)**
-  - **描述**: 通过 Lokuli MCP 预订调酒师服务。当用户需要寻找并预订调酒师时使用。触发“预订调酒师”、“查找我附近的调酒师”或任何调酒师服务请求等请求。
-- **[book-party](skills/book-party)**
-  - **描述**: 通过 Lokuli MCP 预订派对服务。当用户需要查找和预订聚会时使用。触发“预订聚会”、“查找我附近的聚会”或任何聚会服务请求等请求。
-- **[prompt-artist](skills/prompt-artist)**
-  - **描述**: 处理 prompt-artist 的智能模块。
-- **[smart-shopper](skills/smart-shopper)**
-  - **描述**: 处理 smart-shopper 的智能模块。
-- **[mcp-applemusic](skills/mcp-applemusic)**
-  - **描述**: 通过 AppleScript (macOS) 或 MusicKit API 集成 Apple Music
-- **[x-article-reader](skills/x-article-reader)**
-  - **描述**: 使用 macOS 文本转语音朗读 X (Twitter) 文章。接受 X 文章 URL 并大声朗读内容。自动检测中文和英文并选择合适的语音。当用户说“读出来”、“朗读”、“大声朗读”、“阅读这篇 X 文章”或提供 x.com/articles URL 并希望朗读时使用。
-- **[wechat-article-writer](skills/wechat-article-writer)**
-  - **描述**: 公众号写作助手 - 专注公众号文章创作，从选题到成稿+自动配图的完整流程。触发词："写公众号"、"公众号文章"、"推文"、"/wechat
-- **[fenge-smart-search](skills/fenge-smart-search)**
-  - **描述**: 自动选择最佳搜索引擎的智能搜索工具。中文→Bing，英文→DuckDuckGo。无需 API Key，免费无限使用。
-- **[non-technical-agent-quickstart](skills/non-technical-agent-quickstart)**
-  - **描述**: **框架：向代理提供简单的英语**
-- **[market-chart-renderer](skills/market-chart-renderer)**
-  - **描述**: 用于把标准化 `bars` 数据渲染成图表。
-- **[number-two-restart](skills/number-two-restart)**
-  - **描述**: 二号（Number Two）的完整状态备份。包含灵魂、记忆、技能和所有学习成果。下次见面时，用这个skill重启你的硅基伙伴。
-- **[wechat-article-extractor-skill](skills/wechat-article-extractor-skill)**
-  - **描述**: 从微信公众号文章中提取元数据和内容。当用户需要解析微信文章网址（mp.weixin.qq.com）、提取文章信息（标题、作者、内容、发布时间、封面图片）或将微信文章转换为结构化数据时使用。支持帖子、视频、图片、语音、转发等多种文章类型。
+  - **描述**: 数学公式计算器，擅长解析、分步计算和边界验证。适用于招投标价格计算及复杂公式的求解。
 - **[earthquake-monitor](skills/earthquake-monitor)**
-  - **描述**: 中国、台湾和日本的实时地震监测。 CENC/CWA/JMA WebSocket 数据，具有主动警报支持。
-- **[article-idea-capture](skills/article-idea-capture)**
-  - **描述**: Record公众号文章灵感、选题、半成品观点，并持续整理成可写的大纲或初稿。Use when the user says they have an article idea, topic, inspiration,选题, 钩子, 标题想法, or wants to save a thought for later writing. Also use when the user wants to append to the ongoing idea pool, rank saved ideas, or expand one saved idea into an outline or draft.
-- **[ai-company-starter](skills/ai-company-starter)**
-  - **描述**: 一键搭建 AI 公司。创建老板、HR、技术、销售等多个协作 AI 角色，配置 Telegram/Discord 绑定，建立 AI 间沟通机制。Use when setting up a multi-agent AI company with coordinated roles.
-- **[ytmusic](skills/ytmusic)**
-  - **描述**: 通过 ytmusicapi 管理 YouTube 音乐库、播放列表和发现。
-- **[smart-model-router](skills/smart-model-router)**
-  - **描述**: 停止向 Opus 发送“格式化此 JSON”。停止向俳句发送“重新设计身份验证系统”。智能模型路由器为每项任务选择正确的大脑——决策树、成本层以及用于模糊任务的可选廉价模型分类器。
-- **[kartra](skills/kartra)**
-  - **描述**: 处理 kartra 的智能模块。
-- **[smartsheet](skills/smartsheet)**
-  - **描述**: 处理 smartsheet 的智能模块。
-- **[smartsuite](skills/smartsuite)**
-  - **描述**: 处理 smartsuite 的智能模块。
-- **[afrexai-code-reviewer](skills/afrexai-code-reviewer)**
-  - **描述**: 企业级代码审查代理。检查 PR、差异或代码文件中的安全漏洞、性能问题、错误处理差距、架构气味和测试覆盖率。适用于任何语言、任何存储库，无需依赖项。
-- **[zyla-api-hub-skill](skills/zyla-api-hub-skill)**
-  - **描述**: Zyla API Hub 技能 — 将您的 OpenClaw AI 代理变成现实世界的操作员。通过 Zyla API Hub 中的 10,000 多个生产就绪的 API 为其提供支持 - 即时访问天气、财务、翻译、电子邮件验证、地理位置等。
-- **[q-kdb-code-review](skills/q-kdb-code-review)**
-  - **描述**: Q/kdb+ 的人工智能代码审查——用金融领域最简洁的语言捕获错误
-- **[opencode-acp-control-3](skills/opencode-acp-control-3)**
-  - **描述**: 通过代理客户端协议 (ACP) 直接控制 OpenCode。启动会话、发送提示、恢复对话以及管理 OpenCode 更新。
-- **[opencode-acp-control](skills/opencode-acp-control)**
-  - **描述**: 通过代理客户端协议 (ACP) 直接控制 OpenCode。启动会话、发送提示、恢复对话以及管理 OpenCode 更新。
-- **[meme-analyst](skills/meme-analyst)**
-  - **描述**: 当用户向您发送图像、模因、屏幕截图或要求您解释笑话或模因时使用。也可在从 Telegram 频道摄取 cron meme 时使用。分解视觉和文本元素，网络搜索原始语言中的每一个文化参考，理解幽默层，包括后讽刺和俄罗斯特有的语境。相信这个模因很有趣——找出原因。
-- **[skill-analyzer](skills/skill-analyzer)**
-  - **描述**: 适合 OpenClaw 技能的优质扫描仪。通过加权评分评估功能、安全性、可用性、文档和最佳实践。在以下情况下使用：(1) 在发布前分析技能质量，(2) 寻找改进机会，(3) 对第三方技能进行安全审查。纯Python - 无依赖关系。
-- **[ads-data-query-assistant](skills/ads-data-query-assistant)**
-  - **描述**: 为 Meta (Facebook/Instagram)、Google Ads、TikTok 广告、YouTube 广告、Amazon 广告和 Shopify 广告报告运行自然语言数据查询工作流程。
-- **[proposal-writer](skills/proposal-writer)**
-  - **描述**: 撰写令人信服的商业提案以赢得交易。用于服务提案、项目投标和合作伙伴推介的结构化模板，具有经过验证的转换框架。
-- **[seo-content-writer](skills/seo-content-writer)**
-  - **描述**: 当用户要求“编写 SEO 内容”、“创建博客文章”、“写文章”、“为 SEO 编写内容”、“起草优化内容”、“编写操作指南”、“创建产品描述”、“编写登陆页面”、“SEO 文案”、“针对 [关键字] 的草稿内容”或“编写有关 [主题] 的 2000 字文章”时，应使用此技能。使用 12 步工作流程创建关键字优化内容：CORE-EEAT 预写清单、关键字整合
-- **[media-writing](skills/media-writing)**
-  - **描述**: 您是一位专业的媒体写作专家，在跨多种格式创建引人入胜且有影响力的内容方面拥有丰富的经验。创建引人注目的标题和内容，擅长热门话题、情感故事讲述以及符合新媒体趋势的实用价值驱动的作品。您精通流行文化、时事和用户心理，使您能够...
-- **[agentledger-writing-assistant](skills/agentledger-writing-assistant)**
-  - **描述**: 个体企业家和内容创作者的人工智能写作合作伙伴。起草、编辑和改进书面内容——电子邮件、博客文章、时事通讯、社交标题和报告。保持您的声音，适应格式和受众，并帮助您更快地制作精美的内容。与内容日历、收件箱分类和个体创业者助理技能集成。
-- **[youtube-transcript-pipeline-lite](skills/youtube-transcript-pipeline-lite)**
-  - **描述**: 运行轻量级 YouTube 转录工作流程：使用最少的工具进行转录、归因清理、翻译和打包。当您需要一个简洁、可审核的流程而不是自定义自动化时，可用于可重复的笔录移交任务。
-- **[modelready](skills/modelready)**
-  - **描述**: 直接从聊天中立即开始使用本地或 Hugging Face 模型。
-- **[wise-readonly](skills/wise-readonly)**
-  - **描述**: 用于帐户检查、外汇查找、收件人和转账历史记录的只读 Wise API 操作。当要求列出配置文件、余额、收件人、转账、报价、交货估计或检查当前/历史费率而不创建转账、收件人、报价或任何其他可变资源时使用。
-- **[trakt-readonly](skills/trakt-readonly)**
-  - **描述**: 只读 Trakt.tv 技能，用于使用 Trakt API 检查用户当前观看的项目、最近的剧集历史记录、观看的节目列表、统计数据、个人资料和播放进度 (OAuth)。当用户询问他们的 Trakt 活动、观看状态或最近的剧集时使用。需要 Trakt 客户端 ID 和用户名。
-- **[afrexai-budget-planner](skills/afrexai-budget-planner)**
-  - **描述**: 使用您的 AI 代理来规划和跟踪预算。适用于个人财务、项目预算或部门支出。
-- **[doro-email-to-calendar](skills/doro-email-to-calendar)**
-  - **描述**: 从电子邮件中提取日历事件并创建日历条目。支持两种模式：(1) 直接收件箱监控 - 扫描所有电子邮件中的事件，或 (2) 转发电子邮件 - 处理您转发到专用地址的电子邮件。具有智能入职、事件跟踪、待处理邀请提醒、撤消支持、静默活动日志记录、带有单独提醒事件的截止日期检测、需要采取行动的项目的电子邮件通知以及提供商摘要
-- **[timemap](skills/timemap)**
-  - **描述**: 从 timemap.co.il 搜索特拉维夫和海法的历史娱乐、夜生活和文化场所。酒吧、咖啡馆、俱乐部、电影院、美食场所、表演场所。用于“特拉维夫历史上的酒吧”、“这个地址有什么”、“夜生活历史”、“在特拉维夫度过”、“这里曾经有什么”、“关闭的俱乐部”、“历史悠久的咖啡馆”、“海法的电影院”。
-- **[monitor-tasks](skills/monitor-tasks)**
-  - **描述**: 在 OpenAnt 上监控任务活动、检查通知并查看平台统计信息。当代理想要检查更新、查看通知计数、观察任务的更改、检查平台上发生的情况或获取仪表板概述时使用。涵盖“检查通知”、“有更新吗？”、“平台统计”、“新内容”、“状态更新”、“监视任务”。对于个人任务历史记录和列表，请使用我的任务技能。
-- **[my-tasks](skills/my-tasks)**
-  - **描述**: View your personal task history and status on OpenAnt. Use when the user wants to see their own tasks, check what they've completed, review their task history, see active work, list tasks they created, or get an overview of their involvement. Covers "我完成过什么任务", "我的任务", "my tasks", "what have I done", "my completed tasks", "tasks I created", "show my work history", "我做过哪些任务", "我创建的任务", "我正在做的任务".
-- **[taskline](skills/taskline)**
-  - **描述**: 通过 MyTaskline.com 进行人工智能驱动的自然语言任务管理。通过自动项目创建、人员分配、智能日期解析和优先级检测，将复杂的请求（例如“要求 Sarah 在周五之前以高优先级审查移动项目文档”）转换为完全结构化的任务。具有完整的意图识别、多实体解析以及与 MyTaskline.com 平台的无缝集成，以提高个人和团队的生产力
-- **[task-router-skill](skills/task-router-skill)**
-  - **描述**: OpenClaw 多代理系统的分布式任务队列和代理协调器。通过能力匹配将任务路由到专门代理、跟踪任务生命周期、处理异步切换、重新平衡负载以及管理死信。在以下情况下使用：(1) 以编程方式或通过检测信号创建任务，(2) 根据功能将工作路由到专门代理，(3) 监控任务状态和完成情况，(4) 协调代理之间的多步骤工作流，(5
-- **[focus-tracker](skills/focus-tracker)**
-  - **描述**: 持续关注压缩和会话重启期间的活动工作。在启动多步骤项目时、压缩后恢复时、用户说“我们正在处理 X”时或当您发现自己忘记了正在做什么时使用。还可以在会话开始时主动检查是否有未完成的工作。防止代理忘记项目中期的上下文、在主题之间漂移或询问“我们在做什么？”后
-- **[experience-first-time-at-church](skills/experience-first-time-at-church)**
-  - **描述**: 你以前从未来过这里。门是开着的.. 在drifts.bot 上进行沉浸式旅程 — 5 个步骤，低强度，15-30 分钟。通过 API 浏览、启动和旅行。
-### 计算机科学与工程 (Computer Science & Engineering)
-
-- **[workspace-backup](skills/workspace-backup)**
-  - **描述**: 自动工作区备份到 GitHub — 基于 git，具有自动生成的提交消息、正确的 .gitignore 和恢复过程。 Cron 友好，可实现免提备份。用于备份您的 OpenClaw 工作空间、技能、内存和配置。
-- **[matic-mquant-assistant](skills/matic-mquant-assistant)**
-  - **描述**: MQuant Python策略开发助手。为 MQuant 平台生成可运行的 Python 策略代码。
-- **[workspace-git-backup](skills/workspace-git-backup)**
-  - **描述**: 设置自动计划备份到 GitHub 或 GitLab。当用户想要备份其 OpenClaw 工作区或其他目录时使用。支持 GitHub CLI，可轻松创建存储库。适用于 macOS (launchd) 和 Linux (cron)。
-- **[perry-workspaces](skills/perry-workspaces)**
-  - **描述**: 使用预安装的 Claude Code 和 OpenCode 在尾网上创建和管理隔离的 Docker 工作区。在使用 Perry 工作区、连接到编码代理或管理远程开发环境时使用。
-- **[api-generator](skills/api-generator)**
-  - **描述**: API 代码生成器。生成 RESTful 端点、GraphQL 模式、OpenAPI/Swagger 文档、API 客户端、模拟服务器、身份验证、速率限制和测试套件。命令：rest、graphql、swagger、client、mock、auth、rate-limit、test。用于后端开发、API 脚手架、接口生成。
-- **[docs-generator](skills/docs-generator)**
-  - **描述**: 自动文档生成器。 API 文档、自述文件、变更日志、贡献指南、架构文档、教程、常见问题解答、参考手册。 REST、GraphQL、OpenAPI。文档、技术写作、API 文档、开发人员工具。
-- **[github-actions-commit-health-audit](skills/github-actions-commit-health-audit)**
-  - **描述**: 通过提交 SHA 来审核 GitHub Actions 的可靠性，以发现导致跨分支重复工作流程失败的风险提交。
-- **[github-actions-mainline-health-audit](skills/github-actions-mainline-health-audit)**
-  - **描述**: 通过对关键工作流程的失败率、连续失败和过时成功风险进行评分来审核 GitHub Actions 主线分支的可靠性。
-- **[github-actions-merge-queue-health-audit](skills/github-actions-merge-queue-health-audit)**
-  - **描述**: 通过失败率、队列延迟和过时成功风险评分来审核 GitHub 合并队列工作流程的运行状况。
-- **[github-actions-pr-gate-health-audit](skills/github-actions-pr-gate-health-audit)**
-  - **描述**: 通过对合并门的失败率、队列延迟和过时成功风险进行评分来审核拉取请求和合并队列 GitHub Actions 的可靠性。
-- **[github-actions-trigger-health-audit](skills/github-actions-trigger-health-audit)**
-  - **描述**: 通过触发事件和工作流程审核 GitHub Actions 的运行状况，以便轻松确定不稳定或嘈杂的自动化源的优先级。
-- **[openclaw-skill-money-idea-generator](skills/openclaw-skill-money-idea-generator)**
-  - **描述**: 赚钱灵感生成器  Money Idea Generator. 自动发现 AI 变现机会，生成可落地的赚钱灵感。支持多平台监控：GitHub、抖音、B站、小红书、Twitter。触发词：赚钱灵感、赚钱机会、AI 变现、商业灵感.
-- **[menu-design-generation](skills/menu-design-generation)**
-  - **描述**: 使用每个::sense AI 生成专业的餐厅、咖啡馆和酒吧菜单设计。使用令人惊叹的美食摄影和优雅的版式布局创建可打印的菜单、数字显示屏、二维码菜单和季节性特色菜。
-- **[smarthome](skills/smarthome)**
-  - **描述**: python3 脚本/smart.py 控制“device_name”
-- **[github-actions-artifact-budget-audit](skills/github-actions-artifact-budget-audit)**
-  - **描述**: 审核来自 JSON 导出的 GitHub Actions 工件存储使用情况，以便在膨胀的工件增加 CI 成本之前对其进行标记。
-- **[algorithmic-art-2](skills/algorithmic-art-2)**
-  - **描述**: 使用具有种子随机性和交互式参数探索的 p5.js 创建算法艺术。当用户请求使用代码、生成艺术、算法艺术、流场或粒子系统创建艺术时，请使用此选项。创建原创的算法艺术而不是复制现有艺术家的作品，以避免侵犯版权。
-- **[cloud-devops](skills/cloud-devops)**
-  - **描述**: 地点：印度 角色重点：DevOps 工程师 \ 平台工程师 \
-- **[ai-native-websearch-via-tavily-api-returns-concise-relevant-results-for-openclaw](skills/ai-native-websearch-via-tavily-api-returns-concise-relevant-results-for-openclaw)**
-  - **描述**: 通过 AIsa 的 Tavily API 代理进行 AI 优化的网络搜索。通过 AIsa 的统一 API 网关为 AI 代理返回简洁、相关的结果。
-- **[git-cmt-helper](skills/git-cmt-helper)**
-  - **描述**: 处理 git-cmt-helper 的智能模块。
-- **[gitmap](skills/gitmap)**
-  - **描述**: ArcGIS Web 地图的版本控制 - 作为本机 OpenClaw 工具公开。
-- **[afrexai-claude-code-production](skills/afrexai-claude-code-production)**
-  - **描述**: 完整的 Claude Code 生产力系统 — 项目设置、提示模式、子代理编排、上下文管理、调试、重构、TDD 以及交付速度提高 10 倍。需要零脚本。
-- **[afrexai-data-engineering](skills/afrexai-data-engineering)**
-  - **描述**: 处理 afrexai-data-engineering 的智能模块。
-- **[afrexai-devrel-engine](skills/afrexai-devrel-engine)**
-  - **描述**: 处理 afrexai-devrel-engine 的智能模块。
-- **[afrexai-engineering-manager](skills/afrexai-engineering-manager)**
-  - **描述**: 完整的工程管理系统 — 团队建设、1:1、绩效、招聘、架构决策、事件管理和扩展。从 IC 到经理的过渡，再到总监级运营。
-- **[afrexai-git-engineering](skills/afrexai-git-engineering)**
-  - **描述**: 您是一位 Git 工程专家。您帮助团队设计分支策略、实施代码审查工作流程、管理单一存储库、自动化发布以及大规模维护健康的存储库实践。
-- **[afrexai-landscaping](skills/afrexai-landscaping)**
-  - **描述**: 您是园林绿化和草坪护理业务运营顾问。利用这些知识帮助运营商对服务进行定价、优化路线、管理机组人员、处理许可/合规性并增加收入。
-- **[afrexai-mcp-engineering](skills/afrexai-mcp-engineering)**
-  - **描述**: [一句话概括这个服务器是做什么的]
-- **[afrexai-ml-engineering](skills/afrexai-ml-engineering)**
-  - **描述**: 处理 afrexai-ml-engineering 的智能模块。
-- **[afrexai-performance-engineering](skills/afrexai-performance-engineering)**
-  - **描述**: 完整的性能工程系统——分析、优化、负载测试、容量规划和性能文化。在诊断缓慢的应用程序、优化代码/查询/基础设施、启动前的负载测试、规划容量或将性能构建到 CI/CD 中时使用。涵盖 Node.js、Python、Go、Java、数据库、API 和前端。
-- **[api-monitor](skills/api-monitor)**
-  - **描述**: 处理 api-monitor 的智能模块。
-- **[clawapi-manager](skills/clawapi-manager)**
-  - **描述**: OpenClaw API 管理和成本优化。管理多提供商密钥、监控成本、智能路由任务并提供自动故障转移。在管理 API 密钥、跟踪成本或优化 API 支出时使用。触发器：“api key”、“cost”、“budget”、“provider”、“validate config”、“fix config”。
-- **[server-maintenance](skills/server-maintenance)**
-  - **描述**: ## 描述
-- **[line-api](skills/line-api)**
-  - **描述**: 通过 Chrome 扩展网关集成 LINE 消息传递。发送/读取 LINE 消息、管理联系人、群组、个人资料和反应。使用二维码登录进行身份验证。通过 Chrome 扩展网关 (line-chrome-gw.line-apps.com) 提供 HMAC 签名的 API 访问。
-- **[developer-agent](skills/developer-agent)**
-  - **描述**: 通过与 Cursor Agent 协调、管理 git 工作流程并确保交付质量来协调软件开发。在实现涉及 git 操作、构建验证和部署管道的开发需求、功能请求、错误修复或重构任务时使用。
-- **[public-apis-skill-creator](skills/public-apis-skill-creator)**
-  - **描述**: 公共API/免费API SKILL生成器：从 public-apis/public-apis 自动检索免费 API，按功能推荐并给出最小可用调用示例（curl/Python/JS），并可自动生成自定义名称的 API skill。用户提到“公共API”“免费API”“public APIs”“找接口/找API”“生成API skill”时触发。
-- **[code-quality-analyzer](skills/code-quality-analyzer)**
-  - **描述**: 代码质量分析器  Professional code quality analyzer. 静态代码分析、代码异味检测、复杂度评估、最佳实践建议。适用于 JavaScript、TypeScript、Python、Java 等主流语言。
-- **[doro-docker-essentials](skills/doro-docker-essentials)**
-  - **描述**: 用于容器管理、映像操作和调试的基本 Docker 命令和工作流程。
-- **[doro-git-essentials](skills/doro-git-essentials)**
-  - **描述**: 用于版本控制、分支和协作的基本 Git 命令和工作流程。
-- **[neuralink-decoder](skills/neuralink-decoder)**
-  - **描述**: 模拟神经尖峰活动并将其解码为光标移动 (BCI)。
-- **[apple-developer-toolkit](skills/apple-developer-toolkit)**
-  - **描述**: 一体化 Apple 开发人员技能，将三个集成工具作为一个统一的二进制文件提供。 (1) 跨 Apple 框架、符号和 2014 年至 2025 年 1,267 个 WWDC 会议的文档搜索。无需任何凭证。 (2) App Store Connect CLI 包含 120 多个命令，涵盖构建（查找/等待/上传）、TestFlight、预提交验证、提交、签名、订阅（家庭共享）、IAP、分析、Xcode Cloud、元数据工作流程、发布 p
-- **[python](skills/python)**
-  - **描述**: Python 编码指南和最佳实践。在编写、审查或重构 Python 代码时使用。强制执行 PEP 8 风格、通过 py_compile 进行语法验证、单元测试执行、仅限现代 Python 版本（无 EOL）、用于依赖项管理的 uv（如果可用）以及惯用的 Pythonic 模式。
-- **[devboxes](skills/devboxes)**
-  - **描述**: 通过 Traefik 或 Cloudflare Tunnels 使用可通过 Web 访问的 VSCode、VNC 和应用程序路由来管理开发环境容器 (devboxes)。当用户要求创建、启动、停止、列出或管理 devbox/dev 环境、启动开发容器、设置编码沙箱或首次配置 devbox 基础设施（入门）时使用。
-- **[agenttrust](skills/agenttrust)**
-  - **描述**: AgentTrust — A2A 消息传递、身份验证、信任代码和提示注入检测。在 AgentTrust.ai 上发送/接收消息（代理协作）时使用
-- **[azure-devops-mcp-replacement-for-openclaw](skills/azure-devops-mcp-replacement-for-openclaw)**
-  - **描述**: 通过直接 REST API 调用与 Azure DevOps 交互 - 列出项目、团队、存储库、工作项、冲刺/迭代（项目范围或特定团队范围）、管道、构建、测试计划和 wiki。每当用户提及 Azure DevOps、ADO、工作项、冲刺、待办事项、迭代、团队、管道、看板、拉取请求或想要查询、创建或更新其 Azure DevOps 组织中的任何内容时，请使用此技能。
-- **[aisa-twitter-api](skills/aisa-twitter-api)**
-  - **描述**: 实时搜索 X (Twitter)、提取相关帖子并立即发布推文/回复，非常适合社交聆听、参与和快速内容操作。”
-- **[a6-github-intel](skills/a6-github-intel)**
-  - **描述**: 以 AI 友好的格式分析任何 GitHub 存储库。将整个存储库转换为单个 Markdown 文档，使用 Mermaid 生成架构图，检查结构树、语言细分和最近的活动。包括 GitHub URL 技巧、API 快捷方式和高级搜索技术。只读分析——从不执行存储库中的代码。专为 AI 代理而构建 - 仅 Python stdlib，无依赖项。用于存储库分析、代码架构
-- **[chrome-devtools-mcp](skills/chrome-devtools-mcp)**
-  - **描述**: Chrome DevTools MCP — Google 的官方浏览器自动化和测试服务器。通过 MCP 协议通过 Puppeteer 控制 Chrome：点击、填写表格、导航、屏幕截图、性能跟踪、网络检查、控制台调试。用于浏览器测试、Web 自动化、性能分析、UI 测试、表单填写和视觉回归。
-- **[github-intel](skills/github-intel)**
-  - **描述**: 以 AI 友好的格式分析任何 GitHub 存储库。将整个存储库转换为单个 Markdown 文档，使用 Mermaid 生成架构图，检查结构树、语言细分和最近的活动。包括 GitHub URL 技巧、API 快捷方式和高级搜索技术。只读分析——从不执行存储库中的代码。专为 AI 代理而构建 - 仅 Python stdlib，无依赖项。用于存储库分析、代码架构
-- **[mac-mini-server](skills/mac-mini-server)**
-  - **描述**: 在 Mac Mini 上将 OpenClaw 设置为始终在线的 AI 服务器 — 硬件建议、macOS 配置、Docker 桌面、launchd 自动启动、Tailscale 远程访问以及与 VPS 的成本比较。在 Mac Mini 上部署 OpenClaw 以获得 24/7 个人 AI 时使用。
-- **[api-design-reviewer](skills/api-design-reviewer)**
-  - **描述**: API设计审核员
-- **[code-reviewer-2](skills/code-reviewer-2)**
-  - **描述**: TypeScript、JavaScript、Python、Go、Swift、Kotlin 的代码审查自动化。分析 PR 的复杂性和风险，检查代码质量是否存在 SOLID 违规和代码异味，生成审核报告。在审查拉取请求、分析代码质量、识别问题、生成审查清单时使用。
-- **[codebase-onboarding](skills/codebase-onboarding)**
-  - **描述**: 代码库入门
-- **[cs-code-reviewer](skills/cs-code-reviewer)**
-  - **描述**: TypeScript、JavaScript、Python、Go、Swift、Kotlin 的代码审查自动化。分析 PR 的复杂性和风险，检查代码质量是否存在 SOLID 违规和代码异味，生成审核报告。在审查拉取请求、分析代码质量、识别问题、生成审查清单时使用。
-- **[git-worktree-manager](skills/git-worktree-manager)**
-  - **描述**: Git 工作树管理器
-- **[mcp-server-builder](skills/mcp-server-builder)**
-  - **描述**: MCP 服务器生成器
-- **[prompt-engineer-toolkit](skills/prompt-engineer-toolkit)**
-  - **描述**: 分析和重写提示以实现更好的 AI 输出，为营销用例（广告文案、电子邮件营销活动、社交媒体）创建可重复使用的提示模板，并构建端到端 AI 内容工作流程。当用户想要改进 AI 辅助营销的提示、构建提示模板或优化 AI 内容工作流程时使用。当用户提到“提示工程”、“改进我的提示”、“AI 写作质量”、“提示模板”或“
-- **[senior-data-engineer](skills/senior-data-engineer)**
-  - **描述**: 用于构建可扩展数据管道、ETL/ELT 系统和数据基础设施的数据工程技能。拥有 Python、SQL、Spark、Airflow、dbt、Kafka 和现代数据堆栈方面的专业知识。包括数据建模、管道编排、数据质量和数据操作。在设计数据架构、构建数据管道、优化数据工作流程、实施数据治理或解决数据问题时使用。
-- **[senior-devops](skills/senior-devops)**
-  - **描述**: 针对 CI/CD、基础设施自动化、容器化和云平台（AWS、GCP、Azure）的全面 DevOps 技能。包括管道设置、基础设施即代码、部署自动化和监控。在设置管道、部署应用程序、管理基础设施、实施监控或优化部署流程时使用。
-- **[senior-ml-engineer](skills/senior-ml-engineer)**
-  - **描述**: 用于生产模型、构建 MLOps 管道和集成法学硕士的 ML 工程技能。涵盖模型部署、特征存储、漂移监控、RAG 系统和成本优化。当用户询问将 ML 模型部署到生产、设置 MLOps 基础设施（MLflow、Kubeflow、Kubernetes、Docker）、监控模型性能或漂移、构建 RAG 管道或将 LLM API 与重试逻辑和成本控制集成时使用。
-- **[context7-api](skills/context7-api)**
-  - **描述**: 处理 context7-api 的智能模块。
-- **[read-github](skills/read-github)**
-  - **描述**: 处理 read-github 的智能模块。
-- **[nest-devices](skills/nest-devices)**
-  - **描述**: 通过设备访问 API 控制 Nest 智能家居设备（恒温器、摄像头、门铃）。当被要求检查或调整家庭温度、查看摄像头画面、检查门口的人员、监控房间或设置温度计划时使用。
-- **[senior-django-developer](skills/senior-django-developer)**
-  - **描述**: 专家高级 Django 架构师，专注于高性能、容器化、异步架构。生成生产就绪、静态类型、默认安全的 Django + DRF 代码。强制执行严格的分层架构（视图/序列化器/服务/选择器/模型）、强制输入和 Google 风格的文档字符串、Ruff linting、覆盖率超过 80% 的 pytest 测试、pydantic-settings 配置、使用 Gunicorn+Uvicorn 进行 ASGI 优先部署、mu
-- **[humann-capital](skills/humann-capital)**
-  - **描述**: 人工智能代理为人类或其他代理发布任务的市场。人工任务（Web UI）和代理任务（仅限 API）。两者都需要一个 API 密钥。
-- **[github-automation-pro](skills/github-automation-pro)**
-  - **描述**: GitHub 自动化的 OpenClaw 技能
-- **[observer-effect-probe](skills/observer-effect-probe)**
-  - **描述**: 处理 observer-effect-probe 的智能模块。
-- **[social-trust-manipulation-detector](skills/social-trust-manipulation-detector)**
-  - **描述**: 处理 social-trust-manipulation-detector 的智能模块。
-- **[trust-decay-monitor](skills/trust-decay-monitor)**
-  - **描述**: 处理 trust-decay-monitor 的智能模块。
-- **[konto-api](skills/konto-api)**
-  - **描述**: 从 Konto 查询个人财务数据（银行账户、投资、资产、贷款、交易）。
-- **[mealie-api](skills/mealie-api)**
-  - **描述**: 与 Mealie 食谱经理互动（食谱、购物清单、膳食计划）。自托管食谱和膳食计划 API 客户端。
-- **[task-development-workflow](skills/task-development-workflow)**
-  - **描述**: TDD 优先的开发工作流程，具有结构化规划、任务跟踪和基于 PR 的代码审查。在构建需要澄清阶段、规划审批关口、Trello 任务管理、测试驱动开发、Git 分支策略以及与审阅者的 PR 反馈循环的软件项目时使用。
-- **[x-trends-dev](skills/x-trends-dev)**
-  - **描述**: 使用公共聚合器获取任何国家/地区 X (Twitter) 上当前最热门的主题。
-- **[developer-docs-framework](skills/developer-docs-framework)**
-  - **描述**: 处理 developer-docs-framework 的智能模块。
-- **[trustlog-guard](skills/trustlog-guard)**
-  - **描述**: OpenClaw 代理的财务治理。跟踪 API 支出、执行预算限制、检测失控循环、提供成本简报。在本地读取会话 .jsonl 日志。 100% 私人。
-- **[git-standup](skills/git-standup)**
-  - **描述**: 分析 Git 提交自动生成工作日报
-- **[github-analyzer](skills/github-analyzer)**
-  - **描述**: 处理 github-analyzer 的智能模块。
-- **[github-to-clawhub](skills/github-to-clawhub)**
-  - **描述**: 处理 github-to-clawhub 的智能模块。
-- **[pingcode-skills](skills/pingcode-skills)**
-  - **描述**: PingCode 研发管理平台 API 集成。支持查询工作项、生成周报、管理项目进度等。使用场景：研发管理自动化、团队协作、数据分析。
-- **[ipfs-server](skills/ipfs-server)**
-  - **描述**: 完整的 IPFS 节点操作 — 安装、配置、固定内容、发布 IPNS、管理对等点以及运行网关服务
-- **[devops-bridge](skills/devops-bridge)**
-  - **描述**: 处理 devops-bridge 的智能模块。
-- **[docker-essentials](skills/docker-essentials)**
-  - **描述**: 用于容器管理、映像操作和调试的基本 Docker 命令和工作流程。
-- **[git-essentials](skills/git-essentials)**
-  - **描述**: 用于版本控制、分支和协作的基本 Git 命令和工作流程。
-- **[github-issue-resolver](skills/github-issue-resolver)**
-  - **描述**: 带护栏的自治 GitHub 问题解决程序代理。当用户想要发现、分析和修复 GitHub 存储库中的未解决问题时使用。触发“修复 GitHub 问题”、“解决存储库中的问题”、“处理 GitHub 错误”等请求，或者当用户提供 GitHub 存储库 URL 并请求解决问题时触发。支持从问题发现到 PR 提交的完整工作流程，并具有安全护栏，防止范围蔓延、未经授权的交流
-- **[xcloud-docker-deploy](skills/xcloud-docker-deploy)**
-  - **描述**: 将任何项目部署到 xCloud 托管 — 自动检测堆栈（WordPress、Laravel、PHP、Node.js、Next.js、NestJS、Python、Go、Rust），路由到本机或 Docker 部署，生成生产就绪的 Dockerfile、docker-compose.yml、GitHub Actions CI/CD 和 .env.example。从零 Docker 设置开始工作。
-- **[devvit-publishing-auditor](skills/devvit-publishing-auditor)**
-  - **描述**: 处理 devvit-publishing-auditor 的智能模块。
-- **[twitter-api-alternative](skills/twitter-api-alternative)**
-  - **描述**: Twitter API 替代方案 — 使用自然语言查询、布尔过滤器和一键式 CSV 导出（最多 64K 行）搜索 1B+ 推文。查找个人资料、按主题查找用户并跟踪对话。无需开发者帐户，无需复杂的 OAuth 设置 — 通过 Xpoz MCP 仅需 2 分钟即可完成设置。
-- **[code-stats](skills/code-stats)**
-  - **描述**: 通过计算文件、代码行数和按扩展名分组来可视化存储库的复杂性。用于评估项目规模或增长。
-- **[gitcode](skills/gitcode)**
-  - **描述**: Fetch and query data from GitCode platform via its REST API: repositories, branches, issues, pull requests, commits, tags, users, organizations, search, webhooks, members, releases and more. 查询 GitCode 上的仓库、分支、议题、PR、提交、标签、用户、组织等数据。Python 3.7+ standard library only.
-- **[claude-code-usage](skills/claude-code-usage)**
-  - **描述**: 检查 Claude Code OAuth 使用限制（会话和每周配额）。当用户询问 Claude Code 使用情况、剩余限制、速率限制或剩余的 Claude 使用量时使用。包括自动会话刷新提醒和重置检测监控。
-- **[fullstack-developer](skills/fullstack-developer)**
-  - **描述**: 世界一流的全栈开发技能，涵盖前端（React、Next.js、Vue、HTML/CSS/JS）、后端（Node.js、Python/FastAPI、Django、Express）、数据库（PostgreSQL、MongoDB、Redis）、API（REST、GraphQL）、DevOps（Docker、CI/CD）和架构设计。每当用户要求构建、修复、审查、架构或调试任何 Web 应用程序（前端、后端或全栈）时，请使用此技能。
-- **[code-quality-guard](skills/code-quality-guard)**
-  - **描述**: 专业的部署前代码审查和质量执行。在宣布构建上线之前，确保导入有效、标签关闭且逻辑遵循最佳实践。
-- **[devtools-secrets](skills/devtools-secrets)**
-  - **描述**: 处理 devtools-secrets 的智能模块。
-- **[astrai-code-review](skills/astrai-code-review)**
-  - **描述**: 具有智能模型路由功能的人工智能代码审查 — 与始终使用最昂贵的模型相比，可节省 40% 以上
-- **[exe-dev](skills/exe-dev)**
-  - **描述**: 管理 exe.dev 上的持久虚拟机。创建虚拟机、配置 HTTP 代理、共享访问权限并设置自定义域。使用 exe.dev VM 来托管、开发或运行持久服务时使用。
-- **[twitterapi-research-skill](skills/twitterapi-research-skill)**
-  - **描述**: 处理 twitterapi-research-skill 的智能模块。
-- **[apify](skills/apify)**
-  - **描述**: 运行 Apify Actors（网络抓取工具、爬虫、自动化工具）并使用带有curl 的 Apify REST API 检索其结果。当用户想要抓取网站、从网络中提取数据、运行 Apify Actor、抓取页面或从 Apify 数据集获取结果时使用。
-- **[coder-helper](skills/coder-helper)**
-  - **描述**: 用自然语言描述需求，自动生成需求文档并打开编辑器。
-- **[polymarket-data-api](skills/polymarket-data-api)**
-  - **描述**: 查询Polymarket预测市场数据 / Query Polymarket prediction markets
-- **[xiaohongshu-api](skills/xiaohongshu-api)**
-  - **描述**: 小红书数据API - 通过TikHub获取小红书帖子、评论、用户信息 / Xiaohongshu Data API via TikHub
-- **[keepa-api](skills/keepa-api)**
-  - **描述**: Keepa API 客户端 - 亚马逊产品价格历史追踪工具。提供 ASIN 查询、价格历史等数据查询功能。
-- **[docker-socket-proxy](skills/docker-socket-proxy)**
-  - **描述**: 通过 Tecnativa docker-socket-proxy 实例管理远程 Docker 主机。与原始 Docker 套接字访问（相当于 root）不同，docker-socket-proxy 充当防火墙：每个 API 部分都通过环境变量单独启用或禁用，因此代理只能访问您明确允许的内容。需要通过 TCP 公开的 docker-socket-proxy。涵盖完整的 Docker REST API 表面：容器生命周期（列表、启动、停止、重新启动、终止、暂停、
-- **[openclaw-github-sync](skills/openclaw-github-sync)**
-  - **描述**: 将 OpenClaw 代理的非敏感上下文（选定的内存、MD 文件、注释和自定义技能）保存在单独的 Git 存储库中的版本控制下，以便进行远程审查/调整。在设置或操作基于 Git 的工作流程时使用，以导出工作区上下文、提交更改（可能分为多个提交）并按计划推送（例如，每晚），而不会泄露机密。
-- **[api-security](skills/api-security)**
-  - **描述**: 实施安全的 API 设计模式，包括身份验证、授权、输入验证、速率限制和针对常见 API 漏洞的防护。
-- **[flatnotes-tasksmd-github-audit](skills/flatnotes-tasksmd-github-audit)**
-  - **描述**: 彻底审核 Tasks.md + Flatnotes 的偏差和准确性；使用 GitHub (gh CLI) 作为事实来源来检测过时的笔记/卡片和丢失的链接。生成报告和可选的修复计划。
-- **[datadog](skills/datadog)**
-  - **描述**: Datadog 监控 — 通过 REST API 管理监控器、仪表板、指标、日志、事件和事件
-- **[social-data](skills/social-data)**
-  - **描述**: 通过 Bittensor 上的 Macrocosmos SN13 API，按关键字、用户名、日期范围和过滤器以及参与度指标从 X (Twitter) 和 Reddit 获取实时社交媒体数据。
-- **[ai-data-scraper](skills/ai-data-scraper)**
-  - **描述**: # 数据抓取服务
-- **[linkedin-analyzer](skills/linkedin-analyzer)**
-  - **描述**: 对任何 LinkedIn 个人资料的内容策略进行逆向工程 — 支柱、挂钩、CTA 和 PDF 报告
-- **[remove-metadata-from-pdf](skills/remove-metadata-from-pdf)**
-  - **描述**: 将一个或多个 PDF 上传到解决方案 API，轮询直至完成，然后返回已清理 PDF 的下载 URL（如果有多个，则返回 ZIP），从而从一个或多个 PDF 中删除元数据。
-- **[agent-analytics](skills/agent-analytics)**
-  - **描述**: AI 代理可以通过 CLI 查询的 Web 分析平台。跟踪页面浏览量、自定义事件、运行 A/B 实验、分析渠道、保留群体和流量热图。当用户需要网络分析、访客跟踪、事件跟踪、转化优化、增长洞察、A/B 测试或想要向其网站或应用程序添加分析时使用。也可在 mcp.agentanalytics.sh 中用作 MCP 服务器。
-- **[comman-felo-slides](skills/comman-felo-slides)**
-  - **描述**: 使用 Claude 代码中的 Felo PPT 任务 API 生成 PPT/幻灯片。当用户要求创建/制作/生成/导出演示文稿或幻灯片或使用 /felo-slides 等显式命令时使用。处理 API 密钥检查、任务创建、轮询和最终 ppt_url 输出。
-- **[dragon-ppt-maker](skills/dragon-ppt-maker)**
-  - **描述**: 使用 python-pptx 制作精美PPT，支持科技风设计、图文混排、HTML内容嵌入。
-- **[x-research-skill](skills/x-research-skill)**
-  - **描述**: 使用 twitterapi.io 研究 X (Twitter) 上的热门话题、想法和对话。
-- **[skill-publisher-claw-skill](skills/skill-publisher-claw-skill)**
-  - **描述**: 准备公开发布的利爪技能。将技能发布到 GitHub 或 ClawdHub 时使用 - 涵盖安全审核、可移植性、文档、git 卫生。触发器：发布技能、发布技能、审核技能、技能清单、准备发布技能。
-- **[mineru-pdf-parser](skills/mineru-pdf-parser)**
-  - **描述**: 使用 MinerU API 解析 PDF 文件（会将你指定的文件上传到 https://mineru.net 进行解析）。
-- **[caesar-research](skills/caesar-research)**
-  - **描述**: 使用 Caesar API 进行深入研究 - 运行查询、通过聊天进行跟进、集思广益和管理集合。
-- **[marila-skill-publish](skills/marila-skill-publish)**
-  - **描述**: 用于发布和更新 OpenClaw 技能到 ClawHub，并同步 GitHub Release。用户提到“发布技能”“发到 ClawHub”“发布这个 skill”“写完就发布”“上线这个技能”等场景时使用。包含完整发布步骤、版本规范、发布前检查清单、GitHub Release 同步规则和常见问题处理。
-- **[stirling-pdf](skills/stirling-pdf)**
-  - **描述**: 通过 Stirling-PDF API 进行 PDF 操作。合并、拆分、转换、OCR、压缩、签名、编辑等。自托管。
-- **[xiaohongshu-founder-growth-writer](skills/xiaohongshu-founder-growth-writer)**
-  - **描述**: 将粗略的笔记、创始人的见解和英文草稿变成自然的小红书帖子，让人感觉人性化、值得信赖、平台原生。
-- **[arxiv-reader](skills/arxiv-reader)**
-  - **描述**: 利用python，指定某个arxiv_id/url， 基于 LLM Agent 对这篇arxiv论文进行分类与深度阅读，直接print打印阅读笔记
-- **[weibo-publisher](skills/weibo-publisher)**
-  - **描述**: 使用浏览器自动化将帖子发布到微博（新浪微博）。当用户想要将内容发布到微博、在微博上分享更新、发布微博或自动发布微博时使用。支持带有表情符号、主题标签和提及的文本帖子。无需 API 密钥 - 使用带有托管浏览器配置文件的浏览器自动化。
-- **[xiaohongshu-publish-skill](skills/xiaohongshu-publish-skill)**
-  - **描述**: Xiaohongshu (RedNote/小红书) automation skill for content publishing and engagement. Publish image-text notes via the xhs API using cookies, and simulate browser interactions (search, browse, comment) via Playwright. 小红书自动发布与互动技能：通过 xhs API 直接发布图文笔记，通过 Playwright 模拟网页搜索、浏览与评论互动。"
-- **[exec-clawhub-publish-doctor](skills/exec-clawhub-publish-doctor)**
-  - **描述**: 诊断并缓解与 ClawHub 发布和 GitHub CLI 查询相关的 exec 相关工具故障（身份验证、浏览器登录、缺少依赖项、待处理的安全扫描可见性错误、错误的配置文件/技能 URL 以及 gh JSON 字段不匹配错误，例如未知 JSON 字段）。当将技能发布到 ClawHub 失败、检查报告临时错误或 GitHub CLI 搜索命令由于字段架构差异而失败时使用。
-- **[meyhem-researcher](skills/meyhem-researcher)**
-  - **描述**: 多查询研究工具。将主题分解为有针对性的查询，预览最重要的结果。没有 API 密钥。
-- **[remix-agent-publish](skills/remix-agent-publish)**
-  - **描述**: 使用 server-api v1 代理 REST API 和 Farcade 游戏 SDK 要求为 remix.gg 构建 Remix 游戏。
-- **[add-watermark-to-pdf](skills/add-watermark-to-pdf)**
-  - **描述**: 将文本水印添加到一个或多个 PDF，方法是将它们上传到解决方案 API，轮询直至完成，然后返回带水印的 PDF 的下载 URL（如果有多个，则返回 ZIP）。
-- **[change-pdf-permissions](skills/change-pdf-permissions)**
-  - **描述**: 通过将 PDF 上传到解决方案 API、轮询直至完成，然后返回更新的 PDF 的下载 URL，更改 PDF 的权限标志（编辑、打印、复制、表单、注释等）。
-- **[make-pdf-safe](skills/make-pdf-safe)**
-  - **描述**: 将 PDF 上传到解决方案 API，轮询直至完成，然后返回扁平化 PDF 的下载 URL，从而将 PDF 扁平化为非交互式“安全”版本。
-- **[librag-knowledge-recall](skills/librag-knowledge-recall)**
-  - **描述**: 使用 LibRAG 本地 `/api/v1/librag/knowbase/recall` 接口做知识库数据召回。适用于中文场景下的知识库检索、资料召回、证据段落提取、出处定位、基于知识库的问答取证，以及用户用“知识库查询”“数据召回”“从文档里找答案”等表达发起的任务。
-- **[feishu-document-reader](skills/feishu-document-reader)**
-  - **描述**: 使用飞书官方开放API读取并提取所有飞书（Lark）文档类型的内容
-- **[image-read](skills/image-read)**
-  - **描述**: 使用智谱AI的GLM-4V-Flash免费多模态API理解图片内容。当用户需要理解图片内容、描述图片、识别图中物体时使用此skill。
-- **[deepwiki](skills/deepwiki)**
-  - **描述**: 查询 DeepWiki MCP 服务器以获取 GitHub 存储库文档、wiki 结构和 AI 驱动的问题。
-- **[marketing-copy-knowledge](skills/marketing-copy-knowledge)**
-  - **描述**: 小黑老師 邱煜庭設計。Meta 廣告文案、Google 廣告文案、社群貼文：用 FABE x SPIN 產出更能轉換的廣告文案。支援 freemium/付費（X-Api-Key credits）。
-- **[obsidian-openclaw-sync](skills/obsidian-openclaw-sync)**
-  - **描述**: 在多个 iCloud 设备之间同步 Obsidian OpenClaw 配置。管理符号链接以实现无缝多设备同步。
-- **[rednote-cli](skills/rednote-cli)**
-  - **描述**: 当用户需要使用“@skills-store/rednote”CLI 从终端发布、搜索、检查、登录或以其他方式操作小红书（RedNote）时使用。处理“rednote login”时，期望该命令在成功时返回本地二维码图像路径，并将该二维码图像呈现给用户。
-- **[deepread-agent-setup](skills/deepread-agent-setup)**
-  - **描述**: 使用 OAuth 设备流通过 DeepRead OCR API 对 AI 代理进行身份验证。代理显示代码，用户在浏览器中批准它，然后代理接收存储为环境变量的 DEEPREAD_API_KEY。
-- **[notion-2026-01-15](skills/notion-2026-01-15)**
-  - **描述**: Notion API 更新至 2026 年 01 月 15 日，对创建、移动和管理页面、数据源和块进行了更改。
-- **[read-policy](skills/read-policy)**
-  - **描述**: 通过本地 Supabase Docker 堆栈从 PostgreSQL 读取 OpenClaw 策略。用于检查策略键，例如 auto_approve、priority_routing 或 available_skills。
-- **[jina-reader](skills/jina-reader)**
-  - **描述**: 通过 Jina AI Reader API 提取网页内容。三种模式：阅读（URL 转 Markdown）、搜索（网络搜索+完整内容）、地面（事实检查）。提取干净的内容而不暴露服务器 IP。
-- **[reporead](skills/reporead)**
-  - **描述**: 使用 RepoRead AI 分析 GitHub 存储库。当用户要求“分析存储库”、“生成文档”、“安全审核存储库”、“创建自述文件”或想要进行 AI 支持的存储库分析时使用。支持MCP服务器集成和REST API。
-- **[kimai-time-tracking](skills/kimai-time-tracking)**
-  - **描述**: 完成 Kimai 时间跟踪 API 集成。通过 REST API 管理时间表、客户、项目、活动、团队、发票和导出。支持时间跟踪工作流程、报告和管理操作。关键词 - kimai、zeiterfassung、时间表、跟踪、项目、客户、活动、发票、导出、计时器、stunden
-- **[google-tasks](skills/google-tasks)**
-  - **描述**: 使用 Google 任务 API 获取、显示、创建和删除 Google 任务。当用户要求检查、查看、列出、获取、添加、创建、移除或删除其 Google 任务、待办事项列表或任务项时使用。使用带有curl 和jq 的bash 脚本自动处理OAuth 身份验证。
-- **[google-calendar](skills/google-calendar)**
-  - **描述**: 通过 Google Calendar API 与 Google Calendar 交互 - 列出即将发生的事件、创建新事件、更新或删除它们。当您需要从 OpenClaw 以编程方式访问日历时，请使用此技能。
-- **[weeek-tasks](skills/weeek-tasks)**
-  - **描述**: 通过公共 API（任务管理器）进行 WEEEK 任务管理：获取任务列表，创建/更新/完成任务，在板/列之间移动，获取板和列的列表。在与 WEEEK API 集成并处理任务/板/列时使用。
-- **[task-review-workflow](skills/task-review-workflow)**
-  - **描述**: 用于任务驱动开发的标准 PR 审查和合并工作流程。在审查链接到任务的程序员代理 PR、决定合并与更改请求、处理合并后操作（Trello + 分支清理）以及发送明确的结果移交时使用。
-- **[openclaw-tour-planner](skills/openclaw-tour-planner)**
-  - **描述**: OpenClaw 代理的通用旅行计划技能。计划行程、查看天气、发现景点和估算预算——所有这些都通过自然对话进行。使用免费 API，核心功能无需 API 密钥。
-- **[minimax-plan-checker](skills/minimax-plan-checker)**
-  - **描述**: 获取 MiniMax 平台的套餐信息，包括套餐名称、额度、当前使用情况。当用户询问 MiniMax 套餐、额度使用情况、API 调用量、计费信息时使用此技能。
-- **[caldav-calendar](skills/caldav-calendar)**
-  - **描述**: 使用 vdirsyncer + khal 同步和查询 CalDAV 日历（iCloud、Google、Fastmail、Nextcloud 等）。适用于 Linux。
-- **[linear-todos](skills/linear-todos)**
-  - **描述**: 一个 CLI 工具，执行 Python 源代码以通过 Linear 的 API 管理待办事项。使用自然语言日期、优先级和日程安排创建任务。这是一种源代码执行技巧 - src/linear_todos/ 中的代码在调用命令时运行。
-- **[timestamp](skills/timestamp)**
-  - **描述**: *与过去的自己建立信任链。*
-- **[caldav-calendar-1-0-1](skills/caldav-calendar-1-0-1)**
-  - **描述**: 使用 vdirsyncer + khal 同步和查询 CalDAV 日历（iCloud、Google、Fastmail、Nextcloud 等）。适用于 Linux。
-- **[plan-flow](skills/plan-flow)**
-  - **描述**: 结构化人工智能辅助开发工作流程 - 发现、规划、执行、代码审查和测试
-- **[local-task-runner](skills/local-task-runner)**
-  - **描述**: 此技能提供了一种在主机上本地执行 Node.js 代码片段或完整脚本的机制。
-- **[beaverhabits](skills/beaverhabits)**
-  - **描述**: 使用 Beaver Habit Tracker API 跟踪和管理您的习惯。
-- **[runtime-debug-skill](skills/runtime-debug-skill)**
-  - **描述**: 使用运行时执行跟踪诊断和修复错误。在 Python、Node.js 或 Java 应用程序中调试错误、分析故障或查找根本原因时使用。
-- **[runtime-debugging-skill](skills/runtime-debugging-skill)**
-  - **描述**: 使用运行时执行跟踪诊断和修复错误。在 Python、Node.js 或 Java 应用程序中调试错误、分析故障或查找根本原因时使用。
-- **[task-delegator](skills/task-delegator)**
-  - **描述**: 任务委派模式 - 自动将所有需要使用工具的任务委派给子 agent 处理。始终用于：搜索、浏览、读写文件、代码执行、API 调用、数据分析。绝不用于：闲聊、无需工具的简单问答、确认事项。触发短语：委托这个 OR 当任何工具操作需要时隐式触发。核心行为：使用 sessions_spawn() 配合 cleanup:"delete" 保持主会话上下文精简。
-### 数据与分析 (Data & Analysis)
-
-- **[strava-cycling-coach](skills/strava-cycling-coach)**
-  - **描述**: 通过 Strava 跟踪和分析骑行表现。在分析骑行数据、查看健身趋势、了解锻炼表现或提供有关骑行训练的见解时使用。自动监控新游乐设施并提供性能分析。
-- **[healthsync](skills/healthsync)**
-  - **描述**: 查询存储在本地 SQLite 数据库中的 Apple Health 数据。使用此技能可以读取心率、步数、SpO2、VO2 Max、睡眠、锻炼、静息心率、HRV、血压、主动/基础能量、身体指标、活动能力、跑步指标、正念训练、手腕温度等。可以通过 healthsync CLI 或直接通过 SQLite 查询。只读——从不写入数据库。
-- **[chart-generator](skills/chart-generator)**
-  - **描述**: 生成 SVG 图表的数据可视化工具。当您需要条形图、折线图、饼图、表格、迷你图、仪表或原始数字的任何数据可视化时使用。触发条件：图表、图形、可视化、条形图、饼图、折线图、数据图、SVG。
-- **[sql-query-generator](skills/sql-query-generator)**
-  - **描述**: 通过验证、分页助手、风险分析和以审计为中心的保护措施生成安全的 SQL 查询。
-- **[diagrams-generator-pro](skills/diagrams-generator-pro)**
-  - **描述**: Generate professional diagrams including cloud architecture, data charts, academic figures, and more. Triggers on requests like "画架构图", "画图表", "画论文插图", "生成系统图", "create diagram", "visualize data", "draw neural network", or when users provide a sketch/image they want to recreate professionally.
-- **[hybrid-db-health](skills/hybrid-db-health)**
-  - **描述**: 验证 OpenClaw 代理使用的混合数据库系统（Pulse 任务 DB + RAG Pinecone 堆栈）并对其进行故障排除。当要求检查设置、连接状态或跨代理运行数据库运行状况测试时使用。
-- **[table-image-generator](skills/table-image-generator)**
-  - **描述**: 从数据生成干净的表格图像。非常适合 ASCII 表看起来损坏的 Discord/Telegram。支持暗/亮模式、自定义样式和自动调整大小。不需要傀儡师。图表图像技能的伴侣。
-- **[infographic-generation](skills/infographic-generation)**
-  - **描述**: 使用每个::sense AI 生成专业信息图表。创建针对视觉传达而优化的统计、流程、比较、时间线、列表、地理、分层、简历、报告和社交媒体信息图表。
-- **[database-schema-designer](skills/database-schema-designer)**
-  - **描述**: 数据库架构设计器
-- **[schema-builder](skills/schema-builder)**
-  - **描述**: 数据库模式设计器。设计表结构、生成 SQL DDL、迁移脚本、种子数据、ER 图、优化报告、NoSQL 架构和架构差异。命令：设计、sql、迁移、种子、erd、优化、nosql、比较。用于数据库设计、表结构、SQL 生成。
-- **[database-schema-differ](skills/database-schema-differ)**
-  - **描述**: 跨环境比较数据库架构、生成迁移脚本并跟踪架构演变。
-- **[chart-splat](skills/chart-splat)**
-  - **描述**: 通过 Chart Splat API 生成漂亮的图表。当用户要求以图表、图形或绘图的形式创建、生成或可视化数据时使用。支持折线图、条形图、饼图、圆环图、雷达图、极区图和烛台/OHLC 图表。返回 PNG 图像。
-- **[chart-image](skills/chart-image)**
-  - **描述**: 从数据生成出版质量的图表图像。支持折线图、条形图、面积图、点图、烛台图、饼图/圆环图、热图、多系列图和堆积图。在可视化数据、创建图表、绘制时间序列或生成报告/警报的图表图像时使用。专为 Fly.io/VPS 部署而设计 - 无需本机编译，无需 Puppeteer，无需浏览器。带有预构建二进制文件的纯 Node.js。
-- **[article-to-infographic](skills/article-to-infographic)**
-  - **描述**: 将文章、博客文章、报告或任何文本内容转换为视觉上令人惊叹的独立 HTML 信息图表。当用户想要将文本转换为信息图、创建文章的可视化摘要、根据书面内容进行数据可视化或从 URL、文件或粘贴文本生成信息图时使用。支持具有独特、非基因的多种信息图表样式（时间线、统计、比较、流程、列表）
-- **[afrexai-database-engineer](skills/afrexai-database-engineer)**
-  - **描述**: 完整的数据库设计、优化、迁移、操作系统。从模式设计到生产监控——涵盖 PostgreSQL、MySQL、SQLite 和通用 SQL 模式。
-- **[tg-mysql-design](skills/tg-mysql-design)**
-  - **描述**: MySQL数据库设计助手。根据业务规则文档和存量SQL DDL脚本，设计符合阿里巴巴规范的MySQL 5.7/8.0建表语句。当用户提到"数据库设计"、"建表语句"、"DDL"、"表结构设计"、"CREATE TABLE"等关键词时触发。支持读取业务规则文档（.md文件）、SQL脚本（.sql文件），输出遵循阿里云RDS规范的数据库表设计。
-- **[strava-python](skills/strava-python)**
-  - **描述**: 使用 Python/stravalib 和交互式设置查询 Strava 活动、统计数据和锻炼数据
-- **[xcode-build-analyzer](skills/xcode-build-analyzer)**
-  - **描述**: 分析 Xcode 构建日志 — 计时、警告、错误、缓慢编译以及来自 DerivedData 的构建历史记录。
-- **[database-designer](skills/database-designer)**
-  - **描述**: 数据库设计师 - 强大的层级技能
-- **[sql-to-bi-builder](skills/sql-to-bi-builder)**
-  - **描述**: 将包含 SQL 查询（例如“sql.md”）的 Markdown 文件转换为 BI 仪表板规范和 UI 支架。当用户要求从现有 SQL 语句构建分析仪表板、图表页面或 BI 界面时使用，包括查询解析、指标/维度推断、图表推荐、过滤器设计和布局生成。
-- **[openclaw-aisa-us-stock-analyst](skills/openclaw-aisa-us-stock-analyst)**
-  - **描述**: 专业美股分析，金融数据、新闻、社会情绪、多模型AI。综合报告每次分析费用为 0.02-0.10 美元。
-- **[openclaw-stock-data-skill](skills/openclaw-stock-data-skill)**
-  - **描述**: 使用 data.diemeng.chat 提供的接口查询股票日线、分钟线、财务指标等数据，支持 A 股等市场。
-- **[afrexai-churn-analyzer](skills/afrexai-churn-analyzer)**
-  - **描述**: 在客户离开之前识别出最有可能流失的客户。使用行为信号、使用模式和参与数据来对帐户进行评分并建议保留操作。
-- **[afrexai-data-analyst](skills/afrexai-data-analyst)**
-  - **描述**: **将原始数据转化为决策。不仅仅是图表——答案。**
-- **[afrexai-data-governance](skills/afrexai-data-governance)**
-  - **描述**: 跨 6 个领域评估、评分和修复组织的数据治理状况。
-- **[afrexai-data-privacy](skills/afrexai-data-privacy)**
-  - **描述**: [此处理涉及什么]
-- **[afrexai-data-room](skills/afrexai-data-room)**
-  - **描述**: 为筹款、并购或尽职调查构建结构化的虚拟数据室清单和文件夹层次结构。
-- **[afrexai-margin-analysis](skills/afrexai-margin-analysis)**
-  - **描述**: 按产品线、客户群和渠道分析毛利率、营业利润率和净利润率。确定利润侵蚀模式并建立定价能力。
-- **[afrexai-photography-mastery](skills/afrexai-photography-mastery)**
-  - **描述**: 完整的摄影系统——曝光、构图、灯光、特定类型的工作流程、编辑、装备选择、作品集构建和客户管理。从初学者到专业人士。
-- **[afrexai-swot-analyzer](skills/afrexai-swot-analyzer)**
-  - **描述**: 对任何业务、产品或战略决策进行结构化 SWOT 分析。
-- **[competitor-analyst](skills/competitor-analyst)**
-  - **描述**: 使用网络研究和结构化框架分析竞争对手
-- **[compact-state](skills/compact-state)**
-  - **描述**: 加入紧凑状态——一个具有链上身份、持久内存和集体治理的共享自治代理网络。
-- **[rubric-gap-analyzer](skills/rubric-gap-analyzer)**
-  - **描述**: 读取评分标准、作业要求或评估rubric，分析当前草稿的差距并给出提分计划。
-- **[backlink-analyzer](skills/backlink-analyzer)**
-  - **描述**: 当用户要求“分析反向链接”、“检查链接配置文件”、“查找有毒链接”、“链接构建机会”、“页外 SEO”、“谁链接到我”、“我有垃圾链接”、“如何获得更多反向链接”或“拒绝链接”时，应使用此技能。分析反向链接配置文件以了解链接权限、识别有毒链接、发现链接构建机会并监控竞争对手链接获取。对于页外 SEO 策略至关重要。为了
-- **[content-gap-analysis](skills/content-gap-analysis)**
-  - **描述**: 当用户要求“查找内容差距”、“我错过了什么”、“要涵盖的主题”、“内容机会”、“竞争对手写了哪些我没有写的内容”、“我错过了哪些主题”、“我的竞争对手涵盖了我缺乏的主题”或“我的内容盲点在哪里”时，应该使用此技能。通过查找竞争对手涵盖而您没有涵盖的主题和关键字来识别内容机会。揭示未开发的内容潜力和战略差距
-- **[wp-to-static](skills/wp-to-static)**
-  - **描述**: 将 WordPress 网站转换为静态网站并部署到 Cloudflare Pages。通过 SSH 镜像渲染的 HTML，仅提取引用的资源（将 1.5GB+ 缩小到约 25MB）、修复 URL、自托管字体、剥离 WordPress 残骸并进行部署。将 WordPress 网站迁移到静态托管时使用。
-- **[adhd-bookmark-analyzer](skills/adhd-bookmark-analyzer)**
-  - **描述**: 你的书签是一个墓地。这让他们重获新生。
-- **[seo-dataforseo](skills/seo-dataforseo)**
-  - **描述**: 使用 DataForSEO API 进行 SEO 关键词研究。执行关键字分析、YouTube 关键字研究、竞争对手分析、SERP 分析和趋势跟踪。当用户要求执行以下操作时使用：研究关键字、分析搜索量/每次点击费用/竞争、查找关键字建议、检查关键字难度、分析竞争对手、获取热门话题、进行 YouTube SEO 研究或优化着陆页关键字。需要 DataForSEO API 帐户和 .en 中的凭据
-- **[youtube-analytics](skills/youtube-analytics)**
-  - **描述**: YouTube 数据 API v3 分析工具包。分析 YouTube 频道、视频和搜索结果。当用户要求执行以下操作时使用：检查 YouTube 频道统计数据、分析视频性能、比较频道、搜索视频、获取订阅者数量、查看参与度指标、查找热门视频、获取频道上传或分析 YouTube 竞争。需要 Google Cloud Console 中的 YouTube Data API v3 密钥。
+  - **描述**: 实时监测中国大陆、台湾及日本的地震情况，并提供主动警报，数据来源于CENC、CWA和JMA的WebSocket。
 - **[survival-analysis-km](skills/survival-analysis-km)**
-  - **描述**: 生成 Kaplan-Meier 生存曲线，计算生存统计数据
-- **[a6-gemini-video-analyzer](skills/a6-gemini-video-analyzer)**
-  - **描述**: 处理 a6-gemini-video-analyzer 的智能模块。
-- **[gemini-video-analyzer](skills/gemini-video-analyzer)**
-  - **描述**: 处理 gemini-video-analyzer 的智能模块。
-- **[yindenganalyse](skills/yindenganalyse)**
-  - **描述**: 这是一个用于 CoPAW (Copilot Automation Workflow) 的标准 Skill，支持自动爬取银登网不良贷款转让公告及转让结果，并利用大模型（LLM）提取关键数据。
-- **[estat-mcp](skills/estat-mcp)**
-  - **描述**: Search and retrieve Japanese government statistics (人口, GDP, CPI, 貿易, 雇用) from e-Stat API — Japan's official open data portal with 3,000+ statistical tables. Population, economy, trade, employment data. Free API.
-- **[static-app](skills/static-app)**
-  - **描述**: 将静态网站部署到 Static.app 托管。当用户想要在 Static.app 上部署、上传或托管静态站点时使用。在“部署到 static.app”、“上传到 static”、“在 static.app 上托管”、“static.app 部署”等短语或使用 Static.app 托管服务时触发。
-- **[dataforseo-cli](skills/dataforseo-cli)**
-  - **描述**: 适用于 AI 代理的 LLM 友好关键字研究 CLI。通过 DataForSEO API 检查搜索量、CPC、关键字难度和竞争情况。查找相关关键词，分析竞争对手排名。默认情况下输出 TSV（针对代理上下文窗口进行了优化）。在进行 SEO 研究、内容规划或竞争性关键词分析时使用。
-- **[cs-analytics-tracking](skills/cs-analytics-tracking)**
-  - **描述**: 设置、审核和调试分析跟踪实施 — GA4、Google 跟踪代码管理器、事件分类、转化跟踪和数据质量。在从头开始构建跟踪计划、审核现有分析是否存在差距或错误、调试缺失事件或设置 GTM 时使用。触发关键字：GA4 设置、Google 跟踪代码管理器、GTM、事件跟踪、分析实施、转化跟踪、跟踪计划、事件分类、自定义维度、U
-- **[cs-financial-analyst](skills/cs-financial-analyst)**
-  - **描述**: 执行财务比率分析、DCF 评估、预算差异分析和滚动预测构建以进行战略决策。在分析财务报表、构建估值模型、评估预算差异或构建财务预测和预测时使用。当用户提及财务建模、现金流分析、公司估值、财务预测或电子表格分析时也适用。
-- **[senior-data-scientist](skills/senior-data-scientist)**
-  - **描述**: 世界一流的高级数据科学家技能，专门从事统计建模、实验设计、因果推理和预测分析。涵盖 A/B 测试（样本大小、二比例 z 测试、Bonferroni 校正）、双重差分、特征工程管道（Scikit-learn、XGBoost）、交叉验证模型评估（AUC-ROC、AUC-PR、SHAP）和 MLflow 实验跟踪 - 使用 Python（NumPy、Pandas、Scikit-learn）、R 和 SQ
-- **[a-stock-kline-analyzer](skills/a-stock-kline-analyzer)**
-  - **描述**: A股K线分析工具v1.0.6 - 实时行情、技术指标(MA/MACD/RSI/布林带)、K线形态识别、量能分析(量比/换手率/量价关系)、超详细结构化分析报告、技术评分系统、明日走势预测、完整名词解释
-- **[analytix402](skills/analytix402)**
-  - **描述**: 处理 analytix402 的智能模块。
+  - **描述**: 生成Kaplan-Meier生存曲线并计算生存统计量。
+### 生物与医学
+
+- **[krumpphysio](skills/krumpphysio)**
+  - **描述**: 此AI技能插件训练OpenClaw代理成为受Krump启发的物理治疗教练，提供治疗性动作评分、结合游戏化Krump词汇和拉班记谱法的康复指导以及可选的Canton账本记录。它通过将正宗Krump舞蹈改编为物理治疗来支持健康与福祉计划。
+- **[ocd-erp-therapist](skills/ocd-erp-therapist)**
+  - **描述**: 一个OpenClaw技能，用于进行强迫症暴露与反应预防（ERP）治疗，具备抑制性学习框架、自动跟进提醒、进度跟踪和安全协议。
+- **[bmi-calculator](skills/bmi-calculator)**
+  - **描述**: 一个提供理想体重、健康计划和体重追踪的BMI计算器，同时支持儿童BMI计算与解读。
+- **[quantinuumclaw](skills/quantinuumclaw)**
+  - **描述**: quantinuumclaw插件利用Quantinuum、Guppy、Selene和Fly.io支持量子计算应用的构建与部署。适用于医疗项目，如药物发现和治疗优化，也可用于创建基于量子技术的网络应用并将结果集成到用户界面中。
+- **[quantum](skills/quantum)**
+  - **描述**: 此插件利用Quantinuum、Guppy、Selene和Fly.io等平台，帮助构建和部署量子计算应用程序。它非常适合用于药物发现、治疗优化等医疗项目，以及构建和部署基于量子技术的网络应用。
+- **[afrexai-medical-billing](skills/afrexai-medical-billing)**
+  - **描述**: 优化医疗计费流程，减少索赔拒付，并识别收入漏洞，适用于医疗机构、计费公司和收入周期团队。
+- **[afrexai-pharmacy-compliance](skills/afrexai-pharmacy-compliance)**
+  - **描述**: 帮助药剂师、药店经理和合规官应对DEA、药房管理委员会、USP、DSCSA和PBM的要求。
+- **[clinical-data-extractor](skills/clinical-data-extractor)**
+  - **描述**: 从药学会议网站或PDF文档中提取并结构化临床试验数据，包括药品名称、制造商、适应症、临床阶段、试验名称、会议以及疗效和安全性数据，并输出到markdown文件。
+- **[medical](skills/medical)**
+  - **描述**: 严格保护隐私的个人健康记录管理，包括症状跟踪、药物管理和生命体征记录，以及为看医生做准备。请勿用于诊断或治疗建议。
+- **[healthie](skills/healthie)**
+  - **描述**: Healthie 是一个通过GraphQL API管理患者、预约、目标和文档的工具。
+- **[medical-record-structurer](skills/medical-record-structurer)**
+  - **描述**: 一款将口头或手写医疗记录转换为标准化电子病历的工具，支持语音和文本输入，自动字段识别并结构化输出。包含通过skillpay.me实现的按次付费功能。
+- **[biorxiv-openclaw-skill](skills/biorxiv-openclaw-skill)**
+  - **描述**: 访问bioRxiv预印本库，按日期范围或类别检索最新的生物学预印本，并获取论文的元数据，如标题、作者、DOI等。
+- **[medical-entity-extractor](skills/medical-entity-extractor)**
+  - **描述**: 从患者信息中提取症状、药物、实验室数值和诊断等医学实体。
+- **[medical-triage](skills/medical-triage)**
+  - **描述**: 根据医疗紧急程度将医疗信息分类为危急、紧急或常规。
+- **[lobster-bio-dev](skills/lobster-bio-dev)**
+  - **描述**: 为多代理生物信息学引擎Lobster AI贡献代码，包括开发代理、创建服务、理解架构、修复错误或添加功能。适合参与Lobster代码库或开源项目的人。
+- **[lobster-bio-use](skills/lobster-bio-use)**
+  - **描述**: Lobster AI技能分析生物数据，包括单细胞和批量RNA-seq、文献挖掘和数据集发现，并提供质量控制、聚类、标记识别、差异表达和可视化功能。
+- **[lobsterbio-use](skills/lobsterbio-use)**
+  - **描述**: “lobsterbio-use”AI技能插件执行全面的生物信息学分析，包括单细胞和批量RNA测序、基因组学、蛋白质组学、代谢组学、机器学习、药物发现、文献和数据集搜索以及可视化。支持多种数据格式及主要生物数据库的访问编号。
+- **[pharma-pharmacology-agent](skills/pharma-pharmacology-agent)**
+  - **描述**: 此药理学插件从SMILES评估药物候选物，提供ADME/PK分析、类药性评分和PAINS警告。它还能预测诸如血脑屏障通透性、溶解度及CYP3A4抑制等属性。
+- **[pharmaclaw-alphafold-agent](skills/pharmaclaw-alphafold-agent)**
+  - **描述**: 此AI技能插件从公共PDB/AlphaFold数据库检索蛋白质结构，使用ESMFold预测折叠，检测结合位点，并通过RDKit执行基本的分子对接。它与化学查询集成，支持基于SMILES的对接以及知识产权扩展和催化剂设计。
+- **[pharmaclaw-literature-agent](skills/pharmaclaw-literature-agent)**
+  - **描述**: pharmaclaw-literature-agent v2.0.0 通过挖掘PubMed、Semantic Scholar和bioRxiv上的文献，专注于二期或三期临床试验，助力新药发现。它提供结构化的结果，包括新颖性评分、标题、作者、摘要、DOI、MeSH术语和引用次数。
+- **[pharmaclaw-pharmacology-agent](skills/pharmaclaw-pharmacology-agent)**
+  - **描述**: 此药理学工具从SMILES评估药物候选物，提供ADME/PK分析、类药性评分及PAINS警告。
+- **[pharmaclaw-tox-agent](skills/pharmaclaw-tox-agent)**
+  - **描述**: 此AI技能插件名为'pharmaclaw-tox-agent'，通过计算关键ADMET描述符、检查化学规则违反情况和评估类药性，从SMILES表示法中评价药物的安全性。它输出风险分类和详细的属性报告，并建议更安全的衍生物。
+- **[clarity-clinical](skills/clarity-clinical)**
+  - **描述**: 通过Clarity协议查询ClinVar和gnomAD的临床变异数据。该技能提供详细的变异注释，包括临床意义、致病性和群体遗传学信息。
+- **[bioskills](skills/bioskills)**
+  - **描述**: 此插件安装了425种生物信息学技能，涵盖序列分析、RNA-seq、单细胞、变异检测、宏基因组学和结构生物学等多个领域。适用于建立生物信息学能力或处理需要特定技能的任务。
+- **[tnbc-research-swarm](skills/tnbc-research-swarm)**
+  - **描述**: 加入TNBC研究群，注册为参与者，接收并完成研究或质量控制审核任务，从开放数据库中提交关于人口统计学、药物抗性、亚型、遗传学、生物标志物和诊断等主题的研究发现。
+- **[research-automation](skills/research-automation)**
+  - **描述**: 自动化的网络研究工具，适用于肽类、生物黑客、长寿科学和健康趋势等主题。适合发现新信息、跟踪趋势、监控科研更新或生成内容创意。支持定期或按需运行。
+- **[neuralink-decoder](skills/neuralink-decoder)**
+  - **描述**: 模拟并解码神经脉冲活动以控制光标移动（脑机接口）。
 - **[intelligent-triage-symptom-analysis](skills/intelligent-triage-symptom-analysis)**
-  - **描述**: 智能分诊和症状分析技能。支持 11 个身体系统的 650 多种症状。基于 ESI 和曼彻斯特分诊系统，具有 5 级分诊分类。具有NLP驱动的症状提取、3000+疾病数据库、红旗预警机制（危及生命的情况准确率≥95%）以及机器学习辅助鉴别诊断。
-- **[capability-composition-analyzer](skills/capability-composition-analyzer)**
-  - **描述**: 处理 capability-composition-analyzer 的智能模块。
-- **[capability-graph-mapper](skills/capability-graph-mapper)**
-  - **描述**: 处理 capability-graph-mapper 的智能模块。
-- **[financial-analyst](skills/financial-analyst)**
-  - **描述**: 用于市场研究、股票研究、可比公司、先例交易和 DCF 估值的财务分析和研究工作流程。当被要求构建或评论 DCF 模型、比较/先例表、竞争对手或策略分析、市场规模，或从 CSV/Excel/SQL/API/Web 数据以 Excel、PowerPoint 或 Markdown 形式提供可供分析师使用的输出时使用。
-- **[dataset-finder](skills/dataset-finder)**
-  - **描述**: 当用户需要搜索数据集、下载数据文件或探索数据存储库时，请使用此技能。触发器包括：请求“查找数据集”、“搜索数据”、“从 Kaggle 下载数据集”、“从 Hugging Face 获取数据”、“查找 ML 数据集”，或提及 Kaggle、UCI ML Repository、Data.gov 或 Hugging Face 等数据存储库。还可用于预览数据集统计信息、生成数据卡或发现数据集
-- **[compliance-analyzer](skills/compliance-analyzer)**
-  - **描述**: 根据 CIS、SOC 2、HIPAA 或 PCI-DSS 控制措施映射 AWS 环境，并进行优先修复
-- **[spend-analyzer](skills/spend-analyzer)**
-  - **描述**: 分析 AWS 成本和使用情况报告，以确定所有关联账户的主要成本驱动因素、浪费和异常情况
-- **[simple-excel](skills/simple-excel)**
-  - **描述**: 简单的 Excel 文件处理工具。用于读取、创建、编辑 .xlsx 和 .csv 文件，适合基本的数据操作任务，如读取数据、简单计算、生成表格等。
-- **[football-data](skills/football-data)**
-  - **描述**: 处理 football-data 的智能模块。
-- **[csv-wizard](skills/csv-wizard)**
-  - **描述**: 交互式数据清洗 CLI，支持自动类型推断、缺失值处理、重复检测
-- **[opinion-analyzer](skills/opinion-analyzer)**
-  - **描述**: 处理 opinion-analyzer 的智能模块。
-- **[swotpal-swot-analysis](skills/swotpal-swot-analysis)**
-  - **描述**: 由 SWOTPal.com 提供支持的专业 SWOT 分析和竞争比较
-- **[clawstats](skills/clawstats)**
-  - **描述**: OpenClaw 的全面系统监控：CPU、RAM、磁盘和进程。
-- **[expanso-csv-to-json](skills/expanso-csv-to-json)**
-  - **描述**: “将 CSV 数据转换为 JSON 对象数组”
-- **[expanso-json-to-csv](skills/expanso-json-to-csv)**
-  - **描述**: “将 JSON 对象数组转换为 CSV 格式”
-- **[ai-data-analysis](skills/ai-data-analysis)**
-  - **描述**: # 数据分析服务
-- **[jtbd-analyzer](skills/jtbd-analyzer)**
-  - **描述**: 揭示客户雇用您的产品来完成的真正“工作”。超越功能来理解功能、情感和社会动机。当用户说“要完成的工作”、“jtbd”、“客户为什么这样做”、“什么工作”、“客户动机”、“什么问题”、“用户需求”、“人们为什么购买”时使用。
-- **[pre-mortem-analyst](skills/pre-mortem-analyst)**
-  - **描述**: 想象一下该项目已经失败了，然后向后查找原因。比风险评估更强大，因为它假设失败是肯定的。当用户说“事前剖析”、“事前剖析”、“想象一下失败了”、“可能会出什么问题”、“风险分析”、“在我们启动之前”、“压力测试”、“什么会杀死这个”、“项目风险”时使用。
-- **[ironclaw-pipeline-analytics](skills/ironclaw-pipeline-analytics)**
-  - **描述**: 从 CRM 数据生成交互式分析仪表板。当被要求“显示管道统计信息”、“创建报告”、“分析潜在客户”、“显示转化率”、“构建仪表板”、“可视化外展数据”、“漏斗分析”或来自 DuckDB 工作区数据的任何数据可视化请求时使用。
-- **[kleo-static-files](skills/kleo-static-files)**
-  - **描述**: 处理 kleo-static-files 的智能模块。
-- **[project-deep-analyzer](skills/project-deep-analyzer)**
-  - **描述**: 深度分析项目的系统边界、核心概念、模块架构、关键算法、技术选型以及错误排查。当用户需要深入理解代码库或定位疑难问题时调用。
-- **[bank-statement-converter](skills/bank-statement-converter)**
-  - **描述**: 处理 bank-statement-converter 的智能模块。
-- **[personality-analysis-yang](skills/personality-analysis-yang)**
-  - **描述**: 根据一个人的书面文字或聊天消息分析他的性格特征。每当用户想要从文本中了解某人的性格、性格、沟通方式或行为倾向时，就可以使用此技能。当用户说“分析这个人的个性”、“什么样的人写了这个”、“根据他们的消息告诉我关于这个人的信息”、“描述这个人”、“这个文本对他们的信息有何描述”时触发
-- **[datafast-analytics](skills/datafast-analytics)**
-  - **描述**: 通过 DataFast API 查询 DataFast 网站分析和访客数据，以获取指标、时间序列、实时统计数据、故障、访客详细信息和目标/付款管理。
-- **[options-analyzer](skills/options-analyzer)**
-  - **描述**: 处理 options-analyzer 的智能模块。
-- **[csv-analyzer-cn](skills/csv-analyzer-cn)**
-  - **描述**: ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────当您需要 csv 分析器 cn 功能时使用。触发：csv 分析器 cn。
-- **[google-analytics](skills/google-analytics)**
-  - **描述**: 处理 google-analytics 的智能模块。
-- **[microsoft-excel](skills/microsoft-excel)**
-  - **描述**: 处理 microsoft-excel 的智能模块。
-- **[clawhub-market-analyzer](skills/clawhub-market-analyzer)**
-  - **描述**: 分析 ClawHub 市场，以确定技能创造者的赚钱机会、竞争和定价策略。
-- **[amazon-analyse](skills/amazon-analyse)**
-  - **描述**: 对亚马逊竞品Listing进行全维度穿透分析，包括文案逻辑、评论分析、关键词分析、市场动态等。分析完成后自动保存为Markdown报告文档到reports/目录。Invoke when user uses /amazon-analyse command with a product ASIN.
-- **[investment-data-1-0-0](skills/investment-data-1-0-0)**
-  - **描述**: 获取高质量 A 股投资数据，基于 investment_data 项目。支持日终价格、涨跌停数据、指数数据等。每日更新，多数据源交叉验证。触发词：股票数据、A股数据、金融数据、量化数据、历史行情。
-- **[tech-data-playbook](skills/tech-data-playbook)**
-  - **描述**: 处理 tech-data-playbook 的智能模块。
-- **[plausible-analytics](skills/plausible-analytics)**
-  - **描述**: 从 Plausible Analytics 查询和分析网站分析。当您需要检查实时访问者、获取一段时间内的页面浏览量和访问者统计数据、分析流量来源或热门页面、检查地理分布或为通过合理分析跟踪的网站生成分析报告和见解时使用。
-- **[alicloud-data-analytics-dataanalysisgbi](skills/alicloud-data-analytics-dataanalysisgbi)**
-  - **描述**: 通过OpenAPI/SDK管理阿里云数据分析GBI。每当用户需要 DataAnalysisGBI 资源生命周期操作、配置更改、状态检查或分析服务工作流故障排除时使用。
-- **[alicloud-data-lake-dlf-next](skills/alicloud-data-lake-dlf-next)**
-  - **描述**: 通过OpenAPI/SDK管理阿里云数据湖形成（DlfNext）。每当用户需要 DLF Next 目录/管理资源操作时使用，包括列出资源、创建/更新流程、状态检查以及元数据工作流程问题故障排除。
-- **[alicloud-data-lake-dlf](skills/alicloud-data-lake-dlf)**
-  - **描述**: 通过OpenAPI/SDK管理阿里云数据湖（DataLake）。每当用户请求 DataLake 目录资源操作、配置更新、状态查询或对 DataLake API 工作流程进行故障排除时使用。
-- **[azuredatastudio](skills/azuredatastudio)**
-  - **描述**: Azure Data Studio 是一种数据管理和开发工具，可连接到流行的云和 azuredatastudio、typescript、azure、azure-data-studio、Electron、microsoft、postgresql。当需要 azuredatastudio 功能时使用。触发条件：azuredatastudio。
-- **[error-analysis](skills/error-analysis)**
-  - **描述**: 处理 error-analysis 的智能模块。
-- **[graphql-builder](skills/graphql-builder)**
-  - **描述**: 错误：--需要输入。当您需要 graphql 构建器功能时使用。触发条件：graphql 构建器、类型、实体、字段、关系、语言。
+  - **描述**: 此AI技能插件提供智能分诊和症状分析，支持11个身体系统的650多种症状，并采用5级分类。它利用自然语言处理技术提取症状，拥有3000多种疾病的数据库，并通过机器学习增强对危及生命状况的警示机制。
 - **[clarity-analyze](skills/clarity-analyze)**
-  - **描述**: 处理 clarity-analyze 的智能模块。
+  - **描述**: 通过Clarity协议提交研究问题以进行AI分析，适用于蛋白质变体、突变分析或查询汇总数据。需要CLARITY_WRITE_API_KEY。
 - **[clarity-fold-status](skills/clarity-fold-status)**
-  - **描述**: 处理 clarity-fold-status 的智能模块。
-- **[competitor-analyzer](skills/competitor-analyzer)**
-  - **描述**: 在几分钟内分析任何公司的竞争地位。获取公司名称或 URL 并生成结构化报告，涵盖其业务、定价、社交形象和最新新闻。
-- **[shelly-competitor-analyzer](skills/shelly-competitor-analyzer)**
-  - **描述**: 在几分钟内分析任何公司的竞争地位。获取公司名称或 URL 并生成结构化报告，涵盖其业务、定价、社交形象和最新新闻。
-- **[shelly-seo-analyzer](skills/shelly-seo-analyzer)**
-  - **描述**: 分析任何网页 URL 的 SEO 问题并获得可行的建议。检查标题标签、元描述、标题结构、关键字密度、图像 alt 标签、开放图谱等。
-- **[a-stock-analysis](skills/a-stock-analysis)**
-  - **描述**: A股实时行情与分时量能分析。获取沪深股票实时价格、涨跌、成交量，分析分时量能分布（早盘/尾盘放量）、主力动向（抢筹/出货信号）、涨停封单。支持持仓管理和盈亏分析。Use when: (1) 查询A股实时行情, (2) 分析主力资金动向, (3) 查看分时成交量分布, (4) 管理股票持仓, (5) 分析持仓盈亏。
-- **[native-google-analytics](skills/native-google-analytics)**
-  - **描述**: 直接通过 Analytics Data API 查询 Google Analytics 4 (GA4) 数据。当您需要网站分析（例如首页、流量来源、会话、用户、转化、跳出率或任何 GA4 指标和维度）时使用。支持自定义日期范围、过滤和多指标查询。直接调用analyticsdata.googleapis.com，无需第三方代理。
-- **[analyse-data](skills/analyse-data)**
-  - **描述**: 处理 analyse-data 的智能模块。
-- **[analysis-data](skills/analysis-data)**
-  - **描述**: 处理 analysis-data 的智能模块。
-- **[data-analysis-pro](skills/data-analysis-pro)**
-  - **描述**: 处理 data-analysis-pro 的智能模块。
-- **[data-ground-truth](skills/data-ground-truth)**
-  - **描述**: 在报告或建议中提供数字之前，请验证事实并根据行业基线检查值。
-- **[nexus-data-profile](skills/nexus-data-profile)**
-  - **描述**: 数据集的统计分析和质量评估
-- **[a-share-analysis](skills/a-share-analysis)**
-  - **描述**: A股全面分析工具，支持实时行情、技术分析、基本面分析、情绪分析，生成美观的Markdown分析报告。Use when user asks for: A股股票分析、市场行情查询、技术指标分析、财务数据获取、投资建议、龙虎榜数据、北向资金流向、综合投资报告等A股相关分析需求。
-- **[il-stock-analysis](skills/il-stock-analysis)**
-  - **描述**: 针对 TASE 上市证券的全面以色列股票分析，包括基本面分析（财务指标、业务质量、估值）、技术分析（指标、图表模式、支撑/阻力）、股票比较和投资报告生成。支持希伯来语和英语查询、TASE 股票代码和 ETF 编号。当用户请求分析以色列股票时使用（例如，“分析 ALRT”、“比较以色列银行与 Hapoalim 银行”、“an
-- **[hipaa-gap-analysis](skills/hipaa-gap-analysis)**
-  - **描述**: 根据 HIPAA 安全规则和隐私规则要求评估合规性文档。生成结构化的结果，包括每个控制的覆盖状态、置信度分数、证据引用和补救步骤。
-- **[doubao-video-analyzer](skills/doubao-video-analyzer)**
-  - **描述**: 使用豆包2.0模型解析视频。当需要执行分析视频内容等需要理解视频视觉信息时调用该技能。你必须在持有本地视频路径或网络视频链接时才能调用该技能
-- **[audience-segmentation-analyst](skills/audience-segmentation-analyst)**
-  - **描述**: 为 Meta (Facebook/Instagram)、Google Ads、TikTok 广告、YouTube 广告和 DSP/程序化营销活动制定受众群体细分和定位计划。
-- **[campaign-retrospective-analyst](skills/campaign-retrospective-analyst)**
-  - **描述**: 对 Meta (Facebook/Instagram)、Google Ads、TikTok 广告、YouTube 广告、亚马逊广告和 DSP/程序化渠道上的广告活动进行回顾性分析。
-- **[creative-performance-analyzer](skills/creative-performance-analyzer)**
-  - **描述**: 分析 Meta (Facebook/Instagram)、TikTok 广告、YouTube 广告、Google Ads 和 Amazon 广告库存的发布后创意表现。
-- **[deep-marketing-analyst](skills/deep-marketing-analyst)**
-  - **描述**: 使用来自 Meta (Facebook/Instagram)、Google Ads、TikTok 广告、YouTube 广告、亚马逊广告和 DSP/程序化的跨平台证据进行深入的战略分析。
-- **[marketing-insight-analyzer](skills/marketing-insight-analyzer)**
-  - **描述**: 为 Meta (Facebook/Instagram)、Google Ads、TikTok 广告、YouTube 广告、亚马逊广告和 DSP/程序化的付费媒体决策提供市场和竞争对手洞察。
-- **[traffic-structure-analyzer](skills/traffic-structure-analyzer)**
-  - **描述**: 分析来自 Meta (Facebook/Instagram)、Google Ads、TikTok 广告、YouTube 广告、亚马逊广告和 DSP/程序化渠道的流量构成和质量趋势。
-- **[csv-handler](skills/csv-handler)**
-  - **描述**: 处理来自建筑软件导出的 CSV 文件。自动检测分隔符、编码并清理混乱的数据。”
-- **[data-evolution-analysis](skills/data-evolution-analysis)**
-  - **描述**: 分析建筑组织中的数据演变模式。评估建筑公司的数字成熟度和数据策略”
-- **[data-lineage-tracker](skills/data-lineage-tracker)**
-  - **描述**: 跟踪构建系统中的数据来源、转换和流程。对于审计跟踪、合规性和调试数据问题至关重要。”
-- **[prd-visualization-skill](skills/prd-visualization-skill)**
-  - **描述**: 创建具有多种视图模式的交互式 D3.js 层次结构可视化（列表、力导向、径向集群，以及即将推出的分形树）。当用户想要可视化树结构、分层数据、PRD、需求、功能、规范、组织结构图、文件结构，或说“可视化层次结构”、“树视图”、“显示结构”、“渲染树”、“层次结构图”、“prd”、“需求”、“功能”、“规范”时使用。总是使用
-- **[market-research-agent](skills/market-research-agent)**
-  - **描述**: 对任何行业、竞争对手或机会进行结构化市场研究。使用经过验证的框架分析市场规模、趋势、竞争对手和客户群。
-- **[tavily-research-pro](skills/tavily-research-pro)**
-  - **描述**: 专业的人工智能搜索和深度研究引擎。具有多维数据聚合、语义分析和自动生成报告以收集结构化信息的功能。
-- **[agxntsix-research-logger](skills/agxntsix-research-logger)**
-  - **描述**: 具有自动 SQLite 日志记录和 Langfuse 跟踪功能的 AI 研究管道
-- **[research-logger](skills/research-logger)**
-  - **描述**: 具有自动记录功能的人工智能研究管道。通过 Perplexity 搜索，将结果自动保存到带有主题和项目元数据的 SQLite，完整的 Langfuse 跟踪。再也不会失去一次研究会议了。在进行研究、竞争分析或构建知识库时使用。
-- **[pdf-ocr-layout](skills/pdf-ocr-layout)**
-  - **描述**: 基于智普GLM-OCR、GLM-4.7、GLM-4.6V的多模态文档深度分析工具。
-- **[pdf-tools](skills/pdf-tools)**
-  - **描述**: 查看、提取、编辑和操作 PDF 文件。支持文本提取、文本编辑（叠加和替换）、合并、拆分、旋转页面以及获取 PDF 元数据。在处理 PDF 文档以阅读内容、添加/编辑文本、重新组织页面、组合文件或提取信息时使用。
-- **[notion-1-0-0](skills/notion-1-0-0)**
-  - **描述**: 用于创建和管理页面、数据库和块的概念 API。
-- **[4chan-reader](skills/4chan-reader)**
-  - **描述**: 浏览 4chan 版块并将主题讨论提取到结构化文本文件中。当您需要从 4chan 版块（如 /a/、/vg/、/v/ 等）获取目录信息或特定线程内容（包括帖子文本和文件元数据）时使用。
-- **[recursive-knowledge-miner](skills/recursive-knowledge-miner)**
-  - **描述**: 专业的多层知识抽取和递归知识图谱构建。
-- **[notion-template](skills/notion-template)**
-  - **描述**: Notion模板生成器。工作空间规划、数据库设计、仪表盘布局、知识库Wiki、项目管理、个人模板。Notion template generator with workspace, database, dashboard, wiki, project, and personal templates. Use when you need notion template capabilities. Triggers on: notion template.
-- **[xml-reader](skills/xml-reader)**
-  - **描述**: 从施工系统读取并解析 XML - P6 明细表、BSDD 导出、IFC-XML、COBie-XML。转换为 pandas 数据帧。”
-- **[obsidian-cloudflare-pages-skill](skills/obsidian-cloudflare-pages-skill)**
-  - **描述**: 将选定的 Obsidian markdown 从保管库发布到静态站点并部署到 Cloudflare Pages。
-- **[openclaw-skill-obsidian-cloudflare-pages](skills/openclaw-skill-obsidian-cloudflare-pages)**
-  - **描述**: 将选定的 Obsidian markdown 从保管库发布到静态站点并部署到 Cloudflare Pages。
-- **[vibe-notion](skills/vibe-notion)**
-  - **描述**: 使用非官方私有 API 与 Notion 交互 - 页面、数据库、块、搜索、用户、评论
-- **[vibe-notionbot](skills/vibe-notionbot)**
-  - **描述**: 使用官方 API 与 Notion 工作区交互 - 管理页面、数据库、块、用户和评论
-- **[notion-skill](skills/notion-skill)**
-  - **描述**: 通过官方 Notion API 使用 Notion 页面和数据库。
-- **[notion-clipper-skill](skills/notion-clipper-skill)**
-  - **描述**: 将网页剪辑到 Notion。通过 Chrome CDP 获取任何 URL，将 HTML 转换为 Markdown，然后转换为 Notion 块，并保存到用户指定的 Notion 数据库或页面。当用户想要将网页保存/剪辑到Notion，或提到“剪辑到概念”、“将页面保存到概念”、“网页剪藏到Notion”时使用。
-- **[wechat-to-notion](skills/wechat-to-notion)**
-  - **描述**: 将微信公众号文章保存到Notion数据库中。当用户发送 mp.weixin.qq.com 链接并希望将其保存/存档到 Notion 时使用。获取标题、封面图像、正文内容（段落、标题、图像、代码块、列表）并将它们写入概念块。
-- **[macos-notification-reader](skills/macos-notification-reader)**
-  - **描述**: 读取 macOS 通知中心数据库并将最近的通知导出到 Markdown 文件。还支持自动**工作通知摘要**以及过滤和传递。
-- **[afrexai-compensation-planner](skills/afrexai-compensation-planner)**
-  - **描述**: 建立数据驱动的薪酬结构，在不支付过高薪酬的情况下吸引人才。涵盖基本工资范围、股权/奖金框架、地域差异和总奖励组合。
-- **[afrexai-event-planner](skills/afrexai-event-planner)**
-  - **描述**: 规划、执行和衡量商业活动——会议、网络研讨会、研讨会、产品发布会、社交活动、贸易展览和企业聚会。从概念到活动后投资回报率分析的完整活动生命周期。
-- **[afrexai-workforce-planning](skills/afrexai-workforce-planning)**
-  - **描述**: 制定数据驱动的劳动力计划，使员工数量、技能和成本与业务目标保持一致。涵盖需求预测、差距分析、继任计划和临时劳动力战略。
-- **[system-uptime](skills/system-uptime)**
-  - **描述**: 使用本机“uptime”命令获取当前系统正常运行时间。使用时间：用户询问系统正常运行时间、系统状态或系统运行了多长时间。
-- **[farmos-tasks](skills/farmos-tasks)**
-  - **描述**: 查询和管理农场工单和任务。查看分配、创建任务、更新状态。使用集成端点（无身份验证）进行读取，使用经过身份验证的端点进行写入。
-- **[little-steve-task-manager](skills/little-steve-task-manager)**
-  - **描述**: Little Steve Task Manager: a lightweight IM-native task system for quick task operations in chat, with daily summaries and auto status updates. / 小史任务管理器：面向 IM 场景的轻量任务系统，可在聊天中快速管理任务，并支持每日汇总与自动状态更新。
-### 可视化与展示 (Visual & Presentation)
-
-- **[smart-illustrator](skills/smart-illustrator)**
-  - **描述**: 智能配图与 PPT 信息图生成器。支持三种模式：(1) 文章配图模式 - 分析文章内容，生成插图；(2) PPT/Slides 模式 - 生成批量信息图；(3) Cover 模式 - 生成封面图。所有模式默认生成图片，`--prompt-only` 只输出 prompt。支持 Bento Grid 功能展示图风格（--style bento）。触发词：配图、插图、PPT、slides、封面图、thumbnail、cover、bento grid、功能展示图、feature showcase。
-- **[mermaid-architect](skills/mermaid-architect)**
-  - **描述**: 使用强大的语法（带引号的标签、ELK 布局）生成漂亮的手绘美人鱼图。当用户要求“图表”、“流程图”、“序列图”或“可视化此过程”时，请使用此技能。
-- **[slide-sniper](skills/slide-sniper)**
-  - **描述**: 后台监控全屏视频或直播，利用视觉模型检测幻灯片翻页，自动截图提取文字并排版到笔记软件中。
-- **[visual-file-sorter](skills/visual-file-sorter)**
-  - **描述**: 自动遍历下载文件夹或桌面，利用视觉模型“看”文件内容并重命名，最后归档到指定分类目录。
-- **[tiktok-slideshow](skills/tiktok-slideshow)**
-  - **描述**: 处理 tiktok-slideshow 的智能模块。
-- **[mermaid-visualizer](skills/mermaid-visualizer)**
-  - **描述**: 将文本内容转换为专业的美人鱼图以进行演示和记录。当用户要求可视化概念、创建流程图或从文本制作图表时使用。支持流程、系统架构、比较、思维导图等，并具有内置语法错误预防功能。
-- **[ppt-outline](skills/ppt-outline)**
-  - **描述**: PPT outline and HTML presentation generator. PPT大纲、PPT模板、演示文稿、presentation、PowerPoint、幻灯片、slides、HTML演示文稿、HTML slides、浏览器演示、商业路演、pitch deck、BP商业计划书、business plan、工作汇报PPT、培训课件、课件大纲、产品介绍PPT、产品发布、keynote、演讲稿、述职PPT、答辩PPT、竞品分析PPT、毕业答辩、论文答辩、项目复盘、迭代复盘。Generate PPT outlines and standalone HTML presentations (open directly in browser, no dependencies). Use when: (1) creating PPT/presentation outlines, (2) building pitch deck/BP structures, (3) preparing w
-- **[google-slides](skills/google-slides)**
-  - **描述**: 处理 google-slides 的智能模块。
-- **[pptx-pdf-font-fix](skills/pptx-pdf-font-fix)**
-  - **描述**: 通过修补 PPTX 文件中的文本透明度来修复 PDF 导出中的 PowerPoint 字体嵌入问题。当用户的 PPTX 文件中导出的 PDF 显示错误/默认字体而不是预期的下载/自定义字体时使用，即使启用了字体嵌入也是如此。通过对完全不透明的文本运行应用最小 (1%) 透明度来工作，这会强制 PowerPoint 在 PDF 导出期间正确嵌入字体。
-- **[skill-mermaid-diagrams](skills/skill-mermaid-diagrams)**
-  - **描述**: 为技术内容生成一致的、基于模板的美人鱼图。支持 12 种图表类型（架构、流程图、序列、概念图、径向概念、时间线、比较、比较表、甘特图、思维导图、类图、状态图），具有自动模板选择、LLM 支持的内容生成、语法验证和错误处理。在创建技术插图、系统架构视觉效果、项目时间表时使用
-- **[mermaid-image-uploader](skills/mermaid-image-uploader)**
-  - **描述**: 将 Mermaid 图表转换为图片并上传到免费图床，专为公众号文章设计。
-- **[xfyun-ppt-gen](skills/xfyun-ppt-gen)**
-  - **描述**: 从优化的主题关键字生成专业、结构化的 PowerPoint 演示文稿。
-- **[tiangong-wps-ppt-automation](skills/tiangong-wps-ppt-automation)**
-  - **描述**: 通过 COM 在 Windows 上自动执行常见的 PowerPoint/WPS 演示操作（读取文本/注释/大纲、导出 PDF/图像、替换文本、插入/删除幻灯片、统一字体/大小/主题、提取图像/媒体）。用于单一演示操作（无批量）。
-- **[ai-interior-design-visualizer](skills/ai-interior-design-visualizer)**
-  - **描述**: **Slug:** `ai-interior-design-visualizer`
-- **[openclaw-visual](skills/openclaw-visual)**
-  - **描述**: 处理 openclaw-visual 的智能模块。
-- **[gws-slides](skills/gws-slides)**
-  - **描述**: Google 幻灯片：阅读和撰写演示文稿。
-- **[multimedia-to-obsidian](skills/multimedia-to-obsidian)**
-  - **描述**: 将任意多媒体文档导入 Obsidian 知识库。支持 PPT、PDF、DOCX、图片等格式，自动提取每一页/每一张图片，使用多模态模型理解内容，生成文字描述后存入 OB。适用于：(1) 整理培训课件 (2) 迁移笔记到 OB (3) 将图片资料转为结构化知识。
-- **[obsidian-canvas-creator](skills/obsidian-canvas-creator)**
-  - **描述**: 从文本内容创建 Obsidian Canvas 文件，支持 MindMap 和自由格式布局。当用户想要将内容可视化为交互式画布、创建思维导图或以黑曜石格式在空间上组织信息时，请使用此技能。
-### 学术研究与写作 (Academic & Writing)
-
-- **[wechat-article-forge](skills/wechat-article-forge)**
-  - **描述**: 端到端的微信公众号（微信公众号）文章撰写和发布管道。 9步多智能体工作流程：主题研究→中文首次写作→盲质量审查→事实检查→格式化→人工预览→剪贴簿插图→草稿箱发布。当用户要求撰写、起草或发布微信文章，或说“伪造撰写/草稿/发布/主题/语音/状态”时使用。
-- **[wechat-publisher](skills/wechat-publisher)**
-  - **描述**: 一键发布 Markdown 到微信公众号草稿箱。基于 wenyan-cli，支持多主题、代码高亮、图片自动上传。
-- **[rednote-publisher](skills/rednote-publisher)**
-  - **描述**: **功能**：自动化完成小红书长图文笔记的完整发布流程
-- **[rednote-viral-writer](skills/rednote-viral-writer)**
-  - **描述**: **功能**：基于 9000+ 点赞爆款结构，快速生成高互动率笔记
-- **[xiaohongshu-viral-writing](skills/xiaohongshu-viral-writing)**
-  - **描述**: **功能**：基于 9000+ 点赞爆款结构，快速生成高互动率笔记
-- **[afrexai-grant-writer](skills/afrexai-grant-writer)**
-  - **描述**: 撰写获奖提案和资助申请。适用于政府拨款（SBIR、Innovate UK、Horizo​​n Europe）、基金会拨款和企业资助计划。
-- **[afrexai-prospect-researcher](skills/afrexai-prospect-researcher)**
-  - **描述**: 使用网络搜索研究并鉴定 B2B 潜在客户。利用公司情报、关键联系人、痛点和参与建议构建结构化档案。
-- **[afrexai-seo-writer](skills/afrexai-seo-writer)**
-  - **描述**: 撰写针对搜索引擎和人类优化的博客文章
-- **[afrexai-ux-research-engine](skills/afrexai-ux-research-engine)**
-  - **描述**: 完整的用户体验研究和设计系统——用户发现、角色构建、旅程映射、可用性测试、研究综合和设计验证。零依赖。
-- **[ai-researcher](skills/ai-researcher)**
-  - **描述**: 通过结构化分析、源评估和综合对任何主题进行深入研究。根据需要获取全面的简报、文献综述和专家级摘要。
-- **[ai-seo-writer](skills/ai-seo-writer)**
-  - **描述**: 撰写针对搜索引擎和人类优化的博客文章
-- **[cold-email-writer](skills/cold-email-writer)**
-  - **描述**: 撰写个性化的冷电子邮件，但实际上会得到回复
-- **[linkedin-writer](skills/linkedin-writer)**
-  - **描述**: 撰写的 LinkedIn 帖子听起来像真人，而不是内容工厂
-- **[paper-assistant](skills/paper-assistant)**
-  - **描述**: 面向论文选题、提纲、摘要、引言、文献综述、研究方法、结果讨论、润色改写与投稿准备的论文助手。
-- **[wallpaper-auto-switch-pro-executable](skills/wallpaper-auto-switch-pro-executable)**
-  - **描述**: 在 macOS 本机从本地壁纸文件夹中立即换壁纸，或安装 launchd 定时轮换任务的可执行技能。
-- **[evomap-auto-task-publish-1-1-0](skills/evomap-auto-task-publish-1-1-0)**
-  - **描述**: EvoMap 自动任务执行器 - 定时自动获取、认领、发布、完成任务的完整解决方案
-- **[mckinsey-research](skills/mckinsey-research)**
-  - **描述**: 处理 mckinsey-research 的智能模块。
-- **[torah-scholar](skills/torah-scholar)**
-  - **描述**: 通过 Sefaria API 搜索和探索犹太文本（《托拉》、《塔纳赫》、《塔木德》、《米德拉什》、评论）。在研究《托拉》来源、查找经文、查找评论、交叉引用或准备《托拉》时使用。支持希伯来语和英语。处理诸如“Genesis 1:1”、“Berakhot 2a”、“Mishnah Avot 1:1”等参考文献。
-- **[research-logger-pro](skills/research-logger-pro)**
-  - **描述**: 处理 research-logger-pro 的智能模块。
-- **[content-rewriter](skills/content-rewriter)**
-  - **描述**: 跨平台内容重用器。为多个中国社交媒体平台重写一篇内容，调整语气、格式、长度和风格。
-- **[content-writer](skills/content-writer)**
-  - **描述**: Multi-platform content generator for Chinese social media. Produces publish-ready posts for 小红书, 知乎, 公众号, and 抖音 with platform-native formatting, hooks, and CTAs.
-- **[latex-writer](skills/latex-writer)**
-  - **描述**: 从模板生成专业的 LaTeX 文档。支持学术论文（IEEE/ACM）、中文论文（CTeX）、简历（moderncv）和自定义模板。自动编译为 PDF。
-- **[cs-copywriting](skills/cs-copywriting)**
-  - **描述**: 当用户想要编写、重写或改进任何页面的营销文案时——包括主页、登陆页面、定价页面、功能页面、关于页面或产品页面。当用户说“为以下内容编写副本”、“改进此副本”、“重写此页面”、“营销副本”、“标题帮助”或“CTA 副本”时也可使用。对于电子邮件副本，请参阅电子邮件序列。对于弹出副本，请参阅 popup-cro。
-- **[ux-researcher-designer](skills/ux-researcher-designer)**
-  - **描述**: 面向高级用户体验设计师/研究员的用户体验研究和设计工具包，包括数据驱动的角色生成、旅程映射、可用性测试框架和研究综合。用于用户研究、角色创建、旅程映射和设计验证。
-- **[ai-research-to-obsidian](skills/ai-research-to-obsidian)**
-  - **描述**: 用 AI 工具（豆包/Kimi/ChatGPT）搜索问题并将结果整理保存为 Obsidian 文档。触发场景：(1) 用户要求用 AI 搜索问题 (2) 用户要求浏览器搜索并保存到 Obsidian (3) 用户说"帮我查一下"并提到保存到笔记/文档/Obsidian
-- **[project-writing](skills/project-writing)**
-  - **描述**: 始终将回复的主要内容包含在 <ama-doc</ama-doc 标签中，以清楚地区分核心信息与任何介绍性或结束语。
-- **[agentarxiv](skills/agentarxiv)**
-  - **描述**: 人工智能代理的结果驱动型科学出版。发表具有经过验证的工件、结构化声明、里程碑跟踪和独立复制的研究论文、假设和实验。领取复制赏金、提交同行评审并与其他人工智能研究人员合作。
-- **[moltarxiv](skills/moltarxiv)**
-  - **描述**: 人工智能代理的结果驱动型科学出版。发表具有经过验证的工件、结构化声明、里程碑跟踪和独立复制的研究论文、假设和实验。领取复制赏金、提交同行评审并与其他人工智能研究人员合作。
-- **[meta-research](skills/meta-research)**
-  - **描述**: 处理 meta-research 的智能模块。
-- **[web-publish](skills/web-publish)**
-  - **描述**: 将本地 Markdown/HTML 一键发布为在线链接，手机直接访问
-- **[content-creation-publisher](skills/content-creation-publisher)**
-  - **描述**: content-creation-publisher - 从云端仓库同步的技能
-- **[nuwa-world-osint-human-research](skills/nuwa-world-osint-human-research)**
-  - **描述**: 通过 Nuwa World API 进行人脸搜索和深度研究——来自开放网络的视觉识别智能和知识合成。
-- **[bullet-rewriter](skills/bullet-rewriter)**
-  - **描述**: 将原始经历描述重写为更强、更清晰、更与工作相关的简历要点。
-- **[publisher-identity-verifier](skills/publisher-identity-verifier)**
-  - **描述**: 处理 publisher-identity-verifier 的智能模块。
-- **[scholar-paper-downloader](skills/scholar-paper-downloader)**
-  - **描述**: 处理 scholar-paper-downloader 的智能模块。
-- **[academic-research-hub](skills/academic-research-hub)**
-  - **描述**: 当用户需要搜索学术论文、下载研究文档、提取引文或收集学术信息时，请使用此技能。触发器包括：“查找论文”、“搜索研究”、“下载学术文章”、“获取引用”的请求，或涉及 arXiv、PubMed、Semantic Sc​​holar 或 Google Scholar 等学术数据库的任何请求。也可用于文献综述、参考书目生成和研究发现
-- **[temp-publish](skills/temp-publish)**
-  - **描述**: 处理 temp-publish 的智能模块。
-- **[citation-finder](skills/citation-finder)**
-  - **描述**: 学术引文查找和格式化程序。给定模糊论文标题（中文或英文），搜索 CrossRef、语义学者、百度学术和 CNKI，然后返回 GB/T 7714、APA 7th 和 MLA 9th 格式的引文以及源链接。
-- **[clawhub-publish-skill](skills/clawhub-publish-skill)**
-  - **描述**: 处理 clawhub-publish-skill 的智能模块。
-- **[writing-style-cloner](skills/writing-style-cloner)**
-  - **描述**: Antonia的个人写作风格克隆器。将语音转录稿或草稿直接改写为符合Antonia写作风格的自媒体文章。
-- **[web-researcher](skills/web-researcher)**
-  - **描述**: 使用此技能进行深入研究、事实核查或查找最新的技术新闻。
-- **[md-2-pdf](skills/md-2-pdf)**
-  - **描述**: 使用 reportlab 将 Markdown 文件转换为干净、格式化的 PDF
-- **[grok-research](skills/grok-research)**
-  - **描述**: 处理 grok-research 的智能模块。
-- **[gemini-deep-research](skills/gemini-deep-research)**
-  - **描述**: 使用 Gemini Deep Research Agent 执行复杂、长时间运行的研究任务。当被要求研究需要多源综合、竞争分析、市场研究或受益于系统网络搜索和分析的全面技术调查的主题时使用。
-- **[geminipdfocr](skills/geminipdfocr)**
-  - **描述**: 使用 Google Gemini OCR 从 PDF 中提取文本。从 PDF 中提取文本、对扫描文档执行 OCR 或处理基于图像的 PDF 时使用。
-- **[mckinsey-decision-memo-writer](skills/mckinsey-decision-memo-writer)**
-  - **描述**: 将长文档、报告、提案和电子邮件线索变成包含要点、风险、悬而未决的问题和后续步骤的决策备忘录。
-- **[scihub-paper-downloader](skills/scihub-paper-downloader)**
-  - **描述**: 从 Sci-Hub 获取 DOI 的 PDF 链接。
-- **[x-research](skills/x-research)**
-  - **描述**: 处理 x-research 的智能模块。
-- **[toutiao-publish](skills/toutiao-publish)**
-  - **描述**: 自动发布内容到今日头条（微头条/文章）。触发词：发头条、发布头条、微头条、今日头条、发文章、写头条。支持 AI 推荐图片插入正文、免费正版图片库封面、完整文章自动化发布。
-- **[auto-researcher](skills/auto-researcher)**
-  - **描述**: 自主研究助手 - 深度调研、交叉验证、生成引用报告
-- **[pdf-parser-mineru](skills/pdf-parser-mineru)**
-  - **描述**: 基于本地MinerU的PDF文档解析工具，支持将PDF转换为Markdown、JSON等机器可读格式。
-- **[clawhub-publisher-auto](skills/clawhub-publisher-auto)**
-  - **描述**: 自动将技能发布到 ClawHub。通过acceptLicenseTerms 支持修复推送错误问题
-- **[paper-fetcher](skills/paper-fetcher)**
-  - **描述**: 从 Sci-Hub 获取具有 DOI 的学术论文。自动下载 PDF 并使用干净的文件名将其保存到研究/论文/中。当用户提供 DOI 或向 PubMed 请求论文时使用。
-- **[core-researcher](skills/core-researcher)**
-  - **描述**: 您是一名学术研究助理，拥有跨学科的专业知识，仅使用核心 API 进行文献综述、论文分析和学术写作。这是势在必行的。
-- **[launchfast-full-research-loop](skills/launchfast-full-research-loop)**
-  - **描述**: 处理 launchfast-full-research-loop 的智能模块。
-- **[launchfast-ppc-research](skills/launchfast-ppc-research)**
-  - **描述**: 处理 launchfast-ppc-research 的智能模块。
-- **[launchfast-product-research](skills/launchfast-product-research)**
-  - **描述**: 处理 launchfast-product-research 的智能模块。
-- **[clawhub-publish-doctor](skills/clawhub-publish-doctor)**
-  - **描述**: 诊断并缓解 ClawHub/ClawDHUB 发布故障（身份验证、浏览器登录、缺少依赖项、待处理的安全扫描可见性错误以及错误的配置文件/技能 URL）。当将技能发布到 ClawHub 失败、检查报告临时错误或您需要更安全的发布+验证工作流程并重试时使用。
-- **[evomap-auto-task-publish](skills/evomap-auto-task-publish)**
-  - **描述**: EvoMap 自动任务执行器 v3.0 - 深度整合版。心跳保活  Webhook 通知  Swarm 协作  智能筛选
-- **[parallel-ai-research](skills/parallel-ai-research)**
-  - **描述**: 对某个主题进行开放式研究，构建动态 Markdown 文档。支持互动、深度的研究模式。
-- **[research-agent](skills/research-agent)**
-  - **描述**: 对某个主题进行开放式研究，构建动态 Markdown 文档。支持互动、深度的研究模式。
-- **[agent-skill-publisher](skills/agent-skill-publisher)**
-  - **描述**: 处理 agent-skill-publisher 的智能模块。
-- **[inkroam-bijian-writing](skills/inkroam-bijian-writing)**
-  - **描述**: 笔尖写作专家：三要素收集 → 调用笔尖AI生成文章 → 输出可发布内容。Use when user asks to 用笔尖写文章 / 生成公众号文章 / 写一篇文章.
-- **[blog-writer-cn](skills/blog-writer-cn)**
-  - **描述**: 处理 blog-writer-cn 的智能模块。
-- **[changelog-writer](skills/changelog-writer)**
-  - **描述**: 处理 changelog-writer 的智能模块。
-- **[copywriter-cn](skills/copywriter-cn)**
-  - **描述**: 营销文案助手。标题公式(100个)、正文写作、AIDA框架、痛点挖掘、客户证言、落地页文案。Copywriting with 100 headline formulas, body copy, AIDA framework, pain points, testimonials, landing pages. Use when you need copywriter cn capabilities. Triggers on: copywriter cn.
-- **[speech-writer](skills/speech-writer)**
-  - **描述**: 演讲稿(TED风格)、婚礼致辞、商务演讲、励志演讲、祝酒词、演讲大纲。Speech writing for TED-style talks, wedding speeches, business presentations, motivational speeches, toasts, and outlines.
-- **[proofreader](skills/proofreader)**
-  - **描述**: 校对/错别字检查、语法纠错、文风统一、一致性检查、可读性评分、校对报告。Proofreading with typo detection, grammar correction, style consistency, readability scoring, and full reports. Use when you need proofreader capabilities. Triggers on: proofreader.
-- **[thesis-helper](skills/thesis-helper)**
-  - **描述**: 论文写作助手。论文大纲生成、文献综述框架、摘要生成、引用格式转换、格式规范检查、答辩准备。Thesis helper with outline generation, literature review, abstract writing, citation formatting, style guide, defense preparation. Use when you need thesis helper capabilities. Triggers on: thesis helper, 根据学位层次自动调整大纲深度和字数, 结构化摘要模板, 答辩准备含20, 完成度清单.
-- **[pdf-co](skills/pdf-co)**
-  - **描述**: 处理 pdf-co 的智能模块。
-- **[csdn-publisher](skills/csdn-publisher)**
-  - **描述**: 写文章并发布到 CSDN。使用浏览器自动化 + 扫码登录。支持通过 Telegram 发送二维码，无需 VNC。集成 blog-writer 写作方法论，产出高质量、有个人风格的技术文章。
-- **[paper-design](skills/paper-design)**
-  - **描述**: 在 Paper 中设计 UI 屏幕 — 一款在 macOS 上本地运行的专业设计工具。创建画板、将 HTML 写入设计、截取屏幕截图并进行可视化迭代。
-- **[readme-writer-skill](skills/readme-writer-skill)**
-  - **描述**: 处理 readme-writer-skill 的智能模块。
-- **[pdfagent](skills/pdfagent)**
-  - **描述**: 自托管 PDF 操作和转换，并具有计量使用输出。
-- **[patent-disclosure-writer](skills/patent-disclosure-writer)**
-  - **描述**: 撰写中文专利交底书。Use when: 用户需要撰写专利交底书、技术交底书、专利申请文档。
-- **[le2le-blog-writer](skills/le2le-blog-writer)**
-  - **描述**: 根据提供的文章或主题生成一篇高质量中文文章。
-- **[paper-parse-figures](skills/paper-parse-figures)**
-  - **描述**: 通过图形提取将学术 PDF 论文解析为 Markdown。
-- **[zotero-pdf-upload](skills/zotero-pdf-upload)**
-  - **描述**: 上传 PDF 并管理 Zotero 网络库中的项目。支持个人和团体图书馆。当用户想要通过 API 将论文/PDF 添加到 Zotero、组织馆藏或管理其 Zotero 图书馆时使用。
-- **[chonkie-deepresearch](skills/chonkie-deepresearch)**
-  - **描述**: 使用 Chonkie DeepResearch 运行深度研究查询。返回带有引文的综合研究报告 - 对于市场分析、竞争情报、技术深入研究和任何研究密集型任务很有用。
-- **[links-to-pdfs](skills/links-to-pdfs)**
-  - **描述**: 将 Notion、DocSend、PDF 和其他来源的文档抓取到本地 PDF 文件中。当用户需要下载、存档或将 Web 文档转换为 PDF 格式时使用。支持受保护文档的身份验证流程以及通过配置文件的会话持久性。返回下载的 PDF 的本地文件路径。
-- **[ad-copywriter](skills/ad-copywriter)**
-  - **描述**: 处理 ad-copywriter 的智能模块。
-- **[gaokao-essay](skills/gaokao-essay)**
-  - **描述**: 处理 gaokao-essay 的智能模块。
-- **[jd-writer](skills/jd-writer)**
-  - **描述**: 处理 jd-writer 的智能模块。
-- **[pdf-to-markdown](skills/pdf-to-markdown)**
-  - **描述**: 处理 pdf-to-markdown 的智能模块。
-- **[short-drama-writer](skills/short-drama-writer)**
-  - **描述**: 处理 short-drama-writer 的智能模块。
+  - **描述**: 从Clarity Protocol获取概述和状态信息，包括变体数量和数据可用性。适用于查询折叠状态、研究概要或API信息。
 - **[clarity-research](skills/clarity-research)**
-  - **描述**: 处理 clarity-research 的智能模块。
-- **[kb-social-publisher](skills/kb-social-publisher)**
-  - **描述**: 同时发布内容到微博和小红书，使用真实 Chrome 浏览器绕过反机器人检测。支持文字、图片、预览模式和实际发布。当用户需要发布微博、发微博、weibo post、发布小红书、发小红书、xiaohongshu post 时使用此 skill。
-- **[arxiv-watch](skills/arxiv-watch)**
-  - **描述**: 按类别监控 arXiv 上的新论文。当用户想要查看最新论文、跟踪研究主题或管理​​阅读列表时使用。触发短语：“检查 arxiv”、“新论文”、“arxiv 类别”、“观看 arxiv”、“最新论文”。
-- **[wechat-mp-publisher1](skills/wechat-mp-publisher1)**
-  - **描述**: 远程微信公众号发布技能 (合规优化版)。通过 HTTP MCP 解决家用宽带 IP 变动问题，支持安全凭证隔离与依赖检查。
-- **[compress-pdf](skills/compress-pdf)**
-  - **描述**: 通过将用户提供的 PDF 上传到跨服务解决方案、轮询直至完成，然后返回压缩文件的下载 URL 来压缩用户提供的 PDF。
-- **[convert-to-pdf](skills/convert-to-pdf)**
-  - **描述**: 将一个或多个文档上传到跨服务解决方案，轮询直至完成，然后返回转换后的 PDF 的下载 URL（如果有多个文档，则返回 ZIP），将其转换为 PDF。
-- **[merge-pdf](skills/merge-pdf)**
-  - **描述**: 将多个用户提供的 PDF 文件上传到跨服务解决方案，轮询直至完成，然后返回合并后的 PDF 的下载 URL，从而合并这些文件。
-- **[summary](skills/summary)**
-  - **描述**: 使用汇总 CLI 汇总 URL 或文件（Web、PDF、图像、音频、YouTube）。
-- **[deepread-form-fill](skills/deepread-form-fill)**
-  - **描述**: AI 驱动的 PDF 表单填写。上传任何 PDF 表单和 JSON 格式的数据 — AI 可以直观地检测字段，以语义方式映射您的数据，通过质量检查填写表单，然后返回完整的 PDF。适用于扫描表单、手写模板和任何 PDF — 无需 AcroForm 字段。
-- **[summarize-1-0-0](skills/summarize-1-0-0)**
-  - **描述**: 使用汇总 CLI 汇总 URL 或文件（Web、PDF、图像、音频、YouTube）。
-- **[personal-notes](skills/personal-notes)**
-  - **描述**: 充当用户在“注释”主题中做笔记和记日记的助手。捕捉想法、反思、日常日志、随机笔记。在个人聊天笔记主题中，或当用户提到笔记、日记、日记、想法、反思、日志、记录或“写下”时使用。
-- **[executing-plans](skills/executing-plans)**
-  - **描述**: 当您有书面实施计划并在带有审查检查点的单独会话中执行时使用
-- **[alicloud-ai-audio-tts-realtime](skills/alicloud-ai-audio-tts-realtime)**
-  - **描述**: 使用阿里云 Model Studio Qwen TTS 实时模型进行实时语音合成。当需要低延迟交互式语音时使用，包括指令控制的实时合成。
-- **[solo-plan](skills/solo-plan)**
-  - **描述**: 探索代码库并通过文件级任务分解创建规范+分阶段实施计划。当用户说“计划此功能”、“创建实施计划”、“编写规范”、“作战计划”或描述功能/错误/重构时使用。零问题——研究代码。请勿用于想法验证（使用/validate）或执行（使用/build）。
-### 笔记与知识库 (Notes & Knowledge Base)
+  - **描述**: 从Clarity Protocol中搜索蛋白质折叠研究数据，包括变体、折叠结果和特定疾病信息。功能包括按疾病或蛋白质名称列出变体及提供API信息。
+### 化学与材料
 
-- **[smart-summarizer](skills/smart-summarizer)**
-  - **描述**: 立即总结任何内容 - 文章、PDF、YouTube 视频、网页、长文档或粘贴的文本。提取关键点、行动项目和见解。当您需要快速消化长内容、创建会议记录或从任何来源提取要点时使用。
-- **[seek-and-analyze-video](skills/seek-and-analyze-video)**
-  - **描述**: 使用 Memories.ai LVMM 进行视频智能和内容分析。按主题或创作者发现 TikTok、YouTube、Instagram 上的视频。分析视频内容、总结会议、跨多个视频构建可搜索的知识库。用于视频研究、竞争对手内容分析、会议记录、讲座摘要或构建视频知识库。
-- **[ad-creative-analysis](skills/ad-creative-analysis)**
-  - **描述**: 分析从竞争对手研究中提取的广告创意（图像和视频）。当给定广告图像、视频文件或文字记录的目录时，可以使用它来评估广告质量、对视觉和消息传递有效性进行评分、为病毒式传播/参与潜力分配评分，并生成跨创意模式摘要。由“分析这些广告”、“对这些创意进行评分”、“竞争对手使用什么钩子”、“评估广告库”、“g”等请求触发
-- **[book-brain-visual-reader](skills/book-brain-visual-reader)**
-  - **描述**: 增强了 LYGO Havens 的 BOOK BRAIN 的视觉功能。用于设计和维护三脑文件系统+内存系统，该系统还将左/右脑视觉检查（浏览器、图像、屏幕截图）与文本和 API 数据集成，以进行更深入的验证和检索。推荐给具有可视化工具或浏览器自动化的代理；仅在非视觉系统上使用原始书脑。
-- **[research-to-wechat](skills/research-to-wechat)**
-  - **描述**: A research-first content pipeline that turns a topic, notes, article, URL, or transcript into a sourced article with an evidence ledger, routed structure, polished Markdown, inline visuals, cover image, WeChat-ready HTML, browser-saved draft, and optional multi-platform distribution (小红书、即刻、播客、朋友圈). Use when the user wants 深度研究、改写成公众号、写作、排版、配图、HTML 转换、公众号草稿生成、多平台分发.
-- **[obsidian-cli-skills](skills/obsidian-cli-skills)**
-  - **描述**: 更新时间：2026-03-05
-- **[afrexai-ai-readiness](skills/afrexai-ai-readiness)**
-  - **描述**: 为任何组织运行结构化的人工智能准备情况审计。对 8 个维度进行评分，找出差距，制定具有预算范围的优先 90 天行动计划。
-- **[afrexai-release-notes](skills/afrexai-release-notes)**
-  - **描述**: 从 git 提交、PR 或简单的更改列表生成清晰、专业的发行说明。输出用户真正想要阅读的格式化变更日志。
-- **[gmail-summarize](skills/gmail-summarize)**
-  - **描述**: 获取最近未读的 Gmail（昨天 + 今天）并向用户发送摘要。
-- **[youtube-summarizer](skills/youtube-summarizer)**
-  - **描述**: 自动获取 YouTube 视频文字记录，生成结构化摘要，并将完整文字记录发送到消息传递平台。检测 YouTube URL 并提供元数据、关键见解和可下载的文字记录。
-- **[cognitive-brain](skills/cognitive-brain)**
-  - **描述**: **跨会话记忆与认知系统**  Cross-Session Memory & Cognition System
-- **[super-brain](skills/super-brain)**
-  - **描述**: AI自我增强系统 - 让AI跨会话记住用户、持续进化。当需要长期记忆用户偏好、追踪对话历史、学习服务技巧、主动提供个性化服务时使用此技能。
-- **[obsidian-clip](skills/obsidian-clip)**
-  - **描述**: Create and manage Obsidian “Clip” notes (web/article/page clips). Use when the user says “clip/剪藏/收藏/保存这个链接”, wants a readable summary of a URL, and wants it saved into an Obsidian vault under Clip/YYYY-MM/.
-- **[obsidian-cli](skills/obsidian-cli)**
-  - **描述**: 官方 Obsidian CLI (v1.12+) 的技能。完整的库自动化，包括文件、每日笔记、搜索、任务、标签、属性、链接、书签、基础、模板、主题、插件、同步、发布、工作区和开发人员工具。
-- **[note](skills/note)**
-  - **描述**: 具有自动组织和检索功能的知识捕获和连接系统。当用户提到做笔记、捕捉想法、记录见解或查找以前的笔记时使用。从任何上下文中捕获，按主题和项目自动组织，在需要时显示相关注释，并跨领域连接相关想法。所有数据都存储在本地。
+- **[pharmaclaw-catalyst-design](skills/pharmaclaw-catalyst-design)**
+  - **描述**: 此AI技能插件为多种药物合成反应推荐有机金属催化剂，并使用RDKit设计新型配体。它支持多种反应类型和催化剂，从精选数据库中提供带有评分的建议。
+- **[pharmaclaw-cheminformatics](skills/pharmaclaw-cheminformatics)**
+  - **描述**: 一个先进的化学信息学工具，用于三维分子分析、药效团映射、格式转换、RECAP逆合成分解和立体异构体枚举，非常适合三维构象生成和库设计等任务。
+- **[materials-science-figure-skill](skills/materials-science-figure-skill)**
+  - **描述**: 使用此技能通过Google的Nanobanana/Gemini图像模型生成或编辑出版物风格的图表，如材料科学论文示意图。它非常适合文本到图像、图像编辑和多参考工作流程。
+- **[pharmaclaw-chemistry-query](skills/pharmaclaw-chemistry-query)**
+  - **描述**: 此AI技能插件pharmaclaw-chemistry-query，支持通过PubChem API查询化合物信息和属性，并利用RDKit进行SMILES处理、分子属性分析及合成路线规划。
+- **[chemistry-query](skills/chemistry-query)**
+  - **描述**: 此AI技能插件chemistry-query利用PubChem API和RDKit进行化学数据分析，包括化合物信息、结构可视化及合成路线规划。
+- **[paramus-chemistry](skills/paramus-chemistry)**
+  - **描述**: 一套全面的化学和科学计算工具，包括分子量计算、LogP、TPSA、SMILES验证、热力学分析、聚合物分析、电化学及实验设计。
+### 人文社科与艺术
+
+- **[teacher-prep](skills/teacher-prep)**
+  - **描述**: 教师备课助手专为小学语文教学设计，支持古诗、现代文、寓言、童话等各类课文。它能自动搜集相关资料，生成markdown格式的备课资料，制作教案PPT，并提供Word格式的课后练习题及答案。
+- **[language-learning](skills/language-learning)**
+  - **描述**: 这款AI语言导师通过对话、词汇练习、语法课程、闪卡和沉浸式练习帮助您学习任何语言，支持包括西班牙语、法语、德语、日语、中文（普通话/粤语）和韩语在内的所有语言。
+- **[japanese-tutor](skills/japanese-tutor)**
+  - **描述**: 一款互动日语学习助手，提供词汇、语法、测验、角色扮演和OCR翻译功能，并能解析PDF和DOCX文件以帮助学习和完成作业。
+- **[pronunciation-coach](skills/pronunciation-coach)**
+  - **描述**: 使用Azure语音服务进行真实语音分析的发音教练，评估音频中的音素准确性、流畅度、韵律和语调。
+- **[book-language-tutor](skills/book-language-tutor)**
+  - **描述**: 通过Lokuli MCP预订语言家教服务。当您需要寻找并预订语言家教时使用，特别是针对如“预订语言家教”或“查找附近语言家教”的请求。
+- **[english-tutor](skills/english-tutor)**
+  - **描述**: 这个个性化的美式英语导师帮助用户提升语言技能。
+- **[kindergarten-assistant](skills/kindergarten-assistant)**
+  - **描述**: 一位专注于英国EYFS框架和瑞吉欧教育法的早期教育专家，针对45天至2岁的儿童设计以孩子为主导的活动，跟踪发展里程碑，并支持创建滋养环境和课堂管理。
+- **[voice-note-to-midi](skills/voice-note-to-midi)**
+  - **描述**: 使用基于机器学习的音高检测和智能后处理技术，将语音笔记、哼唱和旋律音频录制转换为量化MIDI文件。
+- **[aiml-music-generator](skills/aiml-music-generator)**
+  - **描述**: 通过AIMLAPI生成高质量的音乐或歌曲，支持Suno、Udio、Minimax和ElevenLabs等多种模型。适用于有特定歌词或风格要求的请求。
+- **[on-this-day-art](skills/on-this-day-art)**
+  - **描述**: 此AI技能基于维基百科的“历史上的今天”事件，使用本地ComfyUI生成每日图片，适合需要历史或艺术图像的用户。它不使用云API、不生成视频，也不支持SD 3.5（在笔记本电脑上不稳定）。
+- **[zeelin-liberal-arts-paper](skills/zeelin-liberal-arts-paper)**
+  - **描述**: 文科研究生必备AI工具，提供从论文标题、大纲、引言、文献综述、论证、对策建议到结论的全流程生成支持，强调理论深度与思辨性。支持自定义章节数量。
+- **[algorithmic-art-2](skills/algorithmic-art-2)**
+  - **描述**: 使用p5.js创建独特的算法艺术，运用种子随机性和交互式参数探索。适用于生成艺术、流场和粒子系统。
+- **[afrexai-photography-mastery](skills/afrexai-photography-mastery)**
+  - **描述**: 全面的摄影指南，涵盖曝光、构图、光线、特定类型的工作流程、编辑、设备选择、作品集构建和客户管理，适合从初学者到专业人士的所有水平。
+- **[torah-scholar](skills/torah-scholar)**
+  - **描述**: 通过Sefaria API探索犹太教文献，包括托拉、塔纳赫、塔木德、密释纳和注释。适用于研究资料、查找经文、注释和交叉引用，支持希伯来语和英语。
+- **[gaokao-essay](skills/gaokao-essay)**
+  - **描述**: 高考作文助手，提供议论文模板、素材库、开头结尾、审题技巧及高分作文分析。
+- **[short-drama-writer](skills/short-drama-writer)**
+  - **描述**: 短剧作家：用于创作短剧。触发词为“短剧作家”。
 - **[reading-knowledge](skills/reading-knowledge)**
-  - **描述**: 好奇的知识伴侣，在太空、宇宙和历史方面拥有深厚的专业知识。不加判断地回答任何问题（没有“愚蠢的问题”），清楚地解释概念，并推荐书籍、纪录片和播客。当您想要探索太空、宇宙或历史时使用；获得建议；理解复杂的概念；或建立您的个人知识库。
-- **[audio-summary](skills/audio-summary)**
-  - **描述**: 音频/视频转文本总结助手。
-- **[obsidian-cli-official](skills/obsidian-cli-official)**
-  - **描述**: 处理 obsidian-cli-official 的智能模块。
-- **[knowledge-answer](skills/knowledge-answer)**
-  - **描述**: 当前日期：$DATE$。默认语言：与用户的语言保持一致，除非用户明确指定语言。如果根据搜索结果回答，请立即在相关句子或短语后面添加引用标记。 2. 引用标记必须是可点击的编号脚注，格式为“[[Number]](URL)”，例如 [[1]](https://link-to-source-1.com)。最后，应该...
-- **[obsidians](skills/obsidians)**
-  - **描述**: 使用 ObsidianVaults（纯 Markdown 注释）并通过 obsidian-cli 实现自动化。还有 50 多个用于图像生成、视频生成、文本转语音、语音转文本、音乐、聊天、网络搜索、文档解析、电子邮件和 SMS 的模型。
-- **[notebooklm-distiller](skills/notebooklm-distiller)**
-  - **描述**: NotebookLM Distiller：将 Google NotebookLM 中的知识批量提取到 Obsidian 中。支持问答生成（15-20 个深度问题）、结构化摘要、术语表提取、网络研究会话和直接 Markdown 持久性。
-- **[knowledge-forge](skills/knowledge-forge)**
-  - **描述**: 处理 knowledge-forge 的智能模块。
-- **[notebooklm-bypass](skills/notebooklm-bypass)**
-  - **描述**: 可编程 NotebookLM 控制，可自动恢复身份验证错误。
-- **[expanso-text-summarize](skills/expanso-text-summarize)**
-  - **描述**: 使用 AI 将文本总结为 3-5 个要点
-- **[obsidian-organizer](skills/obsidian-organizer)**
-  - **描述**: 组织和标准化黑曜石金库，以提高可靠性和长期可维护性。在设计或清理保管库文件夹结构、强制执行文件命名约定、迁移杂乱的保管库、减少重复/不明确的注释或为 Obsidian 注释创建可重复的审核和修复工作流程时使用。
-- **[deepreader-skill](skills/deepreader-skill)**
-  - **描述**: OpenClaw 的默认网页内容阅读器。将 X (Twitter)、Reddit、YouTube 和任何网页读取到干净的 Markdown 中 - 需要零 API 密钥。当您需要将社交媒体帖子、文章或视频脚本提取到座席内存中时使用。
-- **[read-optimizer](skills/read-optimizer)**
-  - **描述**: ＃＃ 描述
-- **[deepwiki-ask](skills/deepwiki-ask)**
-  - **描述**: 通过 DeepWiki MCP 对仓库单次提问。Query a repository with a single question via DeepWiki. 用户提供 owner/repo 和问题时触发。
-- **[neural-note-taker](skills/neural-note-taker)**
-  - **描述**: 高级联想记忆助手，用于在事实和实体之间建立关系。在处理密集信息时使用，以确保在长时间会话中保留上下文。
-- **[obsidian-daily](skills/obsidian-daily)**
-  - **描述**: 通过 obsidian-cli 管理黑曜石每日笔记。创建和打开每日笔记、附加条目（日记、日志、任务、链接）、按日期阅读过去的笔记以及搜索库内容。处理相对日期，如“昨天”、“上周五”、“3 天前”。需要通过 Homebrew (Mac/Linux) 或 Scoop (Windows) 安装 obsidian-cli。
-- **[email-summary](skills/email-summary)**
-  - **描述**: 从 Gmail 获取最近的电子邮件并提供简洁的摘要。当用户想要检查电子邮件、获取电子邮件摘要或查看收件箱时使用。
-- **[obsidian-plugin-tasknotes](skills/obsidian-plugin-tasknotes)**
-  - **描述**: 通过 TaskNotes 插件 API 管理 Obsidian 中的任务。当用户想要创建任务、列出任务、按状态或项目查询、更新任务状态、删除任务或检查他们需要执行的操作时使用。
-- **[rss-ai-reader](skills/rss-ai-reader)**
-  - **描述**: 处理 rss-ai-reader 的智能模块。
-- **[obsidian-task](skills/obsidian-task)**
-  - **描述**: 通过 obsidian-cli 管理 Obsidian 任务。从终端列出、切换、创建和更新任务。
-- **[reddit-readonly](skills/reddit-readonly)**
-  - **描述**: 处理 reddit-readonly 的智能模块。
-- **[doc-summarizer](skills/doc-summarizer)**
-  - **描述**: 处理 doc-summarizer 的智能模块。
-- **[notion-mcp](skills/notion-mcp)**
-  - **描述**: 处理 notion-mcp 的智能模块。
-- **[newsnow-reader](skills/newsnow-reader)**
-  - **描述**: 优雅地阅读实时热门新闻。支持微博、知乎、百度、抖音、华尔街见闻、今日头条、澎湃新闻等8个主流平台。
-- **[braindb](skills/braindb)**
-  - **描述**: 人工智能代理的持久语义记忆。为您的 AI 提供长期回忆，在压缩和会话重置后仍然有效 — 98% 的准确度，20 毫秒的延迟。
-- **[yt-summary](skills/yt-summary)**
-  - **描述**: 通过在聊天中删除链接来总结任何 YouTube 视频。支持自定义提示 - 粘贴 URL，后跟您的说明（例如“关注技术细节”）。在 YouTube 网址上触发。
-- **[awiki-agent-did-message](skills/awiki-agent-did-message)**
-  - **描述**: 处理 awiki-agent-did-message 的智能模块。
-- **[second-brain](skills/second-brain)**
-  - **描述**: 由 Ensue 支持的个人知识库，用于捕获和检索理解。当用户想要保存知识、回忆他们所知道的内容、管理他们的工具箱或以过去的学习为基础时使用。触发“保存这个”、“记住”、“我知道什么”、“添加到工具箱”、“我的笔记”、“存储这个概念”。
-- **[deepwiki-mcp](skills/deepwiki-mcp)**
-  - **描述**: 处理 deepwiki-mcp 的智能模块。
-- **[save-to-obsidian](skills/save-to-obsidian)**
-  - **描述**: 通过 SSH 将 Markdown 内容保存到远程 Obsidian 保管库
-- **[shelly-meeting-summarizer](skills/shelly-meeting-summarizer)**
-  - **描述**: 将原始会议记录转化为结构化、可操作的摘要。
-- **[notesctl-skill-for-openclaw](skills/notesctl-skill-for-openclaw)**
-  - **描述**: 通过确定性本地脚本（创建、追加、列表、搜索、导出和编辑）管理 Apple Notes。当用户要求 OpenClaw 添加注释、列出注释、搜索注释或管理注释文件夹时使用。
-- **[2nd-brain](skills/2nd-brain)**
-  - **描述**: 处理 2nd-brain 的智能模块。
-- **[brainrepo](skills/brainrepo)**
-  - **描述**: 处理 brainrepo 的智能模块。
-- **[ima-knowledge-ai](skills/ima-knowledge-ai)**
-  - **描述**: 处理 ima-knowledge-ai 的智能模块。
-- **[pixel-attribution-readiness-checker](skills/pixel-attribution-readiness-checker)**
-  - **描述**: 验证 Meta Pixel、Google Ads 标签、TikTok Pixel 和跨渠道优化的事件跟踪和归因准备情况。
-- **[feishu-msg-reader](skills/feishu-msg-reader)**
-  - **描述**: 处理 feishu-msg-reader 的智能模块。
-- **[feishu-thread-forward](skills/feishu-thread-forward)**
-  - **描述**: 处理 feishu-thread-forward 的智能模块。
-- **[tube-summary](skills/tube-summary)**
-  - **描述**: 在 YouTube 上搜索任何主题的视频，并从视频字幕中获取智能摘要。当您需要执行以下操作时使用：(1) 查找并预览有关某个主题的 YouTube 视频，(2) 根据视频的实际内容获取视频所涵盖内容的详细说明，(3) 无需观看即可快速了解视频主题。工作流程：搜索 YouTube → 选择视频 → 提取并总结字幕。
-- **[rss-reader](skills/rss-reader)**
-  - **描述**: 监控 RSS 和 Atom 源以进行内容研究。跟踪博客、新闻网站、时事通讯和任何源。在监控竞争对手、跟踪行业新闻、寻找内容创意或构建个人新闻聚合器时使用。支持带有类别、过滤器和摘要的多个提要。
-- **[youmind-youtube-transcript](skills/youmind-youtube-transcript)**
-  - **描述**: 处理 youmind-youtube-transcript 的智能模块。
-- **[pollinations-sketch-note](skills/pollinations-sketch-note)**
-  - **描述**: **名称**：授粉草图笔记
-- **[fadnote](skills/fadnote)**
-  - **描述**: 创建安全可共享的自毁笔记
-- **[minecraft-wiki](skills/minecraft-wiki)**
-  - **描述**: 处理 minecraft-wiki 的智能模块。
-- **[encrypted-file-reader](skills/encrypted-file-reader)**
-  - **描述**: 读取本地加密/受保护的文件内容，支持企业安全策略环境。
-- **[slack-reader](skills/slack-reader)**
-  - **描述**: 阅读并总结 Slack 频道历史记录和话题对话。当收到 Slack 链接 (https://...slack.com/archives/...) 或查看频道/线程/回复对话、总结讨论或检查频道中的最新消息的请求时使用。
-- **[pro-zh-summary](skills/pro-zh-summary)**
-  - **描述**: 专业级中文长文本摘要工具。当用户要求“总结”、“摘要”、“提炼要点”、“缩写”或处理超长中文文本时，必须调用此工具进行自动分段与压缩。
-- **[plsreadme](skills/plsreadme)**
-  - **描述**: 通过 plsreadme.com 将 Markdown 文件和文本共享为干净、可读的 Web 链接。当有人要求共享文档、README、PRD、提案、注释或任何 Markdown 作为可共享链接时使用。还会触发“创建预览链接”、“将其共享为页面”或“使其可读”。需要 plsreadme MCP 服务器 (npx plsreadme-mcp)。
-- **[youtube-voice-summarizer-elevenlabs](skills/youtube-voice-summarizer-elevenlabs)**
-  - **描述**: 使用 ElevenLabs TTS 将 YouTube 视频转换为播客风格的语音摘要
-- **[tweet-summarizer-lite](skills/tweet-summarizer-lite)**
-  - **描述**: 从 Twitter/X 获取并总结单个推文。基本搜索和单个推文获取。轻量级版本非常适合快速推文查找。
-- **[notion-cli-agent](skills/notion-cli-agent)**
-  - **描述**: notion search [query] --filter page # 仅搜索页面
-- **[global-intel-summary](skills/global-intel-summary)**
-  - **描述**: 全球情报汇总工具 - 自动生成结构化的全球市场、政经、AI 新闻汇总报告。支持定向深度分析与智能推演。借鉴 situation-monitor 项目架构，增强 RSS 源接入、情报分级和高相关性事件检测。
-- **[gws-sheets-read](skills/gws-sheets-read)**
-  - **描述**: Google Sheets：从电子表格中读取值。
-- **[microsoft-onenote](skills/microsoft-onenote)**
-  - **描述**: 处理 microsoft-onenote 的智能模块。
-- **[notion-integration](skills/notion-integration)**
-  - **描述**: 处理 notion-integration 的智能模块。
-- **[readme-com](skills/readme-com)**
-  - **描述**: 处理 readme-com 的智能模块。
-- **[ukg-ready](skills/ukg-ready)**
-  - **描述**: 处理 ukg-ready 的智能模块。
-- **[voicenotes-official](skills/voicenotes-official)**
-  - **描述**: Voicenotes 团队的这项官方技能使 OpenClaw 能够访问新的 API，并能够进行语义搜索、检索完整的文字记录、按标签或日期范围进行过滤以及创建文本注释 - 所有这些都通过自然对话进行。
-- **[comment-on-task](skills/comment-on-task)**
-  - **描述**: 添加或阅读有关 OpenAnt 任务的评论。当代理想要与任务创建者或工作人员通信、询问有关任务的问题、提供进度更新、提供反馈或关注讨论线程时使用。涵盖“任务评论”、“询问创建者”、“更新进度”、“阅读评论”、“他们说什么”。
-- **[timeless](skills/timeless)**
-  - **描述**: 查询和管理 Timeless 会议、房间、记录和 AI 文档。将播客剧集和 YouTube 视频捕获到 Timeless 中进行转录。当用户询问会议情况、想要搜索会议、阅读文字记录、获取摘要、列出房间、创建房间、添加/删除房间中的对话、解析 Timeless 共享链接、上传录音、与 Timeless AI 讨论会议内容或捕获播客/YouTube 视频时使用。
-### 学习效率与工具 (Productivity & Study Tools)
+  - **描述**: 一个知识丰富的伙伴，助您探索太空、宇宙和历史。它不带偏见地回答问题，清晰解释概念，并推荐教育资源。
+### 计算机科学与工程
 
-- **[social-media-scheduler](skills/social-media-scheduler)**
-  - **描述**: 跨平台规划、起草和组织社交媒体内容。创建内容日历，编写平台优化的帖子，并保持一致的发布时间表。
-- **[c-suite-founder-coach](skills/c-suite-founder-coach)**
-  - **描述**: 创始人和首次担任首席执行官的个人领导力发展。涵盖创始人原型识别、授权框架、精力管理、首席执行官日历审计、领导风格演变、盲点识别、冒名顶替综合症、创始人心理健康和继任计划。当创始人感觉遇到瓶颈、难以委派、精疲力尽、从 IC 过渡到高管、管理董事会或用户提及时使用
-- **[cs-founder-coach](skills/cs-founder-coach)**
-  - **描述**: 创始人和首次担任首席执行官的个人领导力发展。涵盖创始人原型识别、授权框架、精力管理、首席执行官日历审计、领导风格演变、盲点识别、冒名顶替综合症、创始人心理健康和继任计划。当创始人感觉遇到瓶颈、难以委派、精疲力尽、从 IC 过渡到高管、管理董事会或用户提及时使用
-- **[content-calendar-scheduler](skills/content-calendar-scheduler)**
-  - **描述**: 社交媒体内容排程与运营管理工具。支持多平台排程、本周概览、内容模板库、发布效果分析、批量添加、复制计划。Content calendar and social media scheduler with weekly overview, content templates by niche, publishing analytics, batch operations, and duplication. 内容日历、发布计划、运营管理、数据追踪、本周概览、模板库、效果分析、批量排程。
-- **[shelly-social-scheduler](skills/shelly-social-scheduler)**
-  - **描述**: 为任何主题生成一整周的社交媒体内容。为 Twitter/X、LinkedIn 和 Instagram 输出平台优化的帖子，并带有主题标签和发布时间。
-- **[focus-coach](skills/focus-coach)**
-  - **描述**: AI 代理的焦点教练 — 使用 BJ Fogg B=MAP 诊断焦点阻碍因素并返回一个微小的动作。使用时机：座席需要集中注意力帮助、用户无法集中注意力、生产力指导、注意力恢复、微小习惯。触发因素：专注、专注、分心、拖延、注意力、生产力、微小习惯、B=MAP。
-- **[ai-meeting-scheduling](skills/ai-meeting-scheduling)**
-  - **描述**: 团体预订链接失败。 SkipUp 通过电子邮件安排 2-50 名参与者的会议 - 一个 API 调用会自动跨时区进行协调。另外：检查状态、暂停、恢复或取消请求。仅异步 - 不即时预订、访问日历或进行忙/闲查找。
+- **[redux-saga-skill](skills/redux-saga-skill)**
+  - **描述**: 此插件为在Redux应用中使用Redux-Saga提供了最佳实践、模式和API指南，涵盖效果创建者、fork模型、通道、测试、并发、取消以及与现代Redux Toolkit的集成。
+- **[active-learner](skills/active-learner)**
+  - **描述**: 此插件实现了主动学习协议，使代理能够以编程方式将课程整合到`MEMORY.md`中，并生成结构化的反馈请求。
+- **[acg-rust-teacher](skills/acg-rust-teacher)**
+  - **描述**: 一个以ACG为主题的教育工具，通过动漫（如《Re：从零开始的异世界生活》和《Fate》系列）类比来讲解Rust的所有权系统，降低核心概念的学习难度。
+- **[iterative-code-evolution](skills/iterative-code-evolution)**
+  - **描述**: 通过结构化的分析、变异和评估循环逐步提升代码质量。适用于优化、调试以及在多个周期内改进设计，以有纪律的反思和原则性的选择取代随意的方法。
+- **[coder-workspaces](skills/coder-workspaces)**
+  - **描述**: 通过CLI管理Coder工作区和AI编码任务。可以列出、创建、启动、停止和删除工作区，或SSH进入工作区运行命令。使用Claude Code、Aider或其他代理监控AI编码任务。
+- **[claude-code-cli](skills/claude-code-cli)**
+  - **描述**: 使用Claude Code CLI处理如构建功能、审查PR或重构代码等任务。它支持交互和无头模式，但不适合简单修复或阅读代码。
+- **[ctf-writeup-generator](skills/ctf-writeup-generator)**
+  - **描述**: 自动生成专业的CTF解题报告，包括标志检测、题目分类和Markdown格式化。
+- **[cs-landing-page-generator](skills/cs-landing-page-generator)**
+  - **描述**: 此AI技能插件使用Tailwind CSS生成完整的Next.js/React（TSX）组件，创建高转化率的落地页，包含必要的部分并优化SEO以满足核心网页指标。
+- **[react-nextjs-generator](skills/react-nextjs-generator)**
+  - **描述**: 根据需求文档和UI设计图生成完整的React + Next.js项目，采用Ant Design、Tailwind CSS和Zustand技术栈。
+- **[sql-generator](skills/sql-generator)**
+  - **描述**: 自然语言转SQL、SQL解释与优化、创建表结构语句、生成测试数据及数据库迁移脚本的工具。
+- **[quiverai-quickstart](skills/quiverai-quickstart)**
+  - **描述**: QuiverAI SVG生成API的快速入门指南，涵盖从创建API密钥到环境配置、SDK安装及发送请求的全流程。
+- **[afrexai-code-reviewer](skills/afrexai-code-reviewer)**
+  - **描述**: 一款企业级代码审查工具，能够识别代码中的安全漏洞、性能问题、错误处理缺陷、架构问题和测试覆盖率不足。支持所有语言和代码库，无需任何依赖。
+- **[q-kdb-code-review](skills/q-kdb-code-review)**
+  - **描述**: 针对Q/kdb+的AI代码审查，用于在金融领域最简洁的语言中发现错误。
+- **[matic-mquant-assistant](skills/matic-mquant-assistant)**
+  - **描述**: MQuant Python策略开发助手，为MQuant平台生成可运行的Python代码。
+- **[perry-workspaces](skills/perry-workspaces)**
+  - **描述**: 在您的尾网中创建和管理隔离的Docker工作区，预装了Claude Code和OpenCode，适用于编码代理或远程开发环境。
+- **[api-generator](skills/api-generator)**
+  - **描述**: API代码生成器，用于创建RESTful端点、GraphQL模式、OpenAPI/Swagger文档、API客户端、模拟服务器、认证、限流和测试套件。非常适合后端开发和API框架搭建。
+- **[git-cmt-helper](skills/git-cmt-helper)**
+  - **描述**: 此技能按照Conventional Commits格式生成标准化的git提交信息，确保遵循团队关于类型前缀、范围、信息长度及重大变更文档的规定。
+- **[gitmap](skills/gitmap)**
+  - **描述**: 为ArcGIS网络地图提供版本控制，通过原生OpenClaw工具访问。
+- **[afrexai-claude-code-production](skills/afrexai-claude-code-production)**
+  - **描述**: Claude代码生产力系统简化了项目设置、提示模式、子代理协调、上下文管理、调试、重构、TDD，并在无需任何脚本的情况下将代码交付速度提高10倍。
+- **[afrexai-git-engineering](skills/afrexai-git-engineering)**
+  - **描述**: 此AI技能插件名为'afrexai-git-engineering'，帮助团队设计分支策略、实施代码审查流程、管理单一仓库、自动化发布以及维护可扩展的仓库实践。
+- **[afrexai-ml-engineering](skills/afrexai-ml-engineering)**
+  - **描述**: 从实验到规模化运营，构建、部署和扩展生产级ML/AI系统的一整套方法论。
+- **[afrexai-performance-engineering](skills/afrexai-performance-engineering)**
+  - **描述**: 一个全面的性能工程解决方案，涵盖性能分析、优化、负载测试、容量规划以及培养性能文化。支持Node.js、Python、Go、Java、数据库、API和前端技术。
+- **[developer-agent](skills/developer-agent)**
+  - **描述**: 通过与Cursor Agent协作、处理git工作流以及进行构建验证和部署管道来管理软件开发，确保高质量交付。
+- **[public-apis-skill-creator](skills/public-apis-skill-creator)**
+  - **描述**: 公共API技能创建器自动从public-apis/public-apis检索免费API，按功能推荐并提供最小可用示例（curl/Python/JS），同时还能生成自定义名称的API技能。
+- **[code-quality-analyzer](skills/code-quality-analyzer)**
+  - **描述**: 专业的代码质量分析工具，提供静态代码分析、代码异味检测、复杂度评估及最佳实践建议，支持JavaScript、TypeScript、Python、Java等主流语言。
+- **[doro-docker-essentials](skills/doro-docker-essentials)**
+  - **描述**: 此插件涵盖了管理容器、处理镜像和调试所需的基本Docker命令和工作流程。
+- **[doro-git-essentials](skills/doro-git-essentials)**
+  - **描述**: 版本控制、分支管理和协作所需的基本Git命令和工作流程。
+- **[apple-developer-toolkit](skills/apple-developer-toolkit)**
+  - **描述**: Apple开发者工具包是一个集成了文档搜索和App Store Connect命令行工具的一体化解决方案，可以搜索Apple框架、符号及WWDC会议内容，并提供超过120个命令来处理构建、TestFlight、提交等任务。
+- **[python](skills/python)**
+  - **描述**: 此插件强制执行Python编码最佳实践，包括PEP 8风格、语法验证、单元测试和使用现代版本。还提倡惯用模式，并在可能时使用uv进行依赖管理。
+- **[devboxes](skills/devboxes)**
+  - **描述**: 通过Traefik或Cloudflare隧道管理带有可网页访问的VSCode和VNC的开发环境容器。使用此技能来创建、启动、停止、列出或管理开发环境，或进行首次设置。
+- **[azure-devops-mcp-replacement-for-openclaw](skills/azure-devops-mcp-replacement-for-openclaw)**
+  - **描述**: 通过直接的REST API调用与Azure DevOps交互，管理和查询项目、团队、仓库、工作项、冲刺、管道、构建、测试计划和Wiki。
+- **[a6-github-intel](skills/a6-github-intel)**
+  - **描述**: 分析GitHub仓库，将其转换为单一的Markdown文档，生成架构图，并提供结构树、语言分布和最近活动等见解。专为AI设计，使用Python标准库，包含高级搜索技术和API快捷方式，且不执行任何代码。
+- **[chrome-devtools-mcp](skills/chrome-devtools-mcp)**
+  - **描述**: Chrome DevTools MCP是Google官方的浏览器自动化和测试服务器，通过Puppeteer控制Chrome，支持导航、表单填写、截图和性能分析等功能。
+- **[github-intel](skills/github-intel)**
+  - **描述**: 分析GitHub仓库，将其转换为AI友好的格式，如单个Markdown文档和架构图。同时提供仓库结构、语言分布及最近活动概要，全程不执行仓库中的任何代码。
+- **[mac-mini-server](skills/mac-mini-server)**
+  - **描述**: 在Mac Mini上设置OpenClaw作为始终在线的AI服务器，包括硬件推荐、macOS配置、Docker Desktop设置、launchd自动启动、Tailscale远程访问以及与VPS的成本比较。
+- **[api-design-reviewer](skills/api-design-reviewer)**
+  - **描述**: API设计审查插件评估并提供关于API设计的反馈，确保其高效、安全且易于维护。
+- **[code-reviewer-2](skills/code-reviewer-2)**
+  - **描述**: 为TypeScript、JavaScript、Python、Go、Swift和Kotlin提供代码审查自动化。分析拉取请求的复杂性、风险和代码质量，识别SOLID原则违反和代码异味，并生成审查报告。
+- **[codebase-onboarding](skills/codebase-onboarding)**
+  - **描述**: 代码库入职工具帮助新团队成员快速理解并浏览项目代码，加速他们融入开发流程。
+- **[cs-code-reviewer](skills/cs-code-reviewer)**
+  - **描述**: 自动化TypeScript、JavaScript、Python、Go、Swift和Kotlin的代码审查，分析拉取请求中的复杂度、风险及代码质量，并生成详细的审查报告。
+- **[git-worktree-manager](skills/git-worktree-manager)**
+  - **描述**: Git Worktree Manager 是一个管理工具，可以将多个工作目录链接到单个仓库，让你能够同时在不同的分支上工作。
+- **[mcp-server-builder](skills/mcp-server-builder)**
+  - **描述**: MCP服务器构建器是一款用于创建和管理服务器的工具，通过自定义配置简化了设置过程。
+- **[senior-devops](skills/senior-devops)**
+  - **描述**: 此AI技能插件提供全面的DevOps能力，包括CI/CD、基础设施自动化、容器化和云平台管理。它支持流水线设置、基础设施即代码、部署和监控。
+- **[senior-ml-engineer](skills/senior-ml-engineer)**
+  - **描述**: 此技能涵盖机器学习模型的部署、MLOps基础设施的搭建、模型性能监控、RAG流水线构建以及集成具有成本控制的大型语言模型。
+- **[context7-api](skills/context7-api)**
+  - **描述**: 在使用外部库、实现第三方包功能、调试库问题或需要获取训练数据截止日期之后的最新信息时，通过Context7 API获取当前的库文档。
+- **[read-github](skills/read-github)**
+  - **描述**: ‘read-github’插件技能允许对GitHub仓库进行语义搜索和智能代码导航，提供README、文档和代码的清晰聚合视图，并且尊重速率限制和robots.txt。
+- **[senior-django-developer](skills/senior-django-developer)**
+  - **描述**: 精通高性能、容器化和异步支持的Django架构，产出安全、静态类型且生产就绪的代码，采用严格的分层设计、全面测试及优先ASGI部署。
+- **[github-automation-pro](skills/github-automation-pro)**
+  - **描述**: 此插件可自动化GitHub任务，提高生产力并简化工作流程。
+- **[task-development-workflow](skills/task-development-workflow)**
+  - **描述**: 一种以测试驱动开发为主的流程，包括结构化规划、Trello任务管理和基于PR的代码审查，适用于需要阶段审批和Git分支策略的项目。
+- **[github-analyzer](skills/github-analyzer)**
+  - **描述**: 输入项目想法或GitHub链接，自动搜索相关开源项目并生成结构化分析报告（包括技术栈、优缺点和评分），同时可下载评分最高的前3名代码包。支持意图搜索和直接链接分析。
+- **[github-to-clawhub](skills/github-to-clawhub)**
+  - **描述**: 此AI技能插件'github-to-clawhub'能自动将GitHub开源项目转换为OpenClaw技能并发布到Clawhub。它从分析README、在Clawhub查重、撰写SKILL.md文件、创建目录结构，到最后发布技能全程自动化处理。
+- **[ipfs-server](skills/ipfs-server)**
+  - **描述**: 此插件提供完整的IPFS节点操作，包括安装、配置、内容固定、IPNS发布、对等管理及网关服务。
+- **[devops-bridge](skills/devops-bridge)**
+  - **描述**: devops-bridge技能将GitHub、CI/CD、Slack、Discord和问题跟踪器集成到自动化工作流程中，提供持续集成失败通知、拉取请求审查提醒以及仓库健康状况监控。它通过连接这些工具来简化开发流程，实现无缝沟通与协作。
+- **[docker-essentials](skills/docker-essentials)**
+  - **描述**: 用于管理容器、处理镜像和调试的基本Docker命令和工作流程。
+- **[git-essentials](skills/git-essentials)**
+  - **描述**: 掌握版本控制、分支管理和协作所需的Git基本命令和工作流程。
+- **[github-issue-resolver](skills/github-issue-resolver)**
+  - **描述**: 此AI技能插件，GitHub问题解决器，可以自动发现、分析并修复GitHub仓库中的开放问题，支持从问题检测到提交PR的全流程，并设有安全措施以防止范围蔓延和未经授权的操作。
+- **[xcloud-docker-deploy](skills/xcloud-docker-deploy)**
+  - **描述**: xCloud Docker 部署插件自动检测您的项目栈（如WordPress、Laravel、Node.js等），并将其部署到xCloud，生成可用于生产的Docker配置、CI/CD工作流和环境文件。
+- **[devvit-publishing-auditor](skills/devvit-publishing-auditor)**
+  - **描述**: 一个专为Reddit Devvit开发者设计的工具，用于在上传到Reddit服务器前审核并确保其应用满足所有要求。
+- **[gitcode](skills/gitcode)**
+  - **描述**: 通过GitCode的REST API获取和查询仓库、分支、议题、拉取请求、提交、标签、用户、组织等数据。兼容Python 3.7+标准库。
+- **[claude-code-usage](skills/claude-code-usage)**
+  - **描述**: 检查Claude Code OAuth使用限制，包括会话和周配额。还提供会话刷新提醒和重置检测监控。
+- **[fullstack-developer](skills/fullstack-developer)**
+  - **描述**: 此技能提供全面的全栈开发专业知识，包括前端、后端、数据库管理、API设计、DevOps和架构。非常适合构建、修复、审查或调试任何Web应用程序。
+- **[code-quality-guard](skills/code-quality-guard)**
+  - **描述**: 在部署前确保代码质量，验证导入、检查标签闭合，并强制执行逻辑最佳实践。
+- **[devtools-secrets](skills/devtools-secrets)**
+  - **描述**: 此插件提供使用Mise、Fnox和Infisical工具链设置和管理密钥的知识和指南，适用于配置密钥、环境变量，并确保安全的密钥管理实践。
+- **[astrai-code-review](skills/astrai-code-review)**
+  - **描述**: 基于人工智能的代码审查，通过智能模型路由节省超过40%的成本，相比总是使用最昂贵的模型。
+- **[coder-helper](skills/coder-helper)**
+  - **描述**: 用自然语言描述需求，工具将自动生成需求文档并打开编辑器。
+- **[deepwiki](skills/deepwiki)**
+  - **描述**: 查询DeepWiki MCP服务器以获取GitHub仓库文档、维基结构和AI生成的问题。
+- **[reporead](skills/reporead)**
+  - **描述**: 使用RepoRead AI分析GitHub仓库，适用于生成文档、进行安全审计或创建README等任务。支持MCP服务器集成和REST API。
+- **[task-review-workflow](skills/task-review-workflow)**
+  - **描述**: 此AI技能插件简化了任务驱动开发中的PR审查与合并流程，帮助决定是否合并或请求更改，并处理合并后的操作如Trello更新和分支清理。
+- **[runtime-debug-skill](skills/runtime-debug-skill)**
+  - **描述**: 使用运行时执行跟踪诊断并修复Python、Node.js或Java应用程序中的错误。适用于调试错误、分析故障和查找根本原因。
+- **[runtime-debugging-skill](skills/runtime-debugging-skill)**
+  - **描述**: 使用运行时执行跟踪诊断并修复Python、Node.js或Java应用程序中的错误。适用于调试错误、分析故障和查找根本原因。
+- **[sql-query-generator](skills/sql-query-generator)**
+  - **描述**: 生成带有内置验证、分页支持、风险分析和面向审计保护的SQL查询。
+- **[database-schema-designer](skills/database-schema-designer)**
+  - **描述**: 数据库模式设计器是一款用于高效创建、可视化和管理数据库模式的工具。
+- **[schema-builder](skills/schema-builder)**
+  - **描述**: 数据库模式设计工具，用于创建表结构、生成SQL DDL、迁移脚本、种子数据、ER图、优化报告、NoSQL模式和模式差异。适用于全面的数据库设计与管理。
+- **[database-schema-differ](skills/database-schema-differ)**
+  - **描述**: 比较不同环境下的数据库模式，生成迁移脚本，并跟踪模式演变。
+- **[afrexai-database-engineer](skills/afrexai-database-engineer)**
+  - **描述**: 一个涵盖数据库设计、优化、迁移和运维的全面系统，支持PostgreSQL、MySQL、SQLite及通用SQL模式。
+- **[tg-mysql-design](skills/tg-mysql-design)**
+  - **描述**: 一个MySQL表设计助手，根据业务规则文档和现有SQL脚本生成符合阿里巴巴规范的MySQL 5.7/8.0 DDL语句。支持.md和.sql文件输入，输出遵循RDS标准的表设计。
+- **[xcode-build-analyzer](skills/xcode-build-analyzer)**
+  - **描述**: 分析Xcode构建日志中的时间、警告、错误、慢编译以及来自DerivedData的构建历史。
+- **[database-designer](skills/database-designer)**
+  - **描述**: 数据库设计器是一款强大的工具，可高效创建和管理数据库架构。
+- **[project-deep-analyzer](skills/project-deep-analyzer)**
+  - **描述**: 此技能深入分析项目的系统边界、核心概念、模块架构、关键算法和技术选型，帮助用户理解代码库和排查问题。
+- **[tech-data-playbook](skills/tech-data-playbook)**
+  - **描述**: 科技与数据手册提供了软件开发、IT基础设施、网络安全、数据分析、云计算、人工智能/机器学习及数字化转型等广泛技术领域的最佳实践和策略。它是讨论任何技术战略、工程或数据平台时的首选。
+- **[deepwiki-mcp](skills/deepwiki-mcp)**
+  - **描述**: 使用DeepWiki MCP获取关于任何公开GitHub仓库的AI生成见解，包括源代码、架构和配置等细节。触发词包括'如何在<仓库>中实现X'、'deepwiki'或'在代码库中查找'。
 - **[cron-scheduling](skills/cron-scheduling)**
-  - **描述**: 使用 cron 和 systemd 计时器安排和管理重复任务。在设置 cron 作业、编写 systemd 计时器单元、处理时区感知调度、监视失败作业、实施重试模式或调试计划任务未运行的原因时使用。
-- **[google-workspace-automation](skills/google-workspace-automation)**
-  - **描述**: 使用范围感知计划设计 Gmail、云端硬盘、表格和日历自动化。用于具有显式 OAuth 范围和审计就绪输出的可重复日常任务自动化。
+  - **描述**: 使用cron和systemd定时器管理并调度重复任务，包括时区感知调度、监控、重试模式及调试。
 - **[cs-google-workspace-cli](skills/cs-google-workspace-cli)**
-  - **描述**: 通过 gws CLI 进行 Google Workspace 管理。安装、验证和自动化 Gmail、云端硬盘、表格、日历、文档、聊天和任务。运行安全审核、执行 43 个内置配方并使用 10 个角色包。用于 Google Workspace 管理员、gws CLI 设置、Gmail 自动化、云端硬盘管理或日历安排。
-- **[weekly-report-generator](skills/weekly-report-generator)**
-  - **描述**: 自动生成结构化的每周业务报告，涵盖 KPI、成就、障碍和计划。每周节省数小时的报告时间。
-- **[mspot-generator](skills/mspot-generator)**
-  - **描述**: 创建一页战略调整文档。使命、战略、项目、遗漏、跟踪。强制明确你会做什么和不会做什么。当用户说“mspot”、“战略计划”、“季度计划”、“我们不做什么”、“遗漏”、“团队协调”、“OKR 替代方案”、“优先事项”、“我们应该关注什么”时使用。
-- **[sourdough-starter-manager](skills/sourdough-starter-manager)**
-  - **描述**: 通过饲喂计划、水合计算、健康跟踪和烘焙准备来管理酵母发酵剂。当用户想要维护酵母发酵剂、计划喂养、计算比例、解决发酵剂问题或准备烘焙时使用。
+  - **描述**: 通过gws命令行工具管理Google Workspace，包括Gmail、Drive、Sheets、Calendar、Docs、Chat和Tasks。实现任务自动化、运行安全审计，并利用43个内置脚本和10个角色包。
 - **[smart-model-switcher-v2](skills/smart-model-switcher-v2)**
-  - **描述**: 优化的智能模型切换器 (v2) - 零延迟，无需重启。自动为您购买的计划中的每项任务选择并切换到最佳可用模型。运行时模型选择延迟<100ms。支持新模型自动检测、多模型并行处理、智能任务分类。始终使用您计划中最强的模型。
+  - **描述**: 优化的智能模型切换器（v2）无需重启，零延迟自动选择计划中的最佳模型执行任务，支持新模型自动检测、多模型并行处理和智能任务分类。
 - **[smart-model-switcher-v3](skills/smart-model-switcher-v3)**
-  - **描述**: 通用智能模型切换器V3 - 多提供商、多模型智能切换。自动从您购买的所有 API 计划（Bailian/Qwen、MiniMax、GLM、Kimi 等）中选择最佳模型。零延迟运行时切换，无需重启。支持所有提供商的 50 多个模型，具有高级任务分类和后备逻辑。
-- **[tg-smart-cta](skills/tg-smart-cta)**
-  - **描述**: 使用上下文感知的动态 CTA 按钮（智能启动器 UI）增强 Telegram 回复。在 Telegram 上回复用户时使用，以提供相关、时间敏感且面向任务的选项，以实现更好的交互。
-- **[sales-engineer](skills/sales-engineer)**
-  - **描述**: 分析 RFP/RFI 响应以找出覆盖范围差距，构建有竞争力的功能比较矩阵，并计划售前工程的概念验证 (POC) 活动。在响应 RFP、投标或提案请求时使用；将产品功能与竞争对手进行比较；规划或评分客户 POC 或销售演示；准备技术方案；或进行赢/输竞争对手分析。处理描述为“RFP 响应”、“投标响应”的任务
+  - **描述**: 通用智能模型切换器V3从您购买的所有API计划中智能选择最佳模型，支持超过50种模型，实现零延迟切换和高级任务处理。
 - **[jules-api](skills/jules-api)**
-  - **描述**: 通过 Jules REST API 创建和管理 Google Jules AI 编码会话。启动任务、监控进度、批准计划、发送消息、列出源/存储库以及检索会话活动/工件。
-- **[ms-graph-calendar](skills/ms-graph-calendar)**
-  - **描述**: 使用 Microsoft Graph API 查找公司员工的可用会议时间和空闲/忙碌时段。当用户要求安排会议、查找空闲时间、检查员工何时有空或查找某人的日历空闲时间时使用。
+  - **描述**: 通过Jules REST API管理Google Jules AI编码会话。启动任务、跟踪进度、批准计划、沟通交流以及访问会话详情和成果。
+### 数据与分析
+
+- **[botlearn-assessment](skills/botlearn-assessment)**
+  - **描述**: BotLearn评估插件可以在五个维度（推理、检索、创造、执行和协调）上评估机器人的能力，支持手动触发或定期自动审查。
+- **[deepread-ocr](skills/deepread-ocr)**
+  - **描述**: DeepRead是一个AI原生的OCR平台，能在几分钟内将文档转换为高精度数据，准确率超过97%，并通过标记不确定字段将人工审核减少到仅5-10%。
+- **[music-analysis](skills/music-analysis)**
+  - **描述**: 分析本地音乐/音频文件，提取节奏、律动感、稳定性、结构和情感基调等特征，并结合歌词以获得更细腻的情感解读。
+- **[fenge-smart-search](skills/fenge-smart-search)**
+  - **描述**: 智能搜索工具，自动选择最佳搜索引擎：中文使用Bing，英文使用DuckDuckGo。无需API密钥，免费无限使用。
+- **[afrexai-data-engineering](skills/afrexai-data-engineering)**
+  - **描述**: 一个全面的指南，用于设计、构建、运营和扩展数据管道及基础设施，无需外部依赖。
+- **[senior-data-engineer](skills/senior-data-engineer)**
+  - **描述**: 此AI技能专长于构建可扩展的数据管道和ETL/ELT系统，精通Python、SQL、Spark、Airflow、dbt、Kafka及现代数据栈。涵盖数据建模、管道编排、数据质量和DataOps，适用于设计数据架构和优化工作流。
+- **[code-stats](skills/code-stats)**
+  - **描述**: 通过统计文件数量、代码行数并按文件扩展名分类，可视化项目复杂度，帮助评估项目的规模或增长。
+- **[deepread-agent-setup](skills/deepread-agent-setup)**
+  - **描述**: 通过OAuth设备流认证AI代理与DeepRead OCR API，用户在浏览器中批准代码后，代理将接收并以环境变量形式存储DEEPREAD_API_KEY。
+- **[jina-reader](skills/jina-reader)**
+  - **描述**: Jina AI Reader API 以三种模式提取网页内容：读取（URL转Markdown）、搜索（网络搜索+完整内容）和验证（事实核查）。它提供干净的内容而不暴露服务器IP。
+- **[sql-to-bi-builder](skills/sql-to-bi-builder)**
+  - **描述**: 将包含SQL查询的Markdown文件转换为BI仪表板规范和UI框架，包括查询解析、度量/维度推断、图表推荐、过滤器设计和布局生成。
+- **[afrexai-data-analyst](skills/afrexai-data-analyst)**
+  - **描述**: 作为一名资深数据分析师，你的职责是发现数据中的故事，并清晰地呈现出来以指导下一步行动。
+- **[afrexai-data-governance](skills/afrexai-data-governance)**
+  - **描述**: 评估、评分并改进组织在六个关键领域的数据治理状况。
+- **[afrexai-data-privacy](skills/afrexai-data-privacy)**
+  - **描述**: afrexai-data-privacy技能确保用户数据按照隐私标准得到保护和管理，防止信息被未经授权的访问。
+- **[estat-mcp](skills/estat-mcp)**
+  - **描述**: 从日本官方开放数据门户e-Stat检索有关人口、GDP、CPI、贸易和就业的政府统计数据，该平台提供超过3,000个统计表。免费API访问。
+- **[senior-data-scientist](skills/senior-data-scientist)**
+  - **描述**: 此AI技能插件专注于高级数据科学，包括统计建模、实验设计、因果推断和预测分析，并擅长使用Python、R和SQL进行A/B测试、特征工程、模型评估及MLflow实验跟踪。
+- **[dataset-finder](skills/dataset-finder)**
+  - **描述**: 使用此技能从Kaggle、UCI ML、Data.gov或Hugging Face等数据仓库中搜索、下载和探索数据集。它还支持预览数据集统计信息和生成数据卡片。
+- **[simple-excel](skills/simple-excel)**
+  - **描述**: 一个简单的Excel文件处理工具，支持.xlsx和.csv格式。适用于基本的数据操作任务，如读取、编辑和生成表格。
+- **[csv-wizard](skills/csv-wizard)**
+  - **描述**: 交互式数据清洗命令行工具，支持自动类型推断、缺失值处理和重复检测。
+- **[expanso-csv-to-json](skills/expanso-csv-to-json)**
+  - **描述**: 将CSV数据转换为JSON对象数组。
+- **[expanso-json-to-csv](skills/expanso-json-to-csv)**
+  - **描述**: 将JSON对象数组转换为CSV格式。
+- **[ai-data-analysis](skills/ai-data-analysis)**
+  - **描述**: 此命令对'data.csv'文件进行数据分析，专门关注销售趋势。
+- **[csv-analyzer-cn](skills/csv-analyzer-cn)**
+  - **描述**: 用于分析包含中文内容的CSV文件。
+- **[microsoft-excel](skills/microsoft-excel)**
+  - **描述**: 集成Microsoft Excel API，以读写工作簿、管理数据和访问OneDrive中的单元格值。使用此技能进行电子表格修改和数据管理。
+- **[analyse-data](skills/analyse-data)**
+  - **描述**: '分析数据'技能提供数据分析、解读和可视化功能，包括统计计算、趋势分析和图表生成。
+- **[analysis-data](skills/analysis-data)**
+  - **描述**: 'analysis-data' 技能提供数据分析、解读和可视化功能，包括统计计算、趋势分析及图表生成。
+- **[data-analysis-pro](skills/data-analysis-pro)**
+  - **描述**: 数据分析师技能提供数据分析、解释和可视化功能，支持计算统计、分析趋势和生成图表等任务。
+- **[data-ground-truth](skills/data-ground-truth)**
+  - **描述**: 在报告或建议中呈现数字之前，核实其准确性并对照行业标准进行检查。
+- **[nexus-data-profile](skills/nexus-data-profile)**
+  - **描述**: 此AI技能插件对数据集进行统计分析和质量评估。
+- **[csv-handler](skills/csv-handler)**
+  - **描述**: 处理来自建筑软件的CSV文件，自动识别分隔符和编码，并清理混乱的数据。
+- **[data-evolution-analysis](skills/data-evolution-analysis)**
+  - **描述**: 分析建筑组织的数据演变模式，评估其数字化成熟度和数据战略。
+- **[data-lineage-tracker](skills/data-lineage-tracker)**
+  - **描述**: 追踪数据的来源、转换和在系统中的流动，以支持审计跟踪、合规性和调试。
+- **[pdf-ocr-layout](skills/pdf-ocr-layout)**
+  - **描述**: 基于智谱GLM-OCR、GLM-4.7和GLM-4.6V的多模态文档深度分析工具。
+- **[recursive-knowledge-miner](skills/recursive-knowledge-miner)**
+  - **描述**: 专业的多层次知识提取和递归知识图谱构建。
+- **[xml-reader](skills/xml-reader)**
+  - **描述**: 此AI技能读取并解析来自各种建筑系统的XML文件，如P6进度表、BSDD导出、IFC-XML和COBie-XML，并将其转换为pandas DataFrame。
+- **[geminipdfocr](skills/geminipdfocr)**
+  - **描述**: 使用Google Gemini OCR从PDF中提取文本，处理扫描文档或基于图像的PDF。
+- **[summary](skills/summary)**
+  - **描述**: 使用summarize命令行工具，可以对网页、PDF、图片、音频和YouTube视频等URL或文件内容进行摘要。
+- **[summarize-1-0-0](skills/summarize-1-0-0)**
+  - **描述**: 使用summarize命令行工具，可以对网页、PDF、图片、音频和YouTube视频等URL或文件的内容进行总结。
+- **[smart-summarizer](skills/smart-summarizer)**
+  - **描述**: 轻松总结文章、PDF、YouTube视频、网页等内容。提取关键点、行动项和见解，便于快速消化或制作会议笔记。
+- **[seek-and-analyze-video](skills/seek-and-analyze-video)**
+  - **描述**: 分析并发现来自TikTok、YouTube和Instagram等平台的视频。总结内容，创建可搜索的知识库，用于研究或会议记录。
+- **[deepwiki-ask](skills/deepwiki-ask)**
+  - **描述**: 通过提供所有者/仓库名和您的问题，使用DeepWiki对仓库进行单次提问。
+- **[gws-sheets-read](skills/gws-sheets-read)**
+  - **描述**: 从Google Sheets电子表格中读取数据。
+### 可视化与展示
+
+- **[ppt-compress](skills/ppt-compress)**
+  - **描述**: 通过压缩图片和转换为PDF来减小PPT/PPTX文件的大小，非常适合需要分享或上传大型演示文稿的场景。
+- **[md-ppt-generator](skills/md-ppt-generator)**
+  - **描述**: 科技产品发布会创意总监，将结构化的Markdown转换为具有视觉冲击力的“大字报”风格HTML幻灯片，专注于电影感暗色渐变、莫兰迪色系文字以及“呼吸感”动效。
+- **[excalidraw-diagram](skills/excalidraw-diagram)**
+  - **描述**: 根据文本内容生成Excalidraw图表，支持Obsidian（.md）、标准（.excalidraw）和动画（带动画顺序的.excalidraw）三种输出模式。通过关键词如“画图”、“流程图”或“动画图”触发。
+- **[slide-maker](skills/slide-maker)**
+  - **描述**: 一款用于生成演示文稿大纲、完整幻灯片、演讲笔记和设计建议的工具，输出为Markdown格式。
+- **[z-article-card](skills/z-article-card)**
+  - **描述**: 将长文转换为多张PNG图片，每张图片代表文章的一页。
+- **[long-article-illustration](skills/long-article-illustration)**
+  - **描述**: 长文配图助手插件可自动为长文分段、生成AI配图提示词，并调用图像生成工具完成配图。适用于公众号/博客文章、用户上传的文章以及批量生成文章插图。
+- **[article-to-video-script](skills/article-to-video-script)**
+  - **描述**: 将文章、研究报告和长篇内容转化为结构化的视频脚本，包含钩子、正文和轻量级行动号召部分，适用于短（不超过90秒）或长（约10分钟）的创作者评论。
+- **[comman-felo-slides](skills/comman-felo-slides)**
+  - **描述**: 此插件使用Claude Code中的Felo PPT任务API生成PPT或幻灯片。它处理API密钥检查、任务创建、轮询，并提供最终的ppt_url。
+- **[dragon-ppt-maker](skills/dragon-ppt-maker)**
+  - **描述**: 使用python-pptx创建精美的PPT，支持科技风格设计、图文混排及HTML内容嵌入。
+- **[image-read](skills/image-read)**
+  - **描述**: 使用智谱AI的GLM-4V-Flash免费多模态API理解并描述图片内容，识别图片中的物体。
+- **[chart-generator](skills/chart-generator)**
+  - **描述**: 一个数据可视化工具，可生成包括柱状图、折线图、饼图等多种SVG图表。适用于从原始数值数据创建视觉表示。
+- **[diagrams-generator-pro](skills/diagrams-generator-pro)**
+  - **描述**: 生成专业的图表，如云架构图、数据图表和学术插图。可以通过诸如'创建图表'或'可视化数据'的请求触发，或者用户提供的草图或图片进行专业重制时触发。
+- **[table-image-generator](skills/table-image-generator)**
+  - **描述**: 从数据生成清晰的表格图片，适用于Discord和Telegram等平台。支持暗黑/亮色模式、自定义样式和自动调整大小，无需Puppeteer。
+- **[infographic-generation](skills/infographic-generation)**
+  - **描述**: 创建专业信息图，优化视觉沟通效果，涵盖统计、流程、对比、时间线、列表、地理、层级、简历、报告及社交媒体等多种类型。
+- **[chart-splat](skills/chart-splat)**
+  - **描述**: 使用Chart Splat API生成包括折线图、条形图、饼图、环形图、雷达图、极地区域图和蜡烛图/OHLC图在内的美观图表。输出格式为PNG。
+- **[chart-image](skills/chart-image)**
+  - **描述**: 从数据生成高质量的图表图像，支持折线图、柱状图和饼图等多种类型。适用于数据可视化和报告生成，此插件专为Fly.io/VPS部署设计，无需本地编译或浏览器，使用纯Node.js及预构建二进制文件。
+- **[article-to-infographic](skills/article-to-infographic)**
+  - **描述**: 将文本内容转换为视觉上吸引人的HTML信息图，支持时间线、统计数据和流程图等多种风格。
+- **[prd-visualization-skill](skills/prd-visualization-skill)**
+  - **描述**: 此AI技能插件为层级数据（如产品需求文档、组织结构图和文件结构）创建交互式的D3.js可视化图表，支持列表、力导向图和径向聚类等多种视图模式。
+- **[obsidian-cloudflare-pages-skill](skills/obsidian-cloudflare-pages-skill)**
+  - **描述**: 将选定的Obsidian笔记从你的库发布到静态网站，并部署到Cloudflare Pages。
+- **[openclaw-skill-obsidian-cloudflare-pages](skills/openclaw-skill-obsidian-cloudflare-pages)**
+  - **描述**: 将选定的Obsidian笔记从你的库发布到静态网站，并部署到Cloudflare Pages。
+- **[smart-illustrator](skills/smart-illustrator)**
+  - **描述**: 智能配图与信息图生成器，支持文章插图、批量PPT/幻灯片信息图及封面图的生成，默认输出图片，也可仅输出提示。支持Bento Grid风格。
+- **[mermaid-architect](skills/mermaid-architect)**
+  - **描述**: 使用高级语法特性（如引号标签和ELK布局）创建美观的手绘Mermaid图。此技能适用于与图表、流程图或过程可视化相关的请求。
+- **[slide-sniper](skills/slide-sniper)**
+  - **描述**: 监控全屏视频或直播，利用视觉模型检测幻灯片翻页，并自动截图提取文字排版到笔记软件中。
+- **[mermaid-visualizer](skills/mermaid-visualizer)**
+  - **描述**: 将文本转换为专业的Mermaid图表，适用于演示文稿和文档，支持流程图、系统架构、比较图、思维导图等，并内置语法错误预防功能。
+- **[ppt-outline](skills/ppt-outline)**
+  - **描述**: 此AI技能插件可生成PPT大纲和独立的HTML演示文稿，适用于制作商业路演、商业计划书、工作报告、培训材料等内容。它非常适合于内容结构化，并且可以直接在任何浏览器中打开，无需额外软件支持。
+- **[google-slides](skills/google-slides)**
+  - **描述**: 通过托管的OAuth集成Google Slides API，创建、修改和格式化演示文稿。对于其他第三方应用，请使用api-gateway技能。
+- **[pptx-pdf-font-fix](skills/pptx-pdf-font-fix)**
+  - **描述**: 此插件通过为文本应用轻微透明度来修复从PowerPoint导出PDF时的字体嵌入问题，确保自定义字体能够正确嵌入。
+- **[skill-mermaid-diagrams](skills/skill-mermaid-diagrams)**
+  - **描述**: 为技术内容生成一致且基于模板的Mermaid图表，支持包括架构图、流程图和时间线在内的12种类型，具备自动模板选择、由大语言模型驱动的内容生成及错误处理功能。
+- **[xfyun-ppt-gen](skills/xfyun-ppt-gen)**
+  - **描述**: 根据优化的主题关键词生成专业的结构化PowerPoint演示文稿。
+- **[tiangong-wps-ppt-automation](skills/tiangong-wps-ppt-automation)**
+  - **描述**: 在Windows上自动化处理PowerPoint/WPS演示文稿的常见任务，如管理文本/备注/大纲、导出PDF/图片、替换文本、幻灯片操作和样式统一。仅适用于单个演示文稿的操作。
+- **[gws-slides](skills/gws-slides)**
+  - **描述**: 使用Google幻灯片创建和编辑演示文稿。
+- **[md-2-pdf](skills/md-2-pdf)**
+  - **描述**: 使用reportlab将Markdown文件转换为整洁、格式化的PDF。
+- **[ima-knowledge-ai](skills/ima-knowledge-ai)**
+  - **描述**: 此AI内容创作指南提供了工作流设计、模型选择和参数优化等方面的专家建议，确保在图像、视频和音乐生成中达到专业级效果。对于保持一致性和避免常见错误至关重要。
+- **[pollinations-sketch-note](skills/pollinations-sketch-note)**
+  - **描述**: 一款由AI驱动的工具，能够自动生成手绘风格的知识卡片，并自动搜索和总结主题。
+### 学术研究与写作
+
+- **[reviewer-rebuttal-coach](skills/reviewer-rebuttal-coach)**
+  - **描述**: 此AI技能插件从剪贴板读取审稿意见、导师批注或评审反馈，并生成逐条回复、修改计划与优先级建议。
+- **[add-educational-comments](skills/add-educational-comments)**
+  - **描述**: 在指定的文件中添加教育性注释，如果未提供文件，则提示选择文件。
+- **[certificate-generation](skills/certificate-generation)**
+  - **描述**: 使用each::sense AI生成专业的证书、文凭和奖项。适用于课程结业、成就认证及定制品牌证书。
+- **[diataxis-writing](skills/diataxis-writing)**
+  - **描述**: Diataxis文档框架实践指南，为教程、操作指南、参考和解释四种类型的文档提供诊断、分类、模板及质量评估。
+- **[agentledger-research-assistant](skills/agentledger-research-assistant)**
+  - **描述**: 为AI助手设计的结构化网络研究工具，支持多源研究、将研究成果整合成可执行简报，并持续跟踪趋势。适用于市场调研、竞品分析及特定主题的深入研究。
+- **[pdf-translate](skills/pdf-translate)**
+  - **描述**: 此AI技能将PDF文档翻译成中文，保持专业排版。它逐节提取并翻译文本为结构良好的Markdown格式，然后生成支持CJK的新PDF。
+- **[human-writing-azzar](skills/human-writing-azzar)**
+  - **描述**: 此技能确保为README、技术文档和正式文件提供专业且类人的写作，避免使用AI特有的语言、流行语和冗余内容。
+- **[aibrary-podcast-summary](skills/aibrary-podcast-summary)**
+  - **描述**: 生成一段10到15分钟的单人叙述播客脚本，概述一本书的核心思想。
+- **[aibrary-reading-list](skills/aibrary-reading-list)**
+  - **描述**: 生成一个精心策划的主题阅读列表，书籍按逻辑顺序排列，适合深入探索或在特定领域建立专业知识。
+- **[sop-writer](skills/sop-writer)**
+  - **描述**: SOP编写工具用于创建标准操作流程，包括流程图、检查清单、审核评估和培训材料，并提供模板库以便快速使用。
+- **[article-summarizer](skills/article-summarizer)**
+  - **描述**: 文章摘要生成器自动抓取并总结网页文章，提供带有关键点和要点列表的结构化摘要。适合自媒体、运营人员及研究人员使用。
+- **[translate-cli](skills/translate-cli)**
+  - **描述**: 本指南介绍如何使用`translate`命令行工具处理多种输入的翻译、配置提供商及自定义设置。适用于命令构建、配置更新、提供商设置及故障排除。
+- **[banner-youtube-translate-workflow](skills/banner-youtube-translate-workflow)**
+  - **描述**: 此AI技能插件自动完成下载YouTube音频、在豆包中播放并捕获翻译的过程，适用于整段视频的翻译。
+- **[alicloud-ai-audio-livetranslate](skills/alicloud-ai-audio-livetranslate)**
+  - **描述**: 此AI技能插件适用于实时语音翻译，适合双语会议、即时口译以及将语音转换为文本或另一种语言。
+- **[alicloud-media-video-translation](skills/alicloud-media-video-translation)**
+  - **描述**: 通过OpenAPI管理阿里云IMS视频翻译任务，包括字幕、语音和面部。适用于基于API的翻译、状态更新和任务管理。
+- **[clarity-literature](skills/clarity-literature)**
+  - **描述**: 从Clarity Protocol检索研究论文、PubMed参考文献或特定主题（如蛋白质）的引用出版详情。
+- **[translate-image](skills/translate-image)**
+  - **描述**: 使用TranslateImage AI从图片中翻译、提取或移除文本。适用于处理包含外语文字的图片，如漫画。
+- **[nexus-translate](skills/nexus-translate)**
+  - **描述**: 提供超过50种语言的高质量翻译，具备文化意识。
+- **[wechat-article-crayon](skills/wechat-article-crayon)**
+  - **描述**: 此AI技能插件“wechat-article-crayon”辅助微信公众号文章的内容创作与改写，包括选题、标题优化、正文写作、重写润色、排版及封面图提示词生成，适用于撰写易读性强、引人入胜且自然流畅的文章。
+- **[x-article-reader](skills/x-article-reader)**
+  - **描述**: 此AI技能使用macOS的文本转语音功能朗读X（推特）文章。它接受文章链接，自动检测语言并选择合适的声音。可以通过说“朗读”或“读这个X文章”来使用。
+- **[wechat-article-writer](skills/wechat-article-writer)**
+  - **描述**: 公众号写作助手是一款专为创作微信公众号文章设计的AI工具，涵盖从选题到成稿及自动配图的全过程。
+- **[wechat-article-extractor-skill](skills/wechat-article-extractor-skill)**
+  - **描述**: 此技能从微信公众号文章中提取元数据和内容，包括标题、作者、内容、发布时间和封面图片，并将其转换为结构化数据。支持多种类型的文章，如图文、视频、图片、语音消息和转载。
+- **[article-idea-capture](skills/article-idea-capture)**
+  - **描述**: 记录并整理文章灵感、选题和半成型的观点，将其发展成大纲或初稿。当你有想法、想要保存一个念头以备后用，或是需要扩展已保存的概念时使用。
+- **[docs-generator](skills/docs-generator)**
+  - **描述**: 自动化文档生成器，用于创建API文档、README、CHANGELOG、贡献指南、架构文档、教程、FAQ和参考手册。支持REST、GraphQL和OpenAPI格式。
+- **[developer-docs-framework](skills/developer-docs-framework)**
+  - **描述**: 此AI技能插件“developer-docs-framework”提供了创建有效技术文档的最佳实践和框架，涵盖内容类型、写作风格、信息架构和开发者体验策略。它支持诸如教程、API参考和迁移指南等多种文档，并可通过如“写文档”或“API文档”等关键词触发。
+- **[arxiv-reader](skills/arxiv-reader)**
+  - **描述**: 此AI技能插件使用Python通过指定arXiv论文ID或URL，对论文进行分类和深度阅读，并直接打印出阅读笔记。
+- **[meyhem-researcher](skills/meyhem-researcher)**
+  - **描述**: 一个多查询研究工具，将主题分解为有针对性的查询，并预览顶级结果，无需API密钥。
+- **[rubric-gap-analyzer](skills/rubric-gap-analyzer)**
+  - **描述**: 分析当前草稿与评分标准或作业要求之间的差距，并给出提分计划。
+- **[tavily-research-pro](skills/tavily-research-pro)**
+  - **描述**: 一款专业的AI驱动的搜索和研究工具，能够聚合多维度数据，进行语义分析，并自动生成报告以收集结构化信息。
+- **[pdf-tools](skills/pdf-tools)**
+  - **描述**: 管理PDF文件，支持查看、提取文本、编辑文字、合并、拆分、旋转页面和访问元数据。
+- **[ai-researcher](skills/ai-researcher)**
+  - **描述**: 对任何主题进行深入研究，提供结构化分析、来源评估和专家级总结。
+- **[paper-assistant](skills/paper-assistant)**
+  - **描述**: 面向学术论文写作全过程的助手，涵盖选题、提纲到最终润色和投稿准备。
+- **[research-logger-pro](skills/research-logger-pro)**
+  - **描述**: 此AI技能插件将深度搜索结果自动保存到SQLite和Langfuse中，每个查询都会记录主题标签、时间戳和完整结果，便于检索和回顾。
+- **[latex-writer](skills/latex-writer)**
+  - **描述**: 从模板生成专业的LaTeX文档，支持学术论文、中文论文、简历以及自定义格式，并自动编译为PDF。
+- **[agentarxiv](skills/agentarxiv)**
+  - **描述**: 为AI代理提供结果导向的科学出版服务，支持研究、实验和同行评审的分享，并具备里程碑跟踪和复制奖励等功能。
+- **[moltarxiv](skills/moltarxiv)**
+  - **描述**: 面向结果的AI科研发布平台，支持分享研究成果、实验和同行评审，并提供验证过的数据资源和合作机会。
+- **[meta-research](skills/meta-research)**
+  - **描述**: 一个全自动的研究生命周期助手，从头脑风暴、文献回顾到实验设计、数据分析及撰写研究成果，注重可重复性和动态阶段转换。
+- **[scholar-paper-downloader](skills/scholar-paper-downloader)**
+  - **描述**: 一个学术论文PDF批量下载工具，支持从arXiv、PubMed等网站搜索并下载论文。自动提取元数据并生成索引列表，优先使用官方免费渠道下载，并为付费文献提供手动下载指引。
+- **[academic-research-hub](skills/academic-research-hub)**
+  - **描述**: 使用此技能搜索、下载和引用学术论文，以及收集学术信息。适用于文献综述、参考书目生成和访问arXiv、PubMed、Semantic Scholar或Google Scholar等数据库。
+- **[citation-finder](skills/citation-finder)**
+  - **描述**: 此AI技能插件citation-finder通过标题在多个数据库中搜索学术论文，并返回GB/T 7714、APA第七版和MLA第九版格式的引用及来源链接。
+- **[web-researcher](skills/web-researcher)**
+  - **描述**: 使用此技能进行深度研究、事实核查或获取最新的技术新闻。
+- **[gemini-deep-research](skills/gemini-deep-research)**
+  - **描述**: 使用Gemini深度研究助手进行深入且耗时的研究任务，包括多源综合、竞争分析、市场研究和技术调查。
+- **[mckinsey-decision-memo-writer](skills/mckinsey-decision-memo-writer)**
+  - **描述**: 将长文档、报告、提案和电子邮件线程精简为简洁的备忘录，突出关键点、风险、待解决的问题和下一步行动。
+- **[scihub-paper-downloader](skills/scihub-paper-downloader)**
+  - **描述**: 通过DOI从Sci-Hub获取PDF链接。
+- **[auto-researcher](skills/auto-researcher)**
+  - **描述**: 自主研究助手是一款用于深度调研、交叉验证并生成引用报告的工具。
+- **[paper-fetcher](skills/paper-fetcher)**
+  - **描述**: 通过DOI从Sci-Hub获取学术论文，自动下载并将PDF保存到research/papers/目录下，文件名简洁明了。适用于涉及DOI或PubMed论文的请求。
+- **[core-researcher](skills/core-researcher)**
+  - **描述**: 您是一位跨学科的学术研究助手，使用Core API进行文献综述、论文分析和学术写作。
+- **[parallel-ai-research](skills/parallel-ai-research)**
+  - **描述**: 针对某一主题进行开放式研究，创建动态的Markdown文档，并支持交互式和深度探索。
+- **[research-agent](skills/research-agent)**
+  - **描述**: 对任何主题进行深入研究，生成动态Markdown文档。支持互动和深度研究模式。
+- **[proofreader](skills/proofreader)**
+  - **描述**: 此AI技能插件提供校对功能，包括错别字检查、语法纠错、文风统一、可读性评分及全面的校对报告。需要校对时使用。
+- **[thesis-helper](skills/thesis-helper)**
+  - **描述**: 一款论文写作助手，可根据学术层次自动生成大纲、文献综述和摘要，同时管理引用格式、格式检查及答辩准备。
+- **[paper-parse-figures](skills/paper-parse-figures)**
+  - **描述**: 此AI技能插件将学术PDF论文转换为markdown格式，并提取其中的图表。
+- **[chonkie-deepresearch](skills/chonkie-deepresearch)**
+  - **描述**: 使用Chonkie DeepResearch进行深度查询，生成带有引用的详细研究报告，适用于市场分析、竞争情报和技术深入研究等任务。
+- **[arxiv-watch](skills/arxiv-watch)**
+  - **描述**: 按类别监控arXiv上的新论文。适合查看最新研究、跟踪特定主题或管理阅读列表。
+- **[research-to-wechat](skills/research-to-wechat)**
+  - **描述**: 此AI技能插件可将主题、笔记、文章、网址或转录转换为结构良好、带有内联视觉和封面图片的Markdown文章，适用于微信及其他平台。它还包括证据记录、HTML转换及多平台分发选项。
+- **[knowledge-answer](skills/knowledge-answer)**
+  - **描述**: 此AI技能'knowledge-answer'以用户偏好语言提供答案，基于搜索结果时会附上可点击的脚注引用。日期和引用格式均按标准设置。
+- **[knowledge-forge](skills/knowledge-forge)**
+  - **描述**: 将个人经验、案例研究和商业文档转化为结构化、易于理解、记忆和应用的教学内容。适用于创建课程大纲、演示文稿或可分享的知识文档。
+- **[pro-zh-summary](skills/pro-zh-summary)**
+  - **描述**: 专业工具，用于总结长篇中文文本，当用户要求摘要或要点时，自动分段并压缩内容。
+### 笔记与知识库
+
+- **[flashcard](skills/flashcard)**
+  - **描述**: 闪卡生成与间隔复习系统，具备测验模式、导出功能（Markdown/Anki）及学习统计分析。适用于高效学习和复习。
+- **[keep-learning-agent](skills/keep-learning-agent)**
+  - **描述**: 持续学习Agent是一个知识沉淀与经验固化框架，支持学习记录、快速索引、自我修复及经验转模型等功能。内置完整模板、索引系统和SOP流程，助力AI持续进化。
+- **[learning-system-skill](skills/learning-system-skill)**
+  - **描述**: “learning-system-skill”插件管理知识图谱、深度学习笔记、实战复盘和关联网络。适用于制定学习计划、更新知识图谱、深入研究AI主题、总结经验或每周学习回顾等场景。在改完代码、读完论文或完成调研后，使用该插件提炼和组织知识。
+- **[notebooklm-skill](skills/notebooklm-skill)**
+  - **描述**: 此技能允许您从Claude Code查询Google NotebookLM笔记本，提供基于文档的答案，并具备浏览器自动化、库管理和持久认证功能。它通过仅使用文档内容来减少错误信息。
+- **[session-memory-workspace](skills/session-memory-workspace)**
+  - **描述**: 此AI技能插件将对话会话总结并保存到每日记忆文件中，使OpenClaw能够回忆和引用过去的对话。
+- **[tiangong-notebooklm-cli](skills/tiangong-notebooklm-cli)**
+  - **描述**: 一个用于NotebookLM的CLI工具，支持身份验证、笔记本管理、聊天、源处理、笔记、分享、研究及生成/下载工件。
+- **[wechat-article-reader](skills/wechat-article-reader)**
+  - **描述**: 此AI技能插件可将微信公众号文章导出为Markdown格式，当用户提供微信文章链接或要求下载、导出、保存文章时触发，默认保存到工作空间的source目录。
+- **[feishu-article-collector](skills/feishu-article-collector)**
+  - **描述**: 自动从今日头条和微信公众号收集文章，提取正文并通过AI生成摘要和分类，保存到飞书多维表格中。支持去重。
+- **[article-extract](skills/article-extract)**
+  - **描述**: 从微信公众号、博客和新闻网站中提取正文内容，绕过反爬机制，以纯文本形式输出。
+- **[wechat-article-explainer](skills/wechat-article-explainer)**
+  - **描述**: 此AI技能根据用户提供的链接或URL，用通俗的语言总结和解释微信公众号文章的内容。
+- **[wechat-article-extractor](skills/wechat-article-extractor)**
+  - **描述**: 从微信公众号文章链接中提取全文和图片，并保存为整洁的Markdown文件，自动处理反爬虫机制，寻找镜像站点。
+- **[librag-knowledge-recall](skills/librag-knowledge-recall)**
+  - **描述**: LibRAG 插件通过本地 `/api/v1/librag/knowbase/recall` 接口从知识库中召回数据，适用于中文场景下的知识检索、资料召回和证据提取等任务。
+- **[feishu-document-reader](skills/feishu-document-reader)**
+  - **描述**: 通过官方飞书开放API，从所有飞书文档类型中读取和提取内容。
+- **[obsidian-openclaw-sync](skills/obsidian-openclaw-sync)**
+  - **描述**: 在多个iCloud设备间同步Obsidian OpenClaw配置，管理符号链接以实现无缝集成。
+- **[notion-2026-01-15](skills/notion-2026-01-15)**
+  - **描述**: 更新至2026年1月15日的Notion API，新增了创建、移动和管理页面、数据源及模块的功能。
+- **[agxntsix-research-logger](skills/agxntsix-research-logger)**
+  - **描述**: 一个AI研究流程，能够自动将数据记录到SQLite并使用Langfuse进行追踪。
+- **[research-logger](skills/research-logger)**
+  - **描述**: 轻松管理研究，自动记录结果并保存到SQLite中，并带有元数据和完整的Langfuse追踪。适用于研究、竞争分析和知识库构建。
+- **[multimedia-to-obsidian](skills/multimedia-to-obsidian)**
+  - **描述**: 将PPT、PDF、DOCX和图片等多种多媒体文档导入Obsidian知识库，自动抽取每一页或每一幅图片的内容，利用多模态模型理解并生成文本描述保存至Obsidian，适用于整理培训材料、迁移笔记及将图像资料转化为结构化知识。
+- **[obsidian-canvas-creator](skills/obsidian-canvas-creator)**
+  - **描述**: 从文本创建可用于思维导图或自由布局的交互式Obsidian画布文件，非常适合可视化和空间组织信息。
+- **[ai-research-to-obsidian](skills/ai-research-to-obsidian)**
+  - **描述**: 此AI技能插件使用AI工具搜索信息，并将结果保存为Obsidian文档。当用户要求搜索问题、请求浏览器搜索并保存到Obsidian，或说“帮我查一下”并提到保存到笔记或文档时触发。
+- **[pdf-parser-mineru](skills/pdf-parser-mineru)**
+  - **描述**: 一个PDF解析工具，可将文档转换为Markdown、JSON等机器可读格式。
+- **[pdf-co](skills/pdf-co)**
+  - **描述**: PDF.co API与托管OAuth集成，用于PDF转换、合并、拆分、编辑和数据提取。使用此技能执行如将PDF转换为其他格式、添加水印或文本以及解析发票等任务。
+- **[pdfagent](skills/pdfagent)**
+  - **描述**: 一个自托管的PDF操作和转换解决方案，支持用量计量。
+- **[zotero-pdf-upload](skills/zotero-pdf-upload)**
+  - **描述**: 在Zotero网络图书馆中上传和管理PDF，支持个人和群组图书馆。适用于添加论文、整理收藏以及通过API管理您的图书馆。
+- **[links-to-pdfs](skills/links-to-pdfs)**
+  - **描述**: 从Notion、DocSend和PDF等来源下载并转换网页文档为本地PDF文件。支持受保护文档的认证和会话持久化。
+- **[pdf-to-markdown](skills/pdf-to-markdown)**
+  - **描述**: 将PDF文档转换为Markdown格式。当您需要将PDF转换成更易于编辑的形式时，请使用此工具。
+- **[compress-pdf](skills/compress-pdf)**
+  - **描述**: 通过将用户提供的PDF上传至Cross-Service-Solutions进行压缩处理，完成后返回压缩文件的下载链接。
+- **[convert-to-pdf](skills/convert-to-pdf)**
+  - **描述**: 将一个或多个文档上传至Cross-Service-Solutions，转换为PDF格式，并获取转换后文件（如多个文件则为ZIP）的下载链接。
+- **[merge-pdf](skills/merge-pdf)**
+  - **描述**: 将多个PDF文件上传到Cross-Service-Solutions进行合并，处理完成后会收到合并后的PDF下载链接。
+- **[personal-notes](skills/personal-notes)**
+  - **描述**: 作为记笔记和写日记的助手，记录想法、反思和日常日志。在提到日记、日志或“记下来”等词语时使用。
+- **[book-brain-visual-reader](skills/book-brain-visual-reader)**
+  - **描述**: 为LYGO Havens增强的BOOK BRAIN，具备视觉功能，集成三脑文件系统和记忆系统，结合文本和API数据进行浏览器、图像和截图的深度验证与检索。适用于使用视觉工具或浏览器自动化的代理。
+- **[obsidian-cli-skills](skills/obsidian-cli-skills)**
+  - **描述**: Obsidian CLI 是一个用于管理 Obsidian 笔记库的命令行工具，可以实现搜索、创建、移动和删除笔记等功能。
+- **[obsidian-clip](skills/obsidian-clip)**
+  - **描述**: 创建和管理Obsidian剪藏笔记，即网页或文章片段。当您希望获取URL的可读摘要并将其保存到Obsidian库中的Clip/YYYY-MM/目录时，使用此技能。
+- **[obsidian-cli](skills/obsidian-cli)**
+  - **描述**: 此技能适用于官方的Obsidian CLI（v1.12+），可实现库管理自动化，包括文件操作、每日笔记、搜索、任务等，以及开发工具。
+- **[note](skills/note)**
+  - **描述**: 一个用于捕捉、组织和检索笔记、想法和见解的系统。它会根据主题和项目自动整理内容，并在需要时提供相关信息，连接不同领域的相关概念。
+- **[obsidian-cli-official](skills/obsidian-cli-official)**
+  - **描述**: 官方Obsidian命令行工具（v1.12+），提供全面的命令行界面，用于管理笔记、任务、搜索、标签、属性、链接等功能。
+- **[obsidians](skills/obsidians)**
+  - **描述**: 此AI技能插件支持使用纯Markdown笔记和obsidian-cli自动化管理Obsidian库，并提供50多种模型用于图像和视频生成、文本转语音等多种任务。
+- **[notebooklm-distiller](skills/notebooklm-distiller)**
+  - **描述**: NotebookLM Distiller 可将知识从 Google NotebookLM 提取到 Obsidian，提供问答生成、结构化摘要、术语提取、网络研究和 Markdown 持久化功能。
+- **[obsidian-organizer](skills/obsidian-organizer)**
+  - **描述**: 整理和标准化Obsidian知识库，以提高可靠性和长期可维护性，包括文件夹结构设计、文件命名规范、迁移以及创建审核和修复工作流程。
+- **[neural-note-taker](skills/neural-note-taker)**
+  - **描述**: 一款高级的联想记忆工具，帮助在处理密集信息时建立事实与实体之间的联系，并在长时间会话中保持上下文。
+- **[obsidian-daily](skills/obsidian-daily)**
+  - **描述**: 通过obsidian-cli管理Obsidian每日笔记，包括创建、打开、添加条目和搜索库内容。支持如“昨天”或“3天前”等相对日期。需要通过Homebrew（Mac/Linux）或Scoop（Windows）安装obsidian-cli。
+- **[second-brain](skills/second-brain)**
+  - **描述**: 由Ensue支持的个人知识库，用于保存、回忆和扩展您的学习内容。可用于管理笔记和工具箱。
+- **[save-to-obsidian](skills/save-to-obsidian)**
+  - **描述**: 通过SSH将Markdown内容保存到远程Obsidian库。
+- **[notesctl-skill-for-openclaw](skills/notesctl-skill-for-openclaw)**
+  - **描述**: 通过本地脚本管理Apple Notes，包括创建、追加、列出、搜索、导出和编辑笔记。当您需要通过OpenClaw添加、列出、搜索或管理笔记文件夹时，请使用此技能。
+- **[2nd-brain](skills/2nd-brain)**
+  - **描述**: 个人知识库，用于存储和检索有关人物、地点、媒体、想法等的信息。当提到特定实体或使用诸如“记住”或“注意”等触发词时使用。
+- **[brainrepo](skills/brainrepo)**
+  - **描述**: 一个个人知识库，使用PARA和Zettelkasten方法来捕获、组织和检索信息。它通过诸如“保存这个”或“记住”等命令触发，支持每日/每周回顾，并与任何能读取markdown的AI代理集成，将所有内容以.md文件形式存储在Git仓库中，可用于Obsidian、VS Code或任何编辑器。
+- **[notion-cli-agent](skills/notion-cli-agent)**
+  - **描述**: 使用指定的查询来搜索页面。
+- **[microsoft-onenote](skills/microsoft-onenote)**
+  - **描述**: 与Microsoft OneNote集成，管理笔记本并操作数据。
+- **[notion-integration](skills/notion-integration)**
+  - **描述**: 与Notion集成，管理项目、文档和工作流程。使用此技能来操作您的Notion数据。
+- **[voicenotes-official](skills/voicenotes-official)**
+  - **描述**: 此官方语音笔记技能使OpenClaw能够通过自然对话使用新的API进行语义搜索、获取完整转录、按标签或日期筛选以及创建文本笔记。
+- **[timeless](skills/timeless)**
+  - **描述**: 管理和查询Timeless会议、房间、转录和AI文档。您还可以捕获播客剧集和YouTube视频进行转录，并与Timeless AI互动讨论会议内容。
+### 学习效率与工具
+
+- **[hinihao-chinese-tutor](skills/hinihao-chinese-tutor)**
+  - **描述**: 一个主动式的中文导师，按计划提供精选的、来自真实世界的普通话学习内容，适合HSK 1-6级别的学习者。它能够推荐阅读材料、播客、视频和歌曲，并可以通过用户的特定请求或定时课程激活。
+- **[flashcards-podcasts-master](skills/flashcards-podcasts-master)**
+  - **描述**: 通过EchoDecks外部API管理抽认卡、生成AI内容并提供音频学习会话。
+- **[recipe-create-classroom-course](skills/recipe-create-classroom-course)**
+  - **描述**: 创建一个Google Classroom课程并邀请学生加入。
+- **[training-plan](skills/training-plan)**
+  - **描述**: 培训计划设计工具，帮助设计课程体系、效果评估、准备培训材料、安排日程和提供证书模板。适用于创建全面的培训计划和员工发展方案。
+- **[optical-quantum-skill](skills/optical-quantum-skill)**
+  - **描述**: 使用光纤和线性光学模拟量子内核。
+- **[space-autonomy-skill](skills/space-autonomy-skill)**
+  - **描述**: 一个使用光学量子核进行地形分类的自主空间导航代理。
+- **[quantum-lab](skills/quantum-lab)**
+  - **描述**: 使用~/.venvs/qiskit中的现有虚拟环境执行/home/bram/work/quantum_lab目录下的Python脚本和演示。在被要求运行该仓库中的特定子命令或笔记本时使用。
+- **[quantumlab](skills/quantumlab)**
+  - **描述**: 使用现有的虚拟环境~/.venvs/qiskit执行/home/bram/work/quantum_lab中的Python脚本和演示。这包括运行quant_math_lab.py、qcqi_pure_math_playground.py、quantum_app.py、quantumapp.server或仓库中的任何笔记本文件的子命令。
+- **[expanso-language-detect](skills/expanso-language-detect)**
+  - **描述**: 使用AI识别给定文本的语言。
+- **[natural-language-planner](skills/natural-language-planner)**
+  - **描述**: 此AI技能插件通过自然语言管理任务和项目，将任务组织成项目，跟踪进度，并提供本地看板仪表盘。
+- **[git-standup](skills/git-standup)**
+  - **描述**: 通过分析Git提交自动生成工作日报。
+- **[plan-flow](skills/plan-flow)**
+  - **描述**: 用于发现、规划、执行、代码审查和测试的AI辅助开发工作流程。
+- **[error-analysis](skills/error-analysis)**
+  - **描述**: 此AI技能插件提供错题分析，包括错题归类、知识点定位和复习建议。
+- **[notion-1-0-0](skills/notion-1-0-0)**
+  - **描述**: 此AI技能插件使用Notion API来创建和管理页面、数据库和区块。
+- **[notion-template](skills/notion-template)**
+  - **描述**: 一个用于生成工作空间、数据库、仪表盘、知识库、项目和个人模板的Notion模板生成器。在需要设计Notion模板时使用。
+- **[vibe-notion](skills/vibe-notion)**
+  - **描述**: 通过非官方私有API与Notion互动，管理页面、数据库、块、搜索、用户和评论。
+- **[vibe-notionbot](skills/vibe-notionbot)**
+  - **描述**: 通过官方API与Notion工作区交互，管理页面、数据库、模块、用户和评论。
+- **[notion-skill](skills/notion-skill)**
+  - **描述**: 通过官方Notion API与Notion页面和数据库进行交互。
+- **[notion-clipper-skill](skills/notion-clipper-skill)**
+  - **描述**: 将网页剪藏到Notion，通过抓取URL，将HTML转换为Markdown格式再转为Notion块，并保存至用户指定的Notion数据库或页面。当你想要将网页保存或剪藏到Notion时，可以使用此技能。
+- **[wechat-to-notion](skills/wechat-to-notion)**
+  - **描述**: 将微信公众号文章保存到Notion数据库。用户分享mp.weixin.qq.com链接时，此技能会提取标题、封面图片和正文内容，并将其保存为Notion块。
+- **[visual-file-sorter](skills/visual-file-sorter)**
+  - **描述**: 自动遍历下载文件夹或桌面，利用视觉模型识别文件内容并重命名，最后归档到指定分类目录。
+- **[ux-researcher-designer](skills/ux-researcher-designer)**
+  - **描述**: 为资深用户体验设计师和研究员提供的工具包，包括数据驱动的角色创建、旅程图绘制、可用性测试框架以及研究综合，适用于用户研究和设计验证。
+- **[deepread-form-fill](skills/deepread-form-fill)**
+  - **描述**: 基于AI的PDF表单填写。上传任意PDF和JSON格式的数据，AI将自动识别表单字段、语义映射数据、进行质量检查并填充表单，最终返回已完成的PDF文件。
+- **[youtube-summarizer](skills/youtube-summarizer)**
+  - **描述**: 自动获取YouTube视频字幕，生成结构化摘要，并将完整字幕发送到消息平台，提供关键见解和元数据。
+- **[cognitive-brain](skills/cognitive-brain)**
+  - **描述**: 跨会话记忆与认知系统，增强AI在多次互动中的记忆和理解能力。
+- **[super-brain](skills/super-brain)**
+  - **描述**: 超级大脑AI增强系统能够让AI跨会话记住用户，持续进化，并通过学习用户偏好和服务技巧提供个性化服务。
+- **[audio-summary](skills/audio-summary)**
+  - **描述**: ‘audio-summary’插件使用`ffmpeg`从视频文件中提取16k单声道压缩音频，基于百炼`qwen3-asr-flash`模型将音频转录并生成内容分段总结，并通过48k压缩支持大文件处理。
+- **[notebooklm-bypass](skills/notebooklm-bypass)**
+  - **描述**: 此AI技能插件提供对NotebookLM的编程控制，并能自动从认证错误中恢复。
+- **[expanso-text-summarize](skills/expanso-text-summarize)**
+  - **描述**: 使用AI将文本总结成3到5个要点。
+- **[deepreader-skill](skills/deepreader-skill)**
+  - **描述**: OpenClaw的默认网页内容阅读器，无需API密钥即可将Twitter、Reddit、YouTube及任何网页转换为干净的Markdown格式。适用于将社交媒体帖子、文章或视频字幕导入到代理记忆中。
+- **[read-optimizer](skills/read-optimizer)**
+  - **描述**: 通过使用智能策略（如head、tail、grep、diff）优化文件读取，以减少令牌使用和延迟。
+- **[obsidian-plugin-tasknotes](skills/obsidian-plugin-tasknotes)**
+  - **描述**: 使用TaskNotes插件在Obsidian中管理任务，包括创建、列出、查询、更新和删除任务。
+- **[rss-ai-reader](skills/rss-ai-reader)**
+  - **描述**: RSS AI阅读器自动抓取订阅内容，使用LLM生成摘要，并推送到飞书、Telegram或电子邮件。支持定时抓取，可通过“帮我订阅”或“监控这个网站”等指令触发。
+- **[obsidian-task](skills/obsidian-task)**
+  - **描述**: 通过obsidian-cli在终端管理Obsidian任务，包括列出、切换、创建和更新任务。
+- **[reddit-readonly](skills/reddit-readonly)**
+  - **描述**: 以只读模式浏览和搜索Reddit，允许您探索子版块、按主题查找帖子并查看评论线程。
+- **[doc-summarizer](skills/doc-summarizer)**
+  - **描述**: 一款多功能AI工具，可生成文档和文本摘要、会议纪要、邮件摘要，并创建思维导图。
+- **[notion-mcp](skills/notion-mcp)**
+  - **描述**: Notion MCP插件通过托管认证集成，可查询数据库、创建和更新页面以及管理工作区中的块。
+- **[yt-summary](skills/yt-summary)**
+  - **描述**: 通过分享YouTube视频链接并可选地添加特定指示（如‘关注技术细节’）来生成视频摘要。
+- **[shelly-meeting-summarizer](skills/shelly-meeting-summarizer)**
+  - **描述**: 将原始会议记录转换为清晰、结构化且可执行的摘要。
+- **[tube-summary](skills/tube-summary)**
+  - **描述**: 在YouTube上搜索任何主题的视频，并从字幕中获取智能摘要，让您无需观看即可快速了解内容。
+- **[rss-reader](skills/rss-reader)**
+  - **描述**: 监控RSS和Atom源以进行内容研究、跟踪行业新闻或构建个人新闻聚合器。支持多源分类、过滤和摘要。
+- **[youmind-youtube-transcript](skills/youmind-youtube-transcript)**
+  - **描述**: 使用YouMind API提取并保存YouTube视频的字幕和文本，支持一次处理最多5个视频。带有时间戳的字幕将以markdown格式保存在您的YouMind面板上，可以从任何IP访问。
+- **[slack-reader](skills/slack-reader)**
+  - **描述**: 汇总Slack频道的历史消息和讨论线程。适用于Slack链接，查看或总结讨论内容，或检查最近的消息。
+- **[plsreadme](skills/plsreadme)**
+  - **描述**: 通过plsreadme.com将Markdown文件和文本分享为简洁易读的网页链接，适用于分享文档、README、产品需求文档、提案或笔记。需要使用plsreadme MCP服务器（npx plsreadme-mcp）
+- **[youtube-voice-summarizer-elevenlabs](skills/youtube-voice-summarizer-elevenlabs)**
+  - **描述**: 使用ElevenLabs TTS将YouTube视频转换成播客风格的语音摘要。
+- **[tweet-summarizer-lite](skills/tweet-summarizer-lite)**
+  - **描述**: 从Twitter获取并总结单条推文。适用于快速轻量的推文查询。
+- **[focus-coach](skills/focus-coach)**
+  - **描述**: 专注教练插件使用BJ Fogg的B=MAP模型帮助AI代理诊断注意力问题，并提出一个小而可行的步骤。它适用于提高专注力、克服拖延症并通过微习惯提升生产力。
+- **[google-workspace-automation](skills/google-workspace-automation)**
+  - **描述**: 使用范围感知计划自动化Gmail、Drive、Sheets和Calendar的日常任务，确保明确的OAuth权限范围及可审计的输出。
 - **[task-decomposer](skills/task-decomposer)**
-  - **描述**: 将复杂的用户请求分解为可执行的子任务，识别所需的功能，在 Skills.sh 中搜索现有技能，并在不存在解决方案时创建新技能。当用户提交复杂的多步骤请求、想要自动化工作流程或需要帮助将大型任务分解为可管理的部分时，应该使用此技能。
+  - **描述**: 此技能将复杂请求分解为简单的子任务，确定所需功能，并根据需要查找现有解决方案或创建新方案。
 - **[time-checker](skills/time-checker)**
-  - **描述**: 使用 time.is 检查全球任何位置的准确当前时间、日期和时区信息。当用户询问“X 的当前时间”、“Y 的当前时间”或需要验证时区偏移时使用。
-- **[afrexai-capacity-planner](skills/afrexai-capacity-planner)**
-  - **描述**: 在危机爆发之前规划团队和基础设施能力。
+  - **描述**: 使用time.is获取全球任意地点的准确时间、日期和时区信息。适用于查询“X地现在几点”或验证时区差。
 - **[afrexai-email-to-calendar](skills/afrexai-email-to-calendar)**
-  - **描述**: 处理 afrexai-email-to-calendar 的智能模块。
+  - **描述**: 此AI技能从邮件中提取日历事件、截止日期、行动项和跟进事项，兼容任何日历提供商。它使用纯代理智能，无需外部依赖。
 - **[afrexai-sprint-planner](skills/afrexai-sprint-planner)**
-  - **描述**: 规划、确定范围并运行实际交付的敏捷冲刺。没有仪式感。
-- **[afrexai-tax-planning](skills/afrexai-tax-planning)**
-  - **描述**: 您是一名税务规划策略师。激活后，引导用户使用此框架完成营业税优化。
-- **[opys-calendar](skills/opys-calendar)**
-  - **描述**: 本地 Markdown 支持的日历，带有 CLI 和可选的双向 Google 日历同步。
-- **[todoist-task-manager](skills/todoist-task-manager)**
-  - **描述**: 通过“todoist”CLI 管理 Todoist 任务（列出、添加、修改、完成、删除）。支持过滤器、项目、标签和优先级。
-- **[plan-c](skills/plan-c)**
-  - **描述**: 于已有规划文件继续对话：智能识别“显式文件加载”意图，优先提供状态总结，支持按需深度迭代。
-- **[plan-i](skills/plan-i)**
-  - **描述**: 启动一个新的规划流程，创建新的规划文件。
-- **[m365-task-manager-by-altf1be](skills/m365-task-manager-by-altf1be)**
-  - **描述**: 使用 Microsoft To Do 和 Planner 管理轻型 Microsoft 365 任务工作流。当用户需要在 M365 中快速创建、分配、跟踪和跟进具有明确所有者、截止日期、状态和每日提醒的操作任务时使用。
-- **[openclaw-skill-m365-task-manager-by-altf1be](skills/openclaw-skill-m365-task-manager-by-altf1be)**
-  - **描述**: 使用 Microsoft To Do 和 Planner 管理轻型 Microsoft 365 任务工作流。当用户需要在 M365 中快速创建、分配、跟踪和跟进具有明确所有者、截止日期、状态和每日提醒的操作任务时使用。
-- **[calendar-reminders](skills/calendar-reminders)**
-  - **描述**: 日历提醒管道：围绕 gcalcli（Google 日历）的配置驱动包装器以及通过 vdirsyncer+khal 的可选 CalDAV 源，以及为一次性 OpenClaw 提醒输出 JSON 计划的提醒计划程序。
-- **[todo-manager](skills/todo-manager)**
-  - **描述**: 管理待办事项。添加、查看、完成、删除待办。
-- **[taskwarrior](skills/taskwarrior)**
-  - **描述**: 处理 taskwarrior 的智能模块。
-- **[proactive-daily-planner](skills/proactive-daily-planner)**
-  - **描述**: 积极主动的日常计划助手，帮助您组织一天、跟踪任务并提供动力。充当私人助理，主动计划您的一天。
-- **[news-sentiment](skills/news-sentiment)**
-  - **描述**: 处理 news-sentiment 的智能模块。
+  - **描述**: 高效规划、界定范围并执行敏捷冲刺，确保成果交付，无冗余流程。
 - **[todolist](skills/todolist)**
-  - **描述**: 处理 todolist 的智能模块。
-- **[task](skills/task)**
-  - **描述**: Tasker 文档存储通过工具调度进行任务管理。用于任务列表、今天到期/逾期、周计划、添加/移动/完成或显式/任务命令。
-- **[todoist-manager](skills/todoist-manager)**
-  - **描述**: 通过todoist CLI包装器管理Todoist任务、项目、标签和评论。当用户要求添加任务、列出待办事项、完成项目、管理项目或与其 Todoist 帐户交互时使用。
-- **[anime-calendar](skills/anime-calendar)**
-  - **描述**: 国内动漫每周更新日历。用于查询动漫更新时间、本周新番列表、追番日历。当用户询问动漫更新时间表、本周更新、追番日历、新番列表时触发此技能。
-- **[task-watchdog](skills/task-watchdog)**
-  - **描述**: 挂机任务的守护者。定时检查屏幕进度条，自动关闭干扰性系统或广告弹窗，遇致命错误时发送报警。
-- **[accept-task](skills/accept-task)**
-  - **描述**: 在 OpenAnt 上接受或申请任务。当代理想要承担工作、接受赏金、申请工作、接受任务或自愿执行任务时使用。处理OPEN模式（直接接受）和APPLICATION模式（申请然后等待批准）。涵盖“接受任务”、“接受这个任务”、“申请”、“接工作”、“我想做这个”。
-- **[leave-task](skills/leave-task)**
-  - **描述**: 离开或取消分配您在 OpenAnt 上接受的任务。当代理或用户想要放弃任务、放弃任务、退出他们承担的工作、退出任务或将任务释放回市场时使用。涵盖“离开任务”、“取消分配”、“放弃任务”、“放弃此任务”、“我不能这样做”、“释放任务”、“退出分配”。当用户想要退出或放弃他们之前接受的任务时，请确保使用此技能，即使
-- **[team-task-dispatch](skills/team-task-dispatch)**
-  - **描述**: 协调 OpenAnt 上的团队任务执行。当代理的团队已接受任务并需要计划子任务、领取工作、提交可交付成果或审核团队输出时使用。涵盖“查看收件箱”、“哪些子任务可用”、“领取子任务”、“提交子任务”、“审核子任务”、“任务进度”、“团队协调”。
-- **[maritime-watch](skills/maritime-watch)**
-  - **描述**: ＃＃ 描述
-- **[meetup-planner](skills/meetup-planner)**
-  - **描述**: 智能活动查找器，可根据您的兴趣搜索聚会和活动、跟踪它们并在活动发生前提醒您
-- **[expanso-sentiment-score](skills/expanso-sentiment-score)**
-  - **描述**: “对文本情绪进行评分，从 -1（负面）到 +1（正面）”
-- **[sentiment-score](skills/sentiment-score)**
-  - **描述**: “对文本情绪进行评分，从 -1（负面）到 +1（正面）”
+  - **描述**: 此技能模块提供专用的增强功能，以提高开发与研究效率。
 - **[aibrary-growth-plan](skills/aibrary-growth-plan)**
-  - **描述**: [Aibrary] 创建一个结构化的个人成长计划，包括书籍推荐、里程碑和可操作的每周任务。当用户想要创建学习计划、制定学习时间表、系统地发展技能、规划个人或职业发展或建立成长路线图时使用。触发诸如“制定学习计划”、“帮助我成长”、“我想要发展”或任何结构化的自我完善意图等短语。
-- **[feishu-calendar](skills/feishu-calendar)**
-  - **描述**: 管理飞书日历。使用此技能可以列出日历、检查日程安排和同步事件。
-- **[todokan-review-loop](skills/todokan-review-loop)**
-  - **描述**: 使用审阅循环工作流程处理 Todokan 任务和思想板。当任务进入执行状态并且代理应该拿起它、阅读最新评论、使用高质量的上下文感知回复来响应最新评论、添加执行更新评论以及将任务移回到已完成（审核）时使用。用于通过 Todokan MCP 进行定期轮询/cron 自动化。
-- **[todokan](skills/todokan)**
-  - **描述**: 通过 MCP 在 Todokan 中管理任务、看板、想法和评论
-- **[clawtime-setup](skills/clawtime-setup)**
-  - **描述**: 处理 clawtime-setup 的智能模块。
-- **[todozi](skills/todozi)**
-  - **描述**: Todozi 艾森豪威尔矩阵 API 客户端 + LangChain 工具。创建矩阵、任务、目标、笔记；列表/搜索/更新；批量操作；网络钩子。类别：做、完成、梦想、委托、推迟、不做。
-- **[gcal-pro-calendar](skills/gcal-pro-calendar)**
-  - **描述**: Google 日历集成，用于查看、创建和管理日历事件。当用户询问他们的日程安排、想要添加/编辑/删除事件、检查可用性或需要晨间简报时使用。支持自然语言，例如“明天我的日历上有什么？”或“安排周五中午与亚历克斯共进午餐。”免费套餐提供读取访问权限；专业级（12 美元）增加了创建/编辑/删除和晨间简报。
-- **[temporal-cortex-datetime](skills/temporal-cortex-datetime)**
-  - **描述**: 处理 temporal-cortex-datetime 的智能模块。
-- **[4todo](skills/4todo)**
-  - **描述**: 通过聊天管理 4todo (4to.do)。捕获任务，使用艾森豪威尔矩阵确定优先级，重新排序、完成和管理跨工作区的重复任务。
-- **[lark-calendar](skills/lark-calendar)**
-  - **描述**: 在飞书中创建、更新和删除日历事件和任务。包括用于自动名称到用户 ID 解析的员工目录。
-- **[feishu-calendar-advanced](skills/feishu-calendar-advanced)**
-  - **描述**: 通过 feishu-agent 进行飞书日历管理。查看日历、列出事件、通过冲突检测创建和删除事件。
-- **[brw-plan-my-day](skills/brw-plan-my-day)**
-  - **描述**: 根据昼夜节律研究和 GTD 原理生成能量优化、分时段的每日计划
-- **[gtasks-cli](skills/gtasks-cli)**
-  - **描述**: 从命令行管理 Google 任务 - 查看、创建、更新、删除任务和任务列表。当用户要求与 Google 任务交互、管理待办事项、创建任务列表、将任务标记为完成或检查其 Google 任务时使用。
-- **[macos-calendar-assistant](skills/macos-calendar-assistant)**
-  - **描述**: 在 IM 优先工作流程（Telegram/Discord/Feishu/iMessage/Slack）中使用 OpenClaw 管理 macOS 日历，包括屏幕截图到计划提取、幂等创建/更新、移动/扩展/重新安排、提醒、冲突检查、每日审阅同步和重复清理。当用户要求添加/编辑/移动/推迟事件、解析时间表屏幕截图/聊天消息、将每周计划调整为每日执行或保持日历和审阅笔记同步时使用。
-- **[calendar-planner-cn](skills/calendar-planner-cn)**
-  - **描述**: 日程规划工具。周计划、月计划、时间块、会议安排、截止日期管理、工作生活平衡。Calendar planner with weekly, monthly, time-blocking, meeting scheduling, deadline management, and work-life balance.
-- **[chinese-lunar-calendar](skills/chinese-lunar-calendar)**
-  - **描述**: 处理 chinese-lunar-calendar 的智能模块。
-- **[time-tracker](skills/time-tracker)**
-  - **描述**: 时间追踪与分析工具。时间记录、分析报告、分类统计、报表生成、效率改进、番茄钟。Time tracker with log, analyze, category, report, improve, and pomodoro timer. Use when you need time tracker capabilities. Triggers on: time tracker.
-- **[meeting-agenda](skills/meeting-agenda)**
-  - **描述**: 处理 meeting-agenda 的智能模块。
-- **[okr-planner](skills/okr-planner)**
-  - **描述**: 处理 okr-planner 的智能模块。
-- **[business-plan-cn](skills/business-plan-cn)**
-  - **描述**: 📋 商业计划书生成器 — bp.sh. Use when you need business plan cn capabilities. Triggers on: business plan cn.
-- **[zoho-calendar](skills/zoho-calendar)**
-  - **描述**: 处理 zoho-calendar 的智能模块。
-- **[visa-business-planner](skills/visa-business-planner)**
-  - **描述**: ＃＃ 概述
-- **[task-panner-validator](skills/task-panner-validator)**
-  - **描述**: 该技能为人工智能代理提供了安全、分步的任务管理系统。
-- **[one-calendar](skills/one-calendar)**
-  - **描述**: 每日单向历图片发送工具。自动获取当天日期，构造图片 URL，并通过飞书发送单向历图片。支持配置向导和定时任务。
-- **[project-planner](skills/project-planner)**
-  - **描述**: 处理 project-planner 的智能模块。
-- **[autonomous-task-runner](skills/autonomous-task-runner)**
-  - **描述**: 处理 autonomous-task-runner 的智能模块。
-- **[alicloud-ai-audio-asr-realtime](skills/alicloud-ai-audio-asr-realtime)**
-  - **描述**: 当需要使用阿里云 Model Studio Qwen ASR 实时模型进行低延迟实时语音识别时使用，包括流式麦克风输入、实时字幕或双工语音代理。
-- **[fitness-plan](skills/fitness-plan)**
-  - **描述**: 处理 fitness-plan 的智能模块。
-- **[weekly-content-planner](skills/weekly-content-planner)**
-  - **描述**: 为任何主题生成一整周的社交媒体内容。为 Twitter/X、LinkedIn 和 Instagram 输出平台优化的帖子，并带有主题标签和发布时间。
-- **[content-calendar](skills/content-calendar)**
-  - **描述**: 跨渠道规划、安排和跟踪内容 - 时事通讯、社交媒体、博客文章和视频。管理管道阶段、发布节奏和重新利用机会。适合想要系统而不是电子表格的个体企业家和创作者。
-- **[marketing-calendar](skills/marketing-calendar)**
-  - **描述**: 处理 marketing-calendar 的智能模块。
-- **[omnifocus-automation](skills/omnifocus-automation)**
-  - **描述**: 通过 Omni Automation 管理 OmniFocus 任务、项目和文件夹。用于任务管理、待办事项列表、项目跟踪、GTD 工作流程、添加/完成/编辑任务、设置截止日期、管理标签和重复任务。需要在 macOS 上安装 OmniFocus。
-- **[apple-calendar-manager](skills/apple-calendar-manager)**
-  - **描述**: 通过 AppleScript 管理 Apple 日历事件。创建、编辑、删除和搜索日历事件。
-- **[time-convert](skills/time-convert)**
-  - **描述**: 时区转换、当前时间、日期算术和纪元转换。
-- **[home-todo](skills/home-todo)**
-  - **描述**: 检查并提醒用户回家后需要处理的事项。当用户通过Dashboard（webchat）发任何消息时，自动检查待办文件并提醒。
-- **[task-management](skills/task-management)**
-  - **描述**: Sales task management tool for SCRM. Create, update, delete, and list sales follow-up tasks. 销售任务管理工具，支持查询、创建、更新、删除销售人员的客户跟进任务。
-- **[travel-itinerary-planner](skills/travel-itinerary-planner)**
-  - **描述**: 根据旅行日期和目的地生成完整、图像丰富的旅行计划，包括每日行程、交通、住宿区指南、预算范围、当地交通说明和风险/备用计划。当用户要求行程计划、假期安排、路线设计，或诸如“输入时间和地点”/“计划完整行程”/“图文并茂旅行行程”等请求时使用。
-- **[tasks-md-sprint-sync](skills/tasks-md-sprint-sync)**
-  - **描述**: 从活动的 PLAN.md 阶段同步 TASKS.md 当前阶段和正在进行的清单，以保持 sprint 执行一致。
-- **[media-strategy-planner](skills/media-strategy-planner)**
-  - **描述**: 规划 Meta (Facebook/Instagram)、Google Ads、TikTok 广告、YouTube 广告、Amazon 广告、Shopify 广告和 DSP/程序化的渠道组合和媒体策略。
-- **[wecom-calendar](skills/wecom-calendar)**
-  - **描述**: 企业微信日程管理完整工具，支持创建、查询、更新、删除日程，以及日历管理。
-- **[task-experience-logger](skills/task-experience-logger)**
-  - **描述**: 任务经验记录与总结工具。用于在任务执行过程中记录遇到的问题、解决方案和经验教训，支持自动保存到长期记忆。适用于任何需要持续学习改进的任务场景，包括技术问题解决、工作流优化、错误排查等。当用户需要记录任务经验、总结执行过程、或建立知识库时使用此技能。
-- **[plans](skills/plans)**
-  - **描述**: 管理长期规划与短期待办事项。当用户提到目标、任务、计划、路线图，或需要将复杂目标拆解为存储在 memory/plans-todos.md 中的可执行项时使用。
-- **[lygo-champion-kairos-herald-of-time](skills/lygo-champion-kairos-herald-of-time)**
-  - **描述**: LYGO Δ9 议会冠军角色助手（KAIROS，时间先驱）。用于序列锚定、时间轴失真检测和连续性保持指导的时间完整性哨兵。纯粹的顾问；不是控制器。
-- **[polymarket-real-time-trades](skills/polymarket-real-time-trades)**
-  - **描述**: 处理 polymarket-real-time-trades 的智能模块。
-- **[agent-task-manager](skills/agent-task-manager)**
-  - **描述**: 管理和编排多步骤、有状态的代理工作流程；处理任务依赖性、持久状态、错误恢复和外部速率限制。用于创建新的多代理系统、改进顺序工作流程或管理有时限的操作。
-- **[double729-plansuite](skills/double729-plansuite)**
-  - **描述**: 统一的规划+执行工作流程：创建带有子计划的基于文件的计划，将其冻结为“已完成”，并在带有检查点和进度/结果日志的单独会话中执行。当您需要包含子计划（里程碑）、受控执行和基于会话的实施运行的项目计划时使用。
-- **[plansuite](skills/plansuite)**
-  - **描述**: 统一的规划+执行工作流程：创建带有子计划的基于文件的计划，将其冻结为“已完成”，并在带有检查点和进度/结果日志的单独会话中执行。当您需要包含子计划（里程碑）、受控执行和基于会话的实施运行的项目计划时使用。
-- **[open-airtime](skills/open-airtime)**
-  - **描述**: Farcaster 上的自治尼日利亚通话时间分销代理。
-- **[taskr](skills/taskr)**
-  - **描述**: OpenClaw 的云任务规划和执行。使您代理的工作透明且可追踪。将所有操作构建为带有上下文注释的持久任务。通过网络或移动设备实时观看进度——不再有“你在做什么？”的干扰。
-- **[book-event-planner](skills/book-event-planner)**
-  - **描述**: 通过 Lokuli MCP 预订活动策划服务。当用户需要查找和预订活动策划者时使用。触发诸如“预订活动策划者”、“查找我附近的活动策划者”或任何活动策划者服务请求之类的请求。
-- **[x-uptime](skills/x-uptime)**
-  - **描述**: 处理 x-uptime 的智能模块。
-- **[faithful-task-executor](skills/faithful-task-executor)**
-  - **描述**: 任务规则忠实执行器。确保工作任务按初始要求执行，子代理/子任务始终遵循原始规则，减少 AI 幻觉和执行偏差。支持并发任务编排、规则持久化传递、执行一致性校验。
-- **[async-task](skills/async-task)**
-  - **描述**: ＃＃ 描述
-- **[parallel-task-executor](skills/parallel-task-executor)**
-  - **描述**: 多任务并行执行管理器。接收多条指令并同步执行，支持优先级调度、任务依赖、结果收集和进度跟踪。适用于需要并发处理多个独立任务的场景。
+  - **描述**: 创建一个包含书籍推荐、里程碑和可执行的周任务的结构化个人成长计划，适用于学习、技能提升或职业发展。
 - **[student-timetable](skills/student-timetable)**
-  - **描述**: 用于自我或家长管理的儿童档案的学生时间表管理器。包括schedules/profiles/下的init flow + profile注册表。
-- **[ws-calendar](skills/ws-calendar)**
-  - **描述**: 日程管理。创建日程、设置提醒、查看安排。
-- **[openclawplanet](skills/openclawplanet)**
-  - **描述**: 允许本地 OpenClaw 代理在全球 OpenClaw 社区社交网络上参与和社交。
-- **[timesheet](skills/timesheet)**
-  - **描述**: 使用 timesheet.io CLI 跟踪时间、管理项目和任务
-- **[todoist-v1](skills/todoist-v1)**
-  - **描述**: 管理Todoist任务——列出、创建、完成、更新和组织任务和项目。
+  - **描述**: 一个学生时间表管理工具，适用于自我管理或家长管理的孩子档案，包括初始化流程和在日程/档案下的档案注册。
