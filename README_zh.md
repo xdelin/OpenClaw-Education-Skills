@@ -5,13 +5,13 @@
 [![GitHub Stars](https://img.shields.io/github/stars/xdelin/OpenClaw-Education-Skills?style=for-the-badge&logo=github&color=gold)](https://github.com/xdelin/OpenClaw-Education-Skills)
 [![GitHub Forks](https://img.shields.io/github/forks/xdelin/OpenClaw-Education-Skills?style=for-the-badge&logo=github&color=blue)](https://github.com/xdelin/OpenClaw-Education-Skills)
 [![GitHub Issues](https://img.shields.io/github/issues/xdelin/OpenClaw-Education-Skills?style=for-the-badge&logo=github)](https://github.com/xdelin/OpenClaw-Education-Skills)
-[![技能数量](https://img.shields.io/badge/技能数量-1034-brightgreen?style=for-the-badge)](https://github.com/xdelin/OpenClaw-Education-Skills/tree/main/skills)
+[![技能数量](https://img.shields.io/badge/技能数量-1033-brightgreen?style=for-the-badge)](https://github.com/xdelin/OpenClaw-Education-Skills/tree/main/skills)
 [![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/平台-OpenClaw%20%7C%20NanoClaw-orange?style=for-the-badge)](https://github.com/openclaw)
 
 **最大的开源教育与学术科研 AI 技能库，专为 OpenClaw 框架设计。**
 
-*1034 个精选技能 · 智能辅导 · 数学与自然科学 · 人文社科 · 学术科研 · 效率工具*
+*1033 个精选技能 · 智能辅导 · 数学与自然科学 · 人文社科 · 学术科研 · 效率工具*
 
 [English](README.md) | [中文](README_zh.md)
 
@@ -21,7 +21,7 @@
 
 ## 项目简介
 
-**Awesome OpenClaw Education Skills** 是一个包含 **1034 个 AI Agent 技能**的精选集合，覆盖教育与学术科研的完整领域。涵盖数学、理化生、人文社科及计算机等各个学术分支，这些技能专为 OpenClaw / NanoClaw —— 基于 Claude 的个人 AI 助手框架 —— 设计，能将通用 AI 智能体转变为强大的教学与科研研究伙伴。所有的技能由 AI 实现了双语净化与智能分类，总数量自动同步更新！
+**Awesome OpenClaw Education Skills** 是一个包含 **1033 个 AI Agent 技能**的精选集合，覆盖教育与学术科研的完整领域。涵盖数学、理化生、人文社科及计算机等各个学术分支，这些技能专为 OpenClaw / NanoClaw —— 基于 Claude 的个人 AI 助手框架 —— 设计，能将通用 AI 智能体转变为强大的教学与科研研究伙伴。所有的技能由 AI 实现了双语净化与智能分类，总数量自动同步更新！
 
 每个技能都是一个独立模块（`SKILL.md` 文件），它：
 - 为 Agent 注入专业领域知识与教学辅导工作流
@@ -97,7 +97,7 @@ cp -r Awesome-Education-Skills/skills/* ~/.openclaw/skills/
 
 | 类别 | 数量 | 代表技能 |
 |---|---|---|
-| 智能辅导与学习 | 93 | `afrexai-executive-coaching`, `web-learner-1-0-0`, `reply-coach`... |
+| 智能辅导与学习 | 92 | `afrexai-executive-coaching`, `web-learner-1-0-0`, `reviewer-rebuttal-coach`... |
 | 数学与自然科学 | 58 | `maths-rage-bate`, `quant`, `optical-quantum-skill`... |
 | 生物与医学 | 171 | `quantinuumclaw`, `quantum`, `afrexai-medical-billing`... |
 | 化学与材料 | 15 | `materials-science-figure-skill`, `pharmaclaw-chemistry-query`, `aeo-schema-validate`... |
@@ -119,8 +119,6 @@ cp -r Awesome-Education-Skills/skills/* ~/.openclaw/skills/
   - **描述**: 完整的高管教练体系——领导力评估、360°反馈、教练参与、领导力发展计划、团队效率、高管风采和继任计划。用于领导力辅导、高管发展计划、团队建设、绩效突破和职业转型。
 - **[web-learner-1-0-0](skills/web-learner-1-0-0)**
   - **描述**: 自主上网学习技能 - 让 AI 能够主动搜索、浏览和从互联网获取知识。当用户要求了解最新信息、学习新知识、查询新闻、获取某个主题的详细信息，或需要从网络上获取数据时触发此技能。
-- **[reply-coach](skills/reply-coach)**
-  - **描述**: 从剪贴板读取聊天内容，生成尊重边界、自然不油腻的高情商回复建议，适用于微信、QQ等聊天场景。
 - **[reviewer-rebuttal-coach](skills/reviewer-rebuttal-coach)**
   - **描述**: 从剪贴板读取审稿意见、导师批注或评审反馈，生成逐条回复、修改计划与优先级建议。
 - **[teacher-prep](skills/teacher-prep)**

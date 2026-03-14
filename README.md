@@ -5,13 +5,13 @@
 [![GitHub Stars](https://img.shields.io/github/stars/xdelin/OpenClaw-Education-Skills?style=for-the-badge&logo=github&color=gold)](https://github.com/xdelin/OpenClaw-Education-Skills)
 [![GitHub Forks](https://img.shields.io/github/forks/xdelin/OpenClaw-Education-Skills?style=for-the-badge&logo=github&color=blue)](https://github.com/xdelin/OpenClaw-Education-Skills)
 [![GitHub Issues](https://img.shields.io/github/issues/xdelin/OpenClaw-Education-Skills?style=for-the-badge&logo=github)](https://github.com/xdelin/OpenClaw-Education-Skills)
-[![Skills Count](https://img.shields.io/badge/Skills%20Count-1034-brightgreen?style=for-the-badge)](https://github.com/xdelin/OpenClaw-Education-Skills/tree/main/skills)
+[![Skills Count](https://img.shields.io/badge/Skills%20Count-1033-brightgreen?style=for-the-badge)](https://github.com/xdelin/OpenClaw-Education-Skills/tree/main/skills)
 [![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-OpenClaw%20%7C%20NanoClaw-orange?style=for-the-badge)](https://github.com/openclaw)
 
 **The largest open-source Education AI skills library, designed specifically for the OpenClaw framework.**
 
-*1034 Curated Skills · Intelligent Tutoring · Math & Science · Humanities · Academic Research · Efficiency Tools*
+*1033 Curated Skills · Intelligent Tutoring · Math & Science · Humanities · Academic Research · Efficiency Tools*
 
 [English](README.md) | [中文](README_zh.md)
 
@@ -21,7 +21,7 @@
 
 ## Project Introduction
 
-**Awesome OpenClaw Education Skills** is a curated collection of **1034 AI Agent skills**, covering the entire spectrum of education and academic research. These skills are designed specifically for OpenClaw / NanoClaw — Claude-based personal AI assistant frameworks — transforming a general-purpose AI agent into a powerful teaching and academic research partner.
+**Awesome OpenClaw Education Skills** is a curated collection of **1033 AI Agent skills**, covering the entire spectrum of education and academic research. These skills are designed specifically for OpenClaw / NanoClaw — Claude-based personal AI assistant frameworks — transforming a general-purpose AI agent into a powerful teaching and academic research partner.
 
 Each skill is an independent module (`SKILL.md` file) that:
 - Injects domain-specific professional knowledge and teaching workflows into the Agent.
@@ -97,7 +97,7 @@ This mounts the entire skill collection without copying files.
 
 | Category | Skills Count | Representative Skills |
 |---|---|---|
-| Intelligent Tutoring | 93 | `afrexai-executive-coaching`, `web-learner-1-0-0`, `reply-coach`... |
+| Intelligent Tutoring | 92 | `afrexai-executive-coaching`, `web-learner-1-0-0`, `reviewer-rebuttal-coach`... |
 | Math & Science | 58 | `maths-rage-bate`, `quant`, `optical-quantum-skill`... |
 | Biology & Medicine | 171 | `quantinuumclaw`, `quantum`, `afrexai-medical-billing`... |
 | Chemistry & Materials | 15 | `materials-science-figure-skill`, `pharmaclaw-chemistry-query`, `aeo-schema-validate`... |
@@ -119,8 +119,6 @@ This mounts the entire skill collection without copying files.
   - **Description**: Complete executive coaching system — leadership assessment, 360° feedback, coaching engagements, leadership development plans, team effectiveness, executive presence, and succession planning. Use for leadership coaching, executive development programs, team building, performance breakthroughs, and career transitions.
 - **[web-learner-1-0-0](skills/web-learner-1-0-0)**
   - **Description**: Autonomous online learning skills - enable AI to actively search, browse and acquire knowledge from the Internet. This skill is triggered when users ask for the latest information, learn new knowledge, inquire about news, obtain detailed information on a topic, or need to obtain data from the network.
-- **[reply-coach](skills/reply-coach)**
-  - **Description**: Read chat content from the clipboard and generate high-EQ reply suggestions that respect boundaries, are natural and non-greasy, and are suitable for chat scenarios such as WeChat and QQ.
 - **[reviewer-rebuttal-coach](skills/reviewer-rebuttal-coach)**
   - **Description**: Read review comments, instructor comments or review feedback from the clipboard, and generate item-by-item responses, modification plans and priority suggestions.
 - **[teacher-prep](skills/teacher-prep)**
