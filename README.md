@@ -5,7 +5,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/xdelin/OpenClaw-Education-Skills?style=for-the-badge&logo=github&color=gold)](https://github.com/xdelin/OpenClaw-Education-Skills)
 [![GitHub Forks](https://img.shields.io/github/forks/xdelin/OpenClaw-Education-Skills?style=for-the-badge&logo=github&color=blue)](https://github.com/xdelin/OpenClaw-Education-Skills)
 [![GitHub Issues](https://img.shields.io/github/issues/xdelin/OpenClaw-Education-Skills?style=for-the-badge&logo=github)](https://github.com/xdelin/OpenClaw-Education-Skills)
-[![Skills Count](https://img.shields.io/badge/Skills%20Count-392-brightgreen?style=for-the-badge)](https://github.com/xdelin/OpenClaw-Education-Skills/tree/main/skills)
+[![Skills Count](https://img.shields.io/badge/Skills%20Count-392-brightgreen?style=for-the-badge)](https://github.com/xdelin/OpenClaw-Education-Skills/tree/master/skills)
 [![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-OpenClaw%20%7C%20NanoClaw-orange?style=for-the-badge)](https://github.com/openclaw)
 
